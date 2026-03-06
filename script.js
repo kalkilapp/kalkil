@@ -1,17 +1,18 @@
 function calculate(){
 
-let streams = document.getElementById("spotifyStreams").value;
-let views = document.getElementById("youtubeViews").value;
-let cpm = document.getElementById("youtubeCPM").value;
+let spotifyStreams = document.getElementById("spotify").value;
+let youtubeViews = document.getElementById("youtube").value;
 
-let spotifyIncome = streams * 0.0035;
-let youtubeIncome = (views / 1000) * cpm;
+let spotifyRevenue = spotifyStreams * 0.003;
+let youtubeRevenue = (youtubeViews / 1000) * 3;
 
-let total = spotifyIncome + youtubeIncome;
+document.getElementById("spotifyResult").innerText =
+"$" + spotifyRevenue.toFixed(2);
 
-document.getElementById("result").innerText =
-"Spotify: $" + spotifyIncome.toFixed(2) +
-" | YouTube: $" + youtubeIncome.toFixed(2) +
-" | Total: $" + total.toFixed(2);
+document.getElementById("youtubeResult").innerText =
+"$" + youtubeRevenue.toFixed(2);
+
+document.getElementById("totalResult").innerText =
+"$" + (spotifyRevenue + youtubeRevenue).toFixed(2);
 
 }

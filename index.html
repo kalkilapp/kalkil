@@ -1,27 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
 <meta charset="UTF-8">
-<title>Kalkil</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Creator Revenue Calculator | Kalkil</title>
+
+<meta name="description" content="Free creator revenue calculator. Estimate earnings from Spotify streams and YouTube views instantly. Built for the creator economy.">
+
+<link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-<h1>Kalkil</h1>
-<p>Creator Revenue Calculator</p>
+<header class="header">
+<div class="logo">Kalkil</div>
+<nav>
+<a href="#">Tools</a>
+<a href="#">Guides</a>
+<a href="#">About</a>
+</nav>
+</header>
 
-<h2>Spotify Streams</h2>
-<input id="spotifyStreams" placeholder="Enter streams">
+<section class="hero">
 
-<h2>YouTube Views</h2>
-<input id="youtubeViews" placeholder="Enter views">
-<input id="youtubeCPM" placeholder="Enter CPM">
+<h1>Creator Revenue Calculator</h1>
 
-<button onclick="calculate()">Calculate</button>
+<p>
+Estimate how much creators earn from Spotify streams and YouTube views.
+Simple tools for the creator economy.
+</p>
 
-<h2>Results</h2>
-<p id="result"></p>
+</section>
+
+<section class="calculator">
+
+<h2>Calculate Your Creator Revenue</h2>
+
+<div class="input-group">
+<label>Spotify Streams</label>
+<input id="spotify" type="number" placeholder="Enter streams">
+</div>
+
+<div class="input-group">
+<label>YouTube Views</label>
+<input id="youtube" type="number" placeholder="Enter views">
+</div>
+
+<button onclick="calculate()">Calculate Revenue</button>
+
+<div class="results">
+
+<p>Spotify Revenue: <span id="spotifyResult">$0</span></p>
+
+<p>YouTube Revenue: <span id="youtubeResult">$0</span></p>
+
+<p class="total">Total Revenue: <span id="totalResult">$0</span></p>
+
+</div>
+
+</section>
+
+<section class="seo">
+
+<h2>Free Creator Monetization Tools</h2>
+
+<p>
+Kalkil helps creators estimate earnings from major platforms like Spotify and YouTube.
+Our tools are built for musicians, YouTubers, and digital creators who want to understand
+their potential income in the creator economy.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Kalkil — Creator Economy Tools</p>
+
+</footer>
 
 <script src="script.js"></script>
 
