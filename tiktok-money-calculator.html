@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TikTok Money Calculator (Creator Earnings) | Kalkil</title>
+
+<meta name="description" content="Estimate TikTok creator earnings with the Kalkil TikTok Money Calculator. Discover how much creators make from views, brand deals and RPM.">
+
+<link rel="canonical" href="https://kalkilapp.com/tiktok-money-calculator">
+
+<style>
+
+body{
+font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto;
+background:#0f0f0f;
+color:white;
+margin:0;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+h1{
+font-size:36px;
+margin-bottom:10px;
+}
+
+p{
+color:#bfbfbf;
+line-height:1.6;
+}
+
+.calculator{
+background:#1c1c1c;
+padding:30px;
+border-radius:12px;
+margin-top:30px;
+}
+
+input{
+width:100%;
+padding:14px;
+border:none;
+border-radius:8px;
+margin-top:10px;
+margin-bottom:20px;
+font-size:16px;
+}
+
+button{
+width:100%;
+padding:16px;
+background:#00d084;
+border:none;
+border-radius:8px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.result{
+margin-top:20px;
+font-size:22px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>TikTok Money Calculator</h1>
+
+<p>
+Estimate how much TikTok creators can earn from views using RPM averages and creator fund estimates.
+</p>
+
+<div class="calculator">
+
+<label>Number of TikTok Views</label>
+
+<input id="views" type="number" placeholder="Example: 500000">
+
+<label>Estimated RPM ($ per 1000 views)</label>
+
+<input id="rpm" type="number" value="0.04">
+
+<button onclick="calculate()">Calculate Earnings</button>
+
+<div class="result" id="result"></div>
+
+</div>
+
+<h2>How TikTok Creator Earnings Work</h2>
+
+<p>
+TikTok monetization varies depending on creator fund payouts, brand deals and audience engagement. RPM values typically range from $0.02 to $0.06 per thousand views depending on geography and content niche.
+</p>
+
+<h2>Use Kalkil Creator Tools</h2>
+
+<p>
+Kalkil provides free creator economy tools including calculators for YouTube revenue, Spotify royalties, TikTok earnings and Instagram influencer income.
+</p>
+
+</div>
+
+<script>
+
+function calculate(){
+
+let views=document.getElementById("views").value;
+let rpm=document.getElementById("rpm").value;
+
+let earnings=(views/1000)*rpm;
+
+document.getElementById("result").innerHTML="Estimated Earnings: $"+earnings.toFixed(2);
+
+}
+
+</script>
+
+</body>
+
+</html>
