@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Spotify Royalty Calculator | Kalkil</title>
+
+<meta name="description" content="Estimate Spotify royalties instantly. Calculate how much money artists earn per stream using our free Spotify royalty calculator.">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">Kalkil</div>
+
+<nav>
+<a href="/">Home</a>
+<a href="spotify-calculator.html">Spotify Tool</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Spotify Royalty Calculator</h1>
+
+<p>
+Estimate how much money artists earn from Spotify streams.
+</p>
+
+</section>
+
+<section class="calculator">
+
+<label>Spotify Streams</label>
+
+<input id="spotifyStreams" type="number" placeholder="Enter streams">
+
+<button onclick="calculateSpotify()">Calculate Earnings</button>
+
+<div class="results">
+
+<p>Estimated Earnings:</p>
+
+<h2 id="spotifyMoney">$0</h2>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>How Much Does Spotify Pay Per Stream?</h2>
+
+<p>
+
+Spotify typically pays between $0.003 and $0.005 per stream depending
+on listener location, subscription type, and distribution deals.
+
+This free Spotify royalty calculator helps estimate your potential
+earnings based on stream count.
+
+</p>
+
+</section>
+
+<script>
+
+function calculateSpotify(){
+
+let streams = document.getElementById("spotifyStreams").value;
+
+let money = streams * 0.003;
+
+document.getElementById("spotifyMoney").innerText =
+"$" + money.toFixed(2);
+
+}
+
+</script>
+
+</body>
+
+</html>
