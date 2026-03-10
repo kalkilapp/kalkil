@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Spotify Royalty Calculator | Kalkil</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+<style>
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+background:#f6f8fc;
+color:#333;
+}
+
+header{
+background:#111827;
+padding:20px;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+max-width:900px;
+margin:auto;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+color:#666;
+}
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.calculator-box{
+background:white;
+border-radius:16px;
+box-shadow:0 12px 35px rgba(0,0,0,0.08);
+padding:40px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.inputs{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.inputs label{
+font-weight:bold;
+}
+
+.inputs input{
+padding:14px;
+border-radius:8px;
+border:1px solid #ddd;
+font-size:16px;
+}
+
+.inputs button{
+margin-top:10px;
+padding:14px;
+background:#22c55e;
+border:none;
+border-radius:8px;
+color:white;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.inputs button:hover{
+background:#16a34a;
+}
+
+.results{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.result-card{
+background:#f3f6ff;
+padding:25px;
+border-radius:10px;
+text-align:center;
+}
+
+.result-card h3{
+margin:0;
+font-size:18px;
+color:#555;
+}
+
+.result-card p{
+font-size:32px;
+font-weight:bold;
+margin-top:10px;
+}
+
+.big{
+background:#22c55e;
+color:white;
+}
+
+.big h3{
+color:white;
+}
+
+.info{
+margin-top:60px;
+max-width:800px;
+margin-left:auto;
+margin-right:auto;
+line-height:1.7;
+}
+
+footer{
+margin-top:60px;
+text-align:center;
+background:#111827;
+color:white;
+padding:30px;
+}
+
+@media(max-width:850px){
+
+.calculator-box{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div><strong>Kalkil</strong></div>
+
+<div>
+
+<a href="../index.html">Home</a>
+<a href="../tools.html">Tools</a>
+<a href="../guides.html">Guides</a>
+<a href="../about.html">About</a>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Spotify Royalty Calculator</h1>
+
+<p>
+Estimate how much money artists earn from Spotify streams.
+</p>
+
+</section>
+
+<section class="section">
+
+<div class="calculator-box">
+
+<div class="inputs">
+
+<label>Number of Spotify Streams</label>
+
+<input type="number" id="streams" placeholder="e.g. 100000">
+
+<label>Average Pay Per Stream ($)</label>
+
+<input type="number" id="rate" value="0.0035">
+
+<button onclick="calculate()">Calculate Earnings</button>
+
+</div>
+
+<div class="results">
+
+<div class="result-card">
+
+<h3>Estimated Earnings</h3>
+
+<p id="result">$0</p>
+
+</div>
+
+<div class="result-card">
+
+<h3>Per 1M Streams</h3>
+
+<p id="million">$0</p>
+
+</div>
+
+<div class="result-card big">
+
+<h3>Projected Annual (if monthly streams)</h3>
+
+<p id="year">$0</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>How Much Does Spotify Pay Per Stream?</h2>
+
+<p>
+
+Spotify typically pays between <strong>$0.003 and $0.005 per stream</strong>.
+This means artists usually earn around:
+
+</p>
+
+<ul>
+
+<li>$3 – $5 per 1,000 streams</li>
+<li>$3,000 – $5,000 per 1 million streams</li>
+
+</ul>
+
+<p>
+
+Actual earnings depend on factors such as listener location,
+record label agreements and Spotify's royalty pool.
+
+</p>
+
+<p>
+
+Use this calculator to estimate your potential earnings
+based on your stream count.
+
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Kalkil</p>
+
+</footer>
+
+<script>
+
+function calculate(){
+
+let streams =
+document.getElementById("streams").value;
+
+let rate =
+document.getElementById("rate").value;
+
+let earnings =
+streams * rate;
+
+let million =
+1000000 * rate;
+
+let yearly =
+earnings * 12;
+
+document.getElementById("result")
+.innerText = "$" + earnings.toFixed(2);
+
+document.getElementById("million")
+.innerText = "$" + million.toFixed(2);
+
+document.getElementById("year")
+.innerText = "$" + yearly.toFixed(2);
+
+}
+
+</script>
+
+</body>
+
+</html>

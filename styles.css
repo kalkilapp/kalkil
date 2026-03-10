@@ -156,3 +156,93 @@ font-size:15px;
 .nav-right a:hover{
 color:white;
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SEO Guides | Kalkil</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="index.html">Home</a>
+<a href="tools.html">Tools</a>
+<a href="guides.html">Guides</a>
+<a href="about.html">About</a>
+</nav>
+</header>
+
+<main>
+
+<h1>SEO Guides</h1>
+<p>Learn SEO step by step with our free guides.</p>
+
+<section class="guides-grid">
+
+<div class="guide-card">
+<h2>SEO Basics</h2>
+<p>Learn the fundamentals of SEO.</p>
+<a href="guides/guide-seo-basics.html">Read Guide</a>
+</div>
+
+<div class="guide-card">
+<h2>Keyword Research</h2>
+<p>Find the best keywords for your website.</p>
+<a href="guides/guide-keyword-research.html">Read Guide</a>
+</div>
+
+<div class="guide-card">
+<h2>On Page SEO</h2>
+<p>Optimize your pages for search engines.</p>
+<a href="guides/guide-on-page-seo.html">Read Guide</a>
+</div>
+
+<div class="guide-card">
+<h2>Technical SEO</h2>
+<p>Improve crawling and indexing.</p>
+<a href="guides/guide-technical-seo.html">Read Guide</a>
+</div>
+
+<div class="guide-card">
+<h2>Link Building</h2>
+<p>Build backlinks the right way.</p>
+<a href="guides/guide-link-building.html">Read Guide</a>
+</div>
+
+<div class="guide-card">
+<h2>SEO Tools Guide</h2>
+<p>Best tools to improve your SEO.</p>
+<a href="guides/guide-seo-tools.html">Read Guide</a>
+</div>
+
+<div class="guide-card">
+<h2>Content SEO</h2>
+<p>Create content that ranks on Google.</p>
+<a href="guides/guide-content-seo.html">Read Guide</a>
+</div>
+
+<div class="guide-card">
+<h2>Local SEO</h2>
+<p>Rank your business locally.</p>
+<a href="guides/guide-local-seo.html">Read Guide</a>
+</div>
+
+<div class="guide-card">
+<h2>SEO Strategy</h2>
+<p>Build a long term SEO strategy.</p>
+<a href="guides/guide-seo-strategy.html">Read Guide</a>
+</div>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Kalkil</p>
+</footer>
+
+</body>
+</html>

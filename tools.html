@@ -6,11 +6,139 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Creator Tools | Kalkil</title>
+<title>Creator Calculators | Kalkil</title>
 
-<meta name="description" content="Free creator economy calculators for YouTube, Spotify, TikTok and Instagram.">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<link rel="stylesheet" href="style.css">
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+<style>
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+background:#f5f7fb;
+color:#333;
+}
+
+header{
+background:#111827;
+color:white;
+padding:20px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:500;
+}
+
+.hero{
+text-align:center;
+padding:70px 20px;
+max-width:800px;
+margin:auto;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+color:#666;
+}
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.tools-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.tool-card{
+background:white;
+padding:30px;
+border-radius:14px;
+box-shadow:0 8px 25px rgba(0,0,0,0.06);
+transition:0.25s;
+}
+
+.tool-card:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 35px rgba(0,0,0,0.1);
+}
+
+.tool-card h3{
+margin-top:0;
+font-size:20px;
+}
+
+.tool-card p{
+color:#666;
+font-size:15px;
+}
+
+.tool-card a{
+display:inline-block;
+margin-top:15px;
+text-decoration:none;
+background:#2563eb;
+color:white;
+padding:10px 18px;
+border-radius:6px;
+font-weight:bold;
+}
+
+.tool-card a:hover{
+background:#1e4fd1;
+}
+
+.cta{
+text-align:center;
+margin-top:60px;
+}
+
+.cta a{
+background:#111827;
+color:white;
+padding:14px 24px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111827;
+color:white;
+margin-top:60px;
+}
+
+</style>
 
 </head>
 
@@ -18,34 +146,113 @@
 
 <header>
 
-<h1>Creator Economy Tools</h1>
-<p>Free calculators for creators and influencers.</p>
+<nav>
+
+<div><strong>Kalkil</strong></div>
+
+<div>
+
+<a href="index.html">Home</a>
+<a href="tools.html">Tools</a>
+<a href="guides.html">Guides</a>
+<a href="about.html">About</a>
+
+</div>
+
+</nav>
 
 </header>
 
-<section class="tools-grid">
+<section class="hero">
 
-<a class="tool-card" href="spotify-royalty-calculator.html">
-<h2>Spotify Royalty Calculator</h2>
-<p>Estimate earnings from Spotify streams.</p>
-</a>
+<h1>Creator Earnings Calculators</h1>
 
-<a class="tool-card" href="youtube-money-calculator.html">
-<h2>YouTube Money Calculator</h2>
-<p>Estimate revenue from YouTube views.</p>
-</a>
-
-<a class="tool-card" href="tiktok-money-calculator.html">
-<h2>TikTok Money Calculator</h2>
-<p>Calculate potential earnings from TikTok views.</p>
-</a>
-
-<a class="tool-card" href="instagram-earnings-calculator.html">
-<h2>Instagram Earnings Calculator</h2>
-<p>Estimate influencer revenue per post.</p>
-</a>
+<p>
+Free calculators to estimate creator earnings from Spotify,
+YouTube, TikTok and Instagram.
+</p>
 
 </section>
+
+<section class="section">
+
+<div class="tools-grid">
+
+<div class="tool-card">
+
+<h3>Spotify Royalty Calculator</h3>
+
+<p>
+Estimate how much artists earn from Spotify streams.
+</p>
+
+<a href="tools/spotify-royalty-calculator.html">
+Open Calculator
+</a>
+
+</div>
+
+<div class="tool-card">
+
+<h3>YouTube Money Calculator</h3>
+
+<p>
+Calculate how much YouTube creators earn per view.
+</p>
+
+<a href="tools/youtube-money-calculator.html">
+Open Calculator
+</a>
+
+</div>
+
+<div class="tool-card">
+
+<h3>TikTok Money Calculator</h3>
+
+<p>
+Estimate earnings from TikTok views and creator fund.
+</p>
+
+<a href="tools/tiktok-money-calculator.html">
+Open Calculator
+</a>
+
+</div>
+
+<div class="tool-card">
+
+<h3>Instagram Earnings Calculator</h3>
+
+<p>
+Calculate potential earnings from Instagram influencers.
+</p>
+
+<a href="tools/instagram-earnings-calculator.html">
+Open Calculator
+</a>
+
+</div>
+
+</div>
+
+<div class="cta">
+
+<p>Want to understand how creator monetization works?</p>
+
+<a href="guides.html">
+Read our guides
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Kalkil</p>
+
+</footer>
 
 </body>
 
