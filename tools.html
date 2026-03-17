@@ -1,13 +1,567 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Creator Earnings Calculators 2026 — YouTube, TikTok, Spotify, Twitch & More | Kalkil</title>
+  <meta name="description" content="Free creator economy calculators for 2026. Estimate YouTube CPM earnings, TikTok Creator Rewards, Spotify royalties, Instagram influencer rates, Twitch income, Patreon and more. No sign-up required.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Free Creator Earnings Calculators 2026 | Kalkil">
+  <meta property="og:description" content="Free tools to estimate earnings for YouTube, TikTok, Spotify, Instagram, Twitch, Patreon, and OnlyFans creators. Instant results, no sign-up.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://kalkil.com/tools.html">
 
-<title>Creator Calculators | Kalkil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
 
+  <style>
+    :root {
+      --navy:      #0f172a;
+      --navy-mid:  #1e293b;
+      --bg:        #f8f9fc;
+      --white:     #ffffff;
+      --accent:    #22c55e;
+      --accent-dk: #16a34a;
+      --text:      #0f172a;
+      --muted:     #64748b;
+      --border:    #e2e8f0;
+
+      /* category colors */
+      --yt:  #ef4444;
+      --tt:  #14b8a6;
+      --ig:  #ec4899;
+      --sp:  #22c55e;
+      --ce:  #8b5cf6;
+      --str: #f59e0b;
+
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans:  'DM Sans', system-ui, sans-serif;
+      --max:   1180px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    header {
+      background: var(--navy);
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    nav {
+      max-width: var(--max);
+      margin: auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      font-family: var(--serif);
+      font-size: 22px;
+      color: white;
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links a {
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: white; }
+    .nav-links a.active { color: var(--accent); }
+    .nav-cta {
+      background: var(--accent);
+      color: white !important;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-weight: 600 !important;
+    }
+    .nav-cta:hover { background: var(--accent-dk) !important; }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy);
+      padding: 88px 24px 76px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 15% 60%, rgba(34,197,94,0.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 85% 30%, rgba(139,92,246,0.07) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(34,197,94,0.12);
+      border: 1px solid rgba(34,197,94,0.22);
+      color: #4ade80;
+      border-radius: 30px;
+      padding: 6px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: var(--accent);
+      border-radius: 50%;
+    }
+    .hero h1 {
+      font-family: var(--serif);
+      font-size: clamp(34px, 5.5vw, 56px);
+      color: white;
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      max-width: 760px;
+      margin: 0 auto 18px;
+    }
+    .hero h1 em { font-style: italic; color: var(--accent); }
+    .hero-sub {
+      font-size: 18px;
+      color: rgba(255,255,255,0.58);
+      max-width: 520px;
+      margin: 0 auto 44px;
+      line-height: 1.65;
+    }
+    .hero-pills {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hero-pill {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: rgba(255,255,255,0.7);
+      border-radius: 30px;
+      padding: 7px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pill-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+    }
+
+    /* ── FILTER TABS ── */
+    .filter-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 61px;
+      z-index: 100;
+    }
+    .filter-bar-inner {
+      max-width: var(--max);
+      margin: auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .filter-bar-inner::-webkit-scrollbar { display: none; }
+    .ftab {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 14px 18px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--muted);
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      white-space: nowrap;
+      background: none;
+      border-left: none; border-right: none; border-top: none;
+      font-family: var(--sans);
+      transition: color .2s;
+      text-decoration: none;
+    }
+    .ftab:hover { color: var(--text); }
+    .ftab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .ftab[data-cat="youtube"].active  { border-bottom-color: var(--yt); color: var(--yt); }
+    .ftab[data-cat="social"].active   { border-bottom-color: var(--ig); color: var(--ig); }
+    .ftab[data-cat="streaming"].active{ border-bottom-color: var(--sp); color: var(--sp); }
+    .ftab[data-cat="creator"].active  { border-bottom-color: var(--ce); color: var(--ce); }
+    .fdot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+    /* ── MAIN ── */
+    .main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 56px 24px 100px;
+    }
+
+    /* ── CATEGORY SECTION ── */
+    .cat-section { margin-bottom: 72px; }
+    .cat-section.hidden { display: none; }
+
+    .cat-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .cat-icon {
+      width: 48px; height: 48px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+    .cat-meta { flex: 1; }
+    .cat-title {
+      font-family: var(--serif);
+      font-size: 26px;
+      color: var(--text);
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+    .cat-desc { font-size: 14px; color: var(--muted); margin-top: 4px; }
+    .cat-count {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 500;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 4px 12px;
+      white-space: nowrap;
+    }
+
+    /* ── TOOLS GRID ── */
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    /* ── TOOL CARD ── */
+    .tool-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      transition: transform .22s, box-shadow .22s, border-color .22s;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .tool-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      border-radius: 16px 16px 0 0;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    .tool-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 55px rgba(0,0,0,0.10);
+      border-color: transparent;
+      text-decoration: none;
+    }
+    .tool-card:hover::before { opacity: 1; }
+
+    /* accent bar color by category */
+    .tool-card[data-cat="youtube"]::before   { background: var(--yt); }
+    .tool-card[data-cat="social"]::before    { background: var(--ig); }
+    .tool-card[data-cat="streaming"]::before { background: var(--sp); }
+    .tool-card[data-cat="creator"]::before   { background: var(--ce); }
+
+    /* icon circle */
+    .card-icon {
+      width: 48px; height: 48px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      margin-bottom: 18px;
+      flex-shrink: 0;
+    }
+    .icon-yt   { background: rgba(239,68,68,0.10); }
+    .icon-tt   { background: rgba(20,184,166,0.10); }
+    .icon-ig   { background: rgba(236,72,153,0.10); }
+    .icon-sp   { background: rgba(34,197,94,0.10); }
+    .icon-ce   { background: rgba(139,92,246,0.10); }
+    .icon-str  { background: rgba(245,158,11,0.10); }
+
+    .card-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      border-radius: 20px;
+      padding: 3px 10px;
+      margin-bottom: 12px;
+      width: fit-content;
+    }
+    .badge-yt  { background: rgba(239,68,68,0.10);  color: #dc2626; }
+    .badge-tt  { background: rgba(20,184,166,0.10); color: #0f766e; }
+    .badge-ig  { background: rgba(236,72,153,0.10); color: #be185d; }
+    .badge-sp  { background: rgba(34,197,94,0.10);  color: #15803d; }
+    .badge-ce  { background: rgba(139,92,246,0.10); color: #7c3aed; }
+    .badge-str { background: rgba(245,158,11,0.10); color: #b45309; }
+
+    .card-title {
+      font-family: var(--serif);
+      font-size: 19px;
+      color: var(--text);
+      line-height: 1.3;
+      letter-spacing: -0.3px;
+      margin-bottom: 10px;
+    }
+    .card-desc {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.65;
+      flex: 1;
+      margin-bottom: 22px;
+    }
+
+    /* what you can calculate list */
+    .card-features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .card-features li {
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .card-features li::before {
+      content: '';
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+    .open-btn {
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 18px;
+      border-radius: 8px;
+      transition: all .2s;
+      text-decoration: none;
+    }
+    .open-btn:hover { transform: translateX(3px); text-decoration: none; }
+
+    .btn-yt  { background: rgba(239,68,68,0.10);  color: #dc2626; }
+    .btn-tt  { background: rgba(20,184,166,0.10); color: #0f766e; }
+    .btn-ig  { background: rgba(236,72,153,0.10); color: #be185d; }
+    .btn-sp  { background: rgba(34,197,94,0.10);  color: #15803d; }
+    .btn-ce  { background: rgba(139,92,246,0.10); color: #7c3aed; }
+    .btn-str { background: rgba(245,158,11,0.10); color: #b45309; }
+
+    .btn-yt:hover  { background: rgba(239,68,68,0.18); }
+    .btn-tt:hover  { background: rgba(20,184,166,0.18); }
+    .btn-ig:hover  { background: rgba(236,72,153,0.18); }
+    .btn-sp:hover  { background: rgba(34,197,94,0.18); }
+    .btn-ce:hover  { background: rgba(139,92,246,0.18); }
+    .btn-str:hover { background: rgba(245,158,11,0.18); }
+
+    .card-free {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .4px;
+      color: var(--accent-dk);
+      background: rgba(34,197,94,0.08);
+      border: 1px solid rgba(34,197,94,0.2);
+      border-radius: 12px;
+      padding: 3px 9px;
+      text-transform: uppercase;
+    }
+
+    /* ── FEATURED CARD ── */
+    .tool-card.featured {
+      grid-column: 1 / -1;
+      flex-direction: row;
+      gap: 32px;
+      align-items: flex-start;
+    }
+    .featured-left { flex-shrink: 0; }
+    .featured-right { flex: 1; }
+    .featured-icon {
+      width: 80px; height: 80px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+    }
+
+    /* ── SEO SECTION ── */
+    .seo-box {
+      background: var(--white);
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      padding: 48px;
+      margin-bottom: 60px;
+    }
+    .seo-box h2 {
+      font-family: var(--serif);
+      font-size: 28px;
+      color: var(--text);
+      letter-spacing: -0.5px;
+      margin-bottom: 16px;
+    }
+    .seo-box p {
+      font-size: 16px;
+      color: var(--muted);
+      margin-bottom: 14px;
+      max-width: 780px;
+    }
+    .seo-box p:last-child { margin-bottom: 0; }
+
+    /* ── GUIDES CTA BANNER ── */
+    .guides-cta {
+      background: var(--navy);
+      border-radius: 20px;
+      padding: 48px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      margin-bottom: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+    .guides-cta::before {
+      content: '';
+      position: absolute;
+      top: -40px; right: -40px;
+      width: 220px; height: 220px;
+      background: radial-gradient(circle, rgba(34,197,94,0.12) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .guides-cta-text h3 {
+      font-family: var(--serif);
+      font-size: 24px;
+      color: white;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+    .guides-cta-text p { font-size: 15px; color: rgba(255,255,255,0.6); }
+    .guides-cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background .2s, transform .2s;
+      flex-shrink: 0;
+      box-shadow: 0 4px 16px rgba(34,197,94,0.3);
+    }
+    .guides-cta-btn:hover {
+      background: var(--accent-dk);
+      transform: translateY(-2px);
+      text-decoration: none;
+      color: white;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.5);
+      text-align: center;
+      padding: 36px 24px;
+      font-size: 13px;
+    }
+    footer a { color: rgba(255,255,255,0.5); text-decoration: none; }
+    footer a:hover { color: white; }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 28px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .cat-section { animation: fadeUp .4s ease both; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .hero { padding: 60px 20px 50px; }
+      .tool-card.featured { flex-direction: column; gap: 20px; }
+      .guides-cta { flex-direction: column; text-align: center; gap: 20px; }
+      .seo-box { padding: 28px 24px; }
+    }
+    @media (max-width: 500px) {
+      .tools-grid { grid-template-columns: 1fr; }
+      .nav-links { gap: 16px; }
+    }
+  </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
 <script>
@@ -18,242 +572,453 @@
   gtag('config', 'G-LG3D9JJE2T');
 </script>
 
-<style>
-
-body{
-font-family:Arial, Helvetica, sans-serif;
-margin:0;
-background:#f5f7fb;
-color:#333;
-}
-
-header{
-background:#111827;
-color:white;
-padding:20px;
-}
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-max-width:1100px;
-margin:auto;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-weight:500;
-}
-
-.hero{
-text-align:center;
-padding:70px 20px;
-max-width:800px;
-margin:auto;
-}
-
-.hero h1{
-font-size:40px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:18px;
-color:#666;
-}
-
-.section{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
-}
-
-.tools-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:30px;
-margin-top:40px;
-}
-
-.tool-card{
-background:white;
-padding:30px;
-border-radius:14px;
-box-shadow:0 8px 25px rgba(0,0,0,0.06);
-transition:0.25s;
-}
-
-.tool-card:hover{
-transform:translateY(-6px);
-box-shadow:0 12px 35px rgba(0,0,0,0.1);
-}
-
-.tool-card h3{
-margin-top:0;
-font-size:20px;
-}
-
-.tool-card p{
-color:#666;
-font-size:15px;
-}
-
-.tool-card a{
-display:inline-block;
-margin-top:15px;
-text-decoration:none;
-background:#2563eb;
-color:white;
-padding:10px 18px;
-border-radius:6px;
-font-weight:bold;
-}
-
-.tool-card a:hover{
-background:#1e4fd1;
-}
-
-.cta{
-text-align:center;
-margin-top:60px;
-}
-
-.cta a{
-background:#111827;
-color:white;
-padding:14px 24px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold;
-}
-
-footer{
-text-align:center;
-padding:30px;
-background:#111827;
-color:white;
-margin-top:60px;
-}
-
-</style>
-
 </head>
-
 <body>
 
+<!-- ── HEADER ── -->
 <header>
-
-<nav>
-
-<div><strong>Kalkil</strong></div>
-
-<div>
-
-<a href="index.html">Home</a>
-<a href="tools.html">Tools</a>
-<a href="guides.html">Guides</a>
-<a href="about.html">About</a>
-
-</div>
-
-</nav>
-
+  <nav>
+    <a href="index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tools.html" class="active">Tools</a>
+      <a href="guides.html">Guides</a>
+      <a href="about.html">About</a>
+      <a href="guides.html" class="nav-cta">Read Guides</a>
+    </div>
+  </nav>
 </header>
 
+<!-- ── HERO ── -->
 <section class="hero">
-
-<h1>Creator Earnings Calculators</h1>
-
-<p>
-Free calculators to estimate creator earnings from Spotify,
-YouTube, TikTok and Instagram.
-</p>
-
+  <div class="hero-eyebrow">2026 Creator Economy Tools</div>
+  <h1>Free Creator<br><em>Earnings</em> Calculators</h1>
+  <p class="hero-sub">
+    Instant, accurate earnings estimates for every major creator platform —
+    no sign-up, no paywalls, no guesswork.
+  </p>
+  <div class="hero-pills">
+    <div class="hero-pill"><span class="pill-dot" style="background:#ef4444"></span> YouTube</div>
+    <div class="hero-pill"><span class="pill-dot" style="background:#14b8a6"></span> TikTok</div>
+    <div class="hero-pill"><span class="pill-dot" style="background:#ec4899"></span> Instagram</div>
+    <div class="hero-pill"><span class="pill-dot" style="background:#22c55e"></span> Spotify</div>
+    <div class="hero-pill"><span class="pill-dot" style="background:#8b5cf6"></span> Twitch</div>
+    <div class="hero-pill"><span class="pill-dot" style="background:#f59e0b"></span> Patreon &amp; more</div>
+  </div>
 </section>
 
-<section class="section">
+<!-- ── FILTER TABS ── -->
+<nav class="filter-bar" aria-label="Filter calculators by platform">
+  <div class="filter-bar-inner">
+    <button class="ftab active" data-cat="all" onclick="filterTools('all', this)">
+      All Tools <span style="font-size:11px;opacity:.55;margin-left:2px">14</span>
+    </button>
+    <button class="ftab" data-cat="youtube" onclick="filterTools('youtube', this)">
+      <span class="fdot" style="background:#ef4444"></span> YouTube <span style="font-size:11px;opacity:.55;margin-left:2px">4</span>
+    </button>
+    <button class="ftab" data-cat="social" onclick="filterTools('social', this)">
+      <span class="fdot" style="background:#ec4899"></span> TikTok &amp; Instagram <span style="font-size:11px;opacity:.55;margin-left:2px">4</span>
+    </button>
+    <button class="ftab" data-cat="streaming" onclick="filterTools('streaming', this)">
+      <span class="fdot" style="background:#22c55e"></span> Streaming <span style="font-size:11px;opacity:.55;margin-left:2px">1</span>
+    </button>
+    <button class="ftab" data-cat="creator" onclick="filterTools('creator', this)">
+      <span class="fdot" style="background:#8b5cf6"></span> Creator Economy <span style="font-size:11px;opacity:.55;margin-left:2px">5</span>
+    </button>
+  </div>
+</nav>
 
-<div class="tools-grid">
+<!-- ── MAIN ── -->
+<main class="main">
 
-<div class="tool-card">
 
-<h3>Spotify Royalty Calculator</h3>
+  <!-- ══════════════════════════════════════════
+       YOUTUBE CALCULATORS
+  ══════════════════════════════════════════ -->
+  <section class="cat-section" data-cat="youtube" id="youtube">
+    <div class="cat-header">
+      <div class="cat-icon" style="background:rgba(239,68,68,0.10); font-size:24px;">▶</div>
+      <div class="cat-meta">
+        <h2 class="cat-title">YouTube Calculators</h2>
+        <p class="cat-desc">Estimate AdSense earnings, CPM rates, Shorts revenue, and sponsorship potential.</p>
+      </div>
+      <span class="cat-count">4 tools</span>
+    </div>
 
-<p>
-Estimate how much artists earn from Spotify streams.
-</p>
+    <div class="tools-grid">
 
-<a href="tools/spotify-royalty-calculator.html">
-Open Calculator
-</a>
+      <!-- FEATURED -->
+      <a href="tools/youtube-money-calculator.html" class="tool-card featured" data-cat="youtube">
+        <div class="featured-left">
+          <div class="featured-icon icon-yt">▶</div>
+        </div>
+        <div class="featured-right">
+          <div class="card-badge badge-yt">YouTube · Most Used</div>
+          <div class="card-title">YouTube Money Calculator</div>
+          <p class="card-desc">The most comprehensive YouTube earnings estimator. Input your view count and niche CPM to instantly see projected AdSense revenue — monthly, annual, and per video. Includes RPM breakdown so you understand what you're actually keeping.</p>
+          <ul class="card-features">
+            <li>Monthly & annual AdSense projections</li>
+            <li>CPM vs RPM comparison explained</li>
+            <li>Earnings by niche (finance, gaming, lifestyle, tech)</li>
+            <li>Revenue at 100K, 500K, 1M+ view milestones</li>
+          </ul>
+          <div class="card-footer">
+            <a href="tools/youtube-money-calculator.html" class="open-btn btn-yt">Open Calculator →</a>
+            <span class="card-free">Free</span>
+          </div>
+        </div>
+      </a>
 
-</div>
+      <a href="tools/youtube-cpm-calculator.html" class="tool-card" data-cat="youtube">
+        <div class="card-icon icon-yt">📊</div>
+        <div class="card-badge badge-yt">YouTube</div>
+        <div class="card-title">YouTube CPM Calculator</div>
+        <p class="card-desc">Calculate your revenue using real YouTube CPM rates. Enter your CPM and view count to see gross ad revenue and the net creator share after YouTube's 45% cut.</p>
+        <ul class="card-features">
+          <li>CPM to RPM conversion</li>
+          <li>Gross vs. net revenue breakdown</li>
+          <li>CPM benchmarks by niche</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/youtube-cpm-calculator.html" class="open-btn btn-yt">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
 
-<div class="tool-card">
+      <a href="tools/youtube-shorts-calculator.html" class="tool-card" data-cat="youtube">
+        <div class="card-icon icon-yt">⚡</div>
+        <div class="card-badge badge-yt">YouTube Shorts</div>
+        <div class="card-title">YouTube Shorts Earnings Calculator</div>
+        <p class="card-desc">Estimate revenue from your YouTube Shorts views. Compares Shorts RPM ($0.03–$0.07) against long-form RPM so you understand the trade-off and can plan your content mix.</p>
+        <ul class="card-features">
+          <li>Shorts vs. long-form revenue comparison</li>
+          <li>Monthly earnings from Shorts view count</li>
+          <li>Channel growth impact projections</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/youtube-shorts-calculator.html" class="open-btn btn-yt">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
 
-<h3>YouTube Money Calculator</h3>
+      <a href="tools/youtube-sponsorship-calculator.html" class="tool-card" data-cat="youtube">
+        <div class="card-icon icon-yt">🤝</div>
+        <div class="card-badge badge-yt">YouTube</div>
+        <div class="card-title">YouTube Sponsorship Calculator</div>
+        <p class="card-desc">Estimate brand sponsorship deal value for your YouTube channel. Based on subscriber count, average views, niche, and integration type — so you never undercharge a brand partner again.</p>
+        <ul class="card-features">
+          <li>Rate by integration type (dedicated / integrated / mention)</li>
+          <li>Benchmark against industry sponsor rates</li>
+          <li>Niche premium multipliers built in</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/youtube-sponsorship-calculator.html" class="open-btn btn-yt">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
 
-<p>
-Calculate how much YouTube creators earn per view.
-</p>
+    </div>
+  </section>
 
-<a href="tools/youtube-money-calculator.html">
-Open Calculator
-</a>
 
-</div>
+  <!-- ══════════════════════════════════════════
+       TIKTOK & INSTAGRAM
+  ══════════════════════════════════════════ -->
+  <section class="cat-section" data-cat="social" id="social">
+    <div class="cat-header">
+      <div class="cat-icon" style="background:rgba(236,72,153,0.10); font-size:24px;">◈</div>
+      <div class="cat-meta">
+        <h2 class="cat-title">TikTok &amp; Instagram Calculators</h2>
+        <p class="cat-desc">Creator Rewards estimates, influencer sponsorship rates, and engagement benchmarks.</p>
+      </div>
+      <span class="cat-count">4 tools</span>
+    </div>
 
-<div class="tool-card">
+    <div class="tools-grid">
 
-<h3>TikTok Money Calculator</h3>
+      <!-- FEATURED -->
+      <a href="tools/tiktok-money-calculator.html" class="tool-card featured" data-cat="social">
+        <div class="featured-left">
+          <div class="featured-icon icon-tt">♪</div>
+        </div>
+        <div class="featured-right">
+          <div class="card-badge badge-tt">TikTok · Most Used</div>
+          <div class="card-title">TikTok Money Calculator</div>
+          <p class="card-desc">Estimate your total TikTok income — not just Creator Rewards, but sponsorship potential based on your follower count and niche. Most creators earn 10–100× more from brand deals than from the platform itself, and this calculator shows both.</p>
+          <ul class="card-features">
+            <li>Creator Rewards estimate at your view count</li>
+            <li>Sponsorship deal value by follower tier</li>
+            <li>Monthly income projection across all income streams</li>
+            <li>Niche impact on brand deal rates</li>
+          </ul>
+          <div class="card-footer">
+            <a href="tools/tiktok-money-calculator.html" class="open-btn btn-tt">Open Calculator →</a>
+            <span class="card-free">Free</span>
+          </div>
+        </div>
+      </a>
 
-<p>
-Estimate earnings from TikTok views and creator fund.
-</p>
+      <a href="tools/tiktok-creator-fund-calculator.html" class="tool-card" data-cat="social">
+        <div class="card-icon icon-tt">💰</div>
+        <div class="card-badge badge-tt">TikTok</div>
+        <div class="card-title">TikTok Creator Fund Calculator</div>
+        <p class="card-desc">Estimate your Creator Rewards Program earnings based on view count, engagement rate, and content quality. Shows how each factor impacts your payout from TikTok's reward pool.</p>
+        <ul class="card-features">
+          <li>Creator Rewards rate by engagement level</li>
+          <li>Monthly earnings from your view count</li>
+          <li>Originality & watch time impact modeled</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/tiktok-creator-fund-calculator.html" class="open-btn btn-tt">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
 
-<a href="tools/tiktok-money-calculator.html">
-Open Calculator
-</a>
+      <a href="tools/instagram-earnings-calculator.html" class="tool-card" data-cat="social">
+        <div class="card-icon icon-ig">◈</div>
+        <div class="card-badge badge-ig">Instagram</div>
+        <div class="card-title">Instagram Earnings Calculator</div>
+        <p class="card-desc">Calculate your Instagram influencer income potential. Based on follower count, engagement rate, content type, and niche — the four factors that determine what brands will pay you in 2026.</p>
+        <ul class="card-features">
+          <li>Sponsored post rates (feed, Reel, Story)</li>
+          <li>Engagement rate impact on deal value</li>
+          <li>Annual income projection by posting frequency</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/instagram-earnings-calculator.html" class="open-btn btn-ig">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
 
-</div>
+      <a href="tools/instagram-engagement-calculator.html" class="tool-card" data-cat="social">
+        <div class="card-icon icon-ig">📈</div>
+        <div class="card-badge badge-ig">Instagram</div>
+        <div class="card-title">Instagram Engagement Rate Calculator</div>
+        <p class="card-desc">Calculate your Instagram engagement rate and benchmark it against your follower tier. Know instantly whether your account is above or below average — the metric brands check before any deal.</p>
+        <ul class="card-features">
+          <li>Engagement rate formula applied instantly</li>
+          <li>Benchmark against nano/micro/macro/mega averages</li>
+          <li>Extended ER with saves & shares option</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/instagram-engagement-calculator.html" class="open-btn btn-ig">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
 
-<div class="tool-card">
+    </div>
+  </section>
 
-<h3>Instagram Earnings Calculator</h3>
 
-<p>
-Calculate potential earnings from Instagram influencers.
-</p>
+  <!-- ══════════════════════════════════════════
+       STREAMING
+  ══════════════════════════════════════════ -->
+  <section class="cat-section" data-cat="streaming" id="streaming">
+    <div class="cat-header">
+      <div class="cat-icon" style="background:rgba(34,197,94,0.10); font-size:24px;">♫</div>
+      <div class="cat-meta">
+        <h2 class="cat-title">Streaming &amp; Music Calculator</h2>
+        <p class="cat-desc">Spotify royalty estimates for independent artists and labels.</p>
+      </div>
+      <span class="cat-count">1 tool</span>
+    </div>
 
-<a href="tools/instagram-earnings-calculator.html">
-Open Calculator
-</a>
+    <div class="tools-grid">
 
-</div>
+      <a href="tools/spotify-royalty-calculator.html" class="tool-card featured" data-cat="streaming">
+        <div class="featured-left">
+          <div class="featured-icon icon-sp">♫</div>
+        </div>
+        <div class="featured-right">
+          <div class="card-badge badge-sp">Spotify · Featured</div>
+          <div class="card-title">Spotify Royalty Calculator</div>
+          <p class="card-desc">Estimate how much you earn from Spotify streams based on your listener geography, Premium vs. free-tier audience mix, and your distribution deal. Shows why 1 million streams from the US is worth far more than 1 million streams from developing markets.</p>
+          <ul class="card-features">
+            <li>Earnings at 10K, 100K, 1M, 10M stream milestones</li>
+            <li>Geography impact on per-stream rate</li>
+            <li>Premium vs. free-tier listener ratio modeled</li>
+            <li>Distributor cut comparison (DistroKid, TuneCore, CD Baby)</li>
+          </ul>
+          <div class="card-footer">
+            <a href="tools/spotify-royalty-calculator.html" class="open-btn btn-sp">Open Calculator →</a>
+            <span class="card-free">Free</span>
+          </div>
+        </div>
+      </a>
 
-</div>
+    </div>
+  </section>
 
-<div class="cta">
 
-<p>Want to understand how creator monetization works?</p>
+  <!-- ══════════════════════════════════════════
+       CREATOR ECONOMY TOOLS
+  ══════════════════════════════════════════ -->
+  <section class="cat-section" data-cat="creator" id="creator">
+    <div class="cat-header">
+      <div class="cat-icon" style="background:rgba(139,92,246,0.10); font-size:24px;">◆</div>
+      <div class="cat-meta">
+        <h2 class="cat-title">Creator Economy Tools</h2>
+        <p class="cat-desc">Twitch subscriptions, Patreon memberships, podcast CPM, influencer rates, and OnlyFans income.</p>
+      </div>
+      <span class="cat-count">5 tools</span>
+    </div>
 
-<a href="guides.html">
-Read our guides
-</a>
+    <div class="tools-grid">
 
-</div>
+      <!-- FEATURED -->
+      <a href="tools/influencer-rate-calculator.html" class="tool-card featured" data-cat="creator">
+        <div class="featured-left">
+          <div class="featured-icon icon-ce">◆</div>
+        </div>
+        <div class="featured-right">
+          <div class="card-badge badge-ce">Creator Economy · Most Used</div>
+          <div class="card-title">Influencer Rate Calculator</div>
+          <p class="card-desc">Find out exactly what you should charge brands — across any platform, any content type. Built on real 2026 market rates with engagement rate multipliers, niche premiums, and format adjustments. Never undercharge or lose a deal by overpricing again.</p>
+          <ul class="card-features">
+            <li>Rate by platform (YouTube, TikTok, Instagram, podcast)</li>
+            <li>Engagement rate premium built in</li>
+            <li>Niche CPM multipliers (finance, tech, beauty, gaming)</li>
+            <li>Media kit rate card generator</li>
+          </ul>
+          <div class="card-footer">
+            <a href="tools/influencer-rate-calculator.html" class="open-btn btn-ce">Open Calculator →</a>
+            <span class="card-free">Free</span>
+          </div>
+        </div>
+      </a>
 
-</section>
+      <a href="tools/twitch-earnings-calculator.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">◉</div>
+        <div class="card-badge badge-ce">Twitch</div>
+        <div class="card-title">Twitch Earnings Calculator</div>
+        <p class="card-desc">Estimate your total Twitch income from subscriptions, Bits, ad revenue, and donations. Input your subscriber count and average concurrent viewers to see a complete monthly income breakdown.</p>
+        <ul class="card-features">
+          <li>Sub tier mix (Tier 1/2/3 + Prime Gaming)</li>
+          <li>50/50 vs legacy 70/30 split comparison</li>
+          <li>Bits + ad revenue + donations combined</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/twitch-earnings-calculator.html" class="open-btn btn-ce">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
 
+      <a href="tools/podcast-revenue-calculator.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">🎙</div>
+        <div class="card-badge badge-ce">Podcasting</div>
+        <div class="card-title">Podcast Revenue Calculator</div>
+        <p class="card-desc">Calculate your podcast's advertising and total monetization potential. Enter your monthly download count, niche, and ad load to see CPM-based earnings — plus Patreon conversion estimates.</p>
+        <ul class="card-features">
+          <li>CPM revenue by niche (pre-roll, mid-roll, post-roll)</li>
+          <li>Patreon conversion estimate side-by-side</li>
+          <li>Total monthly income across all podcast income streams</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/podcast-revenue-calculator.html" class="open-btn btn-ce">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
+
+      <a href="tools/patreon-income-calculator.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">◆</div>
+        <div class="card-badge badge-ce">Patreon</div>
+        <div class="card-title">Patreon Income Calculator</div>
+        <p class="card-desc">Estimate your monthly Patreon income based on patron count, average pledge, and your plan fee. Models all three membership tiers and shows the audience-to-patron conversion rate you need to hit income targets.</p>
+        <ul class="card-features">
+          <li>Monthly income after Patreon fees (Lite / Pro / Premium)</li>
+          <li>Three-tier membership model</li>
+          <li>Conversion rate needed from your audience size</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/patreon-income-calculator.html" class="open-btn btn-ce">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
+
+      <a href="tools/onlyfans-earnings-calculator.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">💎</div>
+        <div class="card-badge badge-ce">OnlyFans</div>
+        <div class="card-title">OnlyFans Earnings Calculator</div>
+        <p class="card-desc">Estimate your OnlyFans monthly income from subscriptions, PPV content, and tips. Models the 80/20 revenue split, pricing strategy impact, and the churn rate that determines your actual net monthly income.</p>
+        <ul class="card-features">
+          <li>Subscription + PPV + tips combined estimate</li>
+          <li>80% creator share applied automatically</li>
+          <li>Pricing optimization (low sub / high PPV vs. premium sub)</li>
+        </ul>
+        <div class="card-footer">
+          <a href="tools/onlyfans-earnings-calculator.html" class="open-btn btn-ce">Open Calculator →</a>
+          <span class="card-free">Free</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ── GUIDES CTA BANNER ── -->
+  <div class="guides-cta">
+    <div class="guides-cta-text">
+      <h3>Want to understand the numbers behind each tool?</h3>
+      <p>Our 30 free guides explain exactly how each platform calculates creator earnings — with real data and examples.</p>
+    </div>
+    <a href="guides.html" class="guides-cta-btn">Browse All Guides →</a>
+  </div>
+
+
+  <!-- ── SEO BLURB ── -->
+  <div class="seo-box">
+    <h2>About Kalkil's Creator Calculators</h2>
+    <p>
+      Kalkil provides free earnings calculators for every major creator economy platform. Whether you're a YouTuber trying to understand your CPM and RPM, an independent musician estimating Spotify royalties, a TikTok creator modeling Creator Rewards income, or a Twitch streamer projecting subscription revenue — each tool gives you instant, data-backed estimates with no sign-up required.
+    </p>
+    <p>
+      Every calculator is built on 2026 industry rate data and updated regularly to reflect platform policy changes. The YouTube Money Calculator uses current CPM benchmarks across 10+ content niches. The Spotify Royalty Calculator accounts for listener geography, Premium vs. free-tier splits, and distributor cuts. The TikTok Money Calculator models both Creator Rewards and the sponsorship income that typically represents 90%+ of a serious TikTok creator's total earnings.
+    </p>
+    <p>
+      Pair the calculators with our free creator economy guides to understand the context behind the numbers — why certain niches earn more, how platform payment models work, and the strategies top creators use to maximize income across multiple revenue streams.
+    </p>
+    <p>
+      Tools available: YouTube Money Calculator, YouTube CPM Calculator, YouTube Shorts Calculator, YouTube Sponsorship Calculator, TikTok Money Calculator, TikTok Creator Fund Calculator, Instagram Earnings Calculator, Instagram Engagement Rate Calculator, Spotify Royalty Calculator, Twitch Earnings Calculator, Podcast Revenue Calculator, Patreon Income Calculator, OnlyFans Earnings Calculator, and Influencer Rate Calculator.
+    </p>
+  </div>
+
+</main>
+
+<!-- ── FOOTER ── -->
 <footer>
-
-<p>© 2026 Kalkil</p>
-
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="tools.html">Calculators</a>
+    <a href="guides.html">Guides</a>
+    <a href="about.html">About</a>
+  </div>
+  <p>© 2026 <a href="index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
 </footer>
 
-</body>
+<script>
+  function filterTools(cat, btn) {
+    document.querySelectorAll('.ftab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
 
+    const sections = document.querySelectorAll('.cat-section');
+    sections.forEach(sec => {
+      if (cat === 'all' || sec.dataset.cat === cat) {
+        sec.classList.remove('hidden');
+      } else {
+        sec.classList.add('hidden');
+      }
+    });
+
+    if (cat !== 'all') {
+      const target = document.getElementById(cat);
+      if (target) {
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+</script>
+
+</body>
 </html>

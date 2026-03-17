@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>YouTube Money Calculator | Kalkil</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Money Calculator 2026 — Estimate AdSense Earnings | Kalkil</title>
+  <meta name="description" content="Free YouTube money calculator. Estimate your AdSense earnings by views, CPM, and niche. Instant monthly and annual projections — no sign-up.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="YouTube Money Calculator 2026 — Estimate AdSense Earnings | Kalkil">
+  <meta property="og:description" content="Free YouTube money calculator. Estimate your AdSense earnings by views, CPM, and niche. Instant monthly and annual projections — no sign-up.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #ef4444; }
+    .calc-btn { background: #ef4444; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #ef4444; }
+    .hero h1 em { color: #ef4444; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
 <script>
@@ -18,319 +28,172 @@
   gtag('config', 'G-LG3D9JJE2T');
 </script>
 
-<style>
-
-body{
-font-family:Arial, Helvetica, sans-serif;
-margin:0;
-background:#f6f8fc;
-color:#333;
-}
-
-header{
-background:#111827;
-padding:20px;
-color:white;
-}
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-max-width:1100px;
-margin:auto;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
-
-.hero{
-text-align:center;
-padding:60px 20px;
-max-width:900px;
-margin:auto;
-}
-
-.hero h1{
-font-size:40px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:18px;
-color:#666;
-}
-
-.section{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
-}
-
-.calculator-box{
-background:white;
-border-radius:16px;
-box-shadow:0 12px 35px rgba(0,0,0,0.08);
-padding:40px;
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-}
-
-.inputs{
-display:flex;
-flex-direction:column;
-gap:15px;
-}
-
-.inputs label{
-font-weight:bold;
-}
-
-.inputs input{
-padding:14px;
-border-radius:8px;
-border:1px solid #ddd;
-font-size:16px;
-}
-
-.inputs button{
-margin-top:10px;
-padding:14px;
-background:#ff0000;
-border:none;
-border-radius:8px;
-color:white;
-font-size:16px;
-font-weight:bold;
-cursor:pointer;
-}
-
-.inputs button:hover{
-background:#1e4fd1;
-}
-
-.results{
-display:flex;
-flex-direction:column;
-gap:20px;
-}
-
-.result-card{
-background:#f3f6ff;
-padding:25px;
-border-radius:10px;
-text-align:center;
-}
-
-.result-card h3{
-margin:0;
-font-size:18px;
-color:#555;
-}
-
-.result-card p{
-font-size:32px;
-font-weight:bold;
-margin-top:10px;
-}
-
-.big{
-background:#ff0000;
-color:white;
-}
-
-.big h3{
-color:white;
-}
-
-.info{
-margin-top:60px;
-max-width:800px;
-margin-left:auto;
-margin-right:auto;
-line-height:1.7;
-}
-
-footer{
-margin-top:60px;
-text-align:center;
-background:#111827;
-color:white;
-padding:30px;
-}
-
-@media(max-width:850px){
-
-.calculator-box{
-grid-template-columns:1fr;
-}
-
-}
-
-</style>
-
 </head>
-
 <body>
 
 <header>
-
-<nav>
-
-<div><strong>Kalkil</strong></div>
-
-<div>
-
-<a href="../index.html">Home</a>
-<a href="../tools.html">Tools</a>
-<a href="../guides.html">Guides</a>
-<a href="../about.html">About</a>
-
-</div>
-
-</nav>
-
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
 </header>
 
 <section class="hero">
-
-<h1>YouTube Money Calculator</h1>
-
-<p>
-Estimate how much YouTube creators earn from views based on CPM.
-</p>
-
+  <div class="hero-badge">▶ YouTube · AdSense Calculator</div>
+  <h1>YouTube Money <em>Calculator</em></h1>
+  <p class="hero-sub">Estimate your AdSense earnings based on your views, niche, and CPM. Updated 2026 rates.</p>
 </section>
 
-<section class="section">
-
-<div class="calculator-box">
-
-<div class="inputs">
-
-<label>YouTube Views</label>
-<input type="number" id="views" placeholder="e.g. 1000000">
-
-<label>Average CPM ($ per 1000 views)</label>
-<input type="number" id="cpm" value="3">
-
-<button onclick="calculate()">Calculate Earnings</button>
-
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  YouTube Money Calculator 2026 — Estimate AdSense Earnings
 </div>
 
-<div class="results">
+<main class="main">
 
-<div class="result-card">
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
 
-<h3>Estimated Earnings</h3>
-<p id="result">$0</p>
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="yt-views">Monthly Views</label>
+        <input type="number" id="yt-views" placeholder="e.g. 500,000" oninput="calc()">
+        <span class="input-hint">Total views across all your videos this month</span>
+      </div>
+      <div class="input-group">
+        <label for="yt-niche">Content Niche</label>
+        <select id="yt-niche" onchange="setNiche()">
+          <option value="20">Personal Finance ($20 CPM)</option>
+          <option value="12">Tech & Software ($12 CPM)</option>
+          <option value="8">Health & Wellness ($8 CPM)</option>
+          <option value="6">Education ($6 CPM)</option>
+          <option value="4" selected>General ($4 CPM)</option>
+          <option value="3">Gaming ($3 CPM)</option>
+          <option value="2">Entertainment / Vlogs ($2 CPM)</option>
+        </select>
+        <span class="input-hint">Select your niche to auto-fill CPM</span>
+      </div>
+      <div class="input-group">
+        <label for="yt-cpm">Your CPM ($)</label>
+        <input type="number" id="yt-cpm" value="4" oninput="calc()">
+        <span class="input-hint">Override CPM if you know your actual rate</span>
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate Earnings</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Monthly AdSense (RPM)</div>
+        <div class="result-value" id="r-monthly">$0</div>
+        <div class="result-note">After YouTube's 45% cut</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Your RPM</div>
+        <div class="result-value" id="r-rpm">$0</div>
+        <div class="result-note">Revenue per 1,000 views</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Per 1 Million Views</div>
+        <div class="result-value" id="r-million">$0</div>
+        <div class="result-note">At your current CPM</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Annual Estimate</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">Based on your monthly view rate</div>
+      </div>
+    </div>
+    <script>
+    function setNiche(){document.getElementById('yt-cpm').value=document.getElementById('yt-niche').value;calc();}
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      var v=parseFloat(document.getElementById('yt-views').value)||0;
+      var c=parseFloat(document.getElementById('yt-cpm').value)||0;
+      var rpm=c*0.55;
+      var m=(v/1000)*rpm;
+      document.getElementById('r-monthly').textContent=fmt(m);
+      document.getElementById('r-rpm').textContent='$'+rpm.toFixed(2);
+      document.getElementById('r-million').textContent=fmt((1000000/1000)*rpm);
+      document.getElementById('r-annual').textContent=fmt(m*12);
+    }
+    function reset(){document.getElementById('yt-views').value='';document.getElementById('yt-cpm').value=4;['r-monthly','r-rpm','r-million','r-annual'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
 
-</div>
+  
+  <div class="info-section">
+    <h2>How YouTube Calculates Creator Revenue</h2>
+    <p>YouTube uses two key metrics: <strong>CPM</strong> (Cost Per Mille — what advertisers pay per 1,000 ad impressions) and <strong>RPM</strong> (Revenue Per Mille — what you actually receive per 1,000 views). YouTube keeps approximately 45% of ad revenue, so your RPM is roughly 55% of your CPM.</p>
+    <div class="highlight"><p><strong>Formula: RPM = CPM × 0.55 × monetization rate</strong> — Not every view serves an ad. Your effective monetization rate is typically 70–90%.</p></div>
+    <h2>Average YouTube CPM by Niche (2026)</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Niche</th><th>Avg CPM</th><th>Your RPM</th><th>Per 1M Views</th></tr></thead>
+      <tbody>
+        <tr><td>Personal Finance</td><td>$15–$30</td><td>$8–$17</td><td>$8,000–$17,000</td></tr>
+        <tr><td>Tech & Software</td><td>$8–$18</td><td>$4–$10</td><td>$4,000–$10,000</td></tr>
+        <tr><td>Health & Wellness</td><td>$6–$14</td><td>$3–$8</td><td>$3,000–$8,000</td></tr>
+        <tr><td>Education</td><td>$5–$10</td><td>$3–$6</td><td>$3,000–$6,000</td></tr>
+        <tr><td>Gaming</td><td>$2–$5</td><td>$1–$3</td><td>$1,000–$3,000</td></tr>
+        <tr><td>Entertainment/Vlogs</td><td>$1–$4</td><td>$0.55–$2.20</td><td>$550–$2,200</td></tr>
+      </tbody>
+    </table></div>
+    <h2>Factors That Affect Your YouTube Earnings</h2>
+    <ul>
+      <li><strong>Audience geography:</strong> US/UK/Canada viewers generate 5–10× more revenue than South Asian markets.</li>
+      <li><strong>Video length:</strong> Videos over 8 minutes unlock mid-roll ads — the biggest single driver of per-video income.</li>
+      <li><strong>Seasonality:</strong> Q4 CPMs are 30–80% higher due to holiday advertiser spend.</li>
+      <li><strong>Ad formats enabled:</strong> Non-skippable and bumper ads increase total impressions per view.</li>
+    </ul>
+  </div>
 
-<div class="result-card">
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/how-much-does-youtube-pay-per-1000-views.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
 
-<h3>Earnings Per 1M Views</h3>
-<p id="million">$0</p>
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="youtube-cpm-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">📊</div>
+        <div><div class="related-name">YouTube CPM Calculator</div><div class="related-desc">CPM to RPM breakdown</div></div>
+      </a>
+      <a href="youtube-shorts-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">⚡</div>
+        <div><div class="related-name">YouTube Shorts Calculator</div><div class="related-desc">Shorts RPM vs long-form</div></div>
+      </a>
+      <a href="youtube-sponsorship-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">🤝</div>
+        <div><div class="related-name">Sponsorship Calculator</div><div class="related-desc">Brand deal value</div></div>
+      </a>
+      <a href="tiktok-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(20,184,166,0.12)">♪</div>
+        <div><div class="related-name">TikTok Calculator</div><div class="related-desc">Creator Rewards + deals</div></div>
+      </a>
+  </div>
 
-</div>
-
-<div class="result-card big">
-
-<h3>Projected Annual (if monthly views)</h3>
-<p id="year">$0</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>How Much Does YouTube Pay Per View?</h2>
-
-<p>
-
-YouTube revenue depends mainly on <strong>CPM (Cost Per 1000 Views)</strong>.
-Most creators earn between:
-
-</p>
-
-<ul>
-
-<li>$1 – $5 per 1,000 views</li>
-<li>$1,000 – $5,000 per 1 million views</li>
-
-</ul>
-
-<p>
-
-Your actual revenue depends on several factors:
-
-</p>
-
-<ul>
-
-<li>Audience location</li>
-<li>Video topic (finance pays more)</li>
-<li>Ad engagement</li>
-<li>Ad blockers</li>
-
-</ul>
-
-<p>
-
-Use this calculator to estimate potential YouTube earnings based on
-your views and CPM.
-
-</p>
-
-</section>
+</main>
 
 <footer>
-
-<p>© 2026 Kalkil</p>
-
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
 </footer>
 
-<script>
-
-function calculate(){
-
-let views =
-document.getElementById("views").value;
-
-let cpm =
-document.getElementById("cpm").value;
-
-let earnings =
-(views / 1000) * cpm;
-
-let million =
-(1000000 / 1000) * cpm;
-
-let yearly =
-earnings * 12;
-
-document.getElementById("result")
-.innerText = "$" + earnings.toFixed(2);
-
-document.getElementById("million")
-.innerText = "$" + million.toFixed(2);
-
-document.getElementById("year")
-.innerText = "$" + yearly.toFixed(2);
-
-}
-
-</script>
-
 </body>
-
 </html>

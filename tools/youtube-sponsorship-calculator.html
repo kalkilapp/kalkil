@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Sponsorship Calculator 2026 — Brand Deal Rate Estimator | Kalkil</title>
+  <meta name="description" content="Free YouTube sponsorship calculator. Estimate your brand deal value based on subscribers, average views, niche, and integration type.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="YouTube Sponsorship Calculator 2026 — Brand Deal Rate Estimator | Kalkil">
+  <meta property="og:description" content="Free YouTube sponsorship calculator. Estimate your brand deal value based on subscribers, average views, niche, and integration type.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #ef4444; }
+    .calc-btn { background: #ef4444; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #ef4444; }
+    .hero h1 em { color: #ef4444; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">🤝 YouTube · Sponsorship Rate Calculator</div>
+  <h1>YouTube Sponsorship <em>Calculator</em></h1>
+  <p class="hero-sub">Find out what brands should pay you — based on your subscribers, views, niche, and deal type.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  YouTube Sponsorship Calculator 2026 — Brand Deal Rate Estimator
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="sp-subs">Subscriber Count</label>
+        <input type="number" id="sp-subs" placeholder="e.g. 200,000" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="sp-views">Average Video Views</label>
+        <input type="number" id="sp-views" placeholder="e.g. 80,000" oninput="calc()">
+        <span class="input-hint">Average views per video in the last 30 days</span>
+      </div>
+      <div class="input-group">
+        <label for="sp-niche">Content Niche</label>
+        <select id="sp-niche" onchange="calc()">
+          <option value="3">Finance / Business (3× multiplier)</option>
+          <option value="2">Tech / Software (2× multiplier)</option>
+          <option value="1.5" selected>Health / Education (1.5×)</option>
+          <option value="1">Gaming / Entertainment (1×)</option>
+          <option value="0.8">Vlogs / General (0.8×)</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="sp-type">Integration Type</label>
+        <select id="sp-type" onchange="calc()">
+          <option value="1">Dedicated video (full video)</option>
+          <option value="0.6" selected>Integrated mention (60–90 sec)</option>
+          <option value="0.25">Brief mention (15–30 sec)</option>
+        </select>
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate Rate</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Estimated Sponsorship Rate</div>
+        <div class="result-value" id="r-rate">$0</div>
+        <div class="result-note">Per sponsored integration</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Monthly (2 deals)</div>
+        <div class="result-value" id="r-monthly">$0</div>
+        <div class="result-note">At 2 sponsorships per month</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Annual Estimate</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">24 deals per year</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">AdSense + Sponsorships</div>
+        <div class="result-value" id="r-total">$0</div>
+        <div class="result-note">Estimated total monthly income</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      var subs=parseFloat(document.getElementById('sp-subs').value)||0;
+      var views=parseFloat(document.getElementById('sp-views').value)||0;
+      var niche=parseFloat(document.getElementById('sp-niche').value)||1.5;
+      var type=parseFloat(document.getElementById('sp-type').value)||0.6;
+      var base=(subs/10000)*100;
+      var viewBonus=views>0?(views/subs)*1.2:1;
+      var rate=base*niche*type*Math.max(viewBonus,0.5);
+      var monthly=rate*2;
+      var adsense=(views/1000)*2.5*niche;
+      document.getElementById('r-rate').textContent=fmt(rate);
+      document.getElementById('r-monthly').textContent=fmt(monthly);
+      document.getElementById('r-annual').textContent=fmt(rate*24);
+      document.getElementById('r-total').textContent=fmt(monthly+adsense);
+    }
+    function reset(){['sp-subs','sp-views'].forEach(function(i){document.getElementById(i).value='';});['r-rate','r-monthly','r-annual','r-total'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>How YouTube Sponsorship Rates Are Set</h2>
+    <p>YouTube sponsorship rates are negotiated directly between creators and brands — YouTube is not involved. Rates depend on subscriber count, average views, audience quality (engagement rate), content niche, and integration type.</p>
+    <div class="highlight"><p><strong>Industry baseline: $100 per 10,000 subscribers</strong> — then adjust up or down for engagement, niche, and integration type.</p></div>
+    <h2>Typical Sponsorship Rates by Subscriber Count</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Subscribers</th><th>Integrated Mention</th><th>Dedicated Video</th></tr></thead>
+      <tbody>
+        <tr><td>10,000–50,000</td><td>$500–$2,000</td><td>$1,500–$6,000</td></tr>
+        <tr><td>50,000–200,000</td><td>$1,500–$8,000</td><td>$5,000–$25,000</td></tr>
+        <tr><td>200,000–500,000</td><td>$5,000–$20,000</td><td>$15,000–$60,000</td></tr>
+        <tr><td>500,000–1M</td><td>$10,000–$40,000</td><td>$30,000–$120,000</td></tr>
+        <tr><td>1M+</td><td>$25,000–$100,000+</td><td>$75,000–$300,000+</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/how-youtube-monetization-works.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense & CPM earnings</div></div>
+      </a>
+      <a href="youtube-cpm-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">📊</div>
+        <div><div class="related-name">YouTube CPM Calculator</div><div class="related-desc">CPM to RPM breakdown</div></div>
+      </a>
+      <a href="youtube-shorts-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">⚡</div>
+        <div><div class="related-name">YouTube Shorts Calculator</div><div class="related-desc">Shorts RPM vs long-form</div></div>
+      </a>
+      <a href="influencer-rate-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">◆</div>
+        <div><div class="related-name">Influencer Rate Calc</div><div class="related-desc">Cross-platform rates</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+</body>
+</html>

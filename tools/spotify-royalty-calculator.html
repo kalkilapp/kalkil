@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Spotify Royalty Calculator | Kalkil</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Royalty Calculator 2026 — Streaming Earnings Estimator | Kalkil</title>
+  <meta name="description" content="Free Spotify royalty calculator. Estimate your streaming earnings based on stream count, listener geography, and distribution deal. Instant results.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Spotify Royalty Calculator 2026 — Streaming Earnings Estimator | Kalkil">
+  <meta property="og:description" content="Free Spotify royalty calculator. Estimate your streaming earnings based on stream count, listener geography, and distribution deal. Instant results.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #22c55e; }
+    .calc-btn { background: #16a34a; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #16a34a; }
+    .hero h1 em { color: #16a34a; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
 <script>
@@ -18,316 +28,164 @@
   gtag('config', 'G-LG3D9JJE2T');
 </script>
 
-<style>
-
-body{
-font-family:Arial, Helvetica, sans-serif;
-margin:0;
-background:#f6f8fc;
-color:#333;
-}
-
-header{
-background:#111827;
-padding:20px;
-color:white;
-}
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-max-width:1100px;
-margin:auto;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
-
-.hero{
-text-align:center;
-padding:60px 20px;
-max-width:900px;
-margin:auto;
-}
-
-.hero h1{
-font-size:40px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:18px;
-color:#666;
-}
-
-.section{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
-}
-
-.calculator-box{
-background:white;
-border-radius:16px;
-box-shadow:0 12px 35px rgba(0,0,0,0.08);
-padding:40px;
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-}
-
-.inputs{
-display:flex;
-flex-direction:column;
-gap:15px;
-}
-
-.inputs label{
-font-weight:bold;
-}
-
-.inputs input{
-padding:14px;
-border-radius:8px;
-border:1px solid #ddd;
-font-size:16px;
-}
-
-.inputs button{
-margin-top:10px;
-padding:14px;
-background:#22c55e;
-border:none;
-border-radius:8px;
-color:white;
-font-size:16px;
-font-weight:bold;
-cursor:pointer;
-}
-
-.inputs button:hover{
-background:#16a34a;
-}
-
-.results{
-display:flex;
-flex-direction:column;
-gap:20px;
-}
-
-.result-card{
-background:#f3f6ff;
-padding:25px;
-border-radius:10px;
-text-align:center;
-}
-
-.result-card h3{
-margin:0;
-font-size:18px;
-color:#555;
-}
-
-.result-card p{
-font-size:32px;
-font-weight:bold;
-margin-top:10px;
-}
-
-.big{
-background:#22c55e;
-color:white;
-}
-
-.big h3{
-color:white;
-}
-
-.info{
-margin-top:60px;
-max-width:800px;
-margin-left:auto;
-margin-right:auto;
-line-height:1.7;
-}
-
-footer{
-margin-top:60px;
-text-align:center;
-background:#111827;
-color:white;
-padding:30px;
-}
-
-@media(max-width:850px){
-
-.calculator-box{
-grid-template-columns:1fr;
-}
-
-}
-
-</style>
-
 </head>
-
 <body>
 
 <header>
-
-<nav>
-
-<div><strong>Kalkil</strong></div>
-
-<div>
-
-<a href="../index.html">Home</a>
-<a href="../tools.html">Tools</a>
-<a href="../guides.html">Guides</a>
-<a href="../about.html">About</a>
-
-</div>
-
-</nav>
-
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
 </header>
 
 <section class="hero">
-
-<h1>Spotify Royalty Calculator</h1>
-
-<p>
-Estimate how much money artists earn from Spotify streams.
-</p>
-
+  <div class="hero-badge">♫ Spotify · Royalty Calculator</div>
+  <h1>Spotify Royalty <em>Calculator</em></h1>
+  <p class="hero-sub">Estimate streaming royalties based on stream count, listener market, and your distribution deal.</p>
 </section>
 
-<section class="section">
-
-<div class="calculator-box">
-
-<div class="inputs">
-
-<label>Number of Spotify Streams</label>
-
-<input type="number" id="streams" placeholder="e.g. 100000">
-
-<label>Average Pay Per Stream ($)</label>
-
-<input type="number" id="rate" value="0.0035">
-
-<button onclick="calculate()">Calculate Earnings</button>
-
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  Spotify Royalty Calculator 2026 — Streaming Earnings Estimator
 </div>
 
-<div class="results">
+<main class="main">
 
-<div class="result-card">
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
 
-<h3>Estimated Earnings</h3>
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="sp-streams">Monthly Streams</label>
+        <input type="number" id="sp-streams" placeholder="e.g. 500,000" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="sp-market">Primary Listener Market</label>
+        <select id="sp-market" onchange="calc()">
+          <option value="0.008">US / Canada — Premium heavy</option>
+          <option value="0.006" selected>Mixed global average</option>
+          <option value="0.005">Western Europe</option>
+          <option value="0.003">Latin America</option>
+          <option value="0.001">India / Free-tier heavy</option>
+        </select>
+        <span class="input-hint">US Premium streams earn ~10× more than India free-tier streams</span>
+      </div>
+      <div class="input-group">
+        <label for="sp-dist">Distributor Deal</label>
+        <select id="sp-dist" onchange="calc()">
+          <option value="1.00">DistroKid / TuneCore (keep ~100%)</option>
+          <option value="0.85" selected>CD Baby / Amuse (keep ~85%)</option>
+          <option value="0.50">Indie Label (keep ~50%)</option>
+          <option value="0.20">Major Label (keep ~20%)</option>
+        </select>
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate Royalties</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Gross Monthly Royalties</div>
+        <div class="result-value" id="r-gross">$0</div>
+        <div class="result-note">Before distributor / label cut</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Your Net Monthly</div>
+        <div class="result-value" id="r-net">$0</div>
+        <div class="result-note">After your distribution deal</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Rate per 1,000 Streams</div>
+        <div class="result-value" id="r-rate">$0.00</div>
+        <div class="result-note">Your effective per-1K rate</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Annual Net Estimate</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">At your current stream rate</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      var s=parseFloat(document.getElementById('sp-streams').value)||0;
+      var rate=parseFloat(document.getElementById('sp-market').value)||0.006;
+      var dist=parseFloat(document.getElementById('sp-dist').value)||0.85;
+      var gross=s*rate;
+      var net=gross*dist;
+      document.getElementById('r-gross').textContent=fmt(gross);
+      document.getElementById('r-net').textContent=fmt(net);
+      document.getElementById('r-rate').textContent='$'+(rate*1000).toFixed(2);
+      document.getElementById('r-annual').textContent=fmt(net*12);
+    }
+    function reset(){document.getElementById('sp-streams').value='';['r-gross','r-net','r-annual'].forEach(function(i){document.getElementById(i).textContent='$0';});document.getElementById('r-rate').textContent='$0.00';}
+    </script>
+  </div>
 
-<p id="result">$0</p>
+  
+  <div class="info-section">
+    <h2>How Spotify Royalties Work</h2>
+    <p>Spotify uses a <strong>pro-rata revenue model</strong>: your share of the monthly royalty pool equals your share of total platform streams. There's no fixed per-stream rate — it fluctuates monthly based on Spotify's total revenue and total streams.</p>
+    <div class="highlight"><p><strong>Average: $0.003–$0.005 per stream</strong> — but a US Premium stream is worth $0.006–$0.010 while a free-tier stream from India earns $0.0003–$0.001.</p></div>
+    <h2>Earnings at Key Stream Milestones</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Streams</th><th>Low (India/Free)</th><th>Average (Mixed)</th><th>High (US Premium)</th></tr></thead>
+      <tbody>
+        <tr><td>10,000</td><td>$3</td><td>$35</td><td>$80</td></tr>
+        <tr><td>100,000</td><td>$30</td><td>$350</td><td>$800</td></tr>
+        <tr><td>1,000,000</td><td>$300</td><td>$3,500</td><td>$8,000</td></tr>
+        <tr><td>10,000,000</td><td>$3,000</td><td>$35,000</td><td>$80,000</td></tr>
+      </tbody>
+    </table></div>
+  </div>
 
-</div>
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/average-spotify-pay-per-stream.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
 
-<div class="result-card">
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense & CPM earnings</div></div>
+      </a>
+      <a href="tiktok-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(20,184,166,0.12)">♪</div>
+        <div><div class="related-name">TikTok Calculator</div><div class="related-desc">Creator Rewards + deals</div></div>
+      </a>
+      <a href="instagram-earnings-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(236,72,153,0.12)">◈</div>
+        <div><div class="related-name">Instagram Calculator</div><div class="related-desc">Sponsored post rates</div></div>
+      </a>
+      <a href="podcast-revenue-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">🎙</div>
+        <div><div class="related-name">Podcast Calculator</div><div class="related-desc">CPM ad revenue</div></div>
+      </a>
+  </div>
 
-<h3>Per 1M Streams</h3>
-
-<p id="million">$0</p>
-
-</div>
-
-<div class="result-card big">
-
-<h3>Projected Annual (if monthly streams)</h3>
-
-<p id="year">$0</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>How Much Does Spotify Pay Per Stream?</h2>
-
-<p>
-
-Spotify typically pays between <strong>$0.003 and $0.005 per stream</strong>.
-This means artists usually earn around:
-
-</p>
-
-<ul>
-
-<li>$3 – $5 per 1,000 streams</li>
-<li>$3,000 – $5,000 per 1 million streams</li>
-
-</ul>
-
-<p>
-
-Actual earnings depend on factors such as listener location,
-record label agreements and Spotify's royalty pool.
-
-</p>
-
-<p>
-
-Use this calculator to estimate your potential earnings
-based on your stream count.
-
-</p>
-
-</section>
+</main>
 
 <footer>
-
-<p>© 2026 Kalkil</p>
-
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
 </footer>
 
-<script>
-
-function calculate(){
-
-let streams =
-document.getElementById("streams").value;
-
-let rate =
-document.getElementById("rate").value;
-
-let earnings =
-streams * rate;
-
-let million =
-1000000 * rate;
-
-let yearly =
-earnings * 12;
-
-document.getElementById("result")
-.innerText = "$" + earnings.toFixed(2);
-
-document.getElementById("million")
-.innerText = "$" + million.toFixed(2);
-
-document.getElementById("year")
-.innerText = "$" + yearly.toFixed(2);
-
-}
-
-</script>
-
 </body>
-
 </html>

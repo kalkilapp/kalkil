@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnlyFans Earnings Calculator 2026 — Subscription & PPV Income | Kalkil</title>
+  <meta name="description" content="Free OnlyFans earnings calculator. Estimate monthly income from subscriptions, PPV content, and tips after OnlyFans' 20% cut.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="OnlyFans Earnings Calculator 2026 — Subscription & PPV Income | Kalkil">
+  <meta property="og:description" content="Free OnlyFans earnings calculator. Estimate monthly income from subscriptions, PPV content, and tips after OnlyFans' 20% cut.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #8b5cf6; }
+    .calc-btn { background: #7c3aed; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #7c3aed; }
+    .hero h1 em { color: #7c3aed; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">💎 OnlyFans · Earnings Calculator</div>
+  <h1>OnlyFans Earnings <em>Calculator</em></h1>
+  <p class="hero-sub">Estimate your net monthly income from subscriptions, PPV content, and tips — after OnlyFans' cut.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  OnlyFans Earnings Calculator 2026 — Subscription & PPV Income
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="of-subs">Active Subscribers</label>
+        <input type="number" id="of-subs" placeholder="e.g. 500" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="of-price">Monthly Subscription Price ($)</label>
+        <input type="number" id="of-price" placeholder="e.g. 9.99" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="of-ppv">Monthly PPV Revenue ($)</label>
+        <input type="number" id="of-ppv" placeholder="e.g. 1,500" oninput="calc()">
+        <span class="input-hint">Total Pay-Per-View content sold this month</span>
+      </div>
+      <div class="input-group">
+        <label for="of-tips">Monthly Tips ($)</label>
+        <input type="number" id="of-tips" placeholder="e.g. 500" oninput="calc()">
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate Earnings</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Subscription Revenue (80%)</div>
+        <div class="result-value" id="r-subs">$0</div>
+        <div class="result-note">After OnlyFans' 20% cut</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">PPV + Tips Revenue (80%)</div>
+        <div class="result-value" id="r-ppv">$0</div>
+        <div class="result-note">After OnlyFans' 20% cut</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Total Monthly Net</div>
+        <div class="result-value" id="r-monthly">$0</div>
+        <div class="result-note">Your take-home after fees</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Annual Estimate</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">Based on current monthly income</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      var s=parseFloat(document.getElementById('of-subs').value)||0;
+      var p=parseFloat(document.getElementById('of-price').value)||0;
+      var ppv=parseFloat(document.getElementById('of-ppv').value)||0;
+      var tips=parseFloat(document.getElementById('of-tips').value)||0;
+      var subRev=s*p*0.80;
+      var ppvRev=(ppv+tips)*0.80;
+      var monthly=subRev+ppvRev;
+      document.getElementById('r-subs').textContent=fmt(subRev);
+      document.getElementById('r-ppv').textContent=fmt(ppvRev);
+      document.getElementById('r-monthly').textContent=fmt(monthly);
+      document.getElementById('r-annual').textContent=fmt(monthly*12);
+    }
+    function reset(){['of-subs','of-price','of-ppv','of-tips'].forEach(function(i){document.getElementById(i).value='';});['r-subs','r-ppv','r-monthly','r-annual'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>How OnlyFans Revenue Works</h2>
+    <p>OnlyFans creators keep <strong>80% of all revenue</strong> — subscriptions, Pay-Per-View messages, tips, and custom content. OnlyFans retains 20%. This is one of the best creator revenue splits in the industry.</p>
+    <div class="highlight"><p><strong>80% creator share</strong> — better than YouTube (55%), Twitch (50%), and most other platforms. The business model rewards direct fan relationships.</p></div>
+    <h2>Income Distribution Reality</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Creator Tier</th><th>Estimated Monthly Net</th></tr></thead>
+      <tbody>
+        <tr><td>Bottom 50%</td><td>Under $200</td></tr>
+        <tr><td>Middle 30%</td><td>$200–$2,000</td></tr>
+        <tr><td>Top 15%</td><td>$2,000–$20,000</td></tr>
+        <tr><td>Top 4%</td><td>$20,000–$100,000+</td></tr>
+        <tr><td>Top 1%</td><td>$100,000–$1M+/month</td></tr>
+      </tbody>
+    </table></div>
+    <p>The median OnlyFans creator earns ~$150–$300/month. Top earners drive external traffic from TikTok, Instagram, and X — internal discovery is limited.</p>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/onlyfans-income-explained.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="patreon-income-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(245,158,11,0.12)">◆</div>
+        <div><div class="related-name">Patreon Calculator</div><div class="related-desc">Membership income</div></div>
+      </a>
+      <a href="twitch-earnings-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">◉</div>
+        <div><div class="related-name">Twitch Calculator</div><div class="related-desc">Subs, bits & ads</div></div>
+      </a>
+      <a href="instagram-earnings-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(236,72,153,0.12)">◈</div>
+        <div><div class="related-name">Instagram Calculator</div><div class="related-desc">Sponsored post rates</div></div>
+      </a>
+      <a href="influencer-rate-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">◆</div>
+        <div><div class="related-name">Influencer Rate Calc</div><div class="related-desc">Cross-platform rates</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+</body>
+</html>

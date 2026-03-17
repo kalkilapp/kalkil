@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patreon Income Calculator 2026 — Membership Revenue Estimator | Kalkil</title>
+  <meta name="description" content="Free Patreon income calculator. Estimate monthly membership revenue by patron count, tier pricing, and plan fees. Instant results.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Patreon Income Calculator 2026 — Membership Revenue Estimator | Kalkil">
+  <meta property="og:description" content="Free Patreon income calculator. Estimate monthly membership revenue by patron count, tier pricing, and plan fees. Instant results.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #f59e0b; }
+    .calc-btn { background: #b45309; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #b45309; }
+    .hero h1 em { color: #b45309; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">◆ Patreon · Membership Calculator</div>
+  <h1>Patreon Income <em>Calculator</em></h1>
+  <p class="hero-sub">Calculate your monthly membership income across three patron tiers — net of all Patreon fees.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  Patreon Income Calculator 2026 — Membership Revenue Estimator
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="pt-t1">Entry Tier Patrons</label>
+        <input type="number" id="pt-t1" placeholder="e.g. 200" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="pt-p1">Entry Tier Price ($)</label>
+        <input type="number" id="pt-p1" value="5" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="pt-t2">Core Tier Patrons</label>
+        <input type="number" id="pt-t2" placeholder="e.g. 80" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="pt-p2">Core Tier Price ($)</label>
+        <input type="number" id="pt-p2" value="10" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="pt-t3">Premium Tier Patrons</label>
+        <input type="number" id="pt-t3" placeholder="e.g. 20" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="pt-p3">Premium Tier Price ($)</label>
+        <input type="number" id="pt-p3" value="25" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="pt-plan">Patreon Plan</label>
+        <select id="pt-plan" onchange="calc()">
+          <option value="0.95">Lite (5% fee)</option>
+          <option value="0.92" selected>Pro (8% fee)</option>
+          <option value="0.88">Premium (12% fee)</option>
+        </select>
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate Income</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Gross Monthly Revenue</div>
+        <div class="result-value" id="r-gross">$0</div>
+        <div class="result-note">All tiers combined</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Patreon Fee</div>
+        <div class="result-value" id="r-fee">$0</div>
+        <div class="result-note">Platform + payment processing</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Your Net Monthly</div>
+        <div class="result-value" id="r-net">$0</div>
+        <div class="result-note">After all fees</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Annual Net Income</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">Recurring membership revenue</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      var t1=parseFloat(document.getElementById('pt-t1').value)||0;
+      var p1=parseFloat(document.getElementById('pt-p1').value)||5;
+      var t2=parseFloat(document.getElementById('pt-t2').value)||0;
+      var p2=parseFloat(document.getElementById('pt-p2').value)||10;
+      var t3=parseFloat(document.getElementById('pt-t3').value)||0;
+      var p3=parseFloat(document.getElementById('pt-p3').value)||25;
+      var plan=parseFloat(document.getElementById('pt-plan').value)||0.92;
+      var gross=(t1*p1)+(t2*p2)+(t3*p3);
+      var net=gross*plan*0.971;
+      var fee=gross-net;
+      document.getElementById('r-gross').textContent=fmt(gross);
+      document.getElementById('r-fee').textContent=fmt(fee);
+      document.getElementById('r-net').textContent=fmt(net);
+      document.getElementById('r-annual').textContent=fmt(net*12);
+    }
+    function reset(){['pt-t1','pt-t2','pt-t3'].forEach(function(i){document.getElementById(i).value='';});['r-gross','r-fee','r-net','r-annual'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>How Patreon Membership Income Works</h2>
+    <p>Patreon charges creators a platform fee (5–12% depending on plan) plus a payment processing fee (~2.9% + $0.30 per transaction). Your actual net is roughly 85–92% of gross membership revenue.</p>
+    <div class="highlight"><p><strong>Most Patreon revenue comes from the middle tier.</strong> Premium tiers convert only 5–10% of total patrons but generate disproportionate revenue — always include all three tiers.</p></div>
+    <h2>Conversion Rates from Existing Audience</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Content Type</th><th>Typical Conversion</th></tr></thead>
+      <tbody>
+        <tr><td>Podcast</td><td>1–3% of listeners become patrons</td></tr>
+        <tr><td>YouTube channel</td><td>0.5–2% of subscribers</td></tr>
+        <tr><td>Newsletter / blog</td><td>2–5% of subscribers</td></tr>
+        <tr><td>Twitch community</td><td>5–15% of regulars</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/patreon-earnings-guide.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="twitch-earnings-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">◉</div>
+        <div><div class="related-name">Twitch Calculator</div><div class="related-desc">Subs, bits & ads</div></div>
+      </a>
+      <a href="podcast-revenue-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">🎙</div>
+        <div><div class="related-name">Podcast Calculator</div><div class="related-desc">CPM ad revenue</div></div>
+      </a>
+      <a href="youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense & CPM earnings</div></div>
+      </a>
+      <a href="onlyfans-earnings-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">💎</div>
+        <div><div class="related-name">OnlyFans Calculator</div><div class="related-desc">Subscription earnings</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+</body>
+</html>

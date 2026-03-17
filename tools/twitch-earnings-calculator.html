@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitch Earnings Calculator 2026 — Subs, Bits & Ad Revenue | Kalkil</title>
+  <meta name="description" content="Free Twitch earnings calculator. Estimate monthly income from subscriptions, Bits, and ad revenue based on your sub count and average viewers.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Twitch Earnings Calculator 2026 — Subs, Bits & Ad Revenue | Kalkil">
+  <meta property="og:description" content="Free Twitch earnings calculator. Estimate monthly income from subscriptions, Bits, and ad revenue based on your sub count and average viewers.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #8b5cf6; }
+    .calc-btn { background: #7c3aed; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #7c3aed; }
+    .hero h1 em { color: #7c3aed; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">◉ Twitch · Income Calculator</div>
+  <h1>Twitch Earnings <em>Calculator</em></h1>
+  <p class="hero-sub">Estimate Twitch income from Tier 1/2/3 subs, Bits, and ad revenue at your viewer count.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  Twitch Earnings Calculator 2026 — Subs, Bits & Ad Revenue
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="tw-t1">Tier 1 Subscribers ($4.99)</label>
+        <input type="number" id="tw-t1" placeholder="e.g. 300" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="tw-t2">Tier 2 Subscribers ($9.99)</label>
+        <input type="number" id="tw-t2" placeholder="e.g. 50" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="tw-t3">Tier 3 Subscribers ($24.99)</label>
+        <input type="number" id="tw-t3" placeholder="e.g. 10" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="tw-bits">Monthly Bits (cheered)</label>
+        <input type="number" id="tw-bits" placeholder="e.g. 50,000" oninput="calc()">
+        <span class="input-hint">$0.01 per Bit cheered to you</span>
+      </div>
+      <div class="input-group">
+        <label for="tw-acv">Avg. Concurrent Viewers</label>
+        <input type="number" id="tw-acv" placeholder="e.g. 200" oninput="calc()">
+        <span class="input-hint">Used to estimate ad revenue (~$2–$4 CPM)</span>
+      </div>
+      <div class="input-group">
+        <label for="tw-hours">Stream Hours per Month</label>
+        <input type="number" id="tw-hours" placeholder="e.g. 80" oninput="calc()">
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Subscription Revenue</div>
+        <div class="result-value" id="r-subs">$0</div>
+        <div class="result-note">All tiers at 50% split</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Bits Revenue</div>
+        <div class="result-value" id="r-bits">$0</div>
+        <div class="result-note">$0.01 per Bit cheered</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Ad Revenue (est.)</div>
+        <div class="result-value" id="r-ads">$0</div>
+        <div class="result-note">~$3 CPM × ACV × stream hours</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Total Monthly Estimate</div>
+        <div class="result-value" id="r-total">$0</div>
+        <div class="result-note">Subs + Bits + Ads (before donations)</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      var t1=parseFloat(document.getElementById('tw-t1').value)||0;
+      var t2=parseFloat(document.getElementById('tw-t2').value)||0;
+      var t3=parseFloat(document.getElementById('tw-t3').value)||0;
+      var bits=parseFloat(document.getElementById('tw-bits').value)||0;
+      var acv=parseFloat(document.getElementById('tw-acv').value)||0;
+      var hrs=parseFloat(document.getElementById('tw-hours').value)||0;
+      var subs=(t1*2.50)+(t2*5.00)+(t3*12.50);
+      var brev=bits*0.01;
+      var ads=(acv/1000)*3*hrs;
+      document.getElementById('r-subs').textContent=fmt(subs);
+      document.getElementById('r-bits').textContent=fmt(brev);
+      document.getElementById('r-ads').textContent=fmt(ads);
+      document.getElementById('r-total').textContent=fmt(subs+brev+ads);
+    }
+    function reset(){['tw-t1','tw-t2','tw-t3','tw-bits','tw-acv','tw-hours'].forEach(function(i){document.getElementById(i).value='';});['r-subs','r-bits','r-ads','r-total'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>How Twitch Streaming Income Works</h2>
+    <p>Twitch income comes from four main sources: subscriptions (50% split with Twitch for most partners), Bits (virtual currency at $0.01/bit), ad revenue (~$2–$4 CPM on ad-viewing viewers), and direct donations through PayPal or third-party tools.</p>
+    <div class="highlight"><p><strong>Standard partner split: 50/50.</strong> Twitch ended new 70/30 deals in 2023. At Tier 1 ($4.99), you keep $2.50 per sub. Legacy 70/30 partners keep $3.49.</p></div>
+    <h2>Monthly Income by Avg. Concurrent Viewers</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Avg. Concurrent Viewers</th><th>Estimated Monthly Income</th></tr></thead>
+      <tbody>
+        <tr><td>Under 20 (pre-affiliate)</td><td>$0–$100</td></tr>
+        <tr><td>20–50 (affiliate)</td><td>$100–$500</td></tr>
+        <tr><td>50–200</td><td>$300–$2,000</td></tr>
+        <tr><td>200–1,000</td><td>$1,000–$8,000</td></tr>
+        <tr><td>1,000–5,000</td><td>$5,000–$30,000</td></tr>
+        <tr><td>5,000+</td><td>$20,000–$200,000+</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/twitch-streamer-income.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense & CPM earnings</div></div>
+      </a>
+      <a href="tiktok-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(20,184,166,0.12)">♪</div>
+        <div><div class="related-name">TikTok Calculator</div><div class="related-desc">Creator Rewards + deals</div></div>
+      </a>
+      <a href="podcast-revenue-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">🎙</div>
+        <div><div class="related-name">Podcast Calculator</div><div class="related-desc">CPM ad revenue</div></div>
+      </a>
+      <a href="patreon-income-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(245,158,11,0.12)">◆</div>
+        <div><div class="related-name">Patreon Calculator</div><div class="related-desc">Membership income</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+</body>
+</html>

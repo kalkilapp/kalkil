@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Influencer Rate Calculator 2026 — Cross-Platform Sponsorship Pricing | Kalkil</title>
+  <meta name="description" content="Free influencer rate calculator. Find out what to charge brands across YouTube, TikTok, Instagram, and podcasts based on your metrics and niche.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Influencer Rate Calculator 2026 — Cross-Platform Sponsorship Pricing | Kalkil">
+  <meta property="og:description" content="Free influencer rate calculator. Find out what to charge brands across YouTube, TikTok, Instagram, and podcasts based on your metrics and niche.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #8b5cf6; }
+    .calc-btn { background: #7c3aed; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #7c3aed; }
+    .hero h1 em { color: #7c3aed; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">◆ All Platforms · Influencer Rate Calculator</div>
+  <h1>Influencer Rate <em>Calculator</em></h1>
+  <p class="hero-sub">Calculate your sponsorship rate across any platform — with engagement and niche multipliers built in.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  Influencer Rate Calculator 2026 — Cross-Platform Sponsorship Pricing
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="ir-platform">Primary Platform</label>
+        <select id="ir-platform" onchange="calc()">
+          <option value="1.2">YouTube (highest per-deal rates)</option>
+          <option value="1.0" selected>Instagram</option>
+          <option value="0.7">TikTok</option>
+          <option value="0.9">Podcast</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="ir-followers">Followers / Subscribers</label>
+        <input type="number" id="ir-followers" placeholder="e.g. 100,000" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="ir-eng">Engagement Rate (%)</label>
+        <select id="ir-eng" onchange="calc()">
+          <option value="0.5">Under 1% (below avg)</option>
+          <option value="2" selected>1–3% (average)</option>
+          <option value="5">3–6% (good)</option>
+          <option value="8">6–10% (excellent)</option>
+          <option value="12">10%+ (top tier)</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="ir-niche">Niche</label>
+        <select id="ir-niche" onchange="calc()">
+          <option value="3">Finance / Business</option>
+          <option value="2.2">Tech / Software</option>
+          <option value="1.8" selected>Health / Fitness / Beauty</option>
+          <option value="1.4">Lifestyle / Travel / Food</option>
+          <option value="1.0">Entertainment / Gaming</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="ir-type">Integration Type</label>
+        <select id="ir-type" onchange="calc()">
+          <option value="1.0">Dedicated content (full video/post)</option>
+          <option value="0.6" selected>Integrated mention (60–90 sec)</option>
+          <option value="0.25">Brief mention / story</option>
+        </select>
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate My Rate</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Your Base Rate</div>
+        <div class="result-value" id="r-base">$0</div>
+        <div class="result-note">Per sponsored integration</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Engagement Adjusted Rate</div>
+        <div class="result-value" id="r-adj">$0</div>
+        <div class="result-note">After engagement premium/penalty</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Monthly (2 deals)</div>
+        <div class="result-value" id="r-monthly">$0</div>
+        <div class="result-note">At 2 sponsorships per month</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Annual Sponsorship Income</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">Based on 2 deals/month × 12 months</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      var plat=parseFloat(document.getElementById('ir-platform').value)||1.0;
+      var f=parseFloat(document.getElementById('ir-followers').value)||0;
+      var eng=parseFloat(document.getElementById('ir-eng').value)||2;
+      var niche=parseFloat(document.getElementById('ir-niche').value)||1.8;
+      var type=parseFloat(document.getElementById('ir-type').value)||0.6;
+      var base=(f/10000)*100*plat*type;
+      var engM=Math.max(eng/3,0.2);
+      var adj=base*engM*niche;
+      document.getElementById('r-base').textContent=fmt(base);
+      document.getElementById('r-adj').textContent=fmt(adj);
+      document.getElementById('r-monthly').textContent=fmt(adj*2);
+      document.getElementById('r-annual').textContent=fmt(adj*24);
+    }
+    function reset(){document.getElementById('ir-followers').value='';['r-base','r-adj','r-monthly','r-annual'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>How to Price Your Influencer Sponsorships</h2>
+    <p>Influencer rates are not set by platforms — they're negotiated directly between creators and brands. The standard industry formula is <strong>$100 per 10,000 followers</strong>, then adjusted for engagement rate, niche, platform, and content format.</p>
+    <div class="highlight"><p><strong>Key principle: engagement quality beats follower quantity.</strong> A 50K account with 8% engagement commands higher rates than a 500K account with 0.5% engagement.</p></div>
+    <h2>Rate Multipliers by Factor</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Factor</th><th>Low Multiplier</th><th>High Multiplier</th></tr></thead>
+      <tbody>
+        <tr><td>Engagement rate</td><td>0.3× (under 1%)</td><td>2× (10%+)</td></tr>
+        <tr><td>Niche (Entertainment vs Finance)</td><td>1×</td><td>3×</td></tr>
+        <tr><td>Platform (TikTok vs YouTube)</td><td>0.7×</td><td>1.2×</td></tr>
+        <tr><td>Brief mention vs dedicated content</td><td>0.25×</td><td>1×</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/creator-income-streams.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense & CPM earnings</div></div>
+      </a>
+      <a href="tiktok-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(20,184,166,0.12)">♪</div>
+        <div><div class="related-name">TikTok Calculator</div><div class="related-desc">Creator Rewards + deals</div></div>
+      </a>
+      <a href="instagram-earnings-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(236,72,153,0.12)">◈</div>
+        <div><div class="related-name">Instagram Calculator</div><div class="related-desc">Sponsored post rates</div></div>
+      </a>
+      <a href="spotify-royalty-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(34,197,94,0.12)">♫</div>
+        <div><div class="related-name">Spotify Calculator</div><div class="related-desc">Streaming royalties</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Shorts Earnings Calculator 2026 — Shorts RPM Estimate | Kalkil</title>
+  <meta name="description" content="Free YouTube Shorts earnings calculator. Compare Shorts RPM to long-form and estimate monthly Shorts revenue. Instant results.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="YouTube Shorts Earnings Calculator 2026 — Shorts RPM Estimate | Kalkil">
+  <meta property="og:description" content="Free YouTube Shorts earnings calculator. Compare Shorts RPM to long-form and estimate monthly Shorts revenue. Instant results.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #ef4444; }
+    .calc-btn { background: #ef4444; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #ef4444; }
+    .hero h1 em { color: #ef4444; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">⚡ YouTube Shorts · Earnings Calculator</div>
+  <h1>YouTube Shorts <em>Calculator</em></h1>
+  <p class="hero-sub">See how much Shorts earns vs. long-form for the same views — and plan your content mix.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  YouTube Shorts Earnings Calculator 2026 — Shorts RPM Estimate
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="s-views">Monthly Shorts Views</label>
+        <input type="number" id="s-views" placeholder="e.g. 5,000,000" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="s-rpm">Shorts RPM ($ per 1,000 views)</label>
+        <select id="s-rpm" onchange="calc()">
+          <option value="0.03">Low — $0.03 per 1K</option>
+          <option value="0.05" selected>Average — $0.05 per 1K</option>
+          <option value="0.07">High — $0.07 per 1K</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="lf-views">Long-Form Views (same period)</label>
+        <input type="number" id="lf-views" placeholder="e.g. 50,000" oninput="calc()">
+        <span class="input-hint">Compare Shorts income to long-form for the same effort</span>
+      </div>
+      <div class="input-group">
+        <label for="lf-rpm">Long-Form RPM ($)</label>
+        <input type="number" id="lf-rpm" value="4" oninput="calc()">
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Shorts Monthly Earnings</div>
+        <div class="result-value" id="r-shorts">$0</div>
+        <div class="result-note">From Creator Rewards pool</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Long-Form Monthly Earnings</div>
+        <div class="result-value" id="r-longform">$0</div>
+        <div class="result-note">AdSense at your RPM</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Shorts Annual Estimate</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">Based on your monthly Shorts views</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Combined Total (Monthly)</div>
+        <div class="result-value" id="r-total">$0</div>
+        <div class="result-note">Shorts + Long-form combined</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      var sv=parseFloat(document.getElementById('s-views').value)||0;
+      var srpm=parseFloat(document.getElementById('s-rpm').value)||0.05;
+      var lv=parseFloat(document.getElementById('lf-views').value)||0;
+      var lrpm=parseFloat(document.getElementById('lf-rpm').value)||0;
+      var se=(sv/1000)*srpm;
+      var le=(lv/1000)*lrpm;
+      document.getElementById('r-shorts').textContent=fmt(se);
+      document.getElementById('r-longform').textContent=fmt(le);
+      document.getElementById('r-annual').textContent=fmt(se*12);
+      document.getElementById('r-total').textContent=fmt(se+le);
+    }
+    function reset(){['s-views','lf-views'].forEach(function(i){document.getElementById(i).value='';});document.getElementById('lf-rpm').value=4;['r-shorts','r-longform','r-annual','r-total'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>How YouTube Shorts Monetization Works</h2>
+    <p>Shorts uses a <strong>pooled ad revenue model</strong> different from standard YouTube monetization. Ads appear between Shorts in the feed — not on individual videos — and the revenue from those ads is distributed to creators based on their share of total platform Shorts views.</p>
+    <div class="highlight"><p><strong>Creators receive 45% of Shorts ad revenue.</strong> Effective RPM: $0.03–$0.07 per 1,000 views — roughly 50–100× less than long-form AdSense.</p></div>
+    <h2>Shorts vs. Long-Form: Revenue Comparison</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Format</th><th>RPM Range</th><th>Per 1M Views</th><th>Best Use</th></tr></thead>
+      <tbody>
+        <tr><td>YouTube Long-Form</td><td>$2–$15+</td><td>$2,000–$15,000</td><td>Primary income</td></tr>
+        <tr><td>YouTube Shorts</td><td>$0.03–$0.07</td><td>$30–$70</td><td>Audience growth</td></tr>
+        <tr><td>TikTok Creator Rewards</td><td>$0.02–$0.04</td><td>$20–$40</td><td>Brand deal pipeline</td></tr>
+        <tr><td>Instagram Reels Bonus</td><td>$0.01–$0.06</td><td>$10–$60</td><td>Reach expansion</td></tr>
+      </tbody>
+    </table></div>
+    <p><strong>Strategic takeaway:</strong> Shorts is a growth engine, not a revenue engine. A viral Short that adds 50,000 subscribers can generate far more long-form AdSense income than the Short itself ever earns.</p>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/how-much-do-youtube-shorts-pay.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense & CPM earnings</div></div>
+      </a>
+      <a href="youtube-cpm-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">📊</div>
+        <div><div class="related-name">YouTube CPM Calculator</div><div class="related-desc">CPM to RPM breakdown</div></div>
+      </a>
+      <a href="youtube-sponsorship-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">🤝</div>
+        <div><div class="related-name">Sponsorship Calculator</div><div class="related-desc">Brand deal value</div></div>
+      </a>
+      <a href="tiktok-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(20,184,166,0.12)">♪</div>
+        <div><div class="related-name">TikTok Calculator</div><div class="related-desc">Creator Rewards + deals</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+</body>
+</html>

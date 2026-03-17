@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Engagement Rate Calculator 2026 — Benchmark Your Account | Kalkil</title>
+  <meta name="description" content="Free Instagram engagement rate calculator. Calculate your ER instantly and benchmark it against your follower tier. Standard and extended formula.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Instagram Engagement Rate Calculator 2026 — Benchmark Your Account | Kalkil">
+  <meta property="og:description" content="Free Instagram engagement rate calculator. Calculate your ER instantly and benchmark it against your follower tier. Standard and extended formula.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="calc-style.css">
+  <style>
+    .hero::before { background: #ec4899; }
+    .calc-btn { background: #be185d; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #be185d; }
+    .hero h1 em { color: #be185d; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../tools.html" class="nav-cta">All Calculators</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">📈 Instagram · Engagement Rate Calculator</div>
+  <h1>Instagram Engagement <em>Calculator</em></h1>
+  <p class="hero-sub">Calculate your engagement rate and see how it benchmarks against your follower tier.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="../index.html">Home</a><span>›</span>
+  <a href="../tools.html">Calculators</a><span>›</span>
+  Instagram Engagement Rate Calculator 2026 — Benchmark Your Account
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Free · No sign-up · Instant results</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="ie-likes">Total Likes (last post)</label>
+        <input type="number" id="ie-likes" placeholder="e.g. 2,400" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="ie-comments">Total Comments (last post)</label>
+        <input type="number" id="ie-comments" placeholder="e.g. 180" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="ie-saves">Saves (optional)</label>
+        <input type="number" id="ie-saves" placeholder="e.g. 350" oninput="calc()">
+        <span class="input-hint">Including saves gives a more complete engagement picture</span>
+      </div>
+      <div class="input-group">
+        <label for="ie-followers">Your Followers</label>
+        <input type="number" id="ie-followers" placeholder="e.g. 45,000" oninput="calc()">
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate Rate</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Standard Engagement Rate</div>
+        <div class="result-value" id="r-standard">0.00%</div>
+        <div class="result-note">(Likes + Comments) ÷ Followers × 100</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Extended Engagement Rate</div>
+        <div class="result-value" id="r-extended">0.00%</div>
+        <div class="result-note">Includes saves — preferred by brands</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Benchmark for Your Tier</div>
+        <div class="result-value" id="r-bench">—</div>
+        <div class="result-note">Average for your follower count</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Your Rating</div>
+        <div class="result-value" id="r-rating">—</div>
+        <div class="result-note">Vs. industry benchmark for your tier</div>
+      </div>
+    </div>
+    <script>
+    function calc(){
+      var l=parseFloat(document.getElementById('ie-likes').value)||0;
+      var c=parseFloat(document.getElementById('ie-comments').value)||0;
+      var s=parseFloat(document.getElementById('ie-saves').value)||0;
+      var f=parseFloat(document.getElementById('ie-followers').value)||1;
+      var std=((l+c)/f)*100;
+      var ext=((l+c+s)/f)*100;
+      document.getElementById('r-standard').textContent=std.toFixed(2)+'%';
+      document.getElementById('r-extended').textContent=ext.toFixed(2)+'%';
+      var bench,label;
+      if(f<10000){bench=7;label='Nano (1K–10K)'}
+      else if(f<100000){bench=4.5;label='Micro (10K–100K)'}
+      else if(f<500000){bench=2.5;label='Mid-tier (100K–500K)'}
+      else if(f<1000000){bench=1.5;label='Macro (500K–1M)'}
+      else{bench=0.8;label='Mega (1M+)'}
+      document.getElementById('r-bench').textContent=bench+'% avg ('+label+')';
+      var rating=std>=bench*1.5?'Excellent':std>=bench?'Good':'Below avg';
+      document.getElementById('r-rating').textContent=rating;
+    }
+    function reset(){['ie-likes','ie-comments','ie-saves','ie-followers'].forEach(function(i){document.getElementById(i).value='';});['r-standard','r-extended'].forEach(function(i){document.getElementById(i).textContent='0.00%';});document.getElementById('r-bench').textContent='—';document.getElementById('r-rating').textContent='—';}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>What Is Instagram Engagement Rate?</h2>
+    <p>Engagement rate measures how actively your audience interacts with your content. It's the single most important metric brands check before agreeing to a sponsorship — often more important than raw follower count.</p>
+    <div class="highlight"><p><strong>Standard ER = (Likes + Comments) ÷ Followers × 100</strong><br>Extended ER adds saves and shares for a more complete view.</p></div>
+    <h2>Engagement Rate Benchmarks by Follower Tier</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Account Size</th><th>Average ER</th><th>Good ER</th><th>Excellent ER</th></tr></thead>
+      <tbody>
+        <tr><td>Nano (1K–10K)</td><td>5–10%</td><td>8%+</td><td>12%+</td></tr>
+        <tr><td>Micro (10K–100K)</td><td>3–6%</td><td>5%+</td><td>8%+</td></tr>
+        <tr><td>Mid-tier (100K–500K)</td><td>1–3%</td><td>2.5%+</td><td>4%+</td></tr>
+        <tr><td>Macro (500K–1M)</td><td>0.5–2%</td><td>1.5%+</td><td>2.5%+</td></tr>
+        <tr><td>Mega (1M+)</td><td>0.3–1%</td><td>0.8%+</td><td>1.5%+</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Want to understand the numbers?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="../guides/instagram-engagement-rate-explained.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="instagram-earnings-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(236,72,153,0.12)">◈</div>
+        <div><div class="related-name">Instagram Calculator</div><div class="related-desc">Sponsored post rates</div></div>
+      </a>
+      <a href="tiktok-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(20,184,166,0.12)">♪</div>
+        <div><div class="related-name">TikTok Calculator</div><div class="related-desc">Creator Rewards + deals</div></div>
+      </a>
+      <a href="youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense & CPM earnings</div></div>
+      </a>
+      <a href="influencer-rate-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">◆</div>
+        <div><div class="related-name">Influencer Rate Calc</div><div class="related-desc">Cross-platform rates</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../tools.html">Calculators</a>
+    <a href="../guides.html">Guides</a>
+    <a href="../about.html">About</a>
+  </div>
+  <p>© 2026 <a href="../index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+</body>
+</html>
