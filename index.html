@@ -10,7 +10,12 @@
   <meta property="og:title" content="Kalkil — Free Creator Earnings Calculators 2026">
   <meta property="og:description" content="Estimate your earnings on YouTube, TikTok, Spotify, Instagram, Twitch and more. Free calculators and guides for creators.">
   <meta property="og:type" content="website">
-  <link rel="canonical" href="https://kalkil.com/">
+  <link rel="canonical" href="https://kalkilapp.com/">
+  <link rel="alternate" hreflang="en" href="https://kalkilapp.com/">
+  <link rel="alternate" hreflang="es" href="https://kalkilapp.com/?lang=es">
+  <link rel="alternate" hreflang="pt" href="https://kalkilapp.com/?lang=pt">
+  <link rel="alternate" hreflang="fr" href="https://kalkilapp.com/?lang=fr">
+  <link rel="alternate" hreflang="x-default" href="https://kalkilapp.com/">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -788,6 +793,24 @@
     .anim-2 { animation-delay: .10s; }
     .anim-3 { animation-delay: .15s; }
     .anim-4 { animation-delay: .20s; }
+
+    /* Language switcher */
+    #lang-switcher { display: flex; gap: 2px; align-items: center; }
+    .lang-btn {
+      background: transparent;
+      color: rgba(255,255,255,0.5);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 3px 7px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: var(--sans);
+      letter-spacing: 0.3px;
+      transition: all .15s;
+    }
+    .lang-btn.lang-active { background: #22c55e; color: white; border-color: #22c55e; }
+    .lang-btn:hover:not(.lang-active) { color: white; border-color: rgba(255,255,255,0.4); }
   </style>
 
 <!-- Google tag (gtag.js) -->
@@ -810,11 +833,12 @@
   <nav>
     <a href="index.html" class="brand">Kalkil</a>
     <div class="nav-links">
-      <a href="index.html" class="active">Home</a>
-      <a href="tools.html">Tools</a>
-      <a href="guides.html">Guides</a>
-      <a href="about.html">About</a>
-      <a href="tools.html" class="nav-cta">All Calculators →</a>
+      <a href="index.html" class="active" data-i18n="nav.home">Home</a>
+      <a href="tools.html" data-i18n="nav.tools">Tools</a>
+      <a href="guides.html" data-i18n="nav.guides">Guides</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <div id="lang-switcher"></div>
+      <a href="tools.html" class="nav-cta" data-i18n="nav.cta">All Calculators →</a>
     </div>
   </nav>
 </header>
@@ -824,15 +848,15 @@
      HERO
 ══════════════════════════════ -->
 <section class="hero">
-  <div class="hero-eyebrow">Free Creator Economy Tools — 2026</div>
-  <h1>Know Exactly What<br>Your Content Is <em>Worth</em></h1>
-  <p class="hero-sub">
+  <div class="hero-eyebrow" data-i18n="hero.eyebrow">Free Creator Economy Tools — 2026</div>
+  <h1 data-i18n-html="hero.h1">Know Exactly What<br>Your Content Is <em>Worth</em></h1>
+  <p class="hero-sub" data-i18n="hero.sub">
     Instant earnings calculators for YouTube, TikTok, Spotify, Instagram,
     Twitch and more. Free, accurate, no sign-up.
   </p>
   <div class="hero-btns">
-    <a href="#calculator" class="btn-primary">Try the Calculator ↓</a>
-    <a href="guides.html" class="btn-secondary">Read the Guides →</a>
+    <a href="#calculator" class="btn-primary" data-i18n="hero.btn1">Try the Calculator ↓</a>
+    <a href="guides.html" class="btn-secondary" data-i18n="hero.btn2">Read the Guides →</a>
   </div>
   <div class="platform-pills">
     <a href="tools/youtube-money-calculator.html" class="ppill"><span class="pdot" style="background:#ef4444"></span> YouTube</a>
@@ -850,11 +874,11 @@
 ══════════════════════════════ -->
 <section class="calc-section" id="calculator">
   <div class="calc-inner">
-    <div class="section-label">Quick Calculator</div>
+    <div class="section-label" data-i18n="calc.label">Quick Calculator</div>
     <div class="calc-header">
       <div>
-        <h2>Creator Earnings Calculator</h2>
-        <p style="margin-top:8px;">Pick a platform, enter your numbers, get an instant estimate.</p>
+        <h2 data-i18n="calc.title">Creator Earnings Calculator</h2>
+        <p style="margin-top:8px;" data-i18n="calc.sub">Pick a platform, enter your numbers, get an instant estimate.</p>
       </div>
     </div>
 
@@ -878,17 +902,17 @@
     <div class="calc-widget active" id="calc-youtube">
       <div class="calc-inputs">
         <div class="input-group">
-          <label for="yt-views">Monthly Views</label>
+          <label for="yt-views" data-i18n="yt.views">Monthly Views</label>
           <input type="number" id="yt-views" placeholder="e.g. 500000" oninput="calcYT()">
-          <span class="input-hint">Total views across all videos this month</span>
+          <span class="input-hint" data-i18n="yt.views.hint">Total views across all videos this month</span>
         </div>
         <div class="input-group">
-          <label for="yt-cpm">Your CPM ($)</label>
+          <label for="yt-cpm" data-i18n="yt.cpm">Your CPM ($)</label>
           <input type="number" id="yt-cpm" value="4" oninput="calcYT()">
-          <span class="input-hint">Avg: Finance $15 · Tech $8 · Gaming $3 · Vlogs $2</span>
+          <span class="input-hint" data-i18n="yt.cpm.hint">Avg: Finance $15 · Tech $8 · Gaming $3 · Vlogs $2</span>
         </div>
         <div class="input-group">
-          <label for="yt-niche">Niche</label>
+          <label for="yt-niche" data-i18n="yt.niche">Niche</label>
           <select id="yt-niche" onchange="setYTCPM()">
             <option value="">— Select your niche —</option>
             <option value="20">Personal Finance ($20 CPM)</option>
@@ -901,24 +925,24 @@
           </select>
         </div>
         <div class="calc-cta-row">
-          <a href="tools/youtube-money-calculator.html" class="calc-link">Full YouTube Calculator →</a>
+          <a href="tools/youtube-money-calculator.html" class="calc-link" data-i18n="yt.link">Full YouTube Calculator →</a>
         </div>
       </div>
       <div class="calc-results">
         <div class="result-card">
-          <div class="result-label">Monthly AdSense (RPM)</div>
+          <div class="result-label" data-i18n="yt.res1">Monthly AdSense (RPM)</div>
           <div class="result-value" id="yt-monthly">$0</div>
-          <div class="result-note">After YouTube's 45% cut</div>
+          <div class="result-note" data-i18n="yt.note1">After YouTube's 45% cut</div>
         </div>
         <div class="result-card">
-          <div class="result-label">Annual Estimate</div>
+          <div class="result-label" data-i18n="yt.res2">Annual Estimate</div>
           <div class="result-value" id="yt-annual">$0</div>
-          <div class="result-note">AdSense only · Add sponsorships for full picture</div>
+          <div class="result-note" data-i18n="yt.note2">AdSense only · Add sponsorships for full picture</div>
         </div>
         <div class="result-card total">
-          <div class="result-label">Earnings per 1,000 views</div>
+          <div class="result-label" data-i18n="yt.res3">Earnings per 1,000 views</div>
           <div class="result-value" id="yt-rpm">$0</div>
-          <div class="result-note">Your estimated RPM</div>
+          <div class="result-note" data-i18n="yt.note3">Your estimated RPM</div>
         </div>
       </div>
     </div>
@@ -927,12 +951,12 @@
     <div class="calc-widget" id="calc-spotify">
       <div class="calc-inputs">
         <div class="input-group">
-          <label for="sp-streams">Monthly Streams</label>
+          <label for="sp-streams" data-i18n="sp.streams">Monthly Streams</label>
           <input type="number" id="sp-streams" placeholder="e.g. 100000" oninput="calcSP()">
-          <span class="input-hint">Total Spotify streams across your catalog</span>
+          <span class="input-hint" data-i18n="sp.streams.hint">Total Spotify streams across your catalog</span>
         </div>
         <div class="input-group">
-          <label for="sp-market">Primary Listener Market</label>
+          <label for="sp-market" data-i18n="sp.market">Primary Listener Market</label>
           <select id="sp-market" onchange="calcSP()">
             <option value="0.008">US / Canada (Premium heavy)</option>
             <option value="0.006" selected>Mixed Global Average</option>
@@ -942,24 +966,24 @@
           </select>
         </div>
         <div class="calc-cta-row">
-          <a href="tools/spotify-royalty-calculator.html" class="calc-link">Full Spotify Calculator →</a>
+          <a href="tools/spotify-royalty-calculator.html" class="calc-link" data-i18n="sp.link">Full Spotify Calculator →</a>
         </div>
       </div>
       <div class="calc-results">
         <div class="result-card">
-          <div class="result-label">Monthly Royalties</div>
+          <div class="result-label" data-i18n="sp.res1">Monthly Royalties</div>
           <div class="result-value" id="sp-monthly">$0</div>
-          <div class="result-note">Before distributor fees</div>
+          <div class="result-note" data-i18n="sp.note1">Before distributor fees</div>
         </div>
         <div class="result-card">
-          <div class="result-label">Annual Estimate</div>
+          <div class="result-label" data-i18n="sp.res2">Annual Estimate</div>
           <div class="result-value" id="sp-annual">$0</div>
-          <div class="result-note">Based on your current stream rate</div>
+          <div class="result-note" data-i18n="sp.note2">Based on your current stream rate</div>
         </div>
         <div class="result-card total">
-          <div class="result-label">Per 1,000 Streams</div>
+          <div class="result-label" data-i18n="sp.res3">Per 1,000 Streams</div>
           <div class="result-value" id="sp-per1k">$0</div>
-          <div class="result-note">Your effective rate</div>
+          <div class="result-note" data-i18n="sp.note3">Your effective rate</div>
         </div>
       </div>
     </div>
@@ -968,16 +992,16 @@
     <div class="calc-widget" id="calc-tiktok">
       <div class="calc-inputs">
         <div class="input-group">
-          <label for="tt-views">Monthly Views</label>
+          <label for="tt-views" data-i18n="tt.views">Monthly Views</label>
           <input type="number" id="tt-views" placeholder="e.g. 1000000" oninput="calcTT()">
         </div>
         <div class="input-group">
-          <label for="tt-followers">Followers</label>
+          <label for="tt-followers" data-i18n="tt.followers">Followers</label>
           <input type="number" id="tt-followers" placeholder="e.g. 50000" oninput="calcTT()">
-          <span class="input-hint">Used to estimate sponsorship potential</span>
+          <span class="input-hint" data-i18n="tt.followers.hint">Used to estimate sponsorship potential</span>
         </div>
         <div class="input-group">
-          <label for="tt-eng">Engagement Rate (%)</label>
+          <label for="tt-eng" data-i18n="tt.eng">Engagement Rate (%)</label>
           <select id="tt-eng" onchange="calcTT()">
             <option value="0.015">Low — under 3%</option>
             <option value="0.030" selected>Average — 3–6%</option>
@@ -986,24 +1010,24 @@
           </select>
         </div>
         <div class="calc-cta-row">
-          <a href="tools/tiktok-money-calculator.html" class="calc-link">Full TikTok Calculator →</a>
+          <a href="tools/tiktok-money-calculator.html" class="calc-link" data-i18n="tt.link">Full TikTok Calculator →</a>
         </div>
       </div>
       <div class="calc-results">
         <div class="result-card">
-          <div class="result-label">Creator Rewards (monthly)</div>
+          <div class="result-label" data-i18n="tt.res1">Creator Rewards (monthly)</div>
           <div class="result-value" id="tt-rewards">$0</div>
-          <div class="result-note">From TikTok's Creator Rewards Program</div>
+          <div class="result-note" data-i18n="tt.note1">From TikTok's Creator Rewards Program</div>
         </div>
         <div class="result-card">
-          <div class="result-label">Sponsorship Potential</div>
+          <div class="result-label" data-i18n="tt.res2">Sponsorship Potential</div>
           <div class="result-value" id="tt-sponsor">$0</div>
-          <div class="result-note">Estimated per sponsored post</div>
+          <div class="result-note" data-i18n="tt.note2">Estimated per sponsored post</div>
         </div>
         <div class="result-card total">
-          <div class="result-label">Monthly Total Est.</div>
+          <div class="result-label" data-i18n="tt.res3">Monthly Total Est.</div>
           <div class="result-value" id="tt-total">$0</div>
-          <div class="result-note">Rewards + 2 sponsorships/month</div>
+          <div class="result-note" data-i18n="tt.note3">Rewards + 2 sponsorships/month</div>
         </div>
       </div>
     </div>
@@ -1012,11 +1036,11 @@
     <div class="calc-widget" id="calc-instagram">
       <div class="calc-inputs">
         <div class="input-group">
-          <label for="ig-followers">Followers</label>
+          <label for="ig-followers" data-i18n="ig.followers">Followers</label>
           <input type="number" id="ig-followers" placeholder="e.g. 50000" oninput="calcIG()">
         </div>
         <div class="input-group">
-          <label for="ig-eng">Engagement Rate</label>
+          <label for="ig-eng" data-i18n="ig.eng">Engagement Rate</label>
           <select id="ig-eng" onchange="calcIG()">
             <option value="0.5">Under 1% (low)</option>
             <option value="2" selected>1–3% (average)</option>
@@ -1026,7 +1050,7 @@
           </select>
         </div>
         <div class="input-group">
-          <label for="ig-niche">Niche</label>
+          <label for="ig-niche" data-i18n="ig.niche">Niche</label>
           <select id="ig-niche" onchange="calcIG()">
             <option value="3">Finance / Tech (premium)</option>
             <option value="2" selected>Fashion / Beauty / Fitness</option>
@@ -1035,24 +1059,24 @@
           </select>
         </div>
         <div class="calc-cta-row">
-          <a href="tools/instagram-earnings-calculator.html" class="calc-link">Full Instagram Calculator →</a>
+          <a href="tools/instagram-earnings-calculator.html" class="calc-link" data-i18n="ig.link">Full Instagram Calculator →</a>
         </div>
       </div>
       <div class="calc-results">
         <div class="result-card">
-          <div class="result-label">Feed Post Rate</div>
+          <div class="result-label" data-i18n="ig.res1">Feed Post Rate</div>
           <div class="result-value" id="ig-feed">$0</div>
-          <div class="result-note">Estimated per sponsored feed post</div>
+          <div class="result-note" data-i18n="ig.note1">Estimated per sponsored feed post</div>
         </div>
         <div class="result-card">
-          <div class="result-label">Reel Rate</div>
+          <div class="result-label" data-i18n="ig.res2">Reel Rate</div>
           <div class="result-value" id="ig-reel">$0</div>
-          <div class="result-note">Reels earn ~30% more than feed posts</div>
+          <div class="result-note" data-i18n="ig.note2">Reels earn ~30% more than feed posts</div>
         </div>
         <div class="result-card total">
-          <div class="result-label">Monthly (2 deals)</div>
+          <div class="result-label" data-i18n="ig.res3">Monthly (2 deals)</div>
           <div class="result-value" id="ig-monthly">$0</div>
-          <div class="result-note">2 sponsored posts per month</div>
+          <div class="result-note" data-i18n="ig.note3">2 sponsored posts per month</div>
         </div>
       </div>
     </div>
@@ -1068,19 +1092,19 @@
   <div class="stats-inner">
     <div class="stat-item">
       <span class="stat-num"><em>14</em></span>
-      <div class="stat-lbl">Free calculators</div>
+      <div class="stat-lbl" data-i18n="stats.calcs">Free calculators</div>
     </div>
     <div class="stat-item">
       <span class="stat-num"><em>30</em></span>
-      <div class="stat-lbl">Creator economy guides</div>
+      <div class="stat-lbl" data-i18n="stats.guides">Creator economy guides</div>
     </div>
     <div class="stat-item">
       <span class="stat-num"><em>6</em></span>
-      <div class="stat-lbl">Platforms covered</div>
+      <div class="stat-lbl" data-i18n="stats.platforms">Platforms covered</div>
     </div>
     <div class="stat-item">
       <span class="stat-num"><em>2026</em></span>
-      <div class="stat-lbl">Data updated</div>
+      <div class="stat-lbl" data-i18n="stats.updated">Data updated</div>
     </div>
   </div>
 </section>
@@ -1092,10 +1116,10 @@
 <section class="section">
   <div class="section-head">
     <div>
-      <div class="section-label">Popular Tools</div>
-      <h2>Creator Earnings Calculators</h2>
+      <div class="section-label" data-i18n="tools.label">Popular Tools</div>
+      <h2 data-i18n="tools.h2">Creator Earnings Calculators</h2>
     </div>
-    <a href="tools.html" class="see-all">See all 14 tools →</a>
+    <a href="tools.html" class="see-all" data-i18n="tools.all">See all 14 tools →</a>
   </div>
 
   <div class="tools-grid">
@@ -1104,56 +1128,56 @@
       <div class="card-ico ico-yt">▶</div>
       <div class="card-title">YouTube Money Calculator</div>
       <p class="card-desc">Estimate AdSense earnings from your views and CPM. Includes RPM breakdown and niche comparison for 10+ content categories.</p>
-      <div class="card-open open-yt">Open Calculator →</div>
+      <div class="card-open open-yt" data-i18n="card.open">Open Calculator →</div>
     </a>
 
     <a href="tools/tiktok-money-calculator.html" class="tool-card anim anim-2" data-color="tt">
       <div class="card-ico ico-tt">♪</div>
       <div class="card-title">TikTok Money Calculator</div>
       <p class="card-desc">Estimate Creator Rewards income and sponsorship potential from your follower count and monthly views.</p>
-      <div class="card-open open-tt">Open Calculator →</div>
+      <div class="card-open open-tt" data-i18n="card.open">Open Calculator →</div>
     </a>
 
     <a href="tools/spotify-royalty-calculator.html" class="tool-card anim anim-3" data-color="sp">
       <div class="card-ico ico-sp">♫</div>
       <div class="card-title">Spotify Royalty Calculator</div>
       <p class="card-desc">Calculate streaming royalties based on stream count, listener geography, and your distribution deal structure.</p>
-      <div class="card-open open-sp">Open Calculator →</div>
+      <div class="card-open open-sp" data-i18n="card.open">Open Calculator →</div>
     </a>
 
     <a href="tools/instagram-earnings-calculator.html" class="tool-card anim anim-4" data-color="ig">
       <div class="card-ico ico-ig">◈</div>
       <div class="card-title">Instagram Earnings Calculator</div>
       <p class="card-desc">Find out what brands will pay for your sponsored content based on followers, engagement rate, and niche.</p>
-      <div class="card-open open-ig">Open Calculator →</div>
+      <div class="card-open open-ig" data-i18n="card.open">Open Calculator →</div>
     </a>
 
     <a href="tools/twitch-earnings-calculator.html" class="tool-card anim anim-1" data-color="tw">
       <div class="card-ico ico-tw">◉</div>
       <div class="card-title">Twitch Earnings Calculator</div>
       <p class="card-desc">Estimate monthly income from subscriptions, Bits, ad revenue, and donations based on your viewer and sub count.</p>
-      <div class="card-open open-tw">Open Calculator →</div>
+      <div class="card-open open-tw" data-i18n="card.open">Open Calculator →</div>
     </a>
 
     <a href="tools/patreon-income-calculator.html" class="tool-card anim anim-2" data-color="pt">
       <div class="card-ico ico-pt">◆</div>
       <div class="card-title">Patreon Income Calculator</div>
       <p class="card-desc">Calculate monthly membership income from your patron count, tier pricing, and plan fee structure.</p>
-      <div class="card-open open-pt">Open Calculator →</div>
+      <div class="card-open open-pt" data-i18n="card.open">Open Calculator →</div>
     </a>
 
     <a href="tools/youtube-shorts-calculator.html" class="tool-card anim anim-3" data-color="yt">
       <div class="card-ico ico-yt">⚡</div>
       <div class="card-title">YouTube Shorts Calculator</div>
       <p class="card-desc">See how Shorts revenue compares to long-form for the same views. Essential for planning your YouTube content mix.</p>
-      <div class="card-open open-yt">Open Calculator →</div>
+      <div class="card-open open-yt" data-i18n="card.open">Open Calculator →</div>
     </a>
 
     <a href="tools/influencer-rate-calculator.html" class="tool-card anim anim-4" data-color="tw">
       <div class="card-ico ico-tw">◆</div>
       <div class="card-title">Influencer Rate Calculator</div>
       <p class="card-desc">Find out exactly what to charge brands across any platform with engagement rate premiums and niche multipliers built in.</p>
-      <div class="card-open open-tw">Open Calculator →</div>
+      <div class="card-open open-tw" data-i18n="card.open">Open Calculator →</div>
     </a>
 
   </div>
@@ -1167,25 +1191,25 @@
   <div class="section">
     <div class="section-head">
       <div>
-        <div class="section-label">How It Works</div>
-        <h2>Instant Estimates in 3 Steps</h2>
+        <div class="section-label" data-i18n="how.label">How It Works</div>
+        <h2 data-i18n="how.h2">Instant Estimates in 3 Steps</h2>
       </div>
     </div>
     <div class="how-grid">
       <div class="how-card">
         <div class="how-step">1</div>
-        <div class="how-title">Choose Your Platform</div>
-        <p class="how-desc">Select from YouTube, TikTok, Spotify, Instagram, Twitch, Patreon, or 8 other creator platforms. Each calculator is built specifically for that platform's payment model.</p>
+        <div class="how-title" data-i18n="how.step1">Choose Your Platform</div>
+        <p class="how-desc" data-i18n="how.step1.desc">Select from YouTube, TikTok, Spotify, Instagram, Twitch, Patreon, or 8 other creator platforms. Each calculator is built specifically for that platform's payment model.</p>
       </div>
       <div class="how-card">
         <div class="how-step">2</div>
-        <div class="how-title">Enter Your Numbers</div>
-        <p class="how-desc">Input your view count, stream count, follower count, or subscriber numbers. Adjust for your niche, audience geography, and engagement rate for a more accurate estimate.</p>
+        <div class="how-title" data-i18n="how.step2">Enter Your Numbers</div>
+        <p class="how-desc" data-i18n="how.step2.desc">Input your view count, stream count, follower count, or subscriber numbers. Adjust for your niche, audience geography, and engagement rate for a more accurate estimate.</p>
       </div>
       <div class="how-card">
         <div class="how-step">3</div>
-        <div class="how-title">Get Your Estimate</div>
-        <p class="how-desc">See projected monthly and annual earnings instantly. Link directly to our guides for the context behind the numbers — so you know what levers to pull to earn more.</p>
+        <div class="how-title" data-i18n="how.step3">Get Your Estimate</div>
+        <p class="how-desc" data-i18n="how.step3.desc">See projected monthly and annual earnings instantly. Link directly to our guides for the context behind the numbers — so you know what levers to pull to earn more.</p>
       </div>
     </div>
   </div>
@@ -1199,10 +1223,10 @@
   <div class="section">
     <div class="section-head">
       <div>
-        <div class="section-label">Learn More</div>
-        <h2>Creator Economy Guides</h2>
+        <div class="section-label" data-i18n="guides.label">Learn More</div>
+        <h2 data-i18n="guides.h2">Creator Economy Guides</h2>
       </div>
-      <a href="guides.html" class="see-all">See all 30 guides →</a>
+      <a href="guides.html" class="see-all" data-i18n="guides.all">See all 30 guides →</a>
     </div>
 
     <div class="guides-grid">
@@ -1211,42 +1235,42 @@
         <div class="guide-badge gbadge-yt">YouTube</div>
         <div class="guide-title">How Much Does YouTube Pay Per 1,000 Views?</div>
         <p class="guide-desc">Real CPM and RPM data for every niche — from $2 for entertainment to $20+ for finance. Includes earnings at every milestone from 10K to 10M views.</p>
-        <div class="guide-read">Read Guide →</div>
+        <div class="guide-read" data-i18n="guides.read">Read Guide →</div>
       </a>
 
       <a href="guides/how-much-does-tiktok-pay-per-view.html" class="guide-card">
         <div class="guide-badge gbadge-tt">TikTok</div>
         <div class="guide-title">How Much Does TikTok Pay Per View?</div>
         <p class="guide-desc">TikTok pays $0.02–$0.04 per 1,000 views — but 1M views can unlock $5,000–$10,000 in brand deals. The full income picture explained.</p>
-        <div class="guide-read">Read Guide →</div>
+        <div class="guide-read" data-i18n="guides.read">Read Guide →</div>
       </a>
 
       <a href="guides/average-spotify-pay-per-stream.html" class="guide-card">
         <div class="guide-badge gbadge-sp">Spotify</div>
         <div class="guide-title">Average Spotify Pay Per Stream 2026</div>
         <p class="guide-desc">The average is $0.003–$0.005 but a US Premium stream is worth 10–20× a free-tier developing market stream. Here's what your listeners are worth.</p>
-        <div class="guide-read">Read Guide →</div>
+        <div class="guide-read" data-i18n="guides.read">Read Guide →</div>
       </a>
 
       <a href="guides/instagram-influencer-rates.html" class="guide-card">
         <div class="guide-badge gbadge-ig">Instagram</div>
         <div class="guide-title">Instagram Influencer Rates — 2026 Pricing</div>
         <p class="guide-desc">From $50 for nano creators to $100K+ for mega influencers. The complete sponsored post rate guide with engagement rate adjustments.</p>
-        <div class="guide-read">Read Guide →</div>
+        <div class="guide-read" data-i18n="guides.read">Read Guide →</div>
       </a>
 
       <a href="guides/tiktok-vs-youtube-earnings.html" class="guide-card">
         <div class="guide-badge gbadge-tt">TikTok vs YouTube</div>
         <div class="guide-title">TikTok vs YouTube Earnings — Which Pays More?</div>
         <p class="guide-desc">YouTube pays 75–150× more per view. TikTok grows audiences faster. The head-to-head comparison that tells you which to focus on.</p>
-        <div class="guide-read">Read Guide →</div>
+        <div class="guide-read" data-i18n="guides.read">Read Guide →</div>
       </a>
 
       <a href="guides/creator-income-streams.html" class="guide-card">
         <div class="guide-badge gbadge-ce">Creator Economy</div>
         <div class="guide-title">Top Creator Income Streams Ranked</div>
         <p class="guide-desc">Six income streams — ranked by passivity, margin, and ceiling. The exact order to build them for a sustainable creator business.</p>
-        <div class="guide-read">Read Guide →</div>
+        <div class="guide-read" data-i18n="guides.read">Read Guide →</div>
       </a>
 
     </div>
@@ -1302,28 +1326,28 @@
     <div class="footer-top">
       <div>
         <a href="index.html" class="footer-brand">Kalkil</a>
-        <p class="footer-tagline">Free creator earnings calculators and guides for YouTube, TikTok, Spotify, Instagram, Twitch, and more. No sign-up. No paywalls.</p>
+        <p class="footer-tagline" data-i18n="footer.tagline">Free creator earnings calculators and guides for YouTube, TikTok, Spotify, Instagram, Twitch, and more. No sign-up. No paywalls.</p>
       </div>
       <div class="footer-col">
-        <h4>Calculators</h4>
+        <h4 data-i18n="footer.col1">Calculators</h4>
         <a href="tools/youtube-money-calculator.html">YouTube Calculator</a>
         <a href="tools/tiktok-money-calculator.html">TikTok Calculator</a>
         <a href="tools/spotify-royalty-calculator.html">Spotify Calculator</a>
         <a href="tools/instagram-earnings-calculator.html">Instagram Calculator</a>
         <a href="tools/twitch-earnings-calculator.html">Twitch Calculator</a>
-        <a href="tools.html">All Calculators →</a>
+        <a href="tools.html" data-i18n="footer.all.calcs">All Calculators →</a>
       </div>
       <div class="footer-col">
-        <h4>Top Guides</h4>
+        <h4 data-i18n="footer.col2">Top Guides</h4>
         <a href="guides/how-much-does-youtube-pay-per-1000-views.html">YouTube Pay Per 1K Views</a>
         <a href="guides/how-much-does-tiktok-pay-per-view.html">TikTok Pay Per View</a>
         <a href="guides/average-spotify-pay-per-stream.html">Spotify Pay Per Stream</a>
         <a href="guides/instagram-influencer-rates.html">Instagram Rates</a>
         <a href="guides/creator-income-streams.html">Creator Income Streams</a>
-        <a href="guides.html">All Guides →</a>
+        <a href="guides.html" data-i18n="footer.all.guides">All Guides →</a>
       </div>
       <div class="footer-col">
-        <h4>Kalkil</h4>
+        <h4 data-i18n="footer.col3">Kalkil</h4>
         <a href="index.html">Home</a>
         <a href="tools.html">Tools</a>
         <a href="guides.html">Guides</a>
@@ -1331,8 +1355,8 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 <a href="index.html">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
-      <p>Data updated for 2026 · No sign-up required</p>
+      <p data-i18n="footer.bottom">© 2026 Kalkil · Free Creator Economy Calculators &amp; Guides</p>
+      <p data-i18n="footer.bottom2">Data updated for 2026 · No sign-up required</p>
     </div>
   </div>
 </footer>
@@ -1426,5 +1450,6 @@
   }
 </script>
 
+<script src="i18n.js"></script>
 </body>
 </html>
