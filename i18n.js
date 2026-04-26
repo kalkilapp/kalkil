@@ -205,6 +205,16 @@
 
   var currentLang = 'en';
 
+  // Nav link texts to auto-translate (no data-i18n needed on individual pages)
+  var NAV_MAP = {
+    'Home': 'nav.home', 'Inicio': 'nav.home', 'Início': 'nav.home', 'Accueil': 'nav.home',
+    'Tools': 'nav.tools', 'Herramientas': 'nav.tools', 'Ferramentas': 'nav.tools', 'Outils': 'nav.tools',
+    'Guides': 'nav.guides', 'Guías': 'nav.guides', 'Guias': 'nav.guides',
+    'About': 'nav.about', 'Sobre Nosotros': 'nav.about', 'Sobre': 'nav.about', 'À propos': 'nav.about',
+    'All Calculators': 'nav.cta', 'All Calculators →': 'nav.cta',
+    'Read Guides': 'guides.label', 'Read Guides →': 'guides.label',
+  };
+
   function detect() {
     var p = new URLSearchParams(window.location.search).get('lang');
     if (p && SUPPORTED.indexOf(p) !== -1) { _save(p); return p; }
@@ -217,9 +227,36 @@
 
   function _save(l) { try { localStorage.setItem('kalkil-lang', l); } catch(e) {} }
 
+  function injectCSS() {
+    if (document.getElementById('kalkil-i18n-css')) return;
+    var s = document.createElement('style');
+    s.id = 'kalkil-i18n-css';
+    s.textContent = '#lang-switcher{display:flex;gap:2px;align-items:center}' +
+      '.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);' +
+      'border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;' +
+      'font-family:inherit;letter-spacing:0.3px;transition:all .15s}' +
+      '.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}' +
+      '.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}';
+    document.head.appendChild(s);
+  }
+
+  function injectSwitcherIntoNav() {
+    // If #lang-switcher already exists in HTML, skip
+    if (document.getElementById('lang-switcher')) return;
+    var navLinks = document.querySelector('.nav-links');
+    if (!navLinks) return;
+    var div = document.createElement('div');
+    div.id = 'lang-switcher';
+    // Insert before the last link (nav-cta)
+    var lastLink = navLinks.querySelector('a:last-child, a.nav-cta');
+    if (lastLink) navLinks.insertBefore(div, lastLink);
+    else navLinks.appendChild(div);
+  }
+
   function apply(lang) {
     var t = T[lang];
     if (!t) return;
+    // data-i18n elements
     document.querySelectorAll('[data-i18n]').forEach(function(el) {
       var key = el.getAttribute('data-i18n');
       if (t[key] !== undefined) el.textContent = t[key];
@@ -227,6 +264,12 @@
     document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
       var key = el.getAttribute('data-i18n-html');
       if (t[key] !== undefined) el.innerHTML = t[key];
+    });
+    // Auto-translate nav links by their text content
+    document.querySelectorAll('.nav-links a').forEach(function(a) {
+      var txt = a.textContent.trim();
+      var key = NAV_MAP[txt];
+      if (key && t[key]) a.textContent = t[key];
     });
     if (t['meta.title']) document.title = t['meta.title'];
     var descEl = document.querySelector('meta[name="description"]');
@@ -237,8 +280,7 @@
     else url.searchParams.set('lang', lang);
     history.replaceState({}, '', url.toString());
     document.querySelectorAll('.lang-btn').forEach(function(btn) {
-      var isActive = btn.getAttribute('data-lang') === lang;
-      btn.classList.toggle('lang-active', isActive);
+      btn.classList.toggle('lang-active', btn.getAttribute('data-lang') === lang);
     });
     _save(lang);
     currentLang = lang;
@@ -258,11 +300,18 @@
     });
   }
 
+  function init() {
+    injectCSS();
+    injectSwitcherIntoNav();
+    renderSwitcher();
+    apply(currentLang);
+  }
+
   currentLang = detect();
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() { renderSwitcher(); apply(currentLang); });
+    document.addEventListener('DOMContentLoaded', init);
   } else {
-    renderSwitcher(); apply(currentLang);
+    init();
   }
 })();
