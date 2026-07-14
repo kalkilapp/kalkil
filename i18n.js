@@ -791,6 +791,8 @@
   function norm(s) { return (s || '').replace(/\s+/g, ' ').trim(); }
 
   function detect() {
+    var path = window.location.pathname.match(/^\/(es|pt|fr)\//);
+    if (path) { _save(path[1]); return path[1]; }
     var p = new URLSearchParams(window.location.search).get('lang');
     if (p && SUPPORTED.indexOf(p) !== -1) { _save(p); return p; }
     var s; try { s = localStorage.getItem('kalkil-lang'); } catch(e) {}
