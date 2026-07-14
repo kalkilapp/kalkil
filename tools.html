@@ -76,7 +76,7 @@
       text-decoration: none;
       letter-spacing: -0.5px;
     }
-    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; row-gap: 10px; justify-content: flex-end; }
     .nav-links a {
       color: rgba(255,255,255,0.7);
       text-decoration: none;
@@ -563,6 +563,9 @@
     @media (max-width: 500px) {
       .tools-grid { grid-template-columns: 1fr; }
       .nav-links { gap: 16px; }
+    }
+    @media (max-width: 480px) {
+      .nav-links { gap: 10px; justify-content: center; }
     }
   </style>
 <!-- Google tag (gtag.js) -->
