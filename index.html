@@ -1363,18 +1363,10 @@
     </div>
   </div>
 <!--
-  Sección 8: CTA de email — SOLO para index.html (61% del tráfico, 86% de los clics
-  según los datos ya confirmados). No hay ningún <form> en todo el repo (verificado:
-  grep -rl "<form" no devuelve nada) ni componente reutilizable — se construye desde cero.
-
-  OJO: no hay backend. Esto hace fetch() a data-endpoint, que hoy no apunta a nada real.
-  Antes de activarlo hay que decidir dónde llega el email (ver pregunta al final del
-  reporte): Formspree/ConvertKit/Mailchimp/Google Sheet vía Apps Script son las opciones
-  de menor fricción para un sitio 100% estático sin servidor propio.
-
-  Dónde insertar en index.html: justo después de </section> del hero (buscar la primera
-  ocurrencia de "<!-- CALCULATOR -->" o equivalente) o antes de <footer>. No lo inserto
-  automáticamente porque la decisión de layout es del founder.
+  Sección 8: CTA de email, solo en index.html (61% del tráfico, 86% de los clics).
+  Conectado a Formspree (https://formspree.io/f/xdayyzpl) vía action/method nativo
+  (fallback sin JS) y fetch() con Accept:application/json para el flujo AJAX con
+  mensaje de estado inline. Eventos gtag email_signup_submitted/_success conectados.
 -->
 <section class="email-cta" id="email-cta">
   <div class="email-cta-inner">
