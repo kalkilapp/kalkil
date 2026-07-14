@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    { "source": "/instagram-earnings-calculator.html", "destination": "/tools/instagram-earnings-calculator.html", "permanent": true },
+    { "source": "/spotify-calculator.html", "destination": "/tools/spotify-royalty-calculator.html", "permanent": true },
+    { "source": "/tiktok-money-calculator.html", "destination": "/tools/tiktok-money-calculator.html", "permanent": true },
+    { "source": "/youtube-calculator.html", "destination": "/tools/youtube-money-calculator.html", "permanent": true },
+
+    { "source": "/tools", "destination": "/tools.html", "permanent": true },
+    { "source": "/about", "destination": "/about.html", "permanent": true },
+    { "source": "/guides", "destination": "/guides.html", "permanent": true },
+
+    { "source": "/guides/instagram-influencer-rates", "destination": "/guides/instagram-influencer-rates.html", "permanent": true }
+  ]
+}
