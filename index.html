@@ -98,7 +98,7 @@
       letter-spacing: -0.5px;
     }
     .brand span { color: var(--accent); }
-    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; row-gap: 10px; justify-content: flex-end; }
     .nav-links a {
       color: rgba(255,255,255,0.7);
       text-decoration: none;
@@ -779,6 +779,9 @@
       .stats-inner { grid-template-columns: repeat(2, 1fr); }
       .footer-top { grid-template-columns: 1fr; }
       .nav-links { gap: 16px; }
+    }
+    @media (max-width: 480px) {
+      .nav-links { gap: 10px; justify-content: center; }
     }
 
     /* ══════════════════════════════
