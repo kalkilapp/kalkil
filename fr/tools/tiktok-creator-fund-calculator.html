@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://kalkilapp.com/fr/tools/tiktok-creator-fund-calculator.html">
+  <title>TikTok Money Calculator 2026 — Creator Rewards + Sponsorship Estimate | Kalkil</title>
+  <meta name="description" content="Free TikTok earnings calculator. Estimate Creator Rewards income and sponsorship potential from your follower count and monthly views.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="TikTok Money Calculator 2026 — Creator Rewards + Sponsorship Estimate | Kalkil">
+  <meta property="og:description" content="Free TikTok earnings calculator. Estimate Creator Rewards income and sponsorship potential from your follower count and monthly views.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://kalkilapp.com/assets/og-default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <link rel="stylesheet" href="/tools/calc-style.css">
+  <style>
+    .hero::before { background: #14b8a6; }
+    .calc-btn { background: #0f766e; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #0f766e; }
+    .hero h1 em { color: #0f766e; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}</style>
+  <link rel="alternate" hreflang="en" href="https://kalkilapp.com/tools/tiktok-creator-fund-calculator.html">
+  <link rel="alternate" hreflang="es" href="https://kalkilapp.com/es/tools/tiktok-creator-fund-calculator.html">
+  <link rel="alternate" hreflang="pt" href="https://kalkilapp.com/pt/tools/tiktok-creator-fund-calculator.html">
+  <link rel="alternate" hreflang="fr" href="https://kalkilapp.com/fr/tools/tiktok-creator-fund-calculator.html">
+  <link rel="alternate" hreflang="x-default" href="https://kalkilapp.com/tools/tiktok-creator-fund-calculator.html">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="/fr/" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="/fr/">Accueil</a>
+      <a href="/fr/tools.html">Outils</a>
+      <a href="/fr/guides.html">Guides</a>
+      <a href="/fr/about.html">À propos</a>
+      <div id="lang-switcher"><button class="lang-btn" data-lang="en" title="🇺🇸">EN</button><button class="lang-btn" data-lang="es" title="🇪🇸">ES</button><button class="lang-btn" data-lang="pt" title="🇧🇷">PT</button><button class="lang-btn lang-active" data-lang="fr" title="🇫🇷">FR</button></div><a href="/fr/tools.html" class="nav-cta">Tous les Calculateurs →</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">♪ TikTok · Income Calculator</div>
+  <h1>TikTok Money <em>Calculator</em></h1>
+  <p class="hero-sub">Creator Rewards + sponsorship potential based on your views, followers, and niche.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="/fr/">Home</a><span>›</span>
+  <a href="/fr/tools.html">Calculators</a><span>›</span>
+  TikTok Money Calculator 2026 — Creator Rewards + Sponsorship Estimate
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Gratuit · Sans inscription · Résultats instantanés</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="tt-views">Vues Mensuelles</label>
+        <input type="number" id="tt-views" placeholder="e.g. 2,000,000" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="tt-eng">Engagement Rate</label>
+        <select id="tt-eng" onchange="calc()">
+          <option value="0.015">Low — under 3%</option>
+          <option value="0.030" selected="">Average — 3–6%</option>
+          <option value="0.050">High — 6–10%</option>
+          <option value="0.070">Viral — 10%+</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="tt-followers">Follower Count</label>
+        <input type="number" id="tt-followers" placeholder="e.g. 100,000" oninput="calc()">
+        <span class="input-hint">Used to estimate sponsorship potential</span>
+      </div>
+      <div class="input-group">
+        <label for="tt-niche">Niche</label>
+        <select id="tt-niche" onchange="calc()">
+          <option value="3">Finance / Business (premium)</option>
+          <option value="2">Tech / Health / Fitness</option>
+          <option value="1.5" selected="">Fashion / Beauty / Lifestyle</option>
+          <option value="1">Entertainment / Comedy</option>
+        </select>
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Creator Rewards (monthly)</div>
+        <div class="result-value" id="r-rewards">$0</div>
+        <div class="result-note">From TikTok's Creator Rewards Program</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Sponsorship Per Post</div>
+        <div class="result-value" id="r-sponsor">$0</div>
+        <div class="result-note">Estimated market rate for your tier</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Monthly (2 deals)</div>
+        <div class="result-value" id="r-monthly">$0</div>
+        <div class="result-note">Creator Rewards + 2 sponsorships</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Annual Total Estimate</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">Creator Rewards + 24 sponsorships/year</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'tiktok-creator-fund-calculator'});
+      var v=parseFloat(document.getElementById('tt-views').value)||0;
+      var eng=parseFloat(document.getElementById('tt-eng').value)||0.03;
+      var f=parseFloat(document.getElementById('tt-followers').value)||0;
+      var niche=parseFloat(document.getElementById('tt-niche').value)||1.5;
+      var rewards=(v/1000)*eng;
+      var spBase=f>=5000000?25000:f>=1000000?8000:f>=500000?4000:f>=200000?2000:f>=100000?1000:f>=50000?500:f>=10000?200:0;
+      var sp=spBase*niche;
+      var monthly=rewards+(sp*2);
+      document.getElementById('r-rewards').textContent=fmt(rewards);
+      document.getElementById('r-sponsor').textContent=sp>0?fmt(sp):'—';
+      document.getElementById('r-monthly').textContent=fmt(monthly);
+      document.getElementById('r-annual').textContent=fmt(rewards*12+sp*24);
+    }
+    function reset(){['tt-views','tt-followers'].forEach(function(i){document.getElementById(i).value='';});['r-rewards','r-sponsor','r-monthly','r-annual'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>How TikTok Creator Income Actually Works</h2>
+    <p>TikTok pays creators through the <strong>Creator Rewards Program</strong> at roughly $0.02–$0.04 per 1,000 views — far less than YouTube. But sponsorships can pay 10–100× more than platform rewards for the same audience.</p>
+    <div class="highlight"><p><strong>Most TikTok creators earn 90%+ of their income from brand deals, not Creator Rewards.</strong> Platform payments are a supplement, not a business model.</p></div>
+    <h2>Creator Rewards Rates by Engagement</h2>
+    <div class="rate-table-wrap"><table class="rate-table">
+      <thead><tr><th>Engagement Level</th><th>Rate per 1K Views</th><th>Per 1M Views</th></tr></thead>
+      <tbody>
+        <tr><td>Low (&lt;3%)</td><td>$0.005–$0.015</td><td>$5–$15</td></tr>
+        <tr><td>Average (3–6%)</td><td>$0.02–$0.03</td><td>$20–$30</td></tr>
+        <tr><td>High (6–10%)</td><td>$0.03–$0.05</td><td>$30–$50</td></tr>
+        <tr><td>Viral (10%+)</td><td>$0.05–$0.08</td><td>$50–$80</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Vous voulez comprendre les chiffres ?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="/guides/how-much-does-tiktok-pay-per-view.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="/fr/tools/tiktok-creator-fund-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(20,184,166,0.12)">💰</div>
+        <div><div class="related-name">TikTok Creator Fund</div><div class="related-desc">Creator Rewards rates</div></div>
+      </a>
+      <a href="/fr/tools/instagram-earnings-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(236,72,153,0.12)">◈</div>
+        <div><div class="related-name">Instagram Calculator</div><div class="related-desc">Sponsored post rates</div></div>
+      </a>
+      <a href="/fr/tools/youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense &amp; CPM earnings</div></div>
+      </a>
+      <a href="/fr/tools/influencer-rate-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(139,92,246,0.12)">◆</div>
+        <div><div class="related-name">Influencer Rate Calc</div><div class="related-desc">Cross-platform rates</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="/fr/">Home</a>
+    <a href="/fr/tools.html">Calculators</a>
+    <a href="/fr/guides.html">Guides</a>
+    <a href="/fr/about.html">About</a>
+  <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+  </div>
+  <p>© 2026 <a href="/fr/">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+<section style="max-width:700px;margin:60px auto 40px;padding:0 20px;"><div style="background:#0f172a;border-radius:16px;padding:36px;text-align:center;"><p style="color:rgba(255,255,255,0.5);font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:10px;">Kalkil Pro</p><h2 style="font-family:Georgia,serif;color:white;font-size:24px;margin-bottom:12px;letter-spacing:-0.5px;">See all your income in one place</h2><p style="color:rgba(255,255,255,0.6);font-size:14px;margin-bottom:24px;line-height:1.65;max-width:420px;margin-left:auto;margin-right:auto;">YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections.</p><a href="https://app.kalkilapp.com" style="display:inline-block;padding:13px 30px;background:#22c55e;color:white;text-decoration:none;border-radius:10px;font-weight:700;font-size:14px;">Try Kalkil Pro Free →</a><p style="color:rgba(255,255,255,0.35);font-size:11px;margin-top:12px;">Free to start · No credit card required</p></div></section>
+<script src="/i18n.js"></script>
+
+</body></html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://kalkilapp.com/fr/tools/youtube-cpm-calculator.html">
+  <title>YouTube CPM Calculator 2026 — CPM to RPM Breakdown | Kalkil</title>
+  <meta name="description" content="Free YouTube CPM calculator. Understand the difference between CPM and RPM and calculate your actual creator revenue. Instant results.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="YouTube CPM Calculator 2026 — CPM to RPM Breakdown | Kalkil">
+  <meta property="og:description" content="Free YouTube CPM calculator. Understand the difference between CPM and RPM and calculate your actual creator revenue. Instant results.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://kalkilapp.com/assets/og-default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <link rel="stylesheet" href="/tools/calc-style.css">
+  <style>
+    .hero::before { background: #ef4444; }
+    .calc-btn { background: #ef4444; }
+    .calc-btn:hover { filter: brightness(1.1); }
+    .result-card.primary { background: #ef4444; }
+    .hero h1 em { color: #ef4444; }
+    .hero-badge { background: rgba(255,255,255,0.10); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}</style>
+  <link rel="alternate" hreflang="en" href="https://kalkilapp.com/tools/youtube-cpm-calculator.html">
+  <link rel="alternate" hreflang="es" href="https://kalkilapp.com/es/tools/youtube-cpm-calculator.html">
+  <link rel="alternate" hreflang="pt" href="https://kalkilapp.com/pt/tools/youtube-cpm-calculator.html">
+  <link rel="alternate" hreflang="fr" href="https://kalkilapp.com/fr/tools/youtube-cpm-calculator.html">
+  <link rel="alternate" hreflang="x-default" href="https://kalkilapp.com/tools/youtube-cpm-calculator.html">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="/fr/" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="/fr/">Accueil</a>
+      <a href="/fr/tools.html">Outils</a>
+      <a href="/fr/guides.html">Guides</a>
+      <a href="/fr/about.html">À propos</a>
+      <div id="lang-switcher"><button class="lang-btn" data-lang="en" title="🇺🇸">EN</button><button class="lang-btn" data-lang="es" title="🇪🇸">ES</button><button class="lang-btn" data-lang="pt" title="🇧🇷">PT</button><button class="lang-btn lang-active" data-lang="fr" title="🇫🇷">FR</button></div><a href="/fr/tools.html" class="nav-cta">Tous les Calculateurs →</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">▶ YouTube · CPM → RPM Calculator</div>
+  <h1>YouTube CPM <em>Calculator</em></h1>
+  <p class="hero-sub">Convert CPM to RPM and see exactly what you keep after YouTube's 45% revenue share.</p>
+</section>
+
+<div class="breadcrumb">
+  <a href="/fr/">Home</a><span>›</span>
+  <a href="/fr/tools.html">Calculators</a><span>›</span>
+  YouTube CPM Calculator 2026 — CPM to RPM Breakdown
+</div>
+
+<main class="main">
+
+  <div class="free-tag">✓ Gratuit · Sans inscription · Résultats instantanés</div>
+
+  <div class="calc-wrap">
+    
+    <div class="inputs">
+      <div class="input-group">
+        <label for="c-views">Total Video Views</label>
+        <input type="number" id="c-views" placeholder="e.g. 500,000" oninput="calc()">
+      </div>
+      <div class="input-group">
+        <label for="c-cpm">CPM Rate ($)</label>
+        <input type="number" id="c-cpm" value="4" oninput="calc()">
+        <span class="input-hint">Advertisers pay this per 1,000 ad impressions</span>
+      </div>
+      <div class="input-group">
+        <label for="c-monrate">Monetization Rate (%)</label>
+        <input type="number" id="c-monrate" value="80" oninput="calc()">
+        <span class="input-hint">% of views that serve an ad (typically 70–90%)</span>
+      </div>
+      <button class="calc-btn" onclick="calc()">Calculate</button>
+      <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="results">
+      <div class="result-card">
+        <div class="result-label">Gross Ad Revenue</div>
+        <div class="result-value" id="r-gross">$0</div>
+        <div class="result-note">Before YouTube's 45% cut</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Votre RPM</div>
+        <div class="result-value" id="r-rpm">$0.00</div>
+        <div class="result-note">Net per 1,000 total views</div>
+      </div>
+      <div class="result-card">
+        <div class="result-label">Net Earnings (You Keep)</div>
+        <div class="result-value" id="r-net">$0</div>
+        <div class="result-note">55% of gross ad revenue</div>
+      </div>
+      <div class="result-card primary">
+        <div class="result-label">Annual (×12)</div>
+        <div class="result-value" id="r-annual">$0</div>
+        <div class="result-note">If this is your monthly view rate</div>
+      </div>
+    </div>
+    <script>
+    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'youtube-cpm-calculator'});
+      var v=parseFloat(document.getElementById('c-views').value)||0;
+      var cpm=parseFloat(document.getElementById('c-cpm').value)||0;
+      var mon=parseFloat(document.getElementById('c-monrate').value)/100||0.8;
+      var gross=(v/1000)*cpm*mon;
+      var net=gross*0.55;
+      var rpm=(net/v)*1000||0;
+      document.getElementById('r-gross').textContent=fmt(gross);
+      document.getElementById('r-rpm').textContent='$'+rpm.toFixed(2);
+      document.getElementById('r-net').textContent=fmt(net);
+      document.getElementById('r-annual').textContent=fmt(net*12);
+    }
+    function reset(){['c-views'].forEach(function(i){document.getElementById(i).value='';});document.getElementById('c-cpm').value=4;document.getElementById('c-monrate').value=80;['r-gross','r-rpm','r-net','r-annual'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    </script>
+  </div>
+
+  
+  <div class="info-section">
+    <h2>CPM vs RPM — What's the Difference?</h2>
+    <p><strong>CPM</strong> (Cost Per Mille) is what advertisers pay YouTube for every 1,000 ad impressions on your content. It's the gross rate — before YouTube takes its share.</p>
+    <p><strong>RPM</strong> (Revenue Per Mille) is what you actually receive per 1,000 total video views — after YouTube's 45% cut and accounting for the fact that not every view serves an ad.</p>
+    <div class="highlight"><p><strong>Key formula: RPM = CPM × 0.55 × monetization rate</strong><br>Example: $10 CPM × 0.55 × 0.80 monetization = <strong>$4.40 RPM</strong></p></div>
+    <h2>Why Your Monetization Rate Matters</h2>
+    <ul>
+      <li>Ad blockers reduce your effective monetization rate</li>
+      <li>Viewers who skip ads immediately don't generate full revenue</li>
+      <li>Non-monetized content (music, copyright claims) earns nothing</li>
+      <li>Most channels see 70–85% monetization rates in practice</li>
+    </ul>
+  </div>
+
+  <div class="guide-cta">
+    <div class="guide-cta-text">
+      <h3>Vous voulez comprendre les chiffres ?</h3>
+      <p>Read our free in-depth guide explaining exactly how this platform pays creators.</p>
+    </div>
+    <a href="/guides/youtube-cpm-by-country.html" class="guide-cta-btn">Read the Guide →</a>
+  </div>
+
+  <h2 style="font-family:var(--serif);font-size:22px;color:var(--text);letter-spacing:-0.3px;margin-bottom:16px;">More Calculators</h2>
+  <div class="related-grid">
+    
+      <a href="/fr/tools/youtube-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">▶</div>
+        <div><div class="related-name">YouTube Calculator</div><div class="related-desc">AdSense &amp; CPM earnings</div></div>
+      </a>
+      <a href="/fr/tools/youtube-shorts-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">⚡</div>
+        <div><div class="related-name">YouTube Shorts Calculator</div><div class="related-desc">RPM Shorts vs format long</div></div>
+      </a>
+      <a href="/fr/tools/youtube-sponsorship-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(239,68,68,0.12)">🤝</div>
+        <div><div class="related-name">Sponsorship Calculator</div><div class="related-desc">Valeur deal marque</div></div>
+      </a>
+      <a href="/fr/tools/tiktok-money-calculator.html" class="related-card">
+        <div class="related-ico" style="background:rgba(20,184,166,0.12)">♪</div>
+        <div><div class="related-name">TikTok Calculator</div><div class="related-desc">Creator Rewards + deals</div></div>
+      </a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="/fr/">Home</a>
+    <a href="/fr/tools.html">Calculators</a>
+    <a href="/fr/guides.html">Guides</a>
+    <a href="/fr/about.html">About</a>
+  <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+  </div>
+  <p>© 2026 <a href="/fr/">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+<section style="max-width:700px;margin:60px auto 40px;padding:0 20px;"><div style="background:#0f172a;border-radius:16px;padding:36px;text-align:center;"><p style="color:rgba(255,255,255,0.5);font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:10px;">Kalkil Pro</p><h2 style="font-family:Georgia,serif;color:white;font-size:24px;margin-bottom:12px;letter-spacing:-0.5px;">See all your income in one place</h2><p style="color:rgba(255,255,255,0.6);font-size:14px;margin-bottom:24px;line-height:1.65;max-width:420px;margin-left:auto;margin-right:auto;">YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections.</p><a href="https://app.kalkilapp.com" style="display:inline-block;padding:13px 30px;background:#22c55e;color:white;text-decoration:none;border-radius:10px;font-weight:700;font-size:14px;">Try Kalkil Pro Free →</a><p style="color:rgba(255,255,255,0.35);font-size:11px;margin-top:12px;">Free to start · No credit card required</p></div></section>
+<script src="/i18n.js"></script>
+
+</body></html>

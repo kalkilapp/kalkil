@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="pt"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://kalkilapp.com/pt/guides.html">
+
+  <title>Creator Economy Guides 2026 — YouTube, TikTok, Instagram &amp; Streaming | Kalkil</title>
+  <meta name="description" content="Free creator economy guides for 2026. Learn how much YouTube, TikTok, Instagram, Spotify, and Twitch pay creators — with earnings calculators for every platform.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Creator Economy Guides 2026 | Kalkil">
+  <meta property="og:description" content="Free creator economy guides. YouTube CPM, TikTok earnings, Instagram rates, Spotify royalties, Twitch income and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://kalkilapp.com/assets/og-default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&amp;display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy:       #0f172a;
+      --navy-mid:   #1e293b;
+      --navy-light: #334155;
+      --bg:         #f8f9fc;
+      --white:      #ffffff;
+      --accent:     #22c55e;
+      --accent-dk:  #16a34a;
+      --accent2:    #3b82f6;
+      --text:       #0f172a;
+      --muted:      #64748b;
+      --border:     #e2e8f0;
+
+      --yt:   #ef4444;
+      --tt:   #14b8a6;
+      --ig:   #ec4899;
+      --sp:   #22c55e;
+      --ce:   #8b5cf6;
+
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans:  'DM Sans', system-ui, sans-serif;
+      --max:   1180px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    header {
+      background: var(--navy);
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    nav {
+      max-width: var(--max);
+      margin: auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      font-family: var(--serif);
+      font-size: 22px;
+      color: white;
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .nav-links { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; row-gap: 10px; justify-content: flex-end; }
+    .nav-links a {
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color .2s;
+    }
+    .nav-links a:hover, .nav-links a.active { color: white; }
+    .nav-links a.active {
+      color: var(--accent);
+    }
+    .nav-cta {
+      background: var(--accent);
+      color: white !important;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-weight: 600 !important;
+      transition: background .2s !important;
+    }
+    .nav-cta:hover { background: var(--accent-dk) !important; }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy);
+      padding: 90px 24px 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 50% at 20% 50%, rgba(34,197,94,0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 80% 30%, rgba(59,130,246,0.07) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(34,197,94,0.12);
+      border: 1px solid rgba(34,197,94,0.2);
+      color: #4ade80;
+      border-radius: 30px;
+      padding: 6px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: var(--accent);
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .hero h1 {
+      font-family: var(--serif);
+      font-size: clamp(36px, 5.5vw, 58px);
+      color: white;
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      max-width: 820px;
+      margin: 0 auto 20px;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+    .hero-sub {
+      font-size: 18px;
+      color: rgba(255,255,255,0.6);
+      max-width: 560px;
+      margin: 0 auto 40px;
+      line-height: 1.65;
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat-num {
+      display: block;
+      font-family: var(--serif);
+      font-size: 32px;
+      color: white;
+      letter-spacing: -1px;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.45);
+      text-transform: uppercase;
+      letter-spacing: .6px;
+    }
+
+    /* ── CLUSTER TABS ── */
+    .cluster-nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 61px;
+      z-index: 100;
+    }
+    .cluster-nav-inner {
+      max-width: var(--max);
+      margin: auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .cluster-nav-inner::-webkit-scrollbar { display: none; }
+    .cluster-tab {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 14px 18px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--muted);
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      white-space: nowrap;
+      background: none;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      font-family: var(--sans);
+      transition: color .2s;
+      text-decoration: none;
+    }
+    .cluster-tab:hover { color: var(--text); }
+    .cluster-tab.active { color: var(--text); border-bottom-color: var(--text); }
+    .cluster-tab[data-cluster="all"].active { border-bottom-color: var(--accent); color: var(--accent); }
+    .cluster-tab[data-cluster="youtube"].active { border-bottom-color: var(--yt); color: var(--yt); }
+    .cluster-tab[data-cluster="tiktok"].active { border-bottom-color: var(--tt); color: var(--tt); }
+    .cluster-tab[data-cluster="instagram"].active { border-bottom-color: var(--ig); color: var(--ig); }
+    .cluster-tab[data-cluster="streaming"].active { border-bottom-color: var(--sp); color: var(--sp); }
+    .cluster-tab[data-cluster="creator"].active { border-bottom-color: var(--ce); color: var(--ce); }
+    .tab-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ── MAIN CONTENT ── */
+    .main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 56px 24px 100px;
+    }
+
+    /* ── CLUSTER SECTION ── */
+    .cluster-section {
+      margin-bottom: 72px;
+    }
+    .cluster-section[data-cluster] { display: block; }
+    .cluster-section.hidden { display: none; }
+
+    .cluster-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .cluster-icon {
+      width: 48px; height: 48px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+    .cluster-meta { flex: 1; }
+    .cluster-title {
+      font-family: var(--serif);
+      font-size: 26px;
+      color: var(--text);
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+    .cluster-desc {
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+    .cluster-count {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 500;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 4px 12px;
+      white-space: nowrap;
+    }
+
+    /* ── GUIDE GRID ── */
+    .guides-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    /* ── GUIDE CARD ── */
+    .guide-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      transition: transform .2s, box-shadow .2s, border-color .2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .guide-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      border-radius: 16px 16px 0 0;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    .guide-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(0,0,0,0.10);
+      border-color: transparent;
+      text-decoration: none;
+    }
+    .guide-card:hover::before { opacity: 1; }
+
+    /* cluster accent colors */
+    .guide-card[data-cluster="youtube"]::before { background: var(--yt); }
+    .guide-card[data-cluster="tiktok"]::before  { background: var(--tt); }
+    .guide-card[data-cluster="instagram"]::before { background: var(--ig); }
+    .guide-card[data-cluster="streaming"]::before { background: var(--sp); }
+    .guide-card[data-cluster="creator"]::before  { background: var(--ce); }
+
+    .card-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      border-radius: 20px;
+      padding: 3px 10px;
+      margin-bottom: 14px;
+      width: fit-content;
+    }
+    .badge-yt       { background: rgba(239,68,68,0.1);   color: #dc2626; }
+    .badge-tt       { background: rgba(20,184,166,0.1);  color: #0f766e; }
+    .badge-ig       { background: rgba(236,72,153,0.1);  color: #be185d; }
+    .badge-sp       { background: rgba(34,197,94,0.1);   color: #15803d; }
+    .badge-ce       { background: rgba(139,92,246,0.1);  color: #7c3aed; }
+
+    .card-title {
+      font-family: var(--serif);
+      font-size: 19px;
+      color: var(--text);
+      line-height: 1.3;
+      letter-spacing: -0.3px;
+      margin-bottom: 10px;
+    }
+    .card-desc {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.65;
+      flex: 1;
+      margin-bottom: 20px;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+    .card-read {
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: gap .2s;
+    }
+    .guide-card:hover .card-read { gap: 8px; }
+
+    .card-read[data-cluster="youtube"] { color: var(--yt); }
+    .card-read[data-cluster="tiktok"]  { color: var(--tt); }
+    .card-read[data-cluster="instagram"] { color: var(--ig); }
+    .card-read[data-cluster="streaming"] { color: var(--sp); }
+    .card-read[data-cluster="creator"]  { color: var(--ce); }
+
+    .card-time {
+      font-size: 11px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* ── FEATURED CARD (first card per cluster) ── */
+    .guide-card.featured {
+      grid-column: 1 / -1;
+      flex-direction: row;
+      gap: 32px;
+      align-items: center;
+    }
+    .featured-text { flex: 1; }
+    .featured-visual {
+      width: 200px;
+      min-height: 140px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 56px;
+      flex-shrink: 0;
+    }
+    .featured-yt { background: rgba(239,68,68,0.08); }
+    .featured-tt { background: rgba(20,184,166,0.08); }
+    .featured-ig { background: rgba(236,72,153,0.08); }
+    .featured-sp { background: rgba(34,197,94,0.08); }
+    .featured-ce { background: rgba(139,92,246,0.08); }
+
+    /* ── SEO BLURB ── */
+    .seo-blurb {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 48px;
+      margin-bottom: 64px;
+      border: 1px solid var(--border);
+    }
+    .seo-blurb h2 {
+      font-family: var(--serif);
+      font-size: 28px;
+      color: var(--text);
+      letter-spacing: -0.5px;
+      margin-bottom: 16px;
+    }
+    .seo-blurb p {
+      font-size: 16px;
+      color: var(--muted);
+      margin-bottom: 14px;
+      max-width: 780px;
+    }
+    .seo-blurb p:last-child { margin-bottom: 0; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.5);
+      text-align: center;
+      padding: 36px 24px;
+      font-size: 13px;
+    }
+    footer a { color: rgba(255,255,255,0.5); text-decoration: none; }
+    footer a:hover { color: white; }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 28px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .cluster-section {
+      animation: fadeUp .4s ease both;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .hero { padding: 60px 20px 50px; }
+      .hero-stats { gap: 28px; }
+      .guide-card.featured {
+        flex-direction: column;
+        gap: 20px;
+      }
+      .featured-visual { width: 100%; min-height: 100px; }
+      .seo-blurb { padding: 28px 24px; }
+      .cluster-header { flex-wrap: wrap; }
+    }
+    @media (max-width: 500px) {
+      .guides-grid { grid-template-columns: 1fr; }
+      .nav-links { gap: 16px; }
+    }
+    @media (max-width: 480px) {
+      .nav-links { gap: 10px; justify-content: center; }
+    }
+  </style>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LG3D9JJE2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG3D9JJE2T');
+</script>
+
+<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}</style>
+  <link rel="alternate" hreflang="en" href="https://kalkilapp.com/guides.html">
+  <link rel="alternate" hreflang="es" href="https://kalkilapp.com/es/guides.html">
+  <link rel="alternate" hreflang="pt" href="https://kalkilapp.com/pt/guides.html">
+  <link rel="alternate" hreflang="fr" href="https://kalkilapp.com/fr/guides.html">
+  <link rel="alternate" hreflang="x-default" href="https://kalkilapp.com/guides.html">
+</head>
+
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <nav>
+    <a href="/pt/" class="brand">Kalkil</a>
+    <div class="nav-links">
+      <a href="/pt/">Início</a>
+      <a href="/pt/tools.html">Ferramentas</a>
+      <a href="/pt/guides.html" class="active">Guias</a>
+      <a href="/pt/about.html">Sobre</a>
+      <div id="lang-switcher"><button class="lang-btn" data-lang="en" title="🇺🇸">EN</button><button class="lang-btn" data-lang="es" title="🇪🇸">ES</button><button class="lang-btn lang-active" data-lang="pt" title="🇧🇷">PT</button><button class="lang-btn" data-lang="fr" title="🇫🇷">FR</button></div><a href="/pt/tools.html" class="nav-cta">Calculators</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-eyebrow">Guias de Economia Criativa 2026</div>
+  <h1>Learn How Creators<br><em>Actually</em> Make Money</h1>
+  <p class="hero-sub">Dados reais de ganhos para YouTube, TikTok, Instagram, Spotify, Twitch e mais — com calculadoras gratuitas para cada plataforma.</p>
+  <div class="hero-stats">
+    <div class="stat">
+      <span class="stat-num">30</span>
+      <span class="stat-label">Guias gratuitos</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">5</span>
+      <span class="stat-label">Plataformas cobertas</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">2026</span>
+      <span class="stat-label">Data updated</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">9</span>
+      <span class="stat-label">Free calculators</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── CLUSTER FILTER TABS ── -->
+<nav class="cluster-nav" aria-label="Filter guides by platform">
+  <div class="cluster-nav-inner">
+    <button class="cluster-tab active" data-cluster="all" onclick="filterGuides('all', this)">
+      All Guides <span style="font-size:11px;opacity:.6;margin-left:2px">30</span>
+    </button>
+    <button class="cluster-tab" data-cluster="youtube" onclick="filterGuides('youtube', this)">
+      <span class="tab-dot" style="background:var(--yt)"></span> YouTube <span style="font-size:11px;opacity:.6;margin-left:2px">5</span>
+    </button>
+    <button class="cluster-tab" data-cluster="tiktok" onclick="filterGuides('tiktok', this)">
+      <span class="tab-dot" style="background:var(--tt)"></span> TikTok <span style="font-size:11px;opacity:.6;margin-left:2px">5</span>
+    </button>
+    <button class="cluster-tab" data-cluster="instagram" onclick="filterGuides('instagram', this)">
+      <span class="tab-dot" style="background:var(--ig)"></span> Instagram <span style="font-size:11px;opacity:.6;margin-left:2px">5</span>
+    </button>
+    <button class="cluster-tab" data-cluster="streaming" onclick="filterGuides('streaming', this)">
+      <span class="tab-dot" style="background:var(--sp)"></span> Streaming / Music <span style="font-size:11px;opacity:.6;margin-left:2px">5</span>
+    </button>
+    <button class="cluster-tab" data-cluster="creator" onclick="filterGuides('creator', this)">
+      <span class="tab-dot" style="background:var(--ce)"></span> Creator Economy <span style="font-size:11px;opacity:.6;margin-left:2px">10</span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── MAIN ── -->
+<main class="main">
+
+  <!-- ══════════════════════════════════════════
+       CLUSTER 1 — YOUTUBE
+  ══════════════════════════════════════════ -->
+  <section class="cluster-section" data-cluster="youtube" id="youtube">
+    <div class="cluster-header">
+      <div class="cluster-icon" style="background:rgba(239,68,68,0.1); font-size:24px;">▶</div>
+      <div class="cluster-meta">
+        <h2 class="cluster-title">Ganhos do YouTube</h2>
+        <p class="cluster-desc">CPM, RPM e dados reais de ganhos para cada nicho do YouTube em 2026.</p>
+      </div>
+      <span class="cluster-count">5 guias</span>
+    </div>
+
+    <div class="guides-grid">
+
+      <!-- FEATURED -->
+      <a href="/guides/how-much-does-youtube-pay-per-1000-views.html" class="guide-card featured" data-cluster="youtube">
+        <div class="featured-visual featured-yt">▶</div>
+        <div class="featured-text">
+          <div class="card-badge badge-yt">YouTube · Destaque</div>
+          <div class="card-title">Quanto o YouTube Paga por 1.000 Visualizações?</div>
+          <p class="card-desc">The most-asked question in YouTube monetization — answered with real CPM and RPM data for every niche. Discover why a finance channel earns $15/1K views while a gaming channel earns $2, and use our calculator to estimate your own channel.</p>
+          <div class="card-footer">
+            <span class="card-read" data-cluster="youtube">Read Guide →</span>
+            <span class="card-time">⏱ 8 min read</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="/guides/youtube-cpm-by-country.html" class="guide-card" data-cluster="youtube">
+        <div class="card-badge badge-yt">YouTube</div>
+        <div class="card-title">CPM do YouTube por País (Taxas Globais 2026)</div>
+        <p class="card-desc">Where your audience lives impacts your revenue more than almost anything else. Discover which countries pay the most per 1,000 views and how to attract higher-CPM audiences.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="youtube">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-much-do-youtube-shorts-pay.html" class="guide-card" data-cluster="youtube">
+        <div class="card-badge badge-yt">YouTube Shorts</div>
+        <div class="card-title">Quanto os YouTube Shorts Pagam por Visualização?</div>
+        <p class="card-desc">Shorts pays 50–100× less per view than long-form — but its viral reach can transform your channel. Learn the strategy behind Shorts monetization in 2026.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="youtube">Read Guide →</span>
+          <span class="card-time">⏱ 5 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/youtube-earnings-per-million-views.html" class="guide-card" data-cluster="youtube">
+        <div class="card-badge badge-yt">YouTube</div>
+        <div class="card-title">Quanto os YouTubers Ganham por Milhão de Visualizações?</div>
+        <p class="card-desc">1 million views is worth $1,000 to some creators and $20,000 to others. This guide breaks down the exact math — with real channel examples and niche comparisons.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="youtube">Read Guide →</span>
+          <span class="card-time">⏱ 7 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-youtube-monetization-works.html" class="guide-card" data-cluster="youtube">
+        <div class="card-badge badge-yt">YouTube</div>
+        <div class="card-title">Monetização do YouTube Explicada — Anúncios, Shorts e Patrocínios</div>
+        <p class="card-desc">A complete guide to every YouTube revenue stream in 2026: AdSense, Shorts, channel memberships, Super Chats, and brand sponsorships — all in one place.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="youtube">Read Guide →</span>
+          <span class="card-time">⏱ 9 min read</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       CLUSTER 2 — TIKTOK
+  ══════════════════════════════════════════ -->
+  <section class="cluster-section" data-cluster="tiktok" id="tiktok">
+    <div class="cluster-header">
+      <div class="cluster-icon" style="background:rgba(20,184,166,0.1); font-size:24px;">♪</div>
+      <div class="cluster-meta">
+        <h2 class="cluster-title">Economia do TikTok</h2>
+        <p class="cluster-desc">Creator Rewards, deals com marcas e como os ganhos do TikTok funcionam na prática.</p>
+      </div>
+      <span class="cluster-count">5 guias</span>
+    </div>
+
+    <div class="guides-grid">
+
+      <a href="/guides/how-much-does-tiktok-pay-per-view.html" class="guide-card featured" data-cluster="tiktok">
+        <div class="featured-visual featured-tt">♪</div>
+        <div class="featured-text">
+          <div class="card-badge badge-tt">TikTok · Destaque</div>
+          <div class="card-title">Quanto o TikTok Paga por Visualização?</div>
+          <p class="card-desc">TikTok's Creator Rewards Program pays $0.02–$0.04 per 1,000 views — but a 1M-view video can unlock $5,000–$10,000 in brand deals. This guide explains the full income picture behind TikTok views.</p>
+          <div class="card-footer">
+            <span class="card-read" data-cluster="tiktok">Read Guide →</span>
+            <span class="card-time">⏱ 8 min read</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="/guides/tiktok-creator-fund-payments.html" class="guide-card" data-cluster="tiktok">
+        <div class="card-badge badge-tt">TikTok</div>
+        <div class="card-title">Pagamentos do Creator Fund do TikTok Explicados</div>
+        <p class="card-desc">From the original Creator Fund to the 2023 Creator Rewards overhaul — how TikTok calculates what you earn, requirements to join, and real earnings examples.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="tiktok">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-tiktok-influencers-make-money.html" class="guide-card" data-cluster="tiktok">
+        <div class="card-badge badge-tt">TikTok</div>
+        <div class="card-title">Como os Influencers do TikTok Ganham Dinheiro</div>
+        <p class="card-desc">Creator Rewards, brand deals, TikTok Shop affiliate, live gifts, and digital products — the complete breakdown of every TikTok income stream with realistic earning data.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="tiktok">Read Guide →</span>
+          <span class="card-time">⏱ 7 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/tiktok-vs-youtube-earnings.html" class="guide-card" data-cluster="tiktok">
+        <div class="card-badge badge-tt">TikTok vs YouTube</div>
+        <div class="card-title">TikTok vs YouTube — Qual Paga Mais?</div>
+        <p class="card-desc">YouTube pays 75–150× more per view. TikTok grows audiences faster. This head-to-head comparison tells you exactly which platform fits your content strategy and income goals.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="tiktok">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-many-followers-to-make-money-on-tiktok.html" class="guide-card" data-cluster="tiktok">
+        <div class="card-badge badge-tt">TikTok</div>
+        <div class="card-title">Quantos Seguidores Precisa para Ganhar no TikTok?</div>
+        <p class="card-desc">You can earn with 1,000 followers. Meaningful income starts at 10,000. Real income milestones by follower count — and monetization alternatives for every stage of growth.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="tiktok">Read Guide →</span>
+          <span class="card-time">⏱ 5 min read</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       CLUSTER 3 — INSTAGRAM
+  ══════════════════════════════════════════ -->
+  <section class="cluster-section" data-cluster="instagram" id="instagram">
+    <div class="cluster-header">
+      <div class="cluster-icon" style="background:rgba(236,72,153,0.1); font-size:24px;">◈</div>
+      <div class="cluster-meta">
+        <h2 class="cluster-title">Influencers do Instagram</h2>
+        <p class="cluster-desc">Tarifas de patrocínio, ganhos de Reels, benchmarks de engajamento e renda do Instagram.</p>
+      </div>
+      <span class="cluster-count">5 guias</span>
+    </div>
+
+    <div class="guides-grid">
+
+      <a href="/guides/instagram-influencer-rates.html" class="guide-card featured" data-cluster="instagram">
+        <div class="featured-visual featured-ig">◈</div>
+        <div class="featured-text">
+          <div class="card-badge badge-ig">Instagram · Destaque</div>
+          <div class="card-title">Tarifas de Influencers do Instagram — Guia de Preços 2026</div>
+          <p class="card-desc">What brands pay nano, micro, mid-tier, macro, and mega influencers for sponsored posts, Reels, and Stories. Includes the engagement rate formula that determines your real market value — regardless of follower count.</p>
+          <div class="card-footer">
+            <span class="card-read" data-cluster="instagram">Read Guide →</span>
+            <span class="card-time">⏱ 7 min read</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="/guides/how-much-do-instagram-reels-pay.html" class="guide-card" data-cluster="instagram">
+        <div class="card-badge badge-ig">Instagram Reels</div>
+        <div class="card-title">Quanto os Instagram Reels Pagam aos Criadores?</div>
+        <p class="card-desc">The Reels Bonus Program is invite-only and pays $0.01–$0.06 per 1,000 views. Here's how Reels creators actually earn — and why brand deals matter far more than platform bonuses.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="instagram">Read Guide →</span>
+          <span class="card-time">⏱ 5 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/instagram-engagement-rate-explained.html" class="guide-card" data-cluster="instagram">
+        <div class="card-badge badge-ig">Instagram</div>
+        <div class="card-title">Taxa de Engajamento do Instagram Explicada</div>
+        <p class="card-desc">How to calculate your engagement rate, what's considered good for each follower tier, and the strategies that move it higher — because engagement determines your sponsorship value more than followers do.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="instagram">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-instagram-influencers-make-money.html" class="guide-card" data-cluster="instagram">
+        <div class="card-badge badge-ig">Instagram</div>
+        <div class="card-title">Como os Influencers do Instagram Ganham Dinheiro</div>
+        <p class="card-desc">Brand partnerships, affiliate marketing, Instagram Subscriptions, and digital products — every income stream available to Instagram creators in 2026 with realistic earnings data.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="instagram">Read Guide →</span>
+          <span class="card-time">⏱ 7 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/instagram-vs-tiktok-earnings.html" class="guide-card" data-cluster="instagram">
+        <div class="card-badge badge-ig">Instagram vs TikTok</div>
+        <div class="card-title">Instagram vs TikTok — Qual Paga Mais?</div>
+        <p class="card-desc">Instagram pays more per sponsored post. TikTok grows audiences faster. This comparison tells you which platform to prioritize — and the strategy that makes both work together.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="instagram">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       CLUSTER 4 — STREAMING / MUSIC
+  ══════════════════════════════════════════ -->
+  <section class="cluster-section" data-cluster="streaming" id="streaming">
+    <div class="cluster-header">
+      <div class="cluster-icon" style="background:rgba(34,197,94,0.1); font-size:24px;">♫</div>
+      <div class="cluster-meta">
+        <h2 class="cluster-title">Streaming e Música</h2>
+        <p class="cluster-desc">Royalties do Spotify, tarifas da Apple Music e renda de streaming para artistas independentes.</p>
+      </div>
+      <span class="cluster-count">5 guias</span>
+    </div>
+
+    <div class="guides-grid">
+
+      <a href="/guides/spotify-vs-apple-music-pay.html" class="guide-card featured" data-cluster="streaming">
+        <div class="featured-visual featured-sp">♫</div>
+        <div class="featured-text">
+          <div class="card-badge badge-sp">Streaming · Destaque</div>
+          <div class="card-title">Spotify vs Apple Music: Pagamento por Stream</div>
+          <p class="card-desc">Apple Music pays 2–3× more per stream than Spotify — but Spotify has 7× more users. This side-by-side comparison shows which platform you should focus on and why the answer might surprise you.</p>
+          <div class="card-footer">
+            <span class="card-read" data-cluster="streaming">Read Guide →</span>
+            <span class="card-time">⏱ 7 min read</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="/guides/how-much-do-musicians-make-from-streaming.html" class="guide-card" data-cluster="streaming">
+        <div class="card-badge badge-sp">Music Streaming</div>
+        <div class="card-title">Quanto os Músicos Ganham com Streaming?</div>
+        <p class="card-desc">At $0.004/stream average, you need 250,000 Spotify streams/month to earn $1,000. Here's what's realistic at every artist level — and how to maximize streaming income in 2026.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="streaming">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-spotify-royalties-work.html" class="guide-card" data-cluster="streaming">
+        <div class="card-badge badge-sp">Spotify</div>
+        <div class="card-title">Como Funcionam os Royalties do Spotify</div>
+        <p class="card-desc">The pro-rata model, the payment chain from Spotify to your account, and the two royalty types most independent artists forget to collect. Everything explained clearly.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="streaming">Read Guide →</span>
+          <span class="card-time">⏱ 8 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/average-spotify-pay-per-stream.html" class="guide-card" data-cluster="streaming">
+        <div class="card-badge badge-sp">Spotify</div>
+        <div class="card-title">Pagamento Médio do Spotify por Stream 2026</div>
+        <p class="card-desc">The average is $0.003–$0.005 — but a US Premium stream is worth 10–20× more than a free-tier developing market stream. Here's what your specific listeners are actually worth.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="streaming">Read Guide →</span>
+          <span class="card-time">⏱ 5 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-streaming-revenue-is-calculated.html" class="guide-card" data-cluster="streaming">
+        <div class="card-badge badge-sp">Streaming</div>
+        <div class="card-title">Como a Receita de Streaming é Calculada</div>
+        <p class="card-desc">From royalty pools to your bank account — the complete step-by-step mechanics of streaming income calculation, including the royalties many artists miss entirely.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="streaming">Read Guide →</span>
+          <span class="card-time">⏱ 7 min read</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       CLUSTER 5 — CREATOR ECONOMY
+  ══════════════════════════════════════════ -->
+  <section class="cluster-section" data-cluster="creator" id="creator">
+    <div class="cluster-header">
+      <div class="cluster-icon" style="background:rgba(139,92,246,0.1); font-size:24px;">◆</div>
+      <div class="cluster-meta">
+        <h2 class="cluster-title">Economia Criativa</h2>
+        <p class="cluster-desc">Podcasts, Twitch, Patreon, OnlyFans e como construir um negócio de criador em 2026.</p>
+      </div>
+      <span class="cluster-count">10 guias</span>
+    </div>
+
+    <div class="guides-grid">
+
+      <a href="/guides/how-creators-make-money-online.html" class="guide-card featured" data-cluster="creator">
+        <div class="featured-visual featured-ce">◆</div>
+        <div class="featured-text">
+          <div class="card-badge badge-ce">Economia Criativa · Destaque</div>
+          <div class="card-title">Como os Criadores Ganham Dinheiro Online</div>
+          <p class="card-desc">Platform ads, brand sponsorships, digital products, affiliate marketing, memberships, and merchandise — every major creator income stream in 2026 with real earnings data for each. The complete reference for building a creator business.</p>
+          <div class="card-footer">
+            <span class="card-read" data-cluster="creator">Read Guide →</span>
+            <span class="card-time">⏱ 10 min read</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="/guides/how-much-do-podcasters-make.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">Podcasting</div>
+        <div class="card-title">Quanto os Podcasters Ganham em 2026?</div>
+        <p class="card-desc">CPM ad rates, Patreon conversions, and course income — a complete earnings picture for podcasters at every download level, from 1,000 to 500,000+ monthly downloads.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 7 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/podcast-advertising-rates.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">Podcasting</div>
+        <div class="card-title">Tarifas de Publicidade em Podcasts Explicadas</div>
+        <p class="card-desc">CPM benchmarks by niche, how to price your podcast sponsorships, and the deal structures brands actually use. A finance show with 10K downloads earns more per episode than a comedy show with 50K.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/twitch-streamer-income.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">Twitch</div>
+        <div class="card-title">Quanto os Streamers do Twitch Ganham?</div>
+        <p class="card-desc">Subscriptions, bits, ad revenue, donations, and sponsorships — every Twitch income stream explained with real earnings by average concurrent viewer count in 2026.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 7 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-much-do-twitch-streamers-make-per-sub.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">Twitch</div>
+        <div class="card-title">Quanto os Streamers do Twitch Ganham por Inscrição?</div>
+        <p class="card-desc">The 50/50 vs legacy 70/30 split explained, sub tier breakdowns, Prime Gaming subs, and proven strategies for growing your subscriber count in 2026.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/patreon-earnings-guide.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">Patreon</div>
+        <div class="card-title">Guia de Ganhos do Patreon 2026</div>
+        <p class="card-desc">No algorithm, no advertiser approval — just fans paying for your work. Earnings by patron count, fee structure, tier pricing strategy, and conversion rates by creator type.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/onlyfans-income-explained.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">OnlyFans</div>
+        <div class="card-title">Ganhos do OnlyFans Explicados</div>
+        <p class="card-desc">Subscriptions, PPV content, tips, and custom requests — how the 80% creator share model works, what average vs. top creators earn, and what actually drives the income gap.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 6 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/creator-economy-growth.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">Economia Criativa</div>
+        <div class="card-title">Estatísticas de Crescimento da Economia Criativa 2026</div>
+        <p class="card-desc">A $480–$600B industry growing at 20–30% annually. Market size data, platform growth by creator count, income distribution, and what the numbers mean for new creators entering in 2026.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 5 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/how-to-build-a-creator-business.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">Strategy</div>
+        <div class="card-title">Como Construir um Negócio de Criador em 2026</div>
+        <p class="card-desc">From first post to full-time income — the four-phase roadmap covering platform selection, audience building, monetization stacking, and the systems that scale a solo creator into a real business.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 10 min read</span>
+        </div>
+      </a>
+
+      <a href="/guides/creator-income-streams.html" class="guide-card" data-cluster="creator">
+        <div class="card-badge badge-ce">Strategy</div>
+        <div class="card-title">As Melhores Fontes de Renda para Criadores</div>
+        <p class="card-desc">Six income streams ranked by passivity, margin, and income ceiling — with the exact order to build them. Platform ads → sponsorships → digital products → memberships → affiliate → merchandise.</p>
+        <div class="card-footer">
+          <span class="card-read" data-cluster="creator">Read Guide →</span>
+          <span class="card-time">⏱ 8 min read</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ── SEO BLURB ── -->
+  <div class="seo-blurb">
+    <h2>About These Creator Economy Guides</h2>
+    <p>
+      The creator economy reached an estimated $480–$600 billion in 2026, with over 200 million people worldwide earning income through digital content creation. These guides exist to cut through the hype and provide honest, data-backed answers to the questions creators actually ask.
+    </p>
+    <p>
+      Each guide covers one specific platform or topic in depth — from how YouTube's CPM and RPM models work, to what TikTok's Creator Rewards Program actually pays per 1,000 views, to the exact royalty chain that determines how much of a Spotify stream reaches an independent artist's bank account.
+    </p>
+    <p>
+      Every guide links directly to a free Kalkil calculator so you can apply the information to your own numbers immediately. No paywalls, no sign-ups — just the data you need to make informed decisions about where to build your creator business in 2026.
+    </p>
+    <p>
+      Topics covered include YouTube ad revenue, CPM by country, YouTube Shorts monetization, TikTok Creator Rewards, Instagram influencer pricing, Spotify and Apple Music royalties, podcast advertising CPM, Twitch subscription income, Patreon membership earnings, and comprehensive creator business strategy guides.
+    </p>
+  </div>
+
+</main>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-links">
+    <a href="/pt/">Home</a>
+    <a href="/pt/tools.html">Calculators</a>
+    <a href="/pt/guides.html">Guides</a>
+    <a href="/pt/about.html">About</a>
+  <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+  </div>
+  <p>© 2026 <a href="/pt/">Kalkil</a> · Free Creator Economy Calculators &amp; Guides</p>
+</footer>
+
+<script>
+  function filterGuides(cluster, btn) {
+    // update tabs
+    document.querySelectorAll('.cluster-tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+
+    // show/hide sections
+    const sections = document.querySelectorAll('.cluster-section');
+    sections.forEach(sec => {
+      if (cluster === 'all' || sec.dataset.cluster === cluster) {
+        sec.classList.remove('hidden');
+        sec.style.animationDelay = '0s';
+      } else {
+        sec.classList.add('hidden');
+      }
+    });
+
+    // smooth scroll to first visible section
+    if (cluster !== 'all') {
+      const target = document.getElementById(cluster);
+      if (target) {
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+</script>
+
+<script src="/i18n.js"></script>
+
+</body></html>
