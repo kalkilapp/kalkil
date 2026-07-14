@@ -892,9 +892,13 @@
     }
 
     /* 6. Meta + html lang + URL */
-    if (t['meta.title']) document.title = t['meta.title'];
+    /* meta.title/meta.desc solo existen traducidos para el home — en cualquier otra
+       página (guías, tools, about) pisaban el <title>/description correctos de esa
+       página con los del home. Solo se aplican si estamos en el home. */
+    var isHome = window.location.pathname === '/' || /\/index\.html$/.test(window.location.pathname);
+    if (isHome && t['meta.title']) document.title = t['meta.title'];
     var descEl = document.querySelector('meta[name="description"]');
-    if (descEl && t['meta.desc']) descEl.setAttribute('content', t['meta.desc']);
+    if (isHome && descEl && t['meta.desc']) descEl.setAttribute('content', t['meta.desc']);
     document.documentElement.setAttribute('lang', lang);
     var url = new URL(window.location.href);
     if (lang === 'en') url.searchParams.delete('lang');
