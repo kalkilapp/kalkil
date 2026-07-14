@@ -1,0 +1,9 @@
+# Fallback SOLO si el hosting resulta ser Apache y no Vercel (ver sección 4 del reporte —
+# no hay ningún archivo de config de hosting en el repo, así que no pude confirmar cuál es
+# el proveedor real solo con el código). Si es Vercel, usar /vercel.json en su lugar.
+# Para activar: renombrar a .htaccess y poner en la raíz del sitio servido.
+
+Redirect 301 /instagram-earnings-calculator.html /tools/instagram-earnings-calculator.html
+Redirect 301 /spotify-calculator.html /tools/spotify-royalty-calculator.html
+Redirect 301 /tiktok-money-calculator.html /tools/tiktok-money-calculator.html
+Redirect 301 /youtube-calculator.html /tools/youtube-money-calculator.html

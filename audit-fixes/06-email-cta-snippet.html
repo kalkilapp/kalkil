@@ -1,0 +1,70 @@
+<!--
+  Sección 8: CTA de email, solo en index.html (61% del tráfico, 86% de los clics).
+  Conectado a Formspree (https://formspree.io/f/xdayyzpl) vía action/method nativo
+  (fallback sin JS) y fetch() con Accept:application/json para el flujo AJAX con
+  mensaje de estado inline. Eventos gtag email_signup_submitted/_success conectados.
+-->
+<section class="email-cta" id="email-cta">
+  <div class="email-cta-inner">
+    <h3 data-i18n="cta.title">Get new calculators &amp; creator income data — monthly</h3>
+    <p data-i18n="cta.sub">No spam. Unsubscribe anytime.</p>
+    <form id="kalkil-email-form" class="email-cta-form" method="POST" action="https://formspree.io/f/xdayyzpl" data-endpoint="https://formspree.io/f/xdayyzpl">
+      <input type="email" name="email" required placeholder="you@email.com" aria-label="Email">
+      <button type="submit" data-i18n="cta.btn">Subscribe</button>
+    </form>
+    <p class="email-cta-status" id="email-cta-status" role="status" aria-live="polite"></p>
+  </div>
+</section>
+
+<style>
+  .email-cta { background: var(--navy-mid, #1e293b); padding: 56px 24px; text-align: center; }
+  .email-cta-inner { max-width: 520px; margin: 0 auto; }
+  .email-cta h3 { color: white; font-family: var(--serif); font-size: 26px; margin-bottom: 8px; }
+  .email-cta p { color: rgba(255,255,255,0.6); font-size: 14px; margin-bottom: 20px; }
+  .email-cta-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .email-cta-form input {
+    flex: 1 1 240px; padding: 12px 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.06); color: white; font-size: 14px;
+  }
+  .email-cta-form input::placeholder { color: rgba(255,255,255,0.4); }
+  .email-cta-form button {
+    padding: 12px 22px; border-radius: 8px; border: none; background: var(--accent, #22c55e);
+    color: white; font-weight: 600; cursor: pointer; font-size: 14px;
+  }
+  .email-cta-form button:hover { background: var(--accent-dk, #16a34a); }
+  .email-cta-status { margin-top: 12px; font-size: 13px; }
+</style>
+
+<script>
+(function () {
+  var form = document.getElementById('kalkil-email-form');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var status = document.getElementById('email-cta-status');
+    var email = form.querySelector('input[name="email"]').value;
+    var endpoint = form.getAttribute('data-endpoint');
+
+    if (typeof gtag === 'function') {
+      gtag('event', 'email_signup_submitted', { form_location: 'homepage' });
+    }
+
+    fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ email: email }),
+    })
+      .then(function (res) {
+        if (!res.ok) throw new Error('Formspree error ' + res.status);
+        status.textContent = "Thanks — you're on the list.";
+        form.reset();
+        if (typeof gtag === 'function') {
+          gtag('event', 'email_signup_success', { form_location: 'homepage' });
+        }
+      })
+      .catch(function () {
+        status.textContent = 'Something went wrong — try again.';
+      });
+  });
+})();
+</script>

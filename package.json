@@ -1,0 +1,13 @@
+{
+  "name": "kalkil-build-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Herramientas de build para el sitio estático (no se despliega ni corre en producción — solo genera archivos HTML antes del deploy)",
+  "type": "module",
+  "scripts": {
+    "generate:i18n": "node audit-fixes/08-generate-i18n-pages.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
