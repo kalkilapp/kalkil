@@ -116,6 +116,7 @@
     <script>
     function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
     function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'spotify-royalty-calculator'});
       var s=parseFloat(document.getElementById('sp-streams').value)||0;
       var rate=parseFloat(document.getElementById('sp-market').value)||0.006;
       var dist=parseFloat(document.getElementById('sp-dist').value)||0.85;

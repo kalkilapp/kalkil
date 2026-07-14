@@ -115,6 +115,7 @@
     <script>
     function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
     function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'podcast-revenue-calculator'});
       var dl=parseFloat(document.getElementById('po-downloads').value)||0;
       var cpm=parseFloat(document.getElementById('po-niche').value)||30;
       var ads=parseFloat(document.getElementById('po-ads').value)||2;

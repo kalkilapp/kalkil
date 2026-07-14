@@ -109,6 +109,7 @@
     <script>
     function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
     function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'onlyfans-earnings-calculator'});
       var s=parseFloat(document.getElementById('of-subs').value)||0;
       var p=parseFloat(document.getElementById('of-price').value)||0;
       var ppv=parseFloat(document.getElementById('of-ppv').value)||0;

@@ -113,6 +113,7 @@
     <script>
     function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
     function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'youtube-shorts-calculator'});
       var sv=parseFloat(document.getElementById('s-views').value)||0;
       var srpm=parseFloat(document.getElementById('s-rpm').value)||0.05;
       var lv=parseFloat(document.getElementById('lf-views').value)||0;

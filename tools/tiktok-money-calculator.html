@@ -119,6 +119,7 @@
     <script>
     function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
     function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'tiktok-money-calculator'});
       var v=parseFloat(document.getElementById('tt-views').value)||0;
       var eng=parseFloat(document.getElementById('tt-eng').value)||0.03;
       var f=parseFloat(document.getElementById('tt-followers').value)||0;

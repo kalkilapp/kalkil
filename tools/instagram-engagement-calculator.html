@@ -109,6 +109,7 @@
     </div>
     <script>
     function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'instagram-engagement-calculator'});
       var l=parseFloat(document.getElementById('ie-likes').value)||0;
       var c=parseFloat(document.getElementById('ie-comments').value)||0;
       var s=parseFloat(document.getElementById('ie-saves').value)||0;

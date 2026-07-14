@@ -131,6 +131,7 @@
     <script>
     function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
     function calc(){
+      gtag('event','calculator_result_viewed',{calculator:'influencer-rate-calculator'});
       var plat=parseFloat(document.getElementById('ir-platform').value)||1.0;
       var f=parseFloat(document.getElementById('ir-followers').value)||0;
       var eng=parseFloat(document.getElementById('ir-eng').value)||2;
