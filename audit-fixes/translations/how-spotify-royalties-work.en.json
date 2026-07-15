@@ -1,0 +1,340 @@
+{
+  "slug": "how-spotify-royalties-work",
+  "title": "How Spotify Royalties Work — Complete Guide for Artists 2026 | Kalkil",
+  "metaDescription": "Understand how Spotify royalties work in 2026. The pro-rata model, payment chain, royalty types, and how to maximize your Spotify streaming income explained.",
+  "ogTitle": "How Spotify Royalties Work — Complete Guide for Artists 2026 | Kalkil",
+  "ogDescription": "Understand how Spotify royalties work in 2026. The pro-rata model, payment chain, royalty types, and how to maximize your Spotify streaming income explained.",
+  "nodeCount": 66,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "♫ Spotify · Royalties Deep Dive 2026"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "How Spotify Royalties Work"
+    },
+    {
+      "id": "t2",
+      "tag": "p",
+      "text": "The complete mechanics of Spotify's royalty system — so you know exactly what you're owed."
+    },
+    {
+      "id": "t3",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t4",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t5",
+      "tag": "a",
+      "text": "Guides"
+    },
+    {
+      "id": "t6",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t7",
+      "tag": "div",
+      "text": "How Spotify Royalties Work"
+    },
+    {
+      "id": "t8",
+      "tag": "p",
+      "text": "Spotify doesn't pay a fixed rate per stream. Instead, it uses a"
+    },
+    {
+      "id": "t9",
+      "tag": "strong",
+      "text": "pro-rata distribution model"
+    },
+    {
+      "id": "t10",
+      "tag": "p",
+      "text": "where your earnings depend on your share of total platform streams. Understanding this is essential to knowing what you're owed and why your rate fluctuates."
+    },
+    {
+      "id": "t11",
+      "tag": "h2",
+      "text": "The Pro-Rata Revenue Pool — Step by Step"
+    },
+    {
+      "id": "t12",
+      "tag": "span",
+      "text": "Spotify collects all subscription fees and ad revenue into a monthly pool."
+    },
+    {
+      "id": "t13",
+      "tag": "span",
+      "text": "Approximately 70% of total revenue is set aside as the royalty pool."
+    },
+    {
+      "id": "t14",
+      "tag": "span",
+      "text": "Your streams ÷ total platform streams = your percentage share of the pool."
+    },
+    {
+      "id": "t15",
+      "tag": "span",
+      "text": "Your share is paid out to your distributor or label, who then pays you."
+    },
+    {
+      "id": "t16",
+      "tag": "h2",
+      "text": "The Royalty Payment Chain"
+    },
+    {
+      "id": "t17",
+      "tag": "th",
+      "text": "Party"
+    },
+    {
+      "id": "t18",
+      "tag": "th",
+      "text": "Typical Cut"
+    },
+    {
+      "id": "t19",
+      "tag": "th",
+      "text": "What They Do"
+    },
+    {
+      "id": "t20",
+      "tag": "td",
+      "text": "Spotify"
+    },
+    {
+      "id": "t21",
+      "tag": "td",
+      "text": "Keeps its platform share before distribution"
+    },
+    {
+      "id": "t22",
+      "tag": "td",
+      "text": "Record Label (if signed)"
+    },
+    {
+      "id": "t23",
+      "tag": "td",
+      "text": "15–75% of your share"
+    },
+    {
+      "id": "t24",
+      "tag": "td",
+      "text": "Collects and distributes to artist"
+    },
+    {
+      "id": "t25",
+      "tag": "td",
+      "text": "Independent Distributor"
+    },
+    {
+      "id": "t26",
+      "tag": "td",
+      "text": "0–20% of your share"
+    },
+    {
+      "id": "t27",
+      "tag": "td",
+      "text": "Delivers to platforms, pays artist"
+    },
+    {
+      "id": "t28",
+      "tag": "td",
+      "text": "Publisher / PRO"
+    },
+    {
+      "id": "t29",
+      "tag": "td",
+      "text": "10–15% separately"
+    },
+    {
+      "id": "t30",
+      "tag": "td",
+      "text": "Collects mechanical & performance royalties"
+    },
+    {
+      "id": "t31",
+      "tag": "td",
+      "text": "Artist"
+    },
+    {
+      "id": "t32",
+      "tag": "td",
+      "text": "Remainder"
+    },
+    {
+      "id": "t33",
+      "tag": "td",
+      "text": "What actually reaches your account"
+    },
+    {
+      "id": "t34",
+      "tag": "h2",
+      "text": "Two Types of Spotify Royalties"
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "Master Royalties"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": "— paid to the sound recording owner (label or artist via distributor). This is what most people think of as \"Spotify royalties.\""
+    },
+    {
+      "id": "t37",
+      "tag": "strong",
+      "text": "Mechanical Royalties"
+    },
+    {
+      "id": "t38",
+      "tag": "p",
+      "text": "— paid separately to songwriters and publishers for the composition itself. Register with a PRO (ASCAP, BMI, SESAC in the US; PRS in the UK) to collect these."
+    },
+    {
+      "id": "t39",
+      "tag": "p",
+      "text": "Many independent artists miss mechanical royalties by not registering with a publisher or PRO. This can represent 10–20% of additional revenue you're owed."
+    },
+    {
+      "id": "t40",
+      "tag": "h3",
+      "text": "Spotify Royalties Calculator"
+    },
+    {
+      "id": "t41",
+      "tag": "p",
+      "text": "Estimate your Spotify royalties based on your stream count and distribution arrangement."
+    },
+    {
+      "id": "t42",
+      "tag": "a",
+      "text": "♫ Calculate My Royalties →"
+    },
+    {
+      "id": "t43",
+      "tag": "h3",
+      "text": "Calculate Your Earnings"
+    },
+    {
+      "id": "t44",
+      "tag": "p",
+      "text": "Use our free calculator to estimate your potential income based on your numbers."
+    },
+    {
+      "id": "t45",
+      "tag": "a",
+      "text": "📈 Try the Spotify Royalties Calculator →"
+    },
+    {
+      "id": "t46",
+      "tag": "p",
+      "text": "Free tool · No sign-up required · Instant results"
+    },
+    {
+      "id": "t47",
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "t48",
+      "tag": "button",
+      "text": "Why does my Spotify per-stream rate change every month?"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "Because the pro-rata model means your rate depends on total platform revenue and total platform streams that month. Both fluctuate, causing your effective per-stream rate to vary."
+    },
+    {
+      "id": "t50",
+      "tag": "button",
+      "text": "How long does Spotify take to pay?"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "Spotify pays distributors/labels monthly with approximately a 2–3 month lag. Your distributor or label then pays you on their own schedule, which can add additional delay."
+    },
+    {
+      "id": "t52",
+      "tag": "button",
+      "text": "What is a distributor and do I need one?"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "A distributor (DistroKid, TuneCore, CD Baby) delivers your music to Spotify and other platforms, collects royalties, and pays you. Independent artists need one — you can't upload directly to Spotify."
+    },
+    {
+      "id": "t54",
+      "tag": "h2",
+      "text": "Explore More Calculators"
+    },
+    {
+      "id": "t55",
+      "tag": "span",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t56",
+      "tag": "span",
+      "text": "Estimate AdSense revenue"
+    },
+    {
+      "id": "t57",
+      "tag": "span",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t58",
+      "tag": "span",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t59",
+      "tag": "span",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t60",
+      "tag": "span",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t61",
+      "tag": "span",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t62",
+      "tag": "span",
+      "text": "Subs, bits & ad income"
+    },
+    {
+      "id": "t63",
+      "tag": "h2",
+      "text": "Final Thoughts"
+    },
+    {
+      "id": "t64",
+      "tag": "p",
+      "text": "Spotify's royalty system rewards scale — more streams, more catalog, more listeners in premium markets. Register with a PRO to capture all royalty types, choose a distributor with favorable terms, and build the catalog depth that generates compounding passive income over time."
+    },
+    {
+      "id": "t65",
+      "tag": "a",
+      "text": "Try the Calculator →"
+    }
+  ]
+}

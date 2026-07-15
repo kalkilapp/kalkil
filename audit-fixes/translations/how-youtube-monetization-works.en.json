@@ -1,0 +1,405 @@
+{
+  "slug": "how-youtube-monetization-works",
+  "title": "YouTube Monetization Explained: Ads, Shorts, Sponsorships (2026) | Kalkil",
+  "metaDescription": "A complete guide to how YouTube monetization works in 2026 — ads, Shorts, channel memberships, Super Chats, and brand sponsorships all covered.",
+  "ogTitle": "YouTube Monetization Explained: Ads, Shorts, Sponsorships (2026) | Kalkil",
+  "ogDescription": "A complete guide to how YouTube monetization works in 2026 — ads, Shorts, channel memberships, Super Chats, and brand sponsorships all covered.",
+  "nodeCount": 79,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "▶ YouTube · Complete Monetization Guide"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "How YouTube Monetization Works"
+    },
+    {
+      "id": "t2",
+      "tag": "p",
+      "text": "Every revenue stream available to YouTube creators in 2026 — explained clearly."
+    },
+    {
+      "id": "t3",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t4",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t5",
+      "tag": "a",
+      "text": "Guides"
+    },
+    {
+      "id": "t6",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t7",
+      "tag": "div",
+      "text": "How YouTube Monetization Works"
+    },
+    {
+      "id": "t8",
+      "tag": "p",
+      "text": "YouTube offers more ways to earn than any other creator platform. Understanding every income stream — not just AdSense — is the difference between a hobbyist and a creator building a real business."
+    },
+    {
+      "id": "t9",
+      "tag": "h2",
+      "text": "YouTube Partner Program (YPP) Requirements"
+    },
+    {
+      "id": "t10",
+      "tag": "th",
+      "text": "Requirement"
+    },
+    {
+      "id": "t11",
+      "tag": "th",
+      "text": "Standard YPP"
+    },
+    {
+      "id": "t12",
+      "tag": "th",
+      "text": "Expanded YPP"
+    },
+    {
+      "id": "t13",
+      "tag": "td",
+      "text": "Subscribers"
+    },
+    {
+      "id": "t14",
+      "tag": "td",
+      "text": "Watch Hours (12 months)"
+    },
+    {
+      "id": "t15",
+      "tag": "td",
+      "text": "4,000 hrs"
+    },
+    {
+      "id": "t16",
+      "tag": "td",
+      "text": "3,000 hrs"
+    },
+    {
+      "id": "t17",
+      "tag": "td",
+      "text": "OR Shorts Views (90 days)"
+    },
+    {
+      "id": "t18",
+      "tag": "td",
+      "text": "10M views"
+    },
+    {
+      "id": "t19",
+      "tag": "td",
+      "text": "3M views"
+    },
+    {
+      "id": "t20",
+      "tag": "td",
+      "text": "AdSense linked"
+    },
+    {
+      "id": "t21",
+      "tag": "td",
+      "text": "Required"
+    },
+    {
+      "id": "t22",
+      "tag": "td",
+      "text": "Required"
+    },
+    {
+      "id": "t23",
+      "tag": "h2",
+      "text": "Ad Revenue Model"
+    },
+    {
+      "id": "t24",
+      "tag": "p",
+      "text": "Four ad formats generate creator revenue:"
+    },
+    {
+      "id": "t25",
+      "tag": "strong",
+      "text": "Skippable in-stream ads"
+    },
+    {
+      "id": "t26",
+      "tag": "li",
+      "text": "— creator earns when viewer watches 30+ seconds or clicks."
+    },
+    {
+      "id": "t27",
+      "tag": "strong",
+      "text": "Non-skippable ads"
+    },
+    {
+      "id": "t28",
+      "tag": "li",
+      "text": "— viewer must watch; generates 20–40% higher CPM."
+    },
+    {
+      "id": "t29",
+      "tag": "strong",
+      "text": "Bumper ads"
+    },
+    {
+      "id": "t30",
+      "tag": "li",
+      "text": "— 6-second non-skippable; lower CPM but high frequency."
+    },
+    {
+      "id": "t31",
+      "tag": "strong",
+      "text": "Display & overlay ads"
+    },
+    {
+      "id": "t32",
+      "tag": "li",
+      "text": "— banner formats alongside the video player."
+    },
+    {
+      "id": "t33",
+      "tag": "p",
+      "text": "Videos over 8 minutes can include mid-roll ads — typically the single biggest driver of per-video revenue."
+    },
+    {
+      "id": "t34",
+      "tag": "h2",
+      "text": "Shorts Revenue"
+    },
+    {
+      "id": "t35",
+      "tag": "p",
+      "text": "Shorts uses a pooled revenue model where ads between videos are shared across creators based on view share. Creators receive 45% of Shorts ad revenue. RPM ranges from $0.03 to $0.07 — best used for channel growth rather than direct income."
+    },
+    {
+      "id": "t36",
+      "tag": "h2",
+      "text": "Brand Sponsorships"
+    },
+    {
+      "id": "t37",
+      "tag": "th",
+      "text": "Subscribers"
+    },
+    {
+      "id": "t38",
+      "tag": "th",
+      "text": "Typical Integration Rate"
+    },
+    {
+      "id": "t39",
+      "tag": "td",
+      "text": "10K–50K"
+    },
+    {
+      "id": "t40",
+      "tag": "td",
+      "text": "50K–200K"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "200K–500K"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "500K–1M"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "1M+"
+    },
+    {
+      "id": "t44",
+      "tag": "h3",
+      "text": "Total YouTube Income Calculator"
+    },
+    {
+      "id": "t45",
+      "tag": "p",
+      "text": "See your estimated earnings across AdSense, memberships, and sponsorship potential combined."
+    },
+    {
+      "id": "t46",
+      "tag": "a",
+      "text": "📈 Calculate Total YouTube Income →"
+    },
+    {
+      "id": "t47",
+      "tag": "h2",
+      "text": "Total Creator Income — All Streams"
+    },
+    {
+      "id": "t48",
+      "tag": "th",
+      "text": "Revenue Source"
+    },
+    {
+      "id": "t49",
+      "tag": "th",
+      "text": "Monthly (500K subs)"
+    },
+    {
+      "id": "t50",
+      "tag": "td",
+      "text": "AdSense"
+    },
+    {
+      "id": "t51",
+      "tag": "td",
+      "text": "Brand Sponsorships"
+    },
+    {
+      "id": "t52",
+      "tag": "td",
+      "text": "Channel Memberships"
+    },
+    {
+      "id": "t53",
+      "tag": "td",
+      "text": "Super Chats & Thanks"
+    },
+    {
+      "id": "t54",
+      "tag": "td",
+      "text": "Affiliate Marketing"
+    },
+    {
+      "id": "t55",
+      "tag": "td",
+      "text": "Merchandise"
+    },
+    {
+      "id": "t56",
+      "tag": "h3",
+      "text": "Calculate Your Earnings"
+    },
+    {
+      "id": "t57",
+      "tag": "p",
+      "text": "Use our free calculator to estimate your potential income based on your numbers."
+    },
+    {
+      "id": "t58",
+      "tag": "a",
+      "text": "📈 Try the YouTube Money Calculator →"
+    },
+    {
+      "id": "t59",
+      "tag": "p",
+      "text": "Free tool · No sign-up required · Instant results"
+    },
+    {
+      "id": "t60",
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "t61",
+      "tag": "button",
+      "text": "How long does it take to get monetized on YouTube?"
+    },
+    {
+      "id": "t62",
+      "tag": "div",
+      "text": "Most channels reach the 1,000 subscriber and 4,000 watch hour threshold in 6–18 months with consistent posting, though it varies widely by niche and content quality."
+    },
+    {
+      "id": "t63",
+      "tag": "button",
+      "text": "Can you lose YouTube monetization?"
+    },
+    {
+      "id": "t64",
+      "tag": "div",
+      "text": "Yes — policy violations, copyright strikes, or falling below engagement thresholds can result in demonetization. Maintaining advertiser-friendly content is essential."
+    },
+    {
+      "id": "t65",
+      "tag": "button",
+      "text": "What's the difference between CPM and RPM?"
+    },
+    {
+      "id": "t66",
+      "tag": "div",
+      "text": "CPM is what advertisers pay YouTube per 1,000 impressions. RPM is what you receive per 1,000 views — approximately 55% of CPM multiplied by your ad impression rate."
+    },
+    {
+      "id": "t67",
+      "tag": "h2",
+      "text": "Explore More Calculators"
+    },
+    {
+      "id": "t68",
+      "tag": "span",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t69",
+      "tag": "span",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t70",
+      "tag": "span",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t71",
+      "tag": "span",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t72",
+      "tag": "span",
+      "text": "Spotify Calculator"
+    },
+    {
+      "id": "t73",
+      "tag": "span",
+      "text": "Royalties per stream"
+    },
+    {
+      "id": "t74",
+      "tag": "span",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t75",
+      "tag": "span",
+      "text": "Subs, bits & ad income"
+    },
+    {
+      "id": "t76",
+      "tag": "h2",
+      "text": "Final Thoughts"
+    },
+    {
+      "id": "t77",
+      "tag": "p",
+      "text": "AdSense is just one layer of YouTube income. Creators who build sponsorship relationships, channel memberships, and affiliate programs routinely earn 3–5× their AdSense income. Think of YouTube as a business platform with multiple revenue layers, not just an ad network."
+    },
+    {
+      "id": "t78",
+      "tag": "a",
+      "text": "Try the Calculator →"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "slug": "instagram-engagement-rate-explained",
+  "title": "Instagram Engagement Rate Explained — How to Calculate & Improve It (2026) | Kalkil",
+  "metaDescription": "Learn what Instagram engagement rate means, how to calculate it correctly, and what a good engagement rate looks like for influencers and brands in 2026.",
+  "ogTitle": "Instagram Engagement Rate Explained — How to Calculate & Improve It (2026) | Kalkil",
+  "ogDescription": "Learn what Instagram engagement rate means, how to calculate it correctly, and what a good engagement rate looks like for influencers and brands in 2026.",
+  "nodeCount": 72,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "◈ Instagram · Engagement Rate Guide"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Instagram Engagement Rate Explained"
+    },
+    {
+      "id": "t2",
+      "tag": "p",
+      "text": "The metric that determines your Instagram value to brands — and how to improve it."
+    },
+    {
+      "id": "t3",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t4",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t5",
+      "tag": "a",
+      "text": "Guides"
+    },
+    {
+      "id": "t6",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t7",
+      "tag": "div",
+      "text": "Instagram Engagement Rate Explained"
+    },
+    {
+      "id": "t8",
+      "tag": "p",
+      "text": "Engagement rate is the single most important metric in Instagram influencer marketing. It determines your value to brands, your algorithmic reach, and your ability to convert followers into income. A 50K account with 6% engagement is more valuable to most advertisers than a 500K account with 0.5% engagement."
+    },
+    {
+      "id": "t9",
+      "tag": "h2",
+      "text": "The Engagement Rate Formula"
+    },
+    {
+      "id": "t10",
+      "tag": "strong",
+      "text": "Engagement Rate = (Total Likes + Comments) ÷ Total Followers × 100"
+    },
+    {
+      "id": "t11",
+      "tag": "p",
+      "text": "Example: 1,200 likes + 80 comments on a 50,000 follower account ="
+    },
+    {
+      "id": "t12",
+      "tag": "strong",
+      "text": "2.56% engagement rate"
+    },
+    {
+      "id": "t13",
+      "tag": "p",
+      "text": "Some agencies include"
+    },
+    {
+      "id": "t14",
+      "tag": "strong",
+      "text": "saves and shares"
+    },
+    {
+      "id": "t15",
+      "tag": "p",
+      "text": "for a more complete picture:"
+    },
+    {
+      "id": "t16",
+      "tag": "p",
+      "text": "Extended ER = (Likes + Comments + Saves + Shares) ÷ Followers × 100"
+    },
+    {
+      "id": "t17",
+      "tag": "h2",
+      "text": "What's a Good Instagram Engagement Rate?"
+    },
+    {
+      "id": "t18",
+      "tag": "th",
+      "text": "Account Size"
+    },
+    {
+      "id": "t19",
+      "tag": "th",
+      "text": "Average Rate"
+    },
+    {
+      "id": "t20",
+      "tag": "th",
+      "text": "Good Rate"
+    },
+    {
+      "id": "t21",
+      "tag": "th",
+      "text": "Excellent Rate"
+    },
+    {
+      "id": "t22",
+      "tag": "td",
+      "text": "Nano (1K–10K)"
+    },
+    {
+      "id": "t23",
+      "tag": "td",
+      "text": "Micro (10K–100K)"
+    },
+    {
+      "id": "t24",
+      "tag": "td",
+      "text": "Mid-tier (100K–500K)"
+    },
+    {
+      "id": "t25",
+      "tag": "td",
+      "text": "Macro (500K–1M)"
+    },
+    {
+      "id": "t26",
+      "tag": "td",
+      "text": "Mega (1M+)"
+    },
+    {
+      "id": "t27",
+      "tag": "h2",
+      "text": "How to Improve Your Engagement Rate"
+    },
+    {
+      "id": "t28",
+      "tag": "li",
+      "text": "Post"
+    },
+    {
+      "id": "t29",
+      "tag": "strong",
+      "text": "carousels"
+    },
+    {
+      "id": "t30",
+      "tag": "li",
+      "text": "— they generate 2–3× more engagement than single images."
+    },
+    {
+      "id": "t31",
+      "tag": "li",
+      "text": "Ask"
+    },
+    {
+      "id": "t32",
+      "tag": "strong",
+      "text": "questions in captions"
+    },
+    {
+      "id": "t33",
+      "tag": "li",
+      "text": "to drive comments."
+    },
+    {
+      "id": "t34",
+      "tag": "li",
+      "text": "Respond to"
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "every comment within the first hour"
+    },
+    {
+      "id": "t36",
+      "tag": "li",
+      "text": "— the algorithm rewards early engagement velocity."
+    },
+    {
+      "id": "t37",
+      "tag": "li",
+      "text": "Use"
+    },
+    {
+      "id": "t38",
+      "tag": "strong",
+      "text": "Reels"
+    },
+    {
+      "id": "t39",
+      "tag": "li",
+      "text": "for algorithmic reach; use carousels and Stories for engagement depth."
+    },
+    {
+      "id": "t40",
+      "tag": "li",
+      "text": "Post during"
+    },
+    {
+      "id": "t41",
+      "tag": "strong",
+      "text": "peak activity hours"
+    },
+    {
+      "id": "t42",
+      "tag": "li",
+      "text": "for your specific audience (check Instagram Insights)."
+    },
+    {
+      "id": "t43",
+      "tag": "li",
+      "text": "Avoid"
+    },
+    {
+      "id": "t44",
+      "tag": "strong",
+      "text": "buying followers or engagement"
+    },
+    {
+      "id": "t45",
+      "tag": "li",
+      "text": "— this destroys your rate and brand attractiveness."
+    },
+    {
+      "id": "t46",
+      "tag": "h3",
+      "text": "Instagram Engagement Calculator"
+    },
+    {
+      "id": "t47",
+      "tag": "p",
+      "text": "Calculate your engagement rate and see how it benchmarks against your tier and niche."
+    },
+    {
+      "id": "t48",
+      "tag": "a",
+      "text": "◈ Calculate My Engagement Rate →"
+    },
+    {
+      "id": "t49",
+      "tag": "h3",
+      "text": "Calculate Your Earnings"
+    },
+    {
+      "id": "t50",
+      "tag": "p",
+      "text": "Use our free calculator to estimate your potential income based on your numbers."
+    },
+    {
+      "id": "t51",
+      "tag": "a",
+      "text": "📈 Try the Instagram Engagement Calculator →"
+    },
+    {
+      "id": "t52",
+      "tag": "p",
+      "text": "Free tool · No sign-up required · Instant results"
+    },
+    {
+      "id": "t53",
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "t54",
+      "tag": "button",
+      "text": "Why does engagement rate decrease as follower count grows?"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "Larger accounts accumulate more passive and inactive followers over time, diluting the percentage that actively engages. This is normal and expected — absolute engagement numbers still grow."
+    },
+    {
+      "id": "t56",
+      "tag": "button",
+      "text": "Does Instagram show brands my engagement rate?"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "Not directly, but tools like Modash, Upfluence, and HypeAuditor show brands your historical engagement rates. Brands will always check before making a deal."
+    },
+    {
+      "id": "t58",
+      "tag": "button",
+      "text": "Do saves count more than likes on Instagram?"
+    },
+    {
+      "id": "t59",
+      "tag": "div",
+      "text": "Saves signal to the algorithm that content is valuable enough to return to — they're weighted heavily in distribution. For brand deals, brands care most about likes, comments, and reach data."
+    },
+    {
+      "id": "t60",
+      "tag": "h2",
+      "text": "Explore More Calculators"
+    },
+    {
+      "id": "t61",
+      "tag": "span",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t62",
+      "tag": "span",
+      "text": "Estimate AdSense revenue"
+    },
+    {
+      "id": "t63",
+      "tag": "span",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t64",
+      "tag": "span",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t65",
+      "tag": "span",
+      "text": "Spotify Calculator"
+    },
+    {
+      "id": "t66",
+      "tag": "span",
+      "text": "Royalties per stream"
+    },
+    {
+      "id": "t67",
+      "tag": "span",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t68",
+      "tag": "span",
+      "text": "Subs, bits & ad income"
+    },
+    {
+      "id": "t69",
+      "tag": "h2",
+      "text": "Final Thoughts"
+    },
+    {
+      "id": "t70",
+      "tag": "p",
+      "text": "Engagement rate is your Instagram currency with brands. Invest in growing it — through quality content, community interaction, and strategic posting — and every other metric follows. Use our calculator to track your rate and benchmark your performance."
+    },
+    {
+      "id": "t71",
+      "tag": "a",
+      "text": "Try the Calculator →"
+    }
+  ]
+}

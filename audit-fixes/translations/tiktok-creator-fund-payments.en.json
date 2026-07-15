@@ -1,0 +1,405 @@
+{
+  "slug": "tiktok-creator-fund-payments",
+  "title": "TikTok Creator Fund & Creator Rewards Payments Explained 2026 | Kalkil",
+  "metaDescription": "Understand how TikTok Creator Fund and Creator Rewards Program payments work in 2026. Learn payment rates, requirements, and real earnings examples.",
+  "ogTitle": "TikTok Creator Fund & Creator Rewards Payments Explained 2026 | Kalkil",
+  "ogDescription": "Understand how TikTok Creator Fund and Creator Rewards Program payments work in 2026. Learn payment rates, requirements, and real earnings examples.",
+  "nodeCount": 79,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "♪ TikTok · Creator Payments Guide"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "TikTok Creator Fund Payments Explained"
+    },
+    {
+      "id": "t2",
+      "tag": "p",
+      "text": "From the original Creator Fund to the new Creator Rewards Program — here's what you actually earn."
+    },
+    {
+      "id": "t3",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t4",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t5",
+      "tag": "a",
+      "text": "Guides"
+    },
+    {
+      "id": "t6",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t7",
+      "tag": "div",
+      "text": "TikTok Creator Fund Payments Explained"
+    },
+    {
+      "id": "t8",
+      "tag": "p",
+      "text": "TikTok's Creator Fund launched in 2020 with a $200M pool but disappointed creators with payouts of just"
+    },
+    {
+      "id": "t9",
+      "tag": "strong",
+      "text": "$0.002–$0.004 per 1,000 views"
+    },
+    {
+      "id": "t10",
+      "tag": "p",
+      "text": ". In 2023, the platform replaced it with the"
+    },
+    {
+      "id": "t11",
+      "tag": "strong",
+      "text": "Creator Rewards Program"
+    },
+    {
+      "id": "t12",
+      "tag": "p",
+      "text": ", which pays up to 20× more by rewarding quality, originality, and engagement over raw view counts."
+    },
+    {
+      "id": "t13",
+      "tag": "h2",
+      "text": "Creator Fund vs. Creator Rewards Program"
+    },
+    {
+      "id": "t14",
+      "tag": "th",
+      "text": "Feature"
+    },
+    {
+      "id": "t15",
+      "tag": "th",
+      "text": "Creator Fund (old)"
+    },
+    {
+      "id": "t16",
+      "tag": "th",
+      "text": "Creator Rewards (current)"
+    },
+    {
+      "id": "t17",
+      "tag": "td",
+      "text": "Average rate per 1K views"
+    },
+    {
+      "id": "t18",
+      "tag": "td",
+      "text": "Minimum followers"
+    },
+    {
+      "id": "t19",
+      "tag": "td",
+      "text": "Minimum views (30 days)"
+    },
+    {
+      "id": "t20",
+      "tag": "td",
+      "text": "Video length preference"
+    },
+    {
+      "id": "t21",
+      "tag": "td",
+      "text": "Any"
+    },
+    {
+      "id": "t22",
+      "tag": "td",
+      "text": "1+ minute preferred"
+    },
+    {
+      "id": "t23",
+      "tag": "td",
+      "text": "Originality scoring"
+    },
+    {
+      "id": "t24",
+      "tag": "td",
+      "text": "None"
+    },
+    {
+      "id": "t25",
+      "tag": "td",
+      "text": "Yes (key factor)"
+    },
+    {
+      "id": "t26",
+      "tag": "h2",
+      "text": "What the Creator Rewards Program Measures"
+    },
+    {
+      "id": "t27",
+      "tag": "p",
+      "text": "Unlike a simple CPM, the Creator Rewards Program uses a dynamic formula:"
+    },
+    {
+      "id": "t28",
+      "tag": "strong",
+      "text": "Video views"
+    },
+    {
+      "id": "t29",
+      "tag": "li",
+      "text": "— the base volume metric"
+    },
+    {
+      "id": "t30",
+      "tag": "strong",
+      "text": "Watch time / completion rate"
+    },
+    {
+      "id": "t31",
+      "tag": "li",
+      "text": "— longer views = higher reward"
+    },
+    {
+      "id": "t32",
+      "tag": "strong",
+      "text": "Engagement quality"
+    },
+    {
+      "id": "t33",
+      "tag": "li",
+      "text": "— comments and shares weighted more than likes"
+    },
+    {
+      "id": "t34",
+      "tag": "strong",
+      "text": "Originality score"
+    },
+    {
+      "id": "t35",
+      "tag": "li",
+      "text": "— penalizes duplicated or trend-copied content"
+    },
+    {
+      "id": "t36",
+      "tag": "strong",
+      "text": "Audience location"
+    },
+    {
+      "id": "t37",
+      "tag": "li",
+      "text": "— US and European viewers generate higher payouts"
+    },
+    {
+      "id": "t38",
+      "tag": "h2",
+      "text": "Payment Rates by Content Quality"
+    },
+    {
+      "id": "t39",
+      "tag": "th",
+      "text": "Content Quality Level"
+    },
+    {
+      "id": "t40",
+      "tag": "th",
+      "text": "Rate per 1,000 Views"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "Low quality / low engagement"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "Average quality"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "High quality + strong engagement"
+    },
+    {
+      "id": "t44",
+      "tag": "td",
+      "text": "Exceptional / viral content"
+    },
+    {
+      "id": "t45",
+      "tag": "td",
+      "text": "Up to $0.08"
+    },
+    {
+      "id": "t46",
+      "tag": "h2",
+      "text": "Eligibility Requirements (2026)"
+    },
+    {
+      "id": "t47",
+      "tag": "li",
+      "text": "Age: 18 years or older"
+    },
+    {
+      "id": "t48",
+      "tag": "li",
+      "text": "Minimum 10,000 followers"
+    },
+    {
+      "id": "t49",
+      "tag": "li",
+      "text": "At least 100,000 video views in the past 30 days"
+    },
+    {
+      "id": "t50",
+      "tag": "li",
+      "text": "Account in good standing (no active violations)"
+    },
+    {
+      "id": "t51",
+      "tag": "li",
+      "text": "Available in: US, UK, France, Germany, Brazil, Japan, South Korea, and others"
+    },
+    {
+      "id": "t52",
+      "tag": "li",
+      "text": "Personal account only (not a business account)"
+    },
+    {
+      "id": "t53",
+      "tag": "h3",
+      "text": "TikTok Creator Rewards Calculator"
+    },
+    {
+      "id": "t54",
+      "tag": "p",
+      "text": "See what your Creator Rewards payments might look like based on your real monthly view counts."
+    },
+    {
+      "id": "t55",
+      "tag": "a",
+      "text": "♫ Try the TikTok Earnings Calculator →"
+    },
+    {
+      "id": "t56",
+      "tag": "h3",
+      "text": "Calculate Your Earnings"
+    },
+    {
+      "id": "t57",
+      "tag": "p",
+      "text": "Use our free calculator to estimate your potential income based on your numbers."
+    },
+    {
+      "id": "t58",
+      "tag": "a",
+      "text": "📈 Try the TikTok Earnings Calculator →"
+    },
+    {
+      "id": "t59",
+      "tag": "p",
+      "text": "Free tool · No sign-up required · Instant results"
+    },
+    {
+      "id": "t60",
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "t61",
+      "tag": "button",
+      "text": "Why did TikTok replace the Creator Fund?"
+    },
+    {
+      "id": "t62",
+      "tag": "div",
+      "text": "The original Creator Fund paid so little — under $0.004 per 1,000 views — that creators widely criticized it. The Creator Rewards Program aims to pay more by rewarding quality content over raw volume."
+    },
+    {
+      "id": "t63",
+      "tag": "button",
+      "text": "Can I be in both the Creator Fund and Creator Rewards?"
+    },
+    {
+      "id": "t64",
+      "tag": "div",
+      "text": "The Creator Rewards Program fully replaced the Fund in most markets. Eligible creators are automatically transitioned to the new system."
+    },
+    {
+      "id": "t65",
+      "tag": "button",
+      "text": "How do I join the TikTok Creator Rewards Program?"
+    },
+    {
+      "id": "t66",
+      "tag": "div",
+      "text": "Navigate to your TikTok Creator Center and look for the Creator Rewards Program section. You'll see eligibility status and can apply once you meet all requirements."
+    },
+    {
+      "id": "t67",
+      "tag": "h2",
+      "text": "Explore More Calculators"
+    },
+    {
+      "id": "t68",
+      "tag": "span",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t69",
+      "tag": "span",
+      "text": "Estimate AdSense revenue"
+    },
+    {
+      "id": "t70",
+      "tag": "span",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t71",
+      "tag": "span",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t72",
+      "tag": "span",
+      "text": "Spotify Calculator"
+    },
+    {
+      "id": "t73",
+      "tag": "span",
+      "text": "Royalties per stream"
+    },
+    {
+      "id": "t74",
+      "tag": "span",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t75",
+      "tag": "span",
+      "text": "Subs, bits & ad income"
+    },
+    {
+      "id": "t76",
+      "tag": "h2",
+      "text": "Final Thoughts"
+    },
+    {
+      "id": "t77",
+      "tag": "p",
+      "text": "The Creator Rewards Program is a genuine improvement over the original Fund — but platform payments alone remain a small fraction of what successful TikTok creators earn. Focus on building audience quality and brand deal relationships alongside your Creator Rewards baseline."
+    },
+    {
+      "id": "t78",
+      "tag": "a",
+      "text": "Try the Calculator →"
+    }
+  ]
+}

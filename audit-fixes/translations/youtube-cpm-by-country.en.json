@@ -1,0 +1,495 @@
+{
+  "slug": "youtube-cpm-by-country",
+  "title": "YouTube CPM by Country 2026 — Global Ad Rates Compared | Kalkil",
+  "metaDescription": "Discover YouTube CPM rates by country in 2026. See which countries pay the most per 1,000 views and how geography impacts your YouTube revenue.",
+  "ogTitle": "YouTube CPM by Country 2026 — Global Ad Rates Compared | Kalkil",
+  "ogDescription": "Discover YouTube CPM rates by country in 2026. See which countries pay the most per 1,000 views and how geography impacts your YouTube revenue.",
+  "nodeCount": 97,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "🌍 YouTube · Global CPM Data 2026"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "YouTube CPM by Country (2026 Global Rates)"
+    },
+    {
+      "id": "t2",
+      "tag": "p",
+      "text": "Where your audience lives has a bigger impact on your YouTube income than almost anything else."
+    },
+    {
+      "id": "t3",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t4",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t5",
+      "tag": "a",
+      "text": "Guides"
+    },
+    {
+      "id": "t6",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t7",
+      "tag": "div",
+      "text": "YouTube CPM by Country (2026 Global Rates)"
+    },
+    {
+      "id": "t8",
+      "tag": "p",
+      "text": "A channel with 100,000 monthly views from the United States can earn"
+    },
+    {
+      "id": "t9",
+      "tag": "strong",
+      "text": "5–10× more"
+    },
+    {
+      "id": "t10",
+      "tag": "p",
+      "text": "than an identical channel whose views come from South Asia. This guide breaks down global YouTube CPM rates and explains why location matters so much."
+    },
+    {
+      "id": "t11",
+      "tag": "h2",
+      "text": "Highest-Paying YouTube Countries (2026)"
+    },
+    {
+      "id": "t12",
+      "tag": "th",
+      "text": "Country"
+    },
+    {
+      "id": "t13",
+      "tag": "th",
+      "text": "Average CPM Range"
+    },
+    {
+      "id": "t14",
+      "tag": "th",
+      "text": "Why It's High"
+    },
+    {
+      "id": "t15",
+      "tag": "td",
+      "text": "Norway"
+    },
+    {
+      "id": "t16",
+      "tag": "td",
+      "text": "High GDP, wealthy consumer base"
+    },
+    {
+      "id": "t17",
+      "tag": "td",
+      "text": "Germany"
+    },
+    {
+      "id": "t18",
+      "tag": "td",
+      "text": "Strong B2B ad market"
+    },
+    {
+      "id": "t19",
+      "tag": "td",
+      "text": "United States"
+    },
+    {
+      "id": "t20",
+      "tag": "td",
+      "text": "Largest ad ecosystem globally"
+    },
+    {
+      "id": "t21",
+      "tag": "td",
+      "text": "Australia"
+    },
+    {
+      "id": "t22",
+      "tag": "td",
+      "text": "High consumer purchasing power"
+    },
+    {
+      "id": "t23",
+      "tag": "td",
+      "text": "Canada"
+    },
+    {
+      "id": "t24",
+      "tag": "td",
+      "text": "English-speaking, high-income market"
+    },
+    {
+      "id": "t25",
+      "tag": "td",
+      "text": "United Kingdom"
+    },
+    {
+      "id": "t26",
+      "tag": "td",
+      "text": "Major financial services ad spend"
+    },
+    {
+      "id": "t27",
+      "tag": "td",
+      "text": "Sweden"
+    },
+    {
+      "id": "t28",
+      "tag": "td",
+      "text": "Tech-savvy premium audience"
+    },
+    {
+      "id": "t29",
+      "tag": "h2",
+      "text": "CPM Differences Explained"
+    },
+    {
+      "id": "t30",
+      "tag": "p",
+      "text": "Three forces drive the gap between high and low CPM countries:"
+    },
+    {
+      "id": "t31",
+      "tag": "strong",
+      "text": "Advertiser demand:"
+    },
+    {
+      "id": "t32",
+      "tag": "li",
+      "text": "Brands pay more to reach consumers who can afford their products."
+    },
+    {
+      "id": "t33",
+      "tag": "strong",
+      "text": "Ad market maturity:"
+    },
+    {
+      "id": "t34",
+      "tag": "li",
+      "text": "Established digital ad ecosystems create more bidder competition, raising prices."
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "Content verticals:"
+    },
+    {
+      "id": "t36",
+      "tag": "li",
+      "text": "Finance, insurance, and SaaS advertisers — dominant in wealthy markets — carry the highest CPMs."
+    },
+    {
+      "id": "t37",
+      "tag": "h2",
+      "text": "CPM by Region"
+    },
+    {
+      "id": "t38",
+      "tag": "th",
+      "text": "Region"
+    },
+    {
+      "id": "t39",
+      "tag": "th",
+      "text": "Average CPM"
+    },
+    {
+      "id": "t40",
+      "tag": "th",
+      "text": "Notes"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "United States"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "Highest advertiser competition globally"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "Nordic Countries"
+    },
+    {
+      "id": "t44",
+      "tag": "td",
+      "text": "Small audience, extraordinary CPM"
+    },
+    {
+      "id": "t45",
+      "tag": "td",
+      "text": "Western Europe"
+    },
+    {
+      "id": "t46",
+      "tag": "td",
+      "text": "Germany & Netherlands lead"
+    },
+    {
+      "id": "t47",
+      "tag": "td",
+      "text": "Eastern Europe"
+    },
+    {
+      "id": "t48",
+      "tag": "td",
+      "text": "Growing but lower rates"
+    },
+    {
+      "id": "t49",
+      "tag": "td",
+      "text": "Japan / South Korea"
+    },
+    {
+      "id": "t50",
+      "tag": "td",
+      "text": "Highest in Asia-Pacific"
+    },
+    {
+      "id": "t51",
+      "tag": "td",
+      "text": "Latin America"
+    },
+    {
+      "id": "t52",
+      "tag": "td",
+      "text": "Brazil tops the region"
+    },
+    {
+      "id": "t53",
+      "tag": "td",
+      "text": "India"
+    },
+    {
+      "id": "t54",
+      "tag": "td",
+      "text": "Massive views, very low CPM"
+    },
+    {
+      "id": "t55",
+      "tag": "td",
+      "text": "Sub-Saharan Africa"
+    },
+    {
+      "id": "t56",
+      "tag": "td",
+      "text": "Low advertising infrastructure"
+    },
+    {
+      "id": "t57",
+      "tag": "h3",
+      "text": "See How Geography Affects Your Earnings"
+    },
+    {
+      "id": "t58",
+      "tag": "p",
+      "text": "Our YouTube CPM calculator lets you adjust for your audience's geographic distribution to get a more accurate revenue estimate."
+    },
+    {
+      "id": "t59",
+      "tag": "a",
+      "text": "🌎 Try the YouTube CPM Calculator →"
+    },
+    {
+      "id": "t60",
+      "tag": "span",
+      "text": "500K views, 80% US"
+    },
+    {
+      "id": "t61",
+      "tag": "span",
+      "text": "500K views, 80% India"
+    },
+    {
+      "id": "t62",
+      "tag": "h2",
+      "text": "How to Attract Higher-CPM Audiences"
+    },
+    {
+      "id": "t63",
+      "tag": "li",
+      "text": "Create content in"
+    },
+    {
+      "id": "t64",
+      "tag": "strong",
+      "text": "English"
+    },
+    {
+      "id": "t65",
+      "tag": "li",
+      "text": "to capture US, UK, and Australian viewers."
+    },
+    {
+      "id": "t66",
+      "tag": "li",
+      "text": "Post at times when"
+    },
+    {
+      "id": "t67",
+      "tag": "strong",
+      "text": "US and European audiences are active"
+    },
+    {
+      "id": "t68",
+      "tag": "li",
+      "text": "(evenings EST)."
+    },
+    {
+      "id": "t69",
+      "tag": "li",
+      "text": "Choose topics popular in"
+    },
+    {
+      "id": "t70",
+      "tag": "strong",
+      "text": "finance, tech, and business"
+    },
+    {
+      "id": "t71",
+      "tag": "li",
+      "text": "— high-CPM advertiser categories."
+    },
+    {
+      "id": "t72",
+      "tag": "li",
+      "text": "Use titles and thumbnails with"
+    },
+    {
+      "id": "t73",
+      "tag": "strong",
+      "text": "broad English-language appeal"
+    },
+    {
+      "id": "t74",
+      "tag": "h3",
+      "text": "Calculate Your Earnings"
+    },
+    {
+      "id": "t75",
+      "tag": "p",
+      "text": "Use our free calculator to estimate your potential income based on your numbers."
+    },
+    {
+      "id": "t76",
+      "tag": "a",
+      "text": "📈 Try the YouTube CPM Calculator →"
+    },
+    {
+      "id": "t77",
+      "tag": "p",
+      "text": "Free tool · No sign-up required · Instant results"
+    },
+    {
+      "id": "t78",
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "t79",
+      "tag": "button",
+      "text": "Which country has the highest YouTube CPM?"
+    },
+    {
+      "id": "t80",
+      "tag": "div",
+      "text": "Norway and Germany consistently top the list, with CPMs of $20–$40. The US follows closely at $12–$30, driven by its massive advertiser ecosystem."
+    },
+    {
+      "id": "t81",
+      "tag": "button",
+      "text": "Why does India have such a low YouTube CPM?"
+    },
+    {
+      "id": "t82",
+      "tag": "div",
+      "text": "India has enormous viewership but a less developed digital ad market and lower consumer purchasing power, making it less attractive to premium advertisers."
+    },
+    {
+      "id": "t83",
+      "tag": "button",
+      "text": "Can I control where my YouTube audience comes from?"
+    },
+    {
+      "id": "t84",
+      "tag": "div",
+      "text": "Not directly, but content strategy — language, topic, posting time — significantly influences geographic distribution over time."
+    },
+    {
+      "id": "t85",
+      "tag": "h2",
+      "text": "Explore More Calculators"
+    },
+    {
+      "id": "t86",
+      "tag": "span",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t87",
+      "tag": "span",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t88",
+      "tag": "span",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t89",
+      "tag": "span",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t90",
+      "tag": "span",
+      "text": "Spotify Calculator"
+    },
+    {
+      "id": "t91",
+      "tag": "span",
+      "text": "Royalties per stream"
+    },
+    {
+      "id": "t92",
+      "tag": "span",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t93",
+      "tag": "span",
+      "text": "Subs, bits & ad income"
+    },
+    {
+      "id": "t94",
+      "tag": "h2",
+      "text": "Final Thoughts"
+    },
+    {
+      "id": "t95",
+      "tag": "p",
+      "text": "Audience geography is one of the most powerful yet overlooked levers in YouTube revenue. Even small shifts toward high-CPM audiences can multiply your monthly earnings without any increase in view count."
+    },
+    {
+      "id": "t96",
+      "tag": "a",
+      "text": "Try the Calculator →"
+    }
+  ]
+}

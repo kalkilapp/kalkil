@@ -1,0 +1,440 @@
+{
+  "slug": "how-much-does-youtube-pay-per-1000-views",
+  "title": "How Much Does YouTube Pay Per 1,000 Views? (CPM & RPM Explained 2026) | Kalkil",
+  "metaDescription": "Learn how much YouTube pays per 1,000 views in 2026. Real CPM and RPM averages by niche, plus a free YouTube earnings calculator.",
+  "ogTitle": "How Much Does YouTube Pay Per 1,000 Views? (CPM & RPM Explained 2026) | Kalkil",
+  "ogDescription": "Learn how much YouTube pays per 1,000 views in 2026. Real CPM and RPM averages by niche, plus a free YouTube earnings calculator.",
+  "nodeCount": 86,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "💰 YouTube Money · 2026 Guide"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "How Much Does YouTube Pay Per 1,000 Views?"
+    },
+    {
+      "id": "t2",
+      "tag": "p",
+      "text": "CPM, RPM, and real earnings data for every niche — so you know exactly what your views are worth."
+    },
+    {
+      "id": "t3",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t4",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t5",
+      "tag": "a",
+      "text": "Guides"
+    },
+    {
+      "id": "t6",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t7",
+      "tag": "div",
+      "text": "How Much Does YouTube Pay Per 1,000 Views?"
+    },
+    {
+      "id": "t8",
+      "tag": "p",
+      "text": "The short answer: YouTube pays between"
+    },
+    {
+      "id": "t9",
+      "tag": "strong",
+      "text": "$3 and $6 per 1,000 views"
+    },
+    {
+      "id": "t10",
+      "tag": "p",
+      "text": "on average through its RPM (Revenue Per Mille) model. But that average hides enormous variation — a finance channel might earn $15 per 1,000 views while a gaming channel earns $2."
+    },
+    {
+      "id": "t11",
+      "tag": "strong",
+      "text": "Key distinction:"
+    },
+    {
+      "id": "t12",
+      "tag": "p",
+      "text": "CPM is what advertisers pay YouTube. RPM is what you, the creator, actually receive — roughly 55% of CPM after YouTube's revenue share."
+    },
+    {
+      "id": "t13",
+      "tag": "h2",
+      "text": "Average YouTube RPM by Niche (2026)"
+    },
+    {
+      "id": "t14",
+      "tag": "th",
+      "text": "Niche"
+    },
+    {
+      "id": "t15",
+      "tag": "th",
+      "text": "Average RPM"
+    },
+    {
+      "id": "t16",
+      "tag": "th",
+      "text": "Earnings per 1M views"
+    },
+    {
+      "id": "t17",
+      "tag": "td",
+      "text": "Personal Finance"
+    },
+    {
+      "id": "t18",
+      "tag": "td",
+      "text": "Legal / Law"
+    },
+    {
+      "id": "t19",
+      "tag": "td",
+      "text": "Tech & Software"
+    },
+    {
+      "id": "t20",
+      "tag": "td",
+      "text": "Health & Wellness"
+    },
+    {
+      "id": "t21",
+      "tag": "td",
+      "text": "Education"
+    },
+    {
+      "id": "t22",
+      "tag": "td",
+      "text": "Gaming"
+    },
+    {
+      "id": "t23",
+      "tag": "td",
+      "text": "Entertainment / Vlogs"
+    },
+    {
+      "id": "t24",
+      "tag": "h2",
+      "text": "How YouTube Calculates Creator Revenue"
+    },
+    {
+      "id": "t25",
+      "tag": "p",
+      "text": "YouTube splits ad revenue with creators at roughly a"
+    },
+    {
+      "id": "t26",
+      "tag": "strong",
+      "text": "45/55 ratio"
+    },
+    {
+      "id": "t27",
+      "tag": "p",
+      "text": "— you keep 55%. Your RPM is calculated as:"
+    },
+    {
+      "id": "t28",
+      "tag": "strong",
+      "text": "RPM = (Total Estimated Revenue ÷ Total Views) × 1,000"
+    },
+    {
+      "id": "t29",
+      "tag": "p",
+      "text": "Not every view earns revenue — only views where an ad was successfully served count toward your RPM. Ad blockers, skipped pre-rolls, and non-monetized content all reduce your effective rate."
+    },
+    {
+      "id": "t30",
+      "tag": "h2",
+      "text": "Earnings at Key View Milestones"
+    },
+    {
+      "id": "t31",
+      "tag": "th",
+      "text": "Views"
+    },
+    {
+      "id": "t32",
+      "tag": "th",
+      "text": "Low RPM ($2)"
+    },
+    {
+      "id": "t33",
+      "tag": "th",
+      "text": "Avg RPM ($5)"
+    },
+    {
+      "id": "t34",
+      "tag": "th",
+      "text": "High RPM ($12)"
+    },
+    {
+      "id": "t35",
+      "tag": "h3",
+      "text": "YouTube Money Calculator"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": "Enter your view count and estimated CPM to see your projected AdSense earnings instantly."
+    },
+    {
+      "id": "t37",
+      "tag": "a",
+      "text": "▶ Try the YouTube Calculator →"
+    },
+    {
+      "id": "t38",
+      "tag": "span",
+      "text": "10K views @ $5 RPM"
+    },
+    {
+      "id": "t39",
+      "tag": "span",
+      "text": "100K views @ $5 RPM"
+    },
+    {
+      "id": "t40",
+      "tag": "span",
+      "text": "1M views @ $5 RPM"
+    },
+    {
+      "id": "t41",
+      "tag": "h2",
+      "text": "Factors That Affect Your YouTube Earnings"
+    },
+    {
+      "id": "t42",
+      "tag": "strong",
+      "text": "Audience geography:"
+    },
+    {
+      "id": "t43",
+      "tag": "li",
+      "text": "US/UK/Canada viewers generate 5–10× more revenue than South Asian markets."
+    },
+    {
+      "id": "t44",
+      "tag": "strong",
+      "text": "Niche:"
+    },
+    {
+      "id": "t45",
+      "tag": "li",
+      "text": "Finance and legal niches attract premium advertisers."
+    },
+    {
+      "id": "t46",
+      "tag": "strong",
+      "text": "Video length:"
+    },
+    {
+      "id": "t47",
+      "tag": "li",
+      "text": "Videos over 8 minutes can include mid-roll ads — dramatically increasing total impressions."
+    },
+    {
+      "id": "t48",
+      "tag": "strong",
+      "text": "Seasonality:"
+    },
+    {
+      "id": "t49",
+      "tag": "li",
+      "text": "Q4 (Oct–Dec) CPMs are 30–80% higher than Q1 due to holiday ad spend."
+    },
+    {
+      "id": "t50",
+      "tag": "strong",
+      "text": "Engagement:"
+    },
+    {
+      "id": "t51",
+      "tag": "li",
+      "text": "High watch time keeps viewers through more ad breaks."
+    },
+    {
+      "id": "t52",
+      "tag": "h2",
+      "text": "Beyond AdSense: Total YouTube Income"
+    },
+    {
+      "id": "t53",
+      "tag": "p",
+      "text": "AdSense is rarely the whole picture. A well-monetized channel at 500K subscribers might earn:"
+    },
+    {
+      "id": "t54",
+      "tag": "th",
+      "text": "Income Source"
+    },
+    {
+      "id": "t55",
+      "tag": "th",
+      "text": "Monthly Estimate"
+    },
+    {
+      "id": "t56",
+      "tag": "td",
+      "text": "AdSense (RPM-based)"
+    },
+    {
+      "id": "t57",
+      "tag": "td",
+      "text": "Brand Sponsorships"
+    },
+    {
+      "id": "t58",
+      "tag": "td",
+      "text": "Channel Memberships"
+    },
+    {
+      "id": "t59",
+      "tag": "td",
+      "text": "Affiliate Marketing"
+    },
+    {
+      "id": "t60",
+      "tag": "td",
+      "text": "Merchandise"
+    },
+    {
+      "id": "t61",
+      "tag": "h3",
+      "text": "Calculate Your YouTube Earnings"
+    },
+    {
+      "id": "t62",
+      "tag": "p",
+      "text": "Use our free calculator to estimate your potential income based on your views and niche CPM."
+    },
+    {
+      "id": "t63",
+      "tag": "a",
+      "text": "📈 Try the YouTube Money Calculator →"
+    },
+    {
+      "id": "t64",
+      "tag": "p",
+      "text": "Free tool · No sign-up required · Instant results"
+    },
+    {
+      "id": "t65",
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "t66",
+      "tag": "button",
+      "text": "How much does YouTube pay per 1,000 views in the US?"
+    },
+    {
+      "id": "t67",
+      "tag": "div",
+      "text": "In the US, YouTube RPM typically ranges from $4 to $15 per 1,000 views depending on niche. Finance and business channels regularly exceed $15 RPM."
+    },
+    {
+      "id": "t68",
+      "tag": "button",
+      "text": "Does YouTube pay for every single view?"
+    },
+    {
+      "id": "t69",
+      "tag": "div",
+      "text": "No — only monetized views where an ad was successfully served generate revenue. Ad blockers and skipped formats reduce your effective earnings."
+    },
+    {
+      "id": "t70",
+      "tag": "button",
+      "text": "What is a good RPM on YouTube?"
+    },
+    {
+      "id": "t71",
+      "tag": "div",
+      "text": "An RPM above $5 is solid for most niches. Anything above $10 is excellent and indicates a high-advertiser-demand content area."
+    },
+    {
+      "id": "t72",
+      "tag": "button",
+      "text": "When does YouTube pay creators?"
+    },
+    {
+      "id": "t73",
+      "tag": "div",
+      "text": "YouTube pays monthly via AdSense, usually between the 21st–26th of each month for the prior month, once you reach the $100 minimum threshold."
+    },
+    {
+      "id": "t74",
+      "tag": "h2",
+      "text": "Explore More Calculators"
+    },
+    {
+      "id": "t75",
+      "tag": "span",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t76",
+      "tag": "span",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t77",
+      "tag": "span",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t78",
+      "tag": "span",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t79",
+      "tag": "span",
+      "text": "Spotify Calculator"
+    },
+    {
+      "id": "t80",
+      "tag": "span",
+      "text": "Royalties per stream"
+    },
+    {
+      "id": "t81",
+      "tag": "span",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t82",
+      "tag": "span",
+      "text": "Subs, bits & ad income"
+    },
+    {
+      "id": "t83",
+      "tag": "h2",
+      "text": "Final Thoughts"
+    },
+    {
+      "id": "t84",
+      "tag": "p",
+      "text": "Understanding CPM and RPM is the foundation of YouTube income strategy. Focus on niche, audience geography, and adding multiple revenue streams beyond AdSense to maximize your channel's earning potential."
+    },
+    {
+      "id": "t85",
+      "tag": "a",
+      "text": "Try the Calculator →"
+    }
+  ]
+}
