@@ -1,35 +1,349 @@
 {
   "redirects": [
-    { "source": "/instagram-earnings-calculator.html", "destination": "/tools/instagram-earnings-calculator.html", "permanent": true },
-    { "source": "/spotify-calculator.html", "destination": "/tools/spotify-royalty-calculator.html", "permanent": true },
-    { "source": "/tiktok-money-calculator.html", "destination": "/tools/tiktok-money-calculator.html", "permanent": true },
-    { "source": "/youtube-calculator.html", "destination": "/tools/youtube-money-calculator.html", "permanent": true },
-
-    { "source": "/tools", "destination": "/tools.html", "permanent": true },
-    { "source": "/about", "destination": "/about.html", "permanent": true },
-    { "source": "/guides", "destination": "/guides.html", "permanent": true },
-
-    { "source": "/guides/instagram-influencer-rates", "destination": "/guides/instagram-influencer-rates.html", "permanent": true },
-    { "source": "/guides/podcast-advertising-rates", "destination": "/guides/podcast-advertising-rates.html", "permanent": true },
-    { "source": "/guides/how-much-do-youtube-shorts-pay", "destination": "/guides/how-much-do-youtube-shorts-pay.html", "permanent": true },
-    { "source": "/guides/how-much-does-tiktok-pay-per-view", "destination": "/guides/how-much-does-tiktok-pay-per-view.html", "permanent": true },
-    { "source": "/guides/patreon-earnings-guide", "destination": "/guides/patreon-earnings-guide.html", "permanent": true },
-    { "source": "/guides/youtube-cpm-by-country", "destination": "/guides/youtube-cpm-by-country.html", "permanent": true },
-    { "source": "/guides/onlyfans-income-explained", "destination": "/guides/onlyfans-income-explained.html", "permanent": true },
-    { "source": "/guides/tiktok-vs-youtube-earnings", "destination": "/guides/tiktok-vs-youtube-earnings.html", "permanent": true },
-    { "source": "/guides/tiktok-creator-earnings-explained", "destination": "/guides/tiktok-creator-earnings-explained.html", "permanent": true },
-    { "source": "/guides/instagram-vs-tiktok-earnings", "destination": "/guides/instagram-vs-tiktok-earnings.html", "permanent": true },
-    { "source": "/guides/how-spotify-royalties-work", "destination": "/guides/how-spotify-royalties-work.html", "permanent": true },
-    { "source": "/guides/youtube-earnings-per-million-views", "destination": "/guides/youtube-earnings-per-million-views.html", "permanent": true },
-    { "source": "/guides/how-much-do-instagram-reels-pay", "destination": "/guides/how-much-do-instagram-reels-pay.html", "permanent": true },
-    { "source": "/guides/tiktok-creator-fund-payments", "destination": "/guides/tiktok-creator-fund-payments.html", "permanent": true },
-    { "source": "/guides/how-tiktok-influencers-make-money", "destination": "/guides/how-tiktok-influencers-make-money.html", "permanent": true },
-    { "source": "/guides/how-youtube-monetization-works", "destination": "/guides/how-youtube-monetization-works.html", "permanent": true },
-    { "source": "/guides/how-instagram-influencers-make-money", "destination": "/guides/how-instagram-influencers-make-money.html", "permanent": true },
-    { "source": "/guides/spotify-vs-apple-music-pay", "destination": "/guides/spotify-vs-apple-music-pay.html", "permanent": true },
-    { "source": "/guides/how-to-build-a-creator-business", "destination": "/guides/how-to-build-a-creator-business.html", "permanent": true },
-    { "source": "/guides/creator-economy-growth", "destination": "/guides/creator-economy-growth.html", "permanent": true },
-    { "source": "/guides/instagram-engagement-rate-explained", "destination": "/guides/instagram-engagement-rate-explained.html", "permanent": true },
-    { "source": "/guides/how-much-does-youtube-pay-per-1000-views", "destination": "/guides/how-much-does-youtube-pay-per-1000-views.html", "permanent": true }
+    {
+      "source": "/instagram-earnings-calculator.html",
+      "destination": "/tools/instagram-earnings-calculator.html",
+      "permanent": true
+    },
+    {
+      "source": "/spotify-calculator.html",
+      "destination": "/tools/spotify-royalty-calculator.html",
+      "permanent": true
+    },
+    {
+      "source": "/tiktok-money-calculator.html",
+      "destination": "/tools/tiktok-money-calculator.html",
+      "permanent": true
+    },
+    {
+      "source": "/youtube-calculator.html",
+      "destination": "/tools/youtube-money-calculator.html",
+      "permanent": true
+    },
+    {
+      "source": "/tools",
+      "destination": "/tools.html",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides",
+      "destination": "/guides.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/instagram-influencer-rates",
+      "destination": "/guides/instagram-influencer-rates.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/podcast-advertising-rates",
+      "destination": "/guides/podcast-advertising-rates.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-much-do-youtube-shorts-pay",
+      "destination": "/guides/how-much-do-youtube-shorts-pay.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-much-does-tiktok-pay-per-view",
+      "destination": "/guides/how-much-does-tiktok-pay-per-view.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/patreon-earnings-guide",
+      "destination": "/guides/patreon-earnings-guide.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/youtube-cpm-by-country",
+      "destination": "/guides/youtube-cpm-by-country.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/onlyfans-income-explained",
+      "destination": "/guides/onlyfans-income-explained.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/tiktok-vs-youtube-earnings",
+      "destination": "/guides/tiktok-vs-youtube-earnings.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/tiktok-creator-earnings-explained",
+      "destination": "/guides/tiktok-creator-earnings-explained.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/instagram-vs-tiktok-earnings",
+      "destination": "/guides/instagram-vs-tiktok-earnings.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-spotify-royalties-work",
+      "destination": "/guides/how-spotify-royalties-work.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/youtube-earnings-per-million-views",
+      "destination": "/guides/youtube-earnings-per-million-views.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-much-do-instagram-reels-pay",
+      "destination": "/guides/how-much-do-instagram-reels-pay.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/tiktok-creator-fund-payments",
+      "destination": "/guides/tiktok-creator-fund-payments.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-tiktok-influencers-make-money",
+      "destination": "/guides/how-tiktok-influencers-make-money.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-youtube-monetization-works",
+      "destination": "/guides/how-youtube-monetization-works.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-instagram-influencers-make-money",
+      "destination": "/guides/how-instagram-influencers-make-money.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/spotify-vs-apple-music-pay",
+      "destination": "/guides/spotify-vs-apple-music-pay.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-to-build-a-creator-business",
+      "destination": "/guides/how-to-build-a-creator-business.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/creator-economy-growth",
+      "destination": "/guides/creator-economy-growth.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/instagram-engagement-rate-explained",
+      "destination": "/guides/instagram-engagement-rate-explained.html",
+      "permanent": true
+    },
+    {
+      "source": "/guides/how-much-does-youtube-pay-per-1000-views",
+      "destination": "/guides/how-much-does-youtube-pay-per-1000-views.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/average-spotify-pay-per-stream.html",
+      "destination": "/es/guides/promedio-de-pago-de-spotify-por-reproduccion.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/creator-economy-growth.html",
+      "destination": "/es/guides/crecimiento-de-la-economia-de-creadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/creator-income-streams.html",
+      "destination": "/es/guides/fuentes-de-ingresos-para-creadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-creators-make-money-online.html",
+      "destination": "/es/guides/como-ganan-dinero-los-creadores-online.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-instagram-influencers-make-money.html",
+      "destination": "/es/guides/como-ganan-dinero-los-influencers-de-instagram.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-many-followers-to-make-money-on-tiktok.html",
+      "destination": "/es/guides/cuantos-seguidores-necesitas-para-ganar-dinero-en-tiktok.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-do-instagram-influencers-earn.html",
+      "destination": "/es/guides/cuanto-ganan-los-influencers-de-instagram.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-do-instagram-reels-pay.html",
+      "destination": "/es/guides/cuanto-pagan-los-reels-de-instagram.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-do-musicians-make-from-streaming.html",
+      "destination": "/es/guides/cuanto-ganan-los-musicos-con-streaming.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-do-podcasters-make.html",
+      "destination": "/es/guides/cuanto-gana-un-podcast.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-do-twitch-streamers-make-per-sub.html",
+      "destination": "/es/guides/cuanto-gana-un-streamer-de-twitch.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-do-youtube-shorts-pay.html",
+      "destination": "/es/guides/cuanto-pagan-los-youtube-shorts.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-do-youtubers-make.html",
+      "destination": "/es/guides/cuanto-gana-un-youtuber.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-does-instagram-pay-per-follower.html",
+      "destination": "/es/guides/cuanto-paga-instagram-por-seguidor.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-does-tiktok-pay.html",
+      "destination": "/es/guides/cuanto-paga-tiktok.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-does-tiktok-pay-per-view.html",
+      "destination": "/es/guides/cuanto-paga-tiktok-por-vista.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-much-does-youtube-pay-per-1000-views.html",
+      "destination": "/es/guides/cuanto-paga-youtube-por-vistas.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-spotify-royalties-work.html",
+      "destination": "/es/guides/como-funcionan-las-regalias-de-spotify.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-streaming-revenue-is-calculated.html",
+      "destination": "/es/guides/como-se-calculan-los-ingresos-por-streaming.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-the-creator-economy-works.html",
+      "destination": "/es/guides/como-funciona-la-economia-de-creadores.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-tiktok-influencers-make-money.html",
+      "destination": "/es/guides/como-ganan-dinero-los-influencers-de-tiktok.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-to-become-a-social-media-influencer.html",
+      "destination": "/es/guides/como-convertirse-en-influencer-de-redes-sociales.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-to-build-a-creator-business.html",
+      "destination": "/es/guides/como-construir-un-negocio-como-creador.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/how-youtube-monetization-works.html",
+      "destination": "/es/guides/como-funciona-la-monetizacion-de-youtube.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/instagram-engagement-rate-explained.html",
+      "destination": "/es/guides/que-es-la-tasa-de-engagement-en-instagram.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/instagram-influencer-rates.html",
+      "destination": "/es/guides/tarifas-de-influencers-en-instagram.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/instagram-vs-tiktok-earnings.html",
+      "destination": "/es/guides/instagram-vs-tiktok-cual-paga-mas.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/onlyfans-income-explained.html",
+      "destination": "/es/guides/cuanto-se-gana-en-onlyfans.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/patreon-earnings-guide.html",
+      "destination": "/es/guides/cuanto-se-gana-en-patreon.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/podcast-advertising-rates.html",
+      "destination": "/es/guides/tarifas-de-publicidad-en-podcasts.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/spotify-pay-per-stream.html",
+      "destination": "/es/guides/cuanto-paga-spotify-por-reproduccion.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/spotify-vs-apple-music-pay.html",
+      "destination": "/es/guides/spotify-vs-apple-music-cual-paga-mas.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/tiktok-creator-earnings-explained.html",
+      "destination": "/es/guides/ganancias-de-creadores-de-tiktok-explicadas.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/tiktok-creator-fund-payments.html",
+      "destination": "/es/guides/pagos-del-fondo-de-creadores-de-tiktok.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/tiktok-vs-youtube-earnings.html",
+      "destination": "/es/guides/tiktok-vs-youtube-cual-paga-mas.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/twitch-streamer-income.html",
+      "destination": "/es/guides/ingresos-de-un-streamer-de-twitch.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/youtube-cpm-by-country.html",
+      "destination": "/es/guides/cpm-de-youtube-por-pais.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/youtube-cpm-explained.html",
+      "destination": "/es/guides/que-es-el-cpm-de-youtube.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/youtube-earnings-per-million-views.html",
+      "destination": "/es/guides/cuanto-ganan-los-youtubers-por-millon-de-vistas.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/guides/youtube-pay-per-view.html",
+      "destination": "/es/guides/cuanto-paga-youtube-por-vista.html",
+      "permanent": true
+    }
   ]
 }
