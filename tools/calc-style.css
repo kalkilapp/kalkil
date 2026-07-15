@@ -85,6 +85,17 @@ nav {
   inset: 0;
   pointer-events: none;
 }
+/* .hero::before es position:absolute con z-index:auto — por las reglas de stacking de
+   CSS2.1, eso lo pinta DESPUÉS del contenido estático (in-flow) del mismo contenedor,
+   sin importar el orden en el DOM. Con el fondo semitransparente que usan otras hero
+   sections del sitio casi no se nota, pero en estas páginas de calculadora cada una
+   pone un color sólido de marca (ej. #ef4444 en YouTube) que tapaba por completo el
+   badge/h1/subtítulo. Se posicionan para que entren en el mismo nivel de stacking que
+   ::before y así el orden del DOM (después de ::before) determine que queden encima. */
+.hero-badge, .hero h1, .hero-sub {
+  position: relative;
+  z-index: 1;
+}
 .hero-badge {
   display: inline-flex;
   align-items: center;
