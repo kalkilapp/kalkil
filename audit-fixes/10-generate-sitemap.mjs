@@ -43,11 +43,15 @@ for (const f of fs.readdirSync(path.join(ROOT, 'guides')).filter((f) => f.endsWi
   entries.push(urlEntry(`${SITE}/guides/${f}`, '0.7', 'monthly'));
 }
 
-// /es /pt /fr — solo las 18 páginas realmente pre-renderizadas
+// /es /pt /fr — las 18 páginas pre-renderizadas (home/tools.html/guides.html/about.html
+// + 14 calculadoras) + las 40 guías traducidas (120 páginas: 40 guías × 3 idiomas)
 for (const lang of ['es', 'pt', 'fr']) {
   for (const rel of I18N_PAGES) {
     const loc = rel === 'index.html' ? `${SITE}/${lang}/` : `${SITE}/${lang}/${rel}`;
     entries.push(urlEntry(loc, rel === 'index.html' ? '0.9' : '0.6', 'monthly'));
+  }
+  for (const f of fs.readdirSync(path.join(ROOT, 'guides')).filter((f) => f.endsWith('.html')).sort()) {
+    entries.push(urlEntry(`${SITE}/${lang}/guides/${f}`, '0.6', 'monthly'));
   }
 }
 
