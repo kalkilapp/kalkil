@@ -42,7 +42,8 @@
   <link rel="alternate" hreflang="pt" href="https://kalkilapp.com/pt/tools/youtube-shorts-calculator.html">
   <link rel="alternate" hreflang="fr" href="https://kalkilapp.com/fr/tools/youtube-shorts-calculator.html">
   <link rel="alternate" hreflang="x-default" href="https://kalkilapp.com/tools/youtube-shorts-calculator.html">
-<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;text-decoration:none;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}</style></head>
+<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;text-decoration:none;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}</style>  <script src="/currency.js"></script>
+</head>
 <body>
 
 <header>
@@ -101,6 +102,7 @@
       <button class="calc-btn" onclick="calc()">Calculate</button>
       <button class="btn-reset" onclick="reset()">Reset</button>
     </div>
+    <div id="currency-selector" class="currency-selector"></div>
     <div class="results">
       <div class="result-card">
         <div class="result-label">Shorts Monthly Earnings</div>
@@ -124,7 +126,7 @@
       </div>
     </div>
     <script>
-    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function fmt(n){return window.KalkilCurrency ? window.KalkilCurrency.format(n) : '$'+n.toFixed(2);}
     function calc(){
       gtag('event','calculator_result_viewed',{calculator:'youtube-shorts-calculator'});
       var sv=parseFloat(document.getElementById('s-views').value)||0;
@@ -139,6 +141,10 @@
       document.getElementById('r-total').textContent=fmt(se+le);
     }
     function reset(){['s-views','lf-views'].forEach(function(i){document.getElementById(i).value='';});document.getElementById('lf-rpm').value=4;['r-shorts','r-longform','r-annual','r-total'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    if (window.KalkilCurrency) {
+      window.KalkilCurrency.renderSelector('currency-selector');
+      window.KalkilCurrency.onChange(calc);
+    }
     </script>
   </div>
 

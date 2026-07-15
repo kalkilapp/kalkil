@@ -37,6 +37,13 @@
   
   
 
+  
+  
+  
+  
+  
+<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;text-decoration:none;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}</style>  <script src="/currency.js"></script>
+
   <link rel="alternate" hreflang="en" href="https://kalkilapp.com/tools/twitch-earnings-calculator.html">
   <link rel="alternate" hreflang="es" href="https://kalkilapp.com/es/tools/twitch-earnings-calculator.html">
   <link rel="alternate" hreflang="pt" href="https://kalkilapp.com/pt/tools/twitch-earnings-calculator.html">
@@ -54,7 +61,7 @@
       <a href="/pt/guides.html">Guias</a>
       <a href="/pt/about.html">Sobre</a>
       <a href="/pt/tools.html" class="nav-cta">Todas as Calculadoras</a>
-    <div id="lang-switcher"><a href="/tools/twitch-earnings-calculator.html" class="lang-btn">EN</a><a href="/es/tools/twitch-earnings-calculator.html" class="lang-btn">ES</a><a href="/pt/tools/twitch-earnings-calculator.html" class="lang-btn lang-active">PT</a><a href="/fr/tools/twitch-earnings-calculator.html" class="lang-btn">FR</a></div></div>
+    <div id="lang-switcher"><a href="/tools/twitch-earnings-calculator.html" class="lang-btn lang-active">EN</a><a href="/es/tools/twitch-earnings-calculator.html" class="lang-btn">ES</a><a href="/pt/tools/twitch-earnings-calculator.html" class="lang-btn">PT</a><a href="/fr/tools/twitch-earnings-calculator.html" class="lang-btn">FR</a></div></div>
   </nav>
 </header>
 
@@ -106,6 +113,7 @@
       <button class="calc-btn" onclick="calc()">Calcular</button>
       <button class="btn-reset" onclick="reset()">Redefinir</button>
     </div>
+    <div id="currency-selector" class="currency-selector"></div>
     <div class="results">
       <div class="result-card">
         <div class="result-label">Receita de Assinaturas</div>
@@ -129,7 +137,7 @@
       </div>
     </div>
     <script>
-    function fmt(n){if(n>=1000000)return'$'+(n/1000000).toFixed(2)+'M';if(n>=1000)return'$'+Math.round(n).toLocaleString();return'$'+n.toFixed(2);}
+    function fmt(n){return window.KalkilCurrency ? window.KalkilCurrency.format(n) : '$'+n.toFixed(2);}
     function calc(){
       gtag('event','calculator_result_viewed',{calculator:'twitch-earnings-calculator'});
       var t1=parseFloat(document.getElementById('tw-t1').value)||0;
@@ -147,6 +155,10 @@
       document.getElementById('r-total').textContent=fmt(subs+brev+ads);
     }
     function reset(){['tw-t1','tw-t2','tw-t3','tw-bits','tw-acv','tw-hours'].forEach(function(i){document.getElementById(i).value='';});['r-subs','r-bits','r-ads','r-total'].forEach(function(i){document.getElementById(i).textContent='$0';});}
+    if (window.KalkilCurrency) {
+      window.KalkilCurrency.renderSelector('currency-selector');
+      window.KalkilCurrency.onChange(calc);
+    }
     </script>
   </div>
 
@@ -213,6 +225,7 @@
 </footer>
 
 <section style="max-width:700px;margin:60px auto 40px;padding:0 20px;"><div style="background:#0f172a;border-radius:16px;padding:36px;text-align:center;"><p style="color:rgba(255,255,255,0.5);font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:10px;">Kalkil Pro</p><h2 style="font-family:Georgia,serif;color:white;font-size:24px;margin-bottom:12px;letter-spacing:-0.5px;">Veja toda a sua renda em um só lugar</h2><p style="color:rgba(255,255,255,0.6);font-size:14px;margin-bottom:24px;line-height:1.65;max-width:420px;margin-left:auto;margin-right:auto;">YouTube, Spotify, TikTok, Twitch e muito mais — um painel unificado com benchmarks e projeções.</p><a href="https://app.kalkilapp.com" style="display:inline-block;padding:13px 30px;background:#22c55e;color:white;text-decoration:none;border-radius:10px;font-weight:700;font-size:14px;">Experimente o Kalkil Pro Grátis →</a><p style="color:rgba(255,255,255,0.35);font-size:11px;margin-top:12px;">Grátis para começar · Sem cartão de crédito</p></div></section>
+
 
 
 </body></html>

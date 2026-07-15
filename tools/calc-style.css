@@ -207,6 +207,22 @@ nav {
 }
 .btn-reset:hover { border-color: var(--text); color: var(--text); }
 
+/* ── CURRENCY SELECTOR ── */
+.currency-selector { display: flex; align-items: center; justify-content: flex-end; gap: 8px; margin-bottom: 10px; }
+.currency-select-label { font-size: 12px; color: var(--muted); font-weight: 600; }
+.currency-select {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.currency-select:hover { border-color: var(--accent); }
+
 /* ── RESULTS SIDE ── */
 .results { display: flex; flex-direction: column; gap: 14px; }
 .result-card {
