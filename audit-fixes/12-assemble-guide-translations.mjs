@@ -72,7 +72,7 @@ function switcherHtml(slug, currentLang) {
   return `<div id="lang-switcher">${btns.join('')}</div>`;
 }
 
-const SWITCHER_CSS = `<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;text-decoration:none;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}</style>`;
+const SWITCHER_CSS = `<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:#8a94a6;border:1px solid rgba(128,140,160,0.35);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;text-decoration:none;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:#22c55e;border-color:#22c55e}</style>`;
 
 function rewriteInternalLinks(doc, lang, currentSlug) {
   // hrefs relativos desde guides/*.html son del tipo "../index.html", "../tools/x.html",
@@ -235,11 +235,17 @@ function assemble(slug, lang) {
   // 8. reemplazar i18n.js por switcher estático (estas páginas no necesitan reescritura client-side)
   const scriptTag = doc.querySelector('script[src="../i18n.js"]');
   if (scriptTag) scriptTag.remove();
+  doc.getElementById('kalkil-i18n-css')?.remove();
   doc.head.insertAdjacentHTML('beforeend', SWITCHER_CSS);
   // 10 de las 40 guías no tienen .nav-links (nav viejo, div sin clases) — fallback: el
   // contenedor real de los links de nav es el padre del último <a> dentro de <nav>
+  // el HTML fuente (inglés) puede ya traer su propio switcher (13-update-english-guides.mjs
+  // le agrega uno con "EN" activo) — hay que sacarlo y poner el correcto para este idioma,
+  // no saltear la inserción con un switcher-copiado-tal-cual que queda con el idioma
+  // equivocado marcado como activo (bug real que estuvo en las 120 guías en producción)
+  doc.getElementById('lang-switcher')?.remove();
   const navLinksContainer = doc.querySelector('.nav-links') || doc.querySelector('nav a[href]:last-of-type')?.parentElement;
-  if (navLinksContainer && !doc.getElementById('lang-switcher')) {
+  if (navLinksContainer) {
     navLinksContainer.insertAdjacentHTML('beforeend', switcherHtml(slug, lang));
   }
 

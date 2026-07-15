@@ -28,7 +28,7 @@ function switcherHtml(slug) {
   });
   return `<div id="lang-switcher">${btns.join('')}</div>`;
 }
-const SWITCHER_CSS = `<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;text-decoration:none;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:white;border-color:rgba(255,255,255,0.4)}</style>`;
+const SWITCHER_CSS = `<style id="kalkil-i18n-css">#lang-switcher{display:flex;gap:2px;align-items:center}.lang-btn{background:transparent;color:#8a94a6;border:1px solid rgba(128,140,160,0.35);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer;text-decoration:none;font-family:inherit;letter-spacing:0.3px;transition:all .15s}.lang-btn.lang-active{background:#22c55e;color:white;border-color:#22c55e}.lang-btn:hover:not(.lang-active){color:#22c55e;border-color:#22c55e}</style>`;
 
 const slugs = fs.readdirSync(path.join(ROOT, 'guides')).filter((f) => f.endsWith('.html')).map((f) => path.basename(f, '.html'));
 
@@ -46,10 +46,14 @@ for (const slug of slugs) {
     .join('\n  ');
   doc.head.insertAdjacentHTML('beforeend', `\n  ${hreflangLinks}\n  <link rel="alternate" hreflang="x-default" href="${guideUrl('en', slug)}">\n`);
 
-  // switcher estático
+  // switcher estático — idempotente: sacar CSS/switcher viejo antes de insertar el
+  // actualizado, así correr este script de nuevo (ej. tras un fix de color) reemplaza
+  // en vez de duplicar o dejar el bloque viejo sin tocar
+  doc.getElementById('kalkil-i18n-css')?.remove();
   doc.head.insertAdjacentHTML('beforeend', SWITCHER_CSS);
+  doc.getElementById('lang-switcher')?.remove();
   const navLinksContainer = doc.querySelector('.nav-links') || doc.querySelector('nav a[href]:last-of-type')?.parentElement;
-  if (navLinksContainer && !doc.getElementById('lang-switcher')) {
+  if (navLinksContainer) {
     navLinksContainer.insertAdjacentHTML('beforeend', switcherHtml(slug));
   }
 
