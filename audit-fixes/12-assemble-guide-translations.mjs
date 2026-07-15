@@ -223,8 +223,11 @@ function assemble(slug, lang) {
   const navLabels = NAV_TEXT[lang];
   const navMap = { '../index.html': navLabels.home, '../tools.html': navLabels.tools, '../guides.html': navLabels.guides, '../about.html': navLabels.about };
   // 10 de las 40 guías usan un nav viejo sin clase .nav-links (div sin clases) — se
-  // matchea por href dentro de <nav> en vez de por clase, cubre ambos patrones
+  // matchea por href dentro de <nav> en vez de por clase, cubre ambos patrones. Se excluye
+  // .nav-brand/.brand: el logo "Kalkil" tiene el MISMO href="../index.html" que el link
+  // "Home" — sin esta exclusión "Kalkil" se pisaba con la traducción de "Home" ("Inicio").
   doc.querySelectorAll('nav a[href]').forEach((a) => {
+    if (a.classList.contains('nav-brand') || a.classList.contains('brand')) return;
     const href = a.getAttribute('href');
     if (navMap[href] && a.textContent.trim() && !a.querySelector('*')) a.textContent = navMap[href];
   });

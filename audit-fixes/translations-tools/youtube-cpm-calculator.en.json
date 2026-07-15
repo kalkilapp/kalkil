@@ -1,0 +1,305 @@
+{
+  "slug": "youtube-cpm-calculator",
+  "title": "YouTube CPM Calculator 2026 — CPM to RPM Breakdown | Kalkil",
+  "metaDescription": "Free YouTube CPM calculator. Understand the difference between CPM and RPM and calculate your actual creator revenue. Instant results.",
+  "ogTitle": "YouTube CPM Calculator 2026 — CPM to RPM Breakdown | Kalkil",
+  "ogDescription": "Free YouTube CPM calculator. Understand the difference between CPM and RPM and calculate your actual creator revenue. Instant results.",
+  "nodeCount": 59,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "▶ YouTube · CPM → RPM Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "YouTube CPM"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Convert CPM to RPM and see exactly what you keep after YouTube's 45% revenue share."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "YouTube CPM Calculator 2026 — CPM to RPM Breakdown"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Total Video Views"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "CPM Rate ($)"
+    },
+    {
+      "id": "t12",
+      "tag": "span",
+      "text": "Advertisers pay this per 1,000 ad impressions"
+    },
+    {
+      "id": "t13",
+      "tag": "label",
+      "text": "Monetization Rate (%)"
+    },
+    {
+      "id": "t14",
+      "tag": "span",
+      "text": "% of views that serve an ad (typically 70–90%)"
+    },
+    {
+      "id": "t15",
+      "tag": "button",
+      "text": "Calculate"
+    },
+    {
+      "id": "t16",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t17",
+      "tag": "div",
+      "text": "Gross Ad Revenue"
+    },
+    {
+      "id": "t18",
+      "tag": "div",
+      "text": "Before YouTube's 45% cut"
+    },
+    {
+      "id": "t19",
+      "tag": "div",
+      "text": "Your RPM"
+    },
+    {
+      "id": "t20",
+      "tag": "div",
+      "text": "Net per 1,000 total views"
+    },
+    {
+      "id": "t21",
+      "tag": "div",
+      "text": "Net Earnings (You Keep)"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "55% of gross ad revenue"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "Annual (×12)"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "If this is your monthly view rate"
+    },
+    {
+      "id": "t25",
+      "tag": "h2",
+      "text": "CPM vs RPM — What's the Difference?"
+    },
+    {
+      "id": "t26",
+      "tag": "strong",
+      "text": "CPM"
+    },
+    {
+      "id": "t27",
+      "tag": "p",
+      "text": "(Cost Per Mille) is what advertisers pay YouTube for every 1,000 ad impressions on your content. It's the gross rate — before YouTube takes its share."
+    },
+    {
+      "id": "t28",
+      "tag": "strong",
+      "text": "RPM"
+    },
+    {
+      "id": "t29",
+      "tag": "p",
+      "text": "(Revenue Per Mille) is what you actually receive per 1,000 total video views — after YouTube's 45% cut and accounting for the fact that not every view serves an ad."
+    },
+    {
+      "id": "t30",
+      "tag": "strong",
+      "text": "Key formula: RPM = CPM × 0.55 × monetization rate"
+    },
+    {
+      "id": "t31",
+      "tag": "p",
+      "text": "Example: $10 CPM × 0.55 × 0.80 monetization ="
+    },
+    {
+      "id": "t32",
+      "tag": "strong",
+      "text": "$4.40 RPM"
+    },
+    {
+      "id": "t33",
+      "tag": "h2",
+      "text": "Why Your Monetization Rate Matters"
+    },
+    {
+      "id": "t34",
+      "tag": "li",
+      "text": "Ad blockers reduce your effective monetization rate"
+    },
+    {
+      "id": "t35",
+      "tag": "li",
+      "text": "Viewers who skip ads immediately don't generate full revenue"
+    },
+    {
+      "id": "t36",
+      "tag": "li",
+      "text": "Non-monetized content (music, copyright claims) earns nothing"
+    },
+    {
+      "id": "t37",
+      "tag": "li",
+      "text": "Most channels see 70–85% monetization rates in practice"
+    },
+    {
+      "id": "t38",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t39",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t40",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t41",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t42",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t43",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t44",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t45",
+      "tag": "div",
+      "text": "⚡"
+    },
+    {
+      "id": "t46",
+      "tag": "div",
+      "text": "YouTube Shorts Calculator"
+    },
+    {
+      "id": "t47",
+      "tag": "div",
+      "text": "Shorts RPM vs long-form"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "🤝"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "Sponsorship Calculator"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "Brand deal value"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t54",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t55",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t56",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t57",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t58",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

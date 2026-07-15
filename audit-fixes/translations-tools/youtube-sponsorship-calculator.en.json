@@ -1,0 +1,330 @@
+{
+  "slug": "youtube-sponsorship-calculator",
+  "title": "YouTube Sponsorship Calculator 2026 — Brand Deal Rate Estimator | Kalkil",
+  "metaDescription": "Free YouTube sponsorship calculator. Estimate your brand deal value based on subscribers, average views, niche, and integration type.",
+  "ogTitle": "YouTube Sponsorship Calculator 2026 — Brand Deal Rate Estimator | Kalkil",
+  "ogDescription": "Free YouTube sponsorship calculator. Estimate your brand deal value based on subscribers, average views, niche, and integration type.",
+  "nodeCount": 64,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "🤝 YouTube · Sponsorship Rate Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "YouTube Sponsorship"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Find out what brands should pay you — based on your subscribers, views, niche, and deal type."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "YouTube Sponsorship Calculator 2026 — Brand Deal Rate Estimator"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Subscriber Count"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Average Video Views"
+    },
+    {
+      "id": "t12",
+      "tag": "span",
+      "text": "Average views per video in the last 30 days"
+    },
+    {
+      "id": "t13",
+      "tag": "label",
+      "text": "Content Niche"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Finance / Business (3× multiplier)"
+    },
+    {
+      "id": "t15",
+      "tag": "option",
+      "text": "Tech / Software (2× multiplier)"
+    },
+    {
+      "id": "t16",
+      "tag": "option",
+      "text": "Health / Education (1.5×)"
+    },
+    {
+      "id": "t17",
+      "tag": "option",
+      "text": "Gaming / Entertainment (1×)"
+    },
+    {
+      "id": "t18",
+      "tag": "option",
+      "text": "Vlogs / General (0.8×)"
+    },
+    {
+      "id": "t19",
+      "tag": "label",
+      "text": "Integration Type"
+    },
+    {
+      "id": "t20",
+      "tag": "option",
+      "text": "Dedicated video (full video)"
+    },
+    {
+      "id": "t21",
+      "tag": "option",
+      "text": "Integrated mention (60–90 sec)"
+    },
+    {
+      "id": "t22",
+      "tag": "option",
+      "text": "Brief mention (15–30 sec)"
+    },
+    {
+      "id": "t23",
+      "tag": "button",
+      "text": "Calculate Rate"
+    },
+    {
+      "id": "t24",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Estimated Sponsorship Rate"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Per sponsored integration"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Monthly (2 deals)"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "At 2 sponsorships per month"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Annual Estimate"
+    },
+    {
+      "id": "t30",
+      "tag": "div",
+      "text": "24 deals per year"
+    },
+    {
+      "id": "t31",
+      "tag": "div",
+      "text": "AdSense + Sponsorships"
+    },
+    {
+      "id": "t32",
+      "tag": "div",
+      "text": "Estimated total monthly income"
+    },
+    {
+      "id": "t33",
+      "tag": "h2",
+      "text": "How YouTube Sponsorship Rates Are Set"
+    },
+    {
+      "id": "t34",
+      "tag": "p",
+      "text": "YouTube sponsorship rates are negotiated directly between creators and brands — YouTube is not involved. Rates depend on subscriber count, average views, audience quality (engagement rate), content niche, and integration type."
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "Industry baseline: $100 per 10,000 subscribers"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": "— then adjust up or down for engagement, niche, and integration type."
+    },
+    {
+      "id": "t37",
+      "tag": "h2",
+      "text": "Typical Sponsorship Rates by Subscriber Count"
+    },
+    {
+      "id": "t38",
+      "tag": "th",
+      "text": "Subscribers"
+    },
+    {
+      "id": "t39",
+      "tag": "th",
+      "text": "Integrated Mention"
+    },
+    {
+      "id": "t40",
+      "tag": "th",
+      "text": "Dedicated Video"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "500,000–1M"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "1M+"
+    },
+    {
+      "id": "t43",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t44",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t45",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t46",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t47",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "📊"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "YouTube CPM Calculator"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "CPM to RPM breakdown"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "⚡"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "YouTube Shorts Calculator"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "Shorts RPM vs long-form"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "Influencer Rate Calc"
+    },
+    {
+      "id": "t58",
+      "tag": "div",
+      "text": "Cross-platform rates"
+    },
+    {
+      "id": "t59",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t60",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t61",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t62",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t63",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "slug": "onlyfans-earnings-calculator",
+  "title": "Calculadora de Ganhos do OnlyFans 2026 — Renda de Assinaturas e PPV | Kalkil",
+  "metaDescription": "Calculadora gratuita de ganhos do OnlyFans. Estime a renda mensal com assinaturas, conteúdo PPV e gorjetas após a comissão de 20% do OnlyFans.",
+  "ogTitle": "Calculadora de Ganhos do OnlyFans 2026 — Renda de Assinaturas e PPV | Kalkil",
+  "ogDescription": "Calculadora gratuita de ganhos do OnlyFans. Estime a renda mensal com assinaturas, conteúdo PPV e gorjetas após a comissão de 20% do OnlyFans.",
+  "nodeCount": 63,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "💎 OnlyFans · Calculadora de Ganhos"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Calculadora de Ganhos do"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "OnlyFans"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estime sua renda líquida mensal com assinaturas, conteúdo PPV e gorjetas — depois da comissão do OnlyFans."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Início"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculadoras"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Calculadora de Ganhos do OnlyFans 2026 — Renda de Assinaturas e PPV"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Grátis · Sem cadastro · Resultados instantâneos"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Assinantes Ativos"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Preço Mensal da Assinatura ($)"
+    },
+    {
+      "id": "t12",
+      "tag": "label",
+      "text": "Receita Mensal de PPV ($)"
+    },
+    {
+      "id": "t13",
+      "tag": "span",
+      "text": "Total de conteúdo Pay-Per-View vendido neste mês"
+    },
+    {
+      "id": "t14",
+      "tag": "label",
+      "text": "Gorjetas Mensais ($)"
+    },
+    {
+      "id": "t15",
+      "tag": "button",
+      "text": "Calcular Ganhos"
+    },
+    {
+      "id": "t16",
+      "tag": "button",
+      "text": "Redefinir"
+    },
+    {
+      "id": "t17",
+      "tag": "div",
+      "text": "Receita de Assinaturas (80%)"
+    },
+    {
+      "id": "t18",
+      "tag": "div",
+      "text": "Após a comissão de 20% do OnlyFans"
+    },
+    {
+      "id": "t19",
+      "tag": "div",
+      "text": "Receita de PPV + Gorjetas (80%)"
+    },
+    {
+      "id": "t20",
+      "tag": "div",
+      "text": "Após a comissão de 20% do OnlyFans"
+    },
+    {
+      "id": "t21",
+      "tag": "div",
+      "text": "Total Líquido Mensal"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Seu valor líquido após as taxas"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "Estimativa Anual"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Com base na renda mensal atual"
+    },
+    {
+      "id": "t25",
+      "tag": "h2",
+      "text": "Como Funciona a Receita do OnlyFans"
+    },
+    {
+      "id": "t26",
+      "tag": "p",
+      "text": "Os criadores do OnlyFans ficam com"
+    },
+    {
+      "id": "t27",
+      "tag": "strong",
+      "text": "80% de toda a receita"
+    },
+    {
+      "id": "t28",
+      "tag": "p",
+      "text": "— assinaturas, mensagens Pay-Per-View, gorjetas e conteúdo personalizado. O OnlyFans retém 20%. Essa é uma das melhores divisões de receita para criadores do setor."
+    },
+    {
+      "id": "t29",
+      "tag": "strong",
+      "text": "80% para o criador"
+    },
+    {
+      "id": "t30",
+      "tag": "p",
+      "text": "— melhor do que YouTube (55%), Twitch (50%) e a maioria das outras plataformas. O modelo de negócio recompensa o relacionamento direto com os fãs."
+    },
+    {
+      "id": "t31",
+      "tag": "h2",
+      "text": "A Realidade da Distribuição de Renda"
+    },
+    {
+      "id": "t32",
+      "tag": "th",
+      "text": "Nível de Criador"
+    },
+    {
+      "id": "t33",
+      "tag": "th",
+      "text": "Líquido Mensal Estimado"
+    },
+    {
+      "id": "t34",
+      "tag": "td",
+      "text": "50% Inferiores"
+    },
+    {
+      "id": "t35",
+      "tag": "td",
+      "text": "Menos de $200"
+    },
+    {
+      "id": "t36",
+      "tag": "td",
+      "text": "30% Intermediários"
+    },
+    {
+      "id": "t37",
+      "tag": "td",
+      "text": "Top 15%"
+    },
+    {
+      "id": "t38",
+      "tag": "td",
+      "text": "Top 4%"
+    },
+    {
+      "id": "t39",
+      "tag": "td",
+      "text": "Top 1%"
+    },
+    {
+      "id": "t40",
+      "tag": "td",
+      "text": "$100,000–$1M+/mês"
+    },
+    {
+      "id": "t41",
+      "tag": "p",
+      "text": "O criador mediano do OnlyFans ganha ~$150–$300/mês. Os que mais ganham atraem tráfego externo do TikTok, Instagram e X — a descoberta interna na plataforma é limitada."
+    },
+    {
+      "id": "t42",
+      "tag": "h3",
+      "text": "Quer entender os números?"
+    },
+    {
+      "id": "t43",
+      "tag": "p",
+      "text": "Leia nosso guia gratuito e detalhado explicando exatamente como essa plataforma paga os criadores."
+    },
+    {
+      "id": "t44",
+      "tag": "a",
+      "text": "Leia o Guia →"
+    },
+    {
+      "id": "t45",
+      "tag": "h2",
+      "text": "Mais Calculadoras"
+    },
+    {
+      "id": "t46",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t47",
+      "tag": "div",
+      "text": "Calculadora do Patreon"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "Renda de assinaturas"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "◉"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "Calculadora do Twitch"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "Subs, bits e anúncios"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "◈"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "Calculadora do Instagram"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "Valores de posts patrocinados"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "Calc. de Cachê de Influencer"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "Valores multiplataforma"
+    },
+    {
+      "id": "t58",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t59",
+      "tag": "h2",
+      "text": "Veja toda a sua renda em um só lugar"
+    },
+    {
+      "id": "t60",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch e muito mais — painel unificado com benchmarks e projeções."
+    },
+    {
+      "id": "t61",
+      "tag": "a",
+      "text": "Experimente o Kalkil Pro Grátis →"
+    },
+    {
+      "id": "t62",
+      "tag": "p",
+      "text": "Grátis para começar · Sem cartão de crédito"
+    }
+  ]
+}

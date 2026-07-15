@@ -1,0 +1,300 @@
+{
+  "slug": "twitch-earnings-calculator",
+  "title": "Twitch Earnings Calculator 2026 — Subs, Bits & Ad Revenue | Kalkil",
+  "metaDescription": "Free Twitch earnings calculator. Estimate monthly income from subscriptions, Bits, and ad revenue based on your sub count and average viewers.",
+  "ogTitle": "Twitch Earnings Calculator 2026 — Subs, Bits & Ad Revenue | Kalkil",
+  "ogDescription": "Free Twitch earnings calculator. Estimate monthly income from subscriptions, Bits, and ad revenue based on your sub count and average viewers.",
+  "nodeCount": 58,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "◉ Twitch · Income Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Twitch Earnings"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estimate Twitch income from Tier 1/2/3 subs, Bits, and ad revenue at your viewer count."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Twitch Earnings Calculator 2026 — Subs, Bits & Ad Revenue"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Tier 1 Subscribers ($4.99)"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Tier 2 Subscribers ($9.99)"
+    },
+    {
+      "id": "t12",
+      "tag": "label",
+      "text": "Tier 3 Subscribers ($24.99)"
+    },
+    {
+      "id": "t13",
+      "tag": "label",
+      "text": "Monthly Bits (cheered)"
+    },
+    {
+      "id": "t14",
+      "tag": "span",
+      "text": "$0.01 per Bit cheered to you"
+    },
+    {
+      "id": "t15",
+      "tag": "label",
+      "text": "Avg. Concurrent Viewers"
+    },
+    {
+      "id": "t16",
+      "tag": "span",
+      "text": "Used to estimate ad revenue (~$2–$4 CPM)"
+    },
+    {
+      "id": "t17",
+      "tag": "label",
+      "text": "Stream Hours per Month"
+    },
+    {
+      "id": "t18",
+      "tag": "button",
+      "text": "Calculate"
+    },
+    {
+      "id": "t19",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t20",
+      "tag": "div",
+      "text": "Subscription Revenue"
+    },
+    {
+      "id": "t21",
+      "tag": "div",
+      "text": "All tiers at 50% split"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Bits Revenue"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "$0.01 per Bit cheered"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Ad Revenue (est.)"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "~$3 CPM × ACV × stream hours"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Total Monthly Estimate"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Subs + Bits + Ads (before donations)"
+    },
+    {
+      "id": "t28",
+      "tag": "h2",
+      "text": "How Twitch Streaming Income Works"
+    },
+    {
+      "id": "t29",
+      "tag": "p",
+      "text": "Twitch income comes from four main sources: subscriptions (50% split with Twitch for most partners), Bits (virtual currency at $0.01/bit), ad revenue (~$2–$4 CPM on ad-viewing viewers), and direct donations through PayPal or third-party tools."
+    },
+    {
+      "id": "t30",
+      "tag": "strong",
+      "text": "Standard partner split: 50/50."
+    },
+    {
+      "id": "t31",
+      "tag": "p",
+      "text": "Twitch ended new 70/30 deals in 2023. At Tier 1 ($4.99), you keep $2.50 per sub. Legacy 70/30 partners keep $3.49."
+    },
+    {
+      "id": "t32",
+      "tag": "h2",
+      "text": "Monthly Income by Avg. Concurrent Viewers"
+    },
+    {
+      "id": "t33",
+      "tag": "th",
+      "text": "Avg. Concurrent Viewers"
+    },
+    {
+      "id": "t34",
+      "tag": "th",
+      "text": "Estimated Monthly Income"
+    },
+    {
+      "id": "t35",
+      "tag": "td",
+      "text": "Under 20 (pre-affiliate)"
+    },
+    {
+      "id": "t36",
+      "tag": "td",
+      "text": "20–50 (affiliate)"
+    },
+    {
+      "id": "t37",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t38",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t39",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t40",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t41",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t42",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t43",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t44",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t45",
+      "tag": "div",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t46",
+      "tag": "div",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t47",
+      "tag": "div",
+      "text": "🎙"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "Podcast Calculator"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "CPM ad revenue"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "Patreon Calculator"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "Membership income"
+    },
+    {
+      "id": "t53",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t54",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t55",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t56",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t57",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

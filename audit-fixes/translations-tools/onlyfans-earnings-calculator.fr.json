@@ -1,0 +1,325 @@
+{
+  "slug": "onlyfans-earnings-calculator",
+  "title": "Calculateur de revenus OnlyFans 2026 — Revenus des abonnements et PPV | Kalkil",
+  "metaDescription": "Calculateur gratuit de revenus OnlyFans. Estimez vos revenus mensuels issus des abonnements, du contenu PPV et des pourboires après la commission de 20 % d'OnlyFans.",
+  "ogTitle": "Calculateur de revenus OnlyFans 2026 — Revenus des abonnements et PPV | Kalkil",
+  "ogDescription": "Calculateur gratuit de revenus OnlyFans. Estimez vos revenus mensuels issus des abonnements, du contenu PPV et des pourboires après la commission de 20 % d'OnlyFans.",
+  "nodeCount": 63,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "💎 OnlyFans · Calculateur de revenus"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Calculateur de revenus"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "OnlyFans"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estimez vos revenus nets mensuels issus des abonnements, du contenu PPV et des pourboires — après la commission d'OnlyFans."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculateurs"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Calculateur de revenus OnlyFans 2026 — Revenus des abonnements et PPV"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Gratuit · Sans inscription · Résultats instantanés"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Abonnés actifs"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Prix mensuel de l'abonnement ($)"
+    },
+    {
+      "id": "t12",
+      "tag": "label",
+      "text": "Revenus PPV mensuels ($)"
+    },
+    {
+      "id": "t13",
+      "tag": "span",
+      "text": "Total du contenu payant à la vue vendu ce mois-ci"
+    },
+    {
+      "id": "t14",
+      "tag": "label",
+      "text": "Pourboires mensuels ($)"
+    },
+    {
+      "id": "t15",
+      "tag": "button",
+      "text": "Calculer les revenus"
+    },
+    {
+      "id": "t16",
+      "tag": "button",
+      "text": "Réinitialiser"
+    },
+    {
+      "id": "t17",
+      "tag": "div",
+      "text": "Revenus des abonnements (80 %)"
+    },
+    {
+      "id": "t18",
+      "tag": "div",
+      "text": "Après la commission de 20 % d'OnlyFans"
+    },
+    {
+      "id": "t19",
+      "tag": "div",
+      "text": "Revenus PPV + pourboires (80 %)"
+    },
+    {
+      "id": "t20",
+      "tag": "div",
+      "text": "Après la commission de 20 % d'OnlyFans"
+    },
+    {
+      "id": "t21",
+      "tag": "div",
+      "text": "Total net mensuel"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Votre revenu net après commissions"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "Estimation annuelle"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Basée sur le revenu mensuel actuel"
+    },
+    {
+      "id": "t25",
+      "tag": "h2",
+      "text": "Comment fonctionnent les revenus sur OnlyFans"
+    },
+    {
+      "id": "t26",
+      "tag": "p",
+      "text": "Les créateurs OnlyFans conservent"
+    },
+    {
+      "id": "t27",
+      "tag": "strong",
+      "text": "80 % de l'ensemble des revenus"
+    },
+    {
+      "id": "t28",
+      "tag": "p",
+      "text": "— abonnements, messages payants à la vue, pourboires et contenu personnalisé. OnlyFans conserve 20 %. C'est l'un des meilleurs partages de revenus pour les créateurs du secteur."
+    },
+    {
+      "id": "t29",
+      "tag": "strong",
+      "text": "80 % pour le créateur"
+    },
+    {
+      "id": "t30",
+      "tag": "p",
+      "text": "— mieux que YouTube (55 %), Twitch (50 %) et la plupart des autres plateformes. Ce modèle économique récompense la relation directe avec les fans."
+    },
+    {
+      "id": "t31",
+      "tag": "h2",
+      "text": "La réalité de la répartition des revenus"
+    },
+    {
+      "id": "t32",
+      "tag": "th",
+      "text": "Niveau de créateur"
+    },
+    {
+      "id": "t33",
+      "tag": "th",
+      "text": "Net mensuel estimé"
+    },
+    {
+      "id": "t34",
+      "tag": "td",
+      "text": "50 % inférieurs"
+    },
+    {
+      "id": "t35",
+      "tag": "td",
+      "text": "Moins de $200"
+    },
+    {
+      "id": "t36",
+      "tag": "td",
+      "text": "30 % intermédiaires"
+    },
+    {
+      "id": "t37",
+      "tag": "td",
+      "text": "Top 15 %"
+    },
+    {
+      "id": "t38",
+      "tag": "td",
+      "text": "Top 4 %"
+    },
+    {
+      "id": "t39",
+      "tag": "td",
+      "text": "Top 1 %"
+    },
+    {
+      "id": "t40",
+      "tag": "td",
+      "text": "$100,000–$1M+/mois"
+    },
+    {
+      "id": "t41",
+      "tag": "p",
+      "text": "Le créateur médian sur OnlyFans gagne environ $150–$300/mois. Les créateurs les plus rentables génèrent du trafic externe depuis TikTok, Instagram et X — la découverte interne est limitée."
+    },
+    {
+      "id": "t42",
+      "tag": "h3",
+      "text": "Vous voulez comprendre ces chiffres ?"
+    },
+    {
+      "id": "t43",
+      "tag": "p",
+      "text": "Lisez notre guide gratuit et détaillé qui explique exactement comment cette plateforme rémunère les créateurs."
+    },
+    {
+      "id": "t44",
+      "tag": "a",
+      "text": "Lire le guide →"
+    },
+    {
+      "id": "t45",
+      "tag": "h2",
+      "text": "Autres calculateurs"
+    },
+    {
+      "id": "t46",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t47",
+      "tag": "div",
+      "text": "Calculateur Patreon"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "Revenus d'abonnement"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "◉"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "Calculateur Twitch"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "Abonnements, bits et pubs"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "◈"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "Calculateur Instagram"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "Tarifs des posts sponsorisés"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "Calculateur de tarifs influenceur"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "Tarifs multiplateformes"
+    },
+    {
+      "id": "t58",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t59",
+      "tag": "h2",
+      "text": "Visualisez tous vos revenus au même endroit"
+    },
+    {
+      "id": "t60",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch et bien plus — tableau de bord unifié avec benchmarks et projections."
+    },
+    {
+      "id": "t61",
+      "tag": "a",
+      "text": "Essayez Kalkil Pro gratuitement →"
+    },
+    {
+      "id": "t62",
+      "tag": "p",
+      "text": "Gratuit pour commencer · Sans carte bancaire"
+    }
+  ]
+}

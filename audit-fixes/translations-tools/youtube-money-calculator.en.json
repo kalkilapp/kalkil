@@ -1,0 +1,420 @@
+{
+  "slug": "youtube-money-calculator",
+  "title": "YouTube Money Calculator 2026 — Estimate AdSense Earnings | Kalkil",
+  "metaDescription": "Free YouTube money calculator. Estimate your AdSense earnings by views, CPM, and niche. Instant monthly and annual projections — no sign-up.",
+  "ogTitle": "YouTube Money Calculator 2026 — Estimate AdSense Earnings | Kalkil",
+  "ogDescription": "Free YouTube money calculator. Estimate your AdSense earnings by views, CPM, and niche. Instant monthly and annual projections — no sign-up.",
+  "nodeCount": 82,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "▶ YouTube · AdSense Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "YouTube Money"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estimate your AdSense earnings based on your views, niche, and CPM. Updated 2026 rates."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "YouTube Money Calculator 2026 — Estimate AdSense Earnings"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Monthly Views"
+    },
+    {
+      "id": "t11",
+      "tag": "span",
+      "text": "Total views across all your videos this month"
+    },
+    {
+      "id": "t12",
+      "tag": "label",
+      "text": "Content Niche"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "Personal Finance ($20 CPM)"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Tech & Software ($12 CPM)"
+    },
+    {
+      "id": "t15",
+      "tag": "option",
+      "text": "Health & Wellness ($8 CPM)"
+    },
+    {
+      "id": "t16",
+      "tag": "option",
+      "text": "Education ($6 CPM)"
+    },
+    {
+      "id": "t17",
+      "tag": "option",
+      "text": "General ($4 CPM)"
+    },
+    {
+      "id": "t18",
+      "tag": "option",
+      "text": "Gaming ($3 CPM)"
+    },
+    {
+      "id": "t19",
+      "tag": "option",
+      "text": "Entertainment / Vlogs ($2 CPM)"
+    },
+    {
+      "id": "t20",
+      "tag": "span",
+      "text": "Select your niche to auto-fill CPM"
+    },
+    {
+      "id": "t21",
+      "tag": "label",
+      "text": "Your CPM ($)"
+    },
+    {
+      "id": "t22",
+      "tag": "span",
+      "text": "Override CPM if you know your actual rate"
+    },
+    {
+      "id": "t23",
+      "tag": "button",
+      "text": "Calculate Earnings"
+    },
+    {
+      "id": "t24",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Monthly AdSense (RPM)"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "After YouTube's 45% cut"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Your RPM"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "Revenue per 1,000 views"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Per 1 Million Views"
+    },
+    {
+      "id": "t30",
+      "tag": "div",
+      "text": "At your current CPM"
+    },
+    {
+      "id": "t31",
+      "tag": "div",
+      "text": "Annual Estimate"
+    },
+    {
+      "id": "t32",
+      "tag": "div",
+      "text": "Based on your monthly view rate"
+    },
+    {
+      "id": "t33",
+      "tag": "h2",
+      "text": "How YouTube Calculates Creator Revenue"
+    },
+    {
+      "id": "t34",
+      "tag": "p",
+      "text": "YouTube uses two key metrics:"
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "CPM"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": "(Cost Per Mille — what advertisers pay per 1,000 ad impressions) and"
+    },
+    {
+      "id": "t37",
+      "tag": "strong",
+      "text": "RPM"
+    },
+    {
+      "id": "t38",
+      "tag": "p",
+      "text": "(Revenue Per Mille — what you actually receive per 1,000 views). YouTube keeps approximately 45% of ad revenue, so your RPM is roughly 55% of your CPM."
+    },
+    {
+      "id": "t39",
+      "tag": "strong",
+      "text": "Formula: RPM = CPM × 0.55 × monetization rate"
+    },
+    {
+      "id": "t40",
+      "tag": "p",
+      "text": "— Not every view serves an ad. Your effective monetization rate is typically 70–90%."
+    },
+    {
+      "id": "t41",
+      "tag": "h2",
+      "text": "Average YouTube CPM by Niche (2026)"
+    },
+    {
+      "id": "t42",
+      "tag": "th",
+      "text": "Niche"
+    },
+    {
+      "id": "t43",
+      "tag": "th",
+      "text": "Avg CPM"
+    },
+    {
+      "id": "t44",
+      "tag": "th",
+      "text": "Your RPM"
+    },
+    {
+      "id": "t45",
+      "tag": "th",
+      "text": "Per 1M Views"
+    },
+    {
+      "id": "t46",
+      "tag": "td",
+      "text": "Personal Finance"
+    },
+    {
+      "id": "t47",
+      "tag": "td",
+      "text": "Tech & Software"
+    },
+    {
+      "id": "t48",
+      "tag": "td",
+      "text": "Health & Wellness"
+    },
+    {
+      "id": "t49",
+      "tag": "td",
+      "text": "Education"
+    },
+    {
+      "id": "t50",
+      "tag": "td",
+      "text": "Gaming"
+    },
+    {
+      "id": "t51",
+      "tag": "td",
+      "text": "Entertainment/Vlogs"
+    },
+    {
+      "id": "t52",
+      "tag": "h2",
+      "text": "Factors That Affect Your YouTube Earnings"
+    },
+    {
+      "id": "t53",
+      "tag": "strong",
+      "text": "Audience geography:"
+    },
+    {
+      "id": "t54",
+      "tag": "li",
+      "text": "US/UK/Canada viewers generate 5–10× more revenue than South Asian markets."
+    },
+    {
+      "id": "t55",
+      "tag": "strong",
+      "text": "Video length:"
+    },
+    {
+      "id": "t56",
+      "tag": "li",
+      "text": "Videos over 8 minutes unlock mid-roll ads — the biggest single driver of per-video income."
+    },
+    {
+      "id": "t57",
+      "tag": "strong",
+      "text": "Seasonality:"
+    },
+    {
+      "id": "t58",
+      "tag": "li",
+      "text": "Q4 CPMs are 30–80% higher due to holiday advertiser spend."
+    },
+    {
+      "id": "t59",
+      "tag": "strong",
+      "text": "Ad formats enabled:"
+    },
+    {
+      "id": "t60",
+      "tag": "li",
+      "text": "Non-skippable and bumper ads increase total impressions per view."
+    },
+    {
+      "id": "t61",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t62",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t63",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t64",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t65",
+      "tag": "div",
+      "text": "📊"
+    },
+    {
+      "id": "t66",
+      "tag": "div",
+      "text": "YouTube CPM Calculator"
+    },
+    {
+      "id": "t67",
+      "tag": "div",
+      "text": "CPM to RPM breakdown"
+    },
+    {
+      "id": "t68",
+      "tag": "div",
+      "text": "⚡"
+    },
+    {
+      "id": "t69",
+      "tag": "div",
+      "text": "YouTube Shorts Calculator"
+    },
+    {
+      "id": "t70",
+      "tag": "div",
+      "text": "Shorts RPM vs long-form"
+    },
+    {
+      "id": "t71",
+      "tag": "div",
+      "text": "🤝"
+    },
+    {
+      "id": "t72",
+      "tag": "div",
+      "text": "Sponsorship Calculator"
+    },
+    {
+      "id": "t73",
+      "tag": "div",
+      "text": "Brand deal value"
+    },
+    {
+      "id": "t74",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t75",
+      "tag": "div",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t76",
+      "tag": "div",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t77",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t78",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t79",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t80",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t81",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

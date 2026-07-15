@@ -1,0 +1,330 @@
+{
+  "slug": "youtube-sponsorship-calculator",
+  "title": "Calculateur de Sponsoring YouTube 2026 — Estimateur de Tarifs pour Partenariats de Marque | Kalkil",
+  "metaDescription": "Calculateur gratuit de sponsoring YouTube. Estimez la valeur de vos partenariats de marque selon vos abonnés, vues moyennes, niche et type d'intégration.",
+  "ogTitle": "Calculateur de Sponsoring YouTube 2026 — Estimateur de Tarifs pour Partenariats de Marque | Kalkil",
+  "ogDescription": "Calculateur gratuit de sponsoring YouTube. Estimez la valeur de vos partenariats de marque selon vos abonnés, vues moyennes, niche et type d'intégration.",
+  "nodeCount": 64,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "🤝 YouTube · Calculateur de Tarifs de Sponsoring"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Calculateur de Sponsoring"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "YouTube"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Découvrez combien les marques devraient vous payer — en fonction de vos abonnés, vues, niche et type de partenariat."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculateurs"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Calculateur de Sponsoring YouTube 2026 — Estimateur de Tarifs pour Partenariats de Marque"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Gratuit · Sans inscription · Résultats instantanés"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Nombre d'Abonnés"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Vues Moyennes par Vidéo"
+    },
+    {
+      "id": "t12",
+      "tag": "span",
+      "text": "Vues moyennes par vidéo au cours des 30 derniers jours"
+    },
+    {
+      "id": "t13",
+      "tag": "label",
+      "text": "Niche de Contenu"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Finance / Business (multiplicateur 3×)"
+    },
+    {
+      "id": "t15",
+      "tag": "option",
+      "text": "Tech / Logiciels (multiplicateur 2×)"
+    },
+    {
+      "id": "t16",
+      "tag": "option",
+      "text": "Santé / Éducation (1.5×)"
+    },
+    {
+      "id": "t17",
+      "tag": "option",
+      "text": "Gaming / Divertissement (1×)"
+    },
+    {
+      "id": "t18",
+      "tag": "option",
+      "text": "Vlogs / Général (0.8×)"
+    },
+    {
+      "id": "t19",
+      "tag": "label",
+      "text": "Type d'Intégration"
+    },
+    {
+      "id": "t20",
+      "tag": "option",
+      "text": "Vidéo dédiée (vidéo complète)"
+    },
+    {
+      "id": "t21",
+      "tag": "option",
+      "text": "Mention intégrée (60–90 sec)"
+    },
+    {
+      "id": "t22",
+      "tag": "option",
+      "text": "Mention brève (15–30 sec)"
+    },
+    {
+      "id": "t23",
+      "tag": "button",
+      "text": "Calculer le Tarif"
+    },
+    {
+      "id": "t24",
+      "tag": "button",
+      "text": "Réinitialiser"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Tarif de Sponsoring Estimé"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Par intégration sponsorisée"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Mensuel (2 contrats)"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "Avec 2 sponsorings par mois"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Estimation Annuelle"
+    },
+    {
+      "id": "t30",
+      "tag": "div",
+      "text": "24 contrats par an"
+    },
+    {
+      "id": "t31",
+      "tag": "div",
+      "text": "AdSense + Sponsoring"
+    },
+    {
+      "id": "t32",
+      "tag": "div",
+      "text": "Revenu mensuel total estimé"
+    },
+    {
+      "id": "t33",
+      "tag": "h2",
+      "text": "Comment sont Fixés les Tarifs de Sponsoring YouTube"
+    },
+    {
+      "id": "t34",
+      "tag": "p",
+      "text": "Les tarifs de sponsoring sur YouTube sont négociés directement entre créateurs et marques — YouTube n'intervient pas. Les tarifs dépendent du nombre d'abonnés, des vues moyennes, de la qualité de l'audience (taux d'engagement), de la niche de contenu et du type d'intégration."
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "Référence du secteur : $100 pour 10,000 abonnés"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": "— puis ajusté à la hausse ou à la baisse selon l'engagement, la niche et le type d'intégration."
+    },
+    {
+      "id": "t37",
+      "tag": "h2",
+      "text": "Tarifs de Sponsoring Habituels selon le Nombre d'Abonnés"
+    },
+    {
+      "id": "t38",
+      "tag": "th",
+      "text": "Abonnés"
+    },
+    {
+      "id": "t39",
+      "tag": "th",
+      "text": "Mention Intégrée"
+    },
+    {
+      "id": "t40",
+      "tag": "th",
+      "text": "Vidéo Dédiée"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "500,000–1M"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "1M+"
+    },
+    {
+      "id": "t43",
+      "tag": "h3",
+      "text": "Vous voulez comprendre les chiffres ?"
+    },
+    {
+      "id": "t44",
+      "tag": "p",
+      "text": "Lisez notre guide gratuit et détaillé qui explique exactement comment cette plateforme rémunère les créateurs."
+    },
+    {
+      "id": "t45",
+      "tag": "a",
+      "text": "Lire le Guide →"
+    },
+    {
+      "id": "t46",
+      "tag": "h2",
+      "text": "Autres Calculateurs"
+    },
+    {
+      "id": "t47",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "Calculateur YouTube"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "Revenus AdSense et CPM"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "📊"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "Calculateur de CPM YouTube"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "Détail CPM vers RPM"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "⚡"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "Calculateur YouTube Shorts"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "RPM des Shorts vs formats longs"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "Calculateur de Tarifs Influenceurs"
+    },
+    {
+      "id": "t58",
+      "tag": "div",
+      "text": "Tarifs multiplateformes"
+    },
+    {
+      "id": "t59",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t60",
+      "tag": "h2",
+      "text": "Visualisez tous vos revenus au même endroit"
+    },
+    {
+      "id": "t61",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch et plus encore — tableau de bord unifié avec benchmarks et projections."
+    },
+    {
+      "id": "t62",
+      "tag": "a",
+      "text": "Essayez Kalkil Pro Gratuitement →"
+    },
+    {
+      "id": "t63",
+      "tag": "p",
+      "text": "Gratuit pour commencer · Aucune carte de crédit requise"
+    }
+  ]
+}

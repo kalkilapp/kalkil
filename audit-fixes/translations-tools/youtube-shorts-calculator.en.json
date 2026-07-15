@@ -1,0 +1,360 @@
+{
+  "slug": "youtube-shorts-calculator",
+  "title": "YouTube Shorts Earnings Calculator 2026 — Shorts RPM Estimate | Kalkil",
+  "metaDescription": "Free YouTube Shorts earnings calculator. Compare Shorts RPM to long-form and estimate monthly Shorts revenue. Instant results.",
+  "ogTitle": "YouTube Shorts Earnings Calculator 2026 — Shorts RPM Estimate | Kalkil",
+  "ogDescription": "Free YouTube Shorts earnings calculator. Compare Shorts RPM to long-form and estimate monthly Shorts revenue. Instant results.",
+  "nodeCount": 70,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "⚡ YouTube Shorts · Earnings Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "YouTube Shorts"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "See how much Shorts earns vs. long-form for the same views — and plan your content mix."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "YouTube Shorts Earnings Calculator 2026 — Shorts RPM Estimate"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Monthly Shorts Views"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Shorts RPM ($ per 1,000 views)"
+    },
+    {
+      "id": "t12",
+      "tag": "option",
+      "text": "Low — $0.03 per 1K"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "Average — $0.05 per 1K"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "High — $0.07 per 1K"
+    },
+    {
+      "id": "t15",
+      "tag": "label",
+      "text": "Long-Form Views (same period)"
+    },
+    {
+      "id": "t16",
+      "tag": "span",
+      "text": "Compare Shorts income to long-form for the same effort"
+    },
+    {
+      "id": "t17",
+      "tag": "label",
+      "text": "Long-Form RPM ($)"
+    },
+    {
+      "id": "t18",
+      "tag": "button",
+      "text": "Calculate"
+    },
+    {
+      "id": "t19",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t20",
+      "tag": "div",
+      "text": "Shorts Monthly Earnings"
+    },
+    {
+      "id": "t21",
+      "tag": "div",
+      "text": "From Creator Rewards pool"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Long-Form Monthly Earnings"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "AdSense at your RPM"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Shorts Annual Estimate"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Based on your monthly Shorts views"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Combined Total (Monthly)"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Shorts + Long-form combined"
+    },
+    {
+      "id": "t28",
+      "tag": "h2",
+      "text": "How YouTube Shorts Monetization Works"
+    },
+    {
+      "id": "t29",
+      "tag": "p",
+      "text": "Shorts uses a"
+    },
+    {
+      "id": "t30",
+      "tag": "strong",
+      "text": "pooled ad revenue model"
+    },
+    {
+      "id": "t31",
+      "tag": "p",
+      "text": "different from standard YouTube monetization. Ads appear between Shorts in the feed — not on individual videos — and the revenue from those ads is distributed to creators based on their share of total platform Shorts views."
+    },
+    {
+      "id": "t32",
+      "tag": "strong",
+      "text": "Creators receive 45% of Shorts ad revenue."
+    },
+    {
+      "id": "t33",
+      "tag": "p",
+      "text": "Effective RPM: $0.03–$0.07 per 1,000 views — roughly 50–100× less than long-form AdSense."
+    },
+    {
+      "id": "t34",
+      "tag": "h2",
+      "text": "Shorts vs. Long-Form: Revenue Comparison"
+    },
+    {
+      "id": "t35",
+      "tag": "th",
+      "text": "Format"
+    },
+    {
+      "id": "t36",
+      "tag": "th",
+      "text": "RPM Range"
+    },
+    {
+      "id": "t37",
+      "tag": "th",
+      "text": "Per 1M Views"
+    },
+    {
+      "id": "t38",
+      "tag": "th",
+      "text": "Best Use"
+    },
+    {
+      "id": "t39",
+      "tag": "td",
+      "text": "YouTube Long-Form"
+    },
+    {
+      "id": "t40",
+      "tag": "td",
+      "text": "Primary income"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "YouTube Shorts"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "Audience growth"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "TikTok Creator Rewards"
+    },
+    {
+      "id": "t44",
+      "tag": "td",
+      "text": "Brand deal pipeline"
+    },
+    {
+      "id": "t45",
+      "tag": "td",
+      "text": "Instagram Reels Bonus"
+    },
+    {
+      "id": "t46",
+      "tag": "td",
+      "text": "Reach expansion"
+    },
+    {
+      "id": "t47",
+      "tag": "strong",
+      "text": "Strategic takeaway:"
+    },
+    {
+      "id": "t48",
+      "tag": "p",
+      "text": "Shorts is a growth engine, not a revenue engine. A viral Short that adds 50,000 subscribers can generate far more long-form AdSense income than the Short itself ever earns."
+    },
+    {
+      "id": "t49",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t50",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t51",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t52",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "📊"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "YouTube CPM Calculator"
+    },
+    {
+      "id": "t58",
+      "tag": "div",
+      "text": "CPM to RPM breakdown"
+    },
+    {
+      "id": "t59",
+      "tag": "div",
+      "text": "🤝"
+    },
+    {
+      "id": "t60",
+      "tag": "div",
+      "text": "Sponsorship Calculator"
+    },
+    {
+      "id": "t61",
+      "tag": "div",
+      "text": "Brand deal value"
+    },
+    {
+      "id": "t62",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t63",
+      "tag": "div",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t64",
+      "tag": "div",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t65",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t66",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t67",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t68",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t69",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "slug": "tiktok-money-calculator",
+  "title": "Calculadora de Ingresos de TikTok 2026 — Creator Rewards + Estimación de Patrocinios | Kalkil",
+  "metaDescription": "Calculadora gratuita de ingresos de TikTok. Estimá los ingresos de Creator Rewards y el potencial de patrocinios según tus seguidores y vistas mensuales.",
+  "ogTitle": "Calculadora de Ingresos de TikTok 2026 — Estimación de Creator Rewards + Patrocinios | Kalkil",
+  "ogDescription": "Calculadora gratuita de ingresos de TikTok. Estimá los ingresos de Creator Rewards y el potencial de patrocinios según tus seguidores y vistas mensuales.",
+  "nodeCount": 68,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "♪ TikTok · Calculadora de Ingresos"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Calculadora de Ingresos de "
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "TikTok"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Creator Rewards + potencial de patrocinios según tus vistas, seguidores y nicho."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Inicio"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculadoras"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Calculadora de Ingresos de TikTok 2026 — Estimación de Creator Rewards + Patrocinios"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Gratis · Sin registro · Resultados instantáneos"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Vistas Mensuales"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Tasa de Interacción"
+    },
+    {
+      "id": "t12",
+      "tag": "option",
+      "text": "Baja — menos de 3%"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "Promedio — 3–6%"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Alta — 6–10%"
+    },
+    {
+      "id": "t15",
+      "tag": "option",
+      "text": "Viral — 10%+"
+    },
+    {
+      "id": "t16",
+      "tag": "label",
+      "text": "Seguidores"
+    },
+    {
+      "id": "t17",
+      "tag": "span",
+      "text": "Se usa para estimar el potencial de patrocinios"
+    },
+    {
+      "id": "t18",
+      "tag": "label",
+      "text": "Nicho"
+    },
+    {
+      "id": "t19",
+      "tag": "option",
+      "text": "Finanzas / Negocios (premium)"
+    },
+    {
+      "id": "t20",
+      "tag": "option",
+      "text": "Tecnología / Salud / Fitness"
+    },
+    {
+      "id": "t21",
+      "tag": "option",
+      "text": "Moda / Belleza / Estilo de Vida"
+    },
+    {
+      "id": "t22",
+      "tag": "option",
+      "text": "Entretenimiento / Comedia"
+    },
+    {
+      "id": "t23",
+      "tag": "button",
+      "text": "Calcular"
+    },
+    {
+      "id": "t24",
+      "tag": "button",
+      "text": "Reiniciar"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Creator Rewards (mensual)"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Del Programa Creator Rewards de TikTok"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Patrocinio por Publicación"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "Tarifa de mercado estimada para tu nivel"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Mensual (2 acuerdos)"
+    },
+    {
+      "id": "t30",
+      "tag": "div",
+      "text": "Creator Rewards + 2 patrocinios"
+    },
+    {
+      "id": "t31",
+      "tag": "div",
+      "text": "Estimación Anual Total"
+    },
+    {
+      "id": "t32",
+      "tag": "div",
+      "text": "Creator Rewards + 24 patrocinios al año"
+    },
+    {
+      "id": "t33",
+      "tag": "h2",
+      "text": "Cómo Funcionan Realmente los Ingresos de los Creadores en TikTok"
+    },
+    {
+      "id": "t34",
+      "tag": "p",
+      "text": "TikTok paga a los creadores a través del"
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "Programa Creator Rewards"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": "a razón de aproximadamente $0.02–$0.04 por cada 1,000 vistas — mucho menos que YouTube. Pero los patrocinios pueden pagar 10–100× más que las recompensas de la plataforma para la misma audiencia."
+    },
+    {
+      "id": "t37",
+      "tag": "strong",
+      "text": "La mayoría de los creadores de TikTok obtiene el 90%+ de sus ingresos de acuerdos de marca, no de Creator Rewards."
+    },
+    {
+      "id": "t38",
+      "tag": "p",
+      "text": "Los pagos de la plataforma son un complemento, no un modelo de negocio."
+    },
+    {
+      "id": "t39",
+      "tag": "h2",
+      "text": "Tarifas de Creator Rewards según la Interacción"
+    },
+    {
+      "id": "t40",
+      "tag": "th",
+      "text": "Nivel de Interacción"
+    },
+    {
+      "id": "t41",
+      "tag": "th",
+      "text": "Tarifa por 1K Vistas"
+    },
+    {
+      "id": "t42",
+      "tag": "th",
+      "text": "Por 1M de Vistas"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "Baja (<3%)"
+    },
+    {
+      "id": "t44",
+      "tag": "td",
+      "text": "Promedio (3–6%)"
+    },
+    {
+      "id": "t45",
+      "tag": "td",
+      "text": "Alta (6–10%)"
+    },
+    {
+      "id": "t46",
+      "tag": "td",
+      "text": "Viral (10%+)"
+    },
+    {
+      "id": "t47",
+      "tag": "h3",
+      "text": "¿Quieres entender los números?"
+    },
+    {
+      "id": "t48",
+      "tag": "p",
+      "text": "Lee nuestra guía gratuita y detallada que explica exactamente cómo paga esta plataforma a los creadores."
+    },
+    {
+      "id": "t49",
+      "tag": "a",
+      "text": "Leer la Guía →"
+    },
+    {
+      "id": "t50",
+      "tag": "h2",
+      "text": "Más Calculadoras"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "💰"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "TikTok Creator Fund"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "Tarifas de Creator Rewards"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "◈"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "Calculadora de Instagram"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "Tarifas de publicaciones patrocinadas"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t58",
+      "tag": "div",
+      "text": "Calculadora de YouTube"
+    },
+    {
+      "id": "t59",
+      "tag": "div",
+      "text": "Ganancias de AdSense y CPM"
+    },
+    {
+      "id": "t60",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t61",
+      "tag": "div",
+      "text": "Calculadora de Tarifas de Influencers"
+    },
+    {
+      "id": "t62",
+      "tag": "div",
+      "text": "Tarifas multiplataforma"
+    },
+    {
+      "id": "t63",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t64",
+      "tag": "h2",
+      "text": "Mira todos tus ingresos en un solo lugar"
+    },
+    {
+      "id": "t65",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch y más — panel unificado con referencias y proyecciones."
+    },
+    {
+      "id": "t66",
+      "tag": "a",
+      "text": "Probar Kalkil Pro Gratis →"
+    },
+    {
+      "id": "t67",
+      "tag": "p",
+      "text": "Gratis para empezar · No requiere tarjeta de crédito"
+    }
+  ]
+}

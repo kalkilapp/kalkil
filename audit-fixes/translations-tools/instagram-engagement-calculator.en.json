@@ -1,0 +1,310 @@
+{
+  "slug": "instagram-engagement-calculator",
+  "title": "Instagram Engagement Rate Calculator 2026 — Benchmark Your Account | Kalkil",
+  "metaDescription": "Free Instagram engagement rate calculator. Calculate your ER instantly and benchmark it against your follower tier. Standard and extended formula.",
+  "ogTitle": "Instagram Engagement Rate Calculator 2026 — Benchmark Your Account | Kalkil",
+  "ogDescription": "Free Instagram engagement rate calculator. Calculate your ER instantly and benchmark it against your follower tier. Standard and extended formula.",
+  "nodeCount": 60,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "📈 Instagram · Engagement Rate Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Instagram Engagement"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Calculate your engagement rate and see how it benchmarks against your follower tier."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Instagram Engagement Rate Calculator 2026 — Benchmark Your Account"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Total Likes (last post)"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Total Comments (last post)"
+    },
+    {
+      "id": "t12",
+      "tag": "label",
+      "text": "Saves (optional)"
+    },
+    {
+      "id": "t13",
+      "tag": "span",
+      "text": "Including saves gives a more complete engagement picture"
+    },
+    {
+      "id": "t14",
+      "tag": "label",
+      "text": "Your Followers"
+    },
+    {
+      "id": "t15",
+      "tag": "button",
+      "text": "Calculate Rate"
+    },
+    {
+      "id": "t16",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t17",
+      "tag": "div",
+      "text": "Standard Engagement Rate"
+    },
+    {
+      "id": "t18",
+      "tag": "div",
+      "text": "(Likes + Comments) ÷ Followers × 100"
+    },
+    {
+      "id": "t19",
+      "tag": "div",
+      "text": "Extended Engagement Rate"
+    },
+    {
+      "id": "t20",
+      "tag": "div",
+      "text": "Includes saves — preferred by brands"
+    },
+    {
+      "id": "t21",
+      "tag": "div",
+      "text": "Benchmark for Your Tier"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Average for your follower count"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "Your Rating"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Vs. industry benchmark for your tier"
+    },
+    {
+      "id": "t25",
+      "tag": "h2",
+      "text": "What Is Instagram Engagement Rate?"
+    },
+    {
+      "id": "t26",
+      "tag": "p",
+      "text": "Engagement rate measures how actively your audience interacts with your content. It's the single most important metric brands check before agreeing to a sponsorship — often more important than raw follower count."
+    },
+    {
+      "id": "t27",
+      "tag": "strong",
+      "text": "Standard ER = (Likes + Comments) ÷ Followers × 100"
+    },
+    {
+      "id": "t28",
+      "tag": "p",
+      "text": "Extended ER adds saves and shares for a more complete view."
+    },
+    {
+      "id": "t29",
+      "tag": "h2",
+      "text": "Engagement Rate Benchmarks by Follower Tier"
+    },
+    {
+      "id": "t30",
+      "tag": "th",
+      "text": "Account Size"
+    },
+    {
+      "id": "t31",
+      "tag": "th",
+      "text": "Average ER"
+    },
+    {
+      "id": "t32",
+      "tag": "th",
+      "text": "Good ER"
+    },
+    {
+      "id": "t33",
+      "tag": "th",
+      "text": "Excellent ER"
+    },
+    {
+      "id": "t34",
+      "tag": "td",
+      "text": "Nano (1K–10K)"
+    },
+    {
+      "id": "t35",
+      "tag": "td",
+      "text": "Micro (10K–100K)"
+    },
+    {
+      "id": "t36",
+      "tag": "td",
+      "text": "Mid-tier (100K–500K)"
+    },
+    {
+      "id": "t37",
+      "tag": "td",
+      "text": "Macro (500K–1M)"
+    },
+    {
+      "id": "t38",
+      "tag": "td",
+      "text": "Mega (1M+)"
+    },
+    {
+      "id": "t39",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t40",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t41",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t42",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t43",
+      "tag": "div",
+      "text": "◈"
+    },
+    {
+      "id": "t44",
+      "tag": "div",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t45",
+      "tag": "div",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t46",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t47",
+      "tag": "div",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "Influencer Rate Calc"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "Cross-platform rates"
+    },
+    {
+      "id": "t55",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t56",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t57",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t58",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t59",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

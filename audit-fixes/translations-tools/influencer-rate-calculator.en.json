@@ -1,0 +1,400 @@
+{
+  "slug": "influencer-rate-calculator",
+  "title": "Influencer Rate Calculator 2026 — Cross-Platform Sponsorship Pricing | Kalkil",
+  "metaDescription": "Free influencer rate calculator. Find out what to charge brands across YouTube, TikTok, Instagram, and podcasts based on your metrics and niche.",
+  "ogTitle": "Influencer Rate Calculator 2026 — Cross-Platform Sponsorship Pricing | Kalkil",
+  "ogDescription": "Free influencer rate calculator. Find out what to charge brands across YouTube, TikTok, Instagram, and podcasts based on your metrics and niche.",
+  "nodeCount": 78,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "◆ All Platforms · Influencer Rate Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Influencer Rate"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Calculate your sponsorship rate across any platform — with engagement and niche multipliers built in."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Influencer Rate Calculator 2026 — Cross-Platform Sponsorship Pricing"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Primary Platform"
+    },
+    {
+      "id": "t11",
+      "tag": "option",
+      "text": "YouTube (highest per-deal rates)"
+    },
+    {
+      "id": "t12",
+      "tag": "option",
+      "text": "Instagram"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "TikTok"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Podcast"
+    },
+    {
+      "id": "t15",
+      "tag": "label",
+      "text": "Followers / Subscribers"
+    },
+    {
+      "id": "t16",
+      "tag": "label",
+      "text": "Engagement Rate (%)"
+    },
+    {
+      "id": "t17",
+      "tag": "option",
+      "text": "Under 1% (below avg)"
+    },
+    {
+      "id": "t18",
+      "tag": "option",
+      "text": "1–3% (average)"
+    },
+    {
+      "id": "t19",
+      "tag": "option",
+      "text": "3–6% (good)"
+    },
+    {
+      "id": "t20",
+      "tag": "option",
+      "text": "6–10% (excellent)"
+    },
+    {
+      "id": "t21",
+      "tag": "option",
+      "text": "10%+ (top tier)"
+    },
+    {
+      "id": "t22",
+      "tag": "label",
+      "text": "Niche"
+    },
+    {
+      "id": "t23",
+      "tag": "option",
+      "text": "Finance / Business"
+    },
+    {
+      "id": "t24",
+      "tag": "option",
+      "text": "Tech / Software"
+    },
+    {
+      "id": "t25",
+      "tag": "option",
+      "text": "Health / Fitness / Beauty"
+    },
+    {
+      "id": "t26",
+      "tag": "option",
+      "text": "Lifestyle / Travel / Food"
+    },
+    {
+      "id": "t27",
+      "tag": "option",
+      "text": "Entertainment / Gaming"
+    },
+    {
+      "id": "t28",
+      "tag": "label",
+      "text": "Integration Type"
+    },
+    {
+      "id": "t29",
+      "tag": "option",
+      "text": "Dedicated content (full video/post)"
+    },
+    {
+      "id": "t30",
+      "tag": "option",
+      "text": "Integrated mention (60–90 sec)"
+    },
+    {
+      "id": "t31",
+      "tag": "option",
+      "text": "Brief mention / story"
+    },
+    {
+      "id": "t32",
+      "tag": "button",
+      "text": "Calculate My Rate"
+    },
+    {
+      "id": "t33",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t34",
+      "tag": "div",
+      "text": "Your Base Rate"
+    },
+    {
+      "id": "t35",
+      "tag": "div",
+      "text": "Per sponsored integration"
+    },
+    {
+      "id": "t36",
+      "tag": "div",
+      "text": "Engagement Adjusted Rate"
+    },
+    {
+      "id": "t37",
+      "tag": "div",
+      "text": "After engagement premium/penalty"
+    },
+    {
+      "id": "t38",
+      "tag": "div",
+      "text": "Monthly (2 deals)"
+    },
+    {
+      "id": "t39",
+      "tag": "div",
+      "text": "At 2 sponsorships per month"
+    },
+    {
+      "id": "t40",
+      "tag": "div",
+      "text": "Annual Sponsorship Income"
+    },
+    {
+      "id": "t41",
+      "tag": "div",
+      "text": "Based on 2 deals/month × 12 months"
+    },
+    {
+      "id": "t42",
+      "tag": "h2",
+      "text": "How to Price Your Influencer Sponsorships"
+    },
+    {
+      "id": "t43",
+      "tag": "p",
+      "text": "Influencer rates are not set by platforms — they're negotiated directly between creators and brands. The standard industry formula is"
+    },
+    {
+      "id": "t44",
+      "tag": "strong",
+      "text": "$100 per 10,000 followers"
+    },
+    {
+      "id": "t45",
+      "tag": "p",
+      "text": ", then adjusted for engagement rate, niche, platform, and content format."
+    },
+    {
+      "id": "t46",
+      "tag": "strong",
+      "text": "Key principle: engagement quality beats follower quantity."
+    },
+    {
+      "id": "t47",
+      "tag": "p",
+      "text": "A 50K account with 8% engagement commands higher rates than a 500K account with 0.5% engagement."
+    },
+    {
+      "id": "t48",
+      "tag": "h2",
+      "text": "Rate Multipliers by Factor"
+    },
+    {
+      "id": "t49",
+      "tag": "th",
+      "text": "Factor"
+    },
+    {
+      "id": "t50",
+      "tag": "th",
+      "text": "Low Multiplier"
+    },
+    {
+      "id": "t51",
+      "tag": "th",
+      "text": "High Multiplier"
+    },
+    {
+      "id": "t52",
+      "tag": "td",
+      "text": "Engagement rate"
+    },
+    {
+      "id": "t53",
+      "tag": "td",
+      "text": "0.3× (under 1%)"
+    },
+    {
+      "id": "t54",
+      "tag": "td",
+      "text": "Niche (Entertainment vs Finance)"
+    },
+    {
+      "id": "t55",
+      "tag": "td",
+      "text": "Platform (TikTok vs YouTube)"
+    },
+    {
+      "id": "t56",
+      "tag": "td",
+      "text": "Brief mention vs dedicated content"
+    },
+    {
+      "id": "t57",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t58",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t59",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t60",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t61",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t62",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t63",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t64",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t65",
+      "tag": "div",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t66",
+      "tag": "div",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t67",
+      "tag": "div",
+      "text": "◈"
+    },
+    {
+      "id": "t68",
+      "tag": "div",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t69",
+      "tag": "div",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t70",
+      "tag": "div",
+      "text": "♫"
+    },
+    {
+      "id": "t71",
+      "tag": "div",
+      "text": "Spotify Calculator"
+    },
+    {
+      "id": "t72",
+      "tag": "div",
+      "text": "Streaming royalties"
+    },
+    {
+      "id": "t73",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t74",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t75",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t76",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t77",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

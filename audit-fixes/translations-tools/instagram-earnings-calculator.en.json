@@ -1,0 +1,390 @@
+{
+  "slug": "instagram-earnings-calculator",
+  "title": "Instagram Earnings Calculator 2026 — Influencer Sponsorship Rates | Kalkil",
+  "metaDescription": "Free Instagram earnings calculator. Estimate sponsored post rates by follower count, engagement rate, and niche. Instant 2026 market rates.",
+  "ogTitle": "Instagram Earnings Calculator 2026 — Influencer Sponsorship Rates | Kalkil",
+  "ogDescription": "Free Instagram earnings calculator. Estimate sponsored post rates by follower count, engagement rate, and niche. Instant 2026 market rates.",
+  "nodeCount": 76,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "◈ Instagram · Earnings Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Instagram Earnings"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estimate your sponsored post rates — feed, Reel, and Story — based on your real metrics."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Instagram Earnings Calculator 2026 — Influencer Sponsorship Rates"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Followers"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Engagement Rate"
+    },
+    {
+      "id": "t12",
+      "tag": "option",
+      "text": "Under 1% (low)"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "1–3% (average)"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "3–6% (good)"
+    },
+    {
+      "id": "t15",
+      "tag": "option",
+      "text": "6–10% (excellent)"
+    },
+    {
+      "id": "t16",
+      "tag": "option",
+      "text": "10%+ (top tier)"
+    },
+    {
+      "id": "t17",
+      "tag": "label",
+      "text": "Niche"
+    },
+    {
+      "id": "t18",
+      "tag": "option",
+      "text": "Finance / Tech (premium)"
+    },
+    {
+      "id": "t19",
+      "tag": "option",
+      "text": "Fashion / Beauty / Fitness"
+    },
+    {
+      "id": "t20",
+      "tag": "option",
+      "text": "Lifestyle / Travel / Food"
+    },
+    {
+      "id": "t21",
+      "tag": "option",
+      "text": "Entertainment / Comedy"
+    },
+    {
+      "id": "t22",
+      "tag": "label",
+      "text": "Sponsored Posts per Month"
+    },
+    {
+      "id": "t23",
+      "tag": "button",
+      "text": "Calculate"
+    },
+    {
+      "id": "t24",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Feed Post Rate"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Per sponsored feed post"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Reel Rate"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "Reels earn ~30% more than feed posts"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Story Rate"
+    },
+    {
+      "id": "t30",
+      "tag": "div",
+      "text": "Per sponsored Story set"
+    },
+    {
+      "id": "t31",
+      "tag": "div",
+      "text": "Monthly Earnings"
+    },
+    {
+      "id": "t32",
+      "tag": "div",
+      "text": "At your selected posts per month"
+    },
+    {
+      "id": "t33",
+      "tag": "h2",
+      "text": "How Instagram Influencer Rates Are Set"
+    },
+    {
+      "id": "t34",
+      "tag": "p",
+      "text": "Instagram doesn't pay creators per view the way YouTube does. Income comes from brand partnerships — and rates depend on follower count, engagement rate, niche, and content format."
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "Industry baseline: $100 per 10,000 followers"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": "— then adjust based on engagement rate and niche. High engagement can double or triple your base rate."
+    },
+    {
+      "id": "t37",
+      "tag": "h2",
+      "text": "Sponsored Post Rates by Follower Tier (2026)"
+    },
+    {
+      "id": "t38",
+      "tag": "th",
+      "text": "Tier"
+    },
+    {
+      "id": "t39",
+      "tag": "th",
+      "text": "Followers"
+    },
+    {
+      "id": "t40",
+      "tag": "th",
+      "text": "Feed Post"
+    },
+    {
+      "id": "t41",
+      "tag": "th",
+      "text": "Reel"
+    },
+    {
+      "id": "t42",
+      "tag": "th",
+      "text": "Story"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "Nano"
+    },
+    {
+      "id": "t44",
+      "tag": "td",
+      "text": "1K–10K"
+    },
+    {
+      "id": "t45",
+      "tag": "td",
+      "text": "Micro"
+    },
+    {
+      "id": "t46",
+      "tag": "td",
+      "text": "10K–100K"
+    },
+    {
+      "id": "t47",
+      "tag": "td",
+      "text": "Mid-tier"
+    },
+    {
+      "id": "t48",
+      "tag": "td",
+      "text": "100K–500K"
+    },
+    {
+      "id": "t49",
+      "tag": "td",
+      "text": "Macro"
+    },
+    {
+      "id": "t50",
+      "tag": "td",
+      "text": "500K–1M"
+    },
+    {
+      "id": "t51",
+      "tag": "td",
+      "text": "Mega"
+    },
+    {
+      "id": "t52",
+      "tag": "td",
+      "text": "1M+"
+    },
+    {
+      "id": "t53",
+      "tag": "td",
+      "text": "$15,000–$100K+"
+    },
+    {
+      "id": "t54",
+      "tag": "td",
+      "text": "$25,000–$150K+"
+    },
+    {
+      "id": "t55",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t56",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t57",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t58",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t59",
+      "tag": "div",
+      "text": "📈"
+    },
+    {
+      "id": "t60",
+      "tag": "div",
+      "text": "Instagram Engagement"
+    },
+    {
+      "id": "t61",
+      "tag": "div",
+      "text": "Engagement rate formula"
+    },
+    {
+      "id": "t62",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t63",
+      "tag": "div",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t64",
+      "tag": "div",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t65",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t66",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t67",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t68",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t69",
+      "tag": "div",
+      "text": "Influencer Rate Calc"
+    },
+    {
+      "id": "t70",
+      "tag": "div",
+      "text": "Cross-platform rates"
+    },
+    {
+      "id": "t71",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t72",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t73",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t74",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t75",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

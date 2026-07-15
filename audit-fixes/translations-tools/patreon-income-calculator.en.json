@@ -1,0 +1,340 @@
+{
+  "slug": "patreon-income-calculator",
+  "title": "Patreon Income Calculator 2026 — Membership Revenue Estimator | Kalkil",
+  "metaDescription": "Free Patreon income calculator. Estimate monthly membership revenue by patron count, tier pricing, and plan fees. Instant results.",
+  "ogTitle": "Patreon Income Calculator 2026 — Membership Revenue Estimator | Kalkil",
+  "ogDescription": "Free Patreon income calculator. Estimate monthly membership revenue by patron count, tier pricing, and plan fees. Instant results.",
+  "nodeCount": 66,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "◆ Patreon · Membership Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Patreon Income"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Calculate your monthly membership income across three patron tiers — net of all Patreon fees."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Patreon Income Calculator 2026 — Membership Revenue Estimator"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Entry Tier Patrons"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Entry Tier Price ($)"
+    },
+    {
+      "id": "t12",
+      "tag": "label",
+      "text": "Core Tier Patrons"
+    },
+    {
+      "id": "t13",
+      "tag": "label",
+      "text": "Core Tier Price ($)"
+    },
+    {
+      "id": "t14",
+      "tag": "label",
+      "text": "Premium Tier Patrons"
+    },
+    {
+      "id": "t15",
+      "tag": "label",
+      "text": "Premium Tier Price ($)"
+    },
+    {
+      "id": "t16",
+      "tag": "label",
+      "text": "Patreon Plan"
+    },
+    {
+      "id": "t17",
+      "tag": "option",
+      "text": "Lite (5% fee)"
+    },
+    {
+      "id": "t18",
+      "tag": "option",
+      "text": "Pro (8% fee)"
+    },
+    {
+      "id": "t19",
+      "tag": "option",
+      "text": "Premium (12% fee)"
+    },
+    {
+      "id": "t20",
+      "tag": "button",
+      "text": "Calculate Income"
+    },
+    {
+      "id": "t21",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Gross Monthly Revenue"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "All tiers combined"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Patreon Fee"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Platform + payment processing"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Your Net Monthly"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "After all fees"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "Annual Net Income"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Recurring membership revenue"
+    },
+    {
+      "id": "t30",
+      "tag": "h2",
+      "text": "How Patreon Membership Income Works"
+    },
+    {
+      "id": "t31",
+      "tag": "p",
+      "text": "Patreon charges creators a platform fee (5–12% depending on plan) plus a payment processing fee (~2.9% + $0.30 per transaction). Your actual net is roughly 85–92% of gross membership revenue."
+    },
+    {
+      "id": "t32",
+      "tag": "strong",
+      "text": "Most Patreon revenue comes from the middle tier."
+    },
+    {
+      "id": "t33",
+      "tag": "p",
+      "text": "Premium tiers convert only 5–10% of total patrons but generate disproportionate revenue — always include all three tiers."
+    },
+    {
+      "id": "t34",
+      "tag": "h2",
+      "text": "Conversion Rates from Existing Audience"
+    },
+    {
+      "id": "t35",
+      "tag": "th",
+      "text": "Content Type"
+    },
+    {
+      "id": "t36",
+      "tag": "th",
+      "text": "Typical Conversion"
+    },
+    {
+      "id": "t37",
+      "tag": "td",
+      "text": "Podcast"
+    },
+    {
+      "id": "t38",
+      "tag": "td",
+      "text": "1–3% of listeners become patrons"
+    },
+    {
+      "id": "t39",
+      "tag": "td",
+      "text": "YouTube channel"
+    },
+    {
+      "id": "t40",
+      "tag": "td",
+      "text": "0.5–2% of subscribers"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "Newsletter / blog"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "2–5% of subscribers"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "Twitch community"
+    },
+    {
+      "id": "t44",
+      "tag": "td",
+      "text": "5–15% of regulars"
+    },
+    {
+      "id": "t45",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t46",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t47",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t48",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "◉"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "Subs, bits & ads"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "🎙"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "Podcast Calculator"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "CPM ad revenue"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t58",
+      "tag": "div",
+      "text": "💎"
+    },
+    {
+      "id": "t59",
+      "tag": "div",
+      "text": "OnlyFans Calculator"
+    },
+    {
+      "id": "t60",
+      "tag": "div",
+      "text": "Subscription earnings"
+    },
+    {
+      "id": "t61",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t62",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t63",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t64",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t65",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

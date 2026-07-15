@@ -1,0 +1,325 @@
+{
+  "slug": "onlyfans-earnings-calculator",
+  "title": "OnlyFans Earnings Calculator 2026 — Subscription & PPV Income | Kalkil",
+  "metaDescription": "Free OnlyFans earnings calculator. Estimate monthly income from subscriptions, PPV content, and tips after OnlyFans' 20% cut.",
+  "ogTitle": "OnlyFans Earnings Calculator 2026 — Subscription & PPV Income | Kalkil",
+  "ogDescription": "Free OnlyFans earnings calculator. Estimate monthly income from subscriptions, PPV content, and tips after OnlyFans' 20% cut.",
+  "nodeCount": 63,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "💎 OnlyFans · Earnings Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "OnlyFans Earnings"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estimate your net monthly income from subscriptions, PPV content, and tips — after OnlyFans' cut."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "OnlyFans Earnings Calculator 2026 — Subscription & PPV Income"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Active Subscribers"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Monthly Subscription Price ($)"
+    },
+    {
+      "id": "t12",
+      "tag": "label",
+      "text": "Monthly PPV Revenue ($)"
+    },
+    {
+      "id": "t13",
+      "tag": "span",
+      "text": "Total Pay-Per-View content sold this month"
+    },
+    {
+      "id": "t14",
+      "tag": "label",
+      "text": "Monthly Tips ($)"
+    },
+    {
+      "id": "t15",
+      "tag": "button",
+      "text": "Calculate Earnings"
+    },
+    {
+      "id": "t16",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t17",
+      "tag": "div",
+      "text": "Subscription Revenue (80%)"
+    },
+    {
+      "id": "t18",
+      "tag": "div",
+      "text": "After OnlyFans' 20% cut"
+    },
+    {
+      "id": "t19",
+      "tag": "div",
+      "text": "PPV + Tips Revenue (80%)"
+    },
+    {
+      "id": "t20",
+      "tag": "div",
+      "text": "After OnlyFans' 20% cut"
+    },
+    {
+      "id": "t21",
+      "tag": "div",
+      "text": "Total Monthly Net"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Your take-home after fees"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "Annual Estimate"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Based on current monthly income"
+    },
+    {
+      "id": "t25",
+      "tag": "h2",
+      "text": "How OnlyFans Revenue Works"
+    },
+    {
+      "id": "t26",
+      "tag": "p",
+      "text": "OnlyFans creators keep"
+    },
+    {
+      "id": "t27",
+      "tag": "strong",
+      "text": "80% of all revenue"
+    },
+    {
+      "id": "t28",
+      "tag": "p",
+      "text": "— subscriptions, Pay-Per-View messages, tips, and custom content. OnlyFans retains 20%. This is one of the best creator revenue splits in the industry."
+    },
+    {
+      "id": "t29",
+      "tag": "strong",
+      "text": "80% creator share"
+    },
+    {
+      "id": "t30",
+      "tag": "p",
+      "text": "— better than YouTube (55%), Twitch (50%), and most other platforms. The business model rewards direct fan relationships."
+    },
+    {
+      "id": "t31",
+      "tag": "h2",
+      "text": "Income Distribution Reality"
+    },
+    {
+      "id": "t32",
+      "tag": "th",
+      "text": "Creator Tier"
+    },
+    {
+      "id": "t33",
+      "tag": "th",
+      "text": "Estimated Monthly Net"
+    },
+    {
+      "id": "t34",
+      "tag": "td",
+      "text": "Bottom 50%"
+    },
+    {
+      "id": "t35",
+      "tag": "td",
+      "text": "Under $200"
+    },
+    {
+      "id": "t36",
+      "tag": "td",
+      "text": "Middle 30%"
+    },
+    {
+      "id": "t37",
+      "tag": "td",
+      "text": "Top 15%"
+    },
+    {
+      "id": "t38",
+      "tag": "td",
+      "text": "Top 4%"
+    },
+    {
+      "id": "t39",
+      "tag": "td",
+      "text": "Top 1%"
+    },
+    {
+      "id": "t40",
+      "tag": "td",
+      "text": "$100,000–$1M+/month"
+    },
+    {
+      "id": "t41",
+      "tag": "p",
+      "text": "The median OnlyFans creator earns ~$150–$300/month. Top earners drive external traffic from TikTok, Instagram, and X — internal discovery is limited."
+    },
+    {
+      "id": "t42",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t43",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t44",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t45",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t46",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t47",
+      "tag": "div",
+      "text": "Patreon Calculator"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "Membership income"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "◉"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "Subs, bits & ads"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "◈"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "Influencer Rate Calc"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "Cross-platform rates"
+    },
+    {
+      "id": "t58",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t59",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t60",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t61",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t62",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

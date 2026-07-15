@@ -1,0 +1,420 @@
+{
+  "slug": "youtube-money-calculator",
+  "title": "Calculadora de Ganhos do YouTube 2026 — Estime seus Ganhos do AdSense | Kalkil",
+  "metaDescription": "Calculadora gratuita de ganhos do YouTube. Estime seus ganhos do AdSense por visualizações, CPM e nicho. Projeções mensais e anuais instantâneas — sem cadastro.",
+  "ogTitle": "Calculadora de Ganhos do YouTube 2026 — Estime seus Ganhos do AdSense | Kalkil",
+  "ogDescription": "Calculadora gratuita de ganhos do YouTube. Estime seus ganhos do AdSense por visualizações, CPM e nicho. Projeções mensais e anuais instantâneas — sem cadastro.",
+  "nodeCount": 82,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "▶ YouTube · Calculadora do AdSense"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Calculadora de Ganhos do "
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "YouTube"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estime seus ganhos do AdSense com base nas suas visualizações, nicho e CPM. Taxas atualizadas para 2026."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Início"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculadoras"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Calculadora de Ganhos do YouTube 2026 — Estime seus Ganhos do AdSense"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Grátis · Sem cadastro · Resultados instantâneos"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Visualizações Mensais"
+    },
+    {
+      "id": "t11",
+      "tag": "span",
+      "text": "Total de visualizações em todos os seus vídeos neste mês"
+    },
+    {
+      "id": "t12",
+      "tag": "label",
+      "text": "Nicho de Conteúdo"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "Finanças Pessoais (CPM de $20)"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Tecnologia e Software (CPM de $12)"
+    },
+    {
+      "id": "t15",
+      "tag": "option",
+      "text": "Saúde e Bem-estar (CPM de $8)"
+    },
+    {
+      "id": "t16",
+      "tag": "option",
+      "text": "Educação (CPM de $6)"
+    },
+    {
+      "id": "t17",
+      "tag": "option",
+      "text": "Geral (CPM de $4)"
+    },
+    {
+      "id": "t18",
+      "tag": "option",
+      "text": "Games (CPM de $3)"
+    },
+    {
+      "id": "t19",
+      "tag": "option",
+      "text": "Entretenimento / Vlogs (CPM de $2)"
+    },
+    {
+      "id": "t20",
+      "tag": "span",
+      "text": "Selecione seu nicho para preencher o CPM automaticamente"
+    },
+    {
+      "id": "t21",
+      "tag": "label",
+      "text": "Seu CPM ($)"
+    },
+    {
+      "id": "t22",
+      "tag": "span",
+      "text": "Substitua o CPM se você souber sua taxa real"
+    },
+    {
+      "id": "t23",
+      "tag": "button",
+      "text": "Calcular Ganhos"
+    },
+    {
+      "id": "t24",
+      "tag": "button",
+      "text": "Redefinir"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "AdSense Mensal (RPM)"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Após a taxa de 45% do YouTube"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Seu RPM"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "Receita por 1.000 visualizações"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Por 1 Milhão de Visualizações"
+    },
+    {
+      "id": "t30",
+      "tag": "div",
+      "text": "No seu CPM atual"
+    },
+    {
+      "id": "t31",
+      "tag": "div",
+      "text": "Estimativa Anual"
+    },
+    {
+      "id": "t32",
+      "tag": "div",
+      "text": "Com base na sua taxa mensal de visualizações"
+    },
+    {
+      "id": "t33",
+      "tag": "h2",
+      "text": "Como o YouTube Calcula a Receita dos Criadores"
+    },
+    {
+      "id": "t34",
+      "tag": "p",
+      "text": "O YouTube usa duas métricas principais:"
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "CPM"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": "(Custo Por Mil — o que os anunciantes pagam a cada 1.000 impressões de anúncio) e"
+    },
+    {
+      "id": "t37",
+      "tag": "strong",
+      "text": "RPM"
+    },
+    {
+      "id": "t38",
+      "tag": "p",
+      "text": "(Receita Por Mil — o que você realmente recebe a cada 1.000 visualizações). O YouTube retém aproximadamente 45% da receita publicitária, então seu RPM equivale a cerca de 55% do seu CPM."
+    },
+    {
+      "id": "t39",
+      "tag": "strong",
+      "text": "Fórmula: RPM = CPM × 0,55 × taxa de monetização"
+    },
+    {
+      "id": "t40",
+      "tag": "p",
+      "text": "— Nem toda visualização exibe um anúncio. Sua taxa efetiva de monetização geralmente fica entre 70% e 90%."
+    },
+    {
+      "id": "t41",
+      "tag": "h2",
+      "text": "CPM Médio do YouTube por Nicho (2026)"
+    },
+    {
+      "id": "t42",
+      "tag": "th",
+      "text": "Nicho"
+    },
+    {
+      "id": "t43",
+      "tag": "th",
+      "text": "CPM Médio"
+    },
+    {
+      "id": "t44",
+      "tag": "th",
+      "text": "Seu RPM"
+    },
+    {
+      "id": "t45",
+      "tag": "th",
+      "text": "Por 1M de Visualizações"
+    },
+    {
+      "id": "t46",
+      "tag": "td",
+      "text": "Finanças Pessoais"
+    },
+    {
+      "id": "t47",
+      "tag": "td",
+      "text": "Tecnologia e Software"
+    },
+    {
+      "id": "t48",
+      "tag": "td",
+      "text": "Saúde e Bem-estar"
+    },
+    {
+      "id": "t49",
+      "tag": "td",
+      "text": "Educação"
+    },
+    {
+      "id": "t50",
+      "tag": "td",
+      "text": "Games"
+    },
+    {
+      "id": "t51",
+      "tag": "td",
+      "text": "Entretenimento/Vlogs"
+    },
+    {
+      "id": "t52",
+      "tag": "h2",
+      "text": "Fatores que Afetam Seus Ganhos no YouTube"
+    },
+    {
+      "id": "t53",
+      "tag": "strong",
+      "text": "Geografia da audiência:"
+    },
+    {
+      "id": "t54",
+      "tag": "li",
+      "text": "Espectadores dos EUA/Reino Unido/Canadá geram de 5 a 10 vezes mais receita do que mercados do Sul da Ásia."
+    },
+    {
+      "id": "t55",
+      "tag": "strong",
+      "text": "Duração do vídeo:"
+    },
+    {
+      "id": "t56",
+      "tag": "li",
+      "text": "Vídeos com mais de 8 minutos liberam anúncios mid-roll — o principal fator isolado de receita por vídeo."
+    },
+    {
+      "id": "t57",
+      "tag": "strong",
+      "text": "Sazonalidade:"
+    },
+    {
+      "id": "t58",
+      "tag": "li",
+      "text": "Os CPMs do quarto trimestre são de 30% a 80% mais altos devido aos gastos publicitários das festas de fim de ano."
+    },
+    {
+      "id": "t59",
+      "tag": "strong",
+      "text": "Formatos de anúncio ativados:"
+    },
+    {
+      "id": "t60",
+      "tag": "li",
+      "text": "Anúncios não puláveis e bumper ads aumentam o total de impressões por visualização."
+    },
+    {
+      "id": "t61",
+      "tag": "h3",
+      "text": "Quer entender os números?"
+    },
+    {
+      "id": "t62",
+      "tag": "p",
+      "text": "Leia nosso guia gratuito e detalhado que explica exatamente como essa plataforma paga os criadores."
+    },
+    {
+      "id": "t63",
+      "tag": "a",
+      "text": "Ler o Guia →"
+    },
+    {
+      "id": "t64",
+      "tag": "h2",
+      "text": "Mais Calculadoras"
+    },
+    {
+      "id": "t65",
+      "tag": "div",
+      "text": "📊"
+    },
+    {
+      "id": "t66",
+      "tag": "div",
+      "text": "Calculadora de CPM do YouTube"
+    },
+    {
+      "id": "t67",
+      "tag": "div",
+      "text": "Detalhamento de CPM para RPM"
+    },
+    {
+      "id": "t68",
+      "tag": "div",
+      "text": "⚡"
+    },
+    {
+      "id": "t69",
+      "tag": "div",
+      "text": "Calculadora do YouTube Shorts"
+    },
+    {
+      "id": "t70",
+      "tag": "div",
+      "text": "RPM dos Shorts vs. vídeos longos"
+    },
+    {
+      "id": "t71",
+      "tag": "div",
+      "text": "🤝"
+    },
+    {
+      "id": "t72",
+      "tag": "div",
+      "text": "Calculadora de Patrocínio"
+    },
+    {
+      "id": "t73",
+      "tag": "div",
+      "text": "Valor de parcerias com marcas"
+    },
+    {
+      "id": "t74",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t75",
+      "tag": "div",
+      "text": "Calculadora do TikTok"
+    },
+    {
+      "id": "t76",
+      "tag": "div",
+      "text": "Creator Rewards + parcerias"
+    },
+    {
+      "id": "t77",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t78",
+      "tag": "h2",
+      "text": "Veja toda a sua renda em um só lugar"
+    },
+    {
+      "id": "t79",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch e muito mais — painel unificado com benchmarks e projeções."
+    },
+    {
+      "id": "t80",
+      "tag": "a",
+      "text": "Experimente o Kalkil Pro Grátis →"
+    },
+    {
+      "id": "t81",
+      "tag": "p",
+      "text": "Grátis para começar · Sem cartão de crédito"
+    }
+  ]
+}

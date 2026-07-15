@@ -1,0 +1,345 @@
+{
+  "slug": "podcast-revenue-calculator",
+  "title": "Podcast Revenue Calculator 2026 — CPM Advertising Earnings | Kalkil",
+  "metaDescription": "Free podcast revenue calculator. Estimate ad revenue from downloads, CPM, and ad load. Includes Patreon conversion estimate. Instant results.",
+  "ogTitle": "Podcast Revenue Calculator 2026 — CPM Advertising Earnings | Kalkil",
+  "ogDescription": "Free podcast revenue calculator. Estimate ad revenue from downloads, CPM, and ad load. Includes Patreon conversion estimate. Instant results.",
+  "nodeCount": 67,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "🎙 Podcast · Revenue Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Podcast Revenue"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estimate CPM ad revenue per episode and monthly income based on your download count and niche."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Podcast Revenue Calculator 2026 — CPM Advertising Earnings"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Downloads per Episode"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Podcast Niche"
+    },
+    {
+      "id": "t12",
+      "tag": "option",
+      "text": "Business & Finance ($50 CPM)"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "Technology ($40 CPM)"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Health & Wellness ($30 CPM)"
+    },
+    {
+      "id": "t15",
+      "tag": "option",
+      "text": "True Crime / Society ($25 CPM)"
+    },
+    {
+      "id": "t16",
+      "tag": "option",
+      "text": "Comedy / Entertainment ($18 CPM)"
+    },
+    {
+      "id": "t17",
+      "tag": "label",
+      "text": "Ad Slots per Episode"
+    },
+    {
+      "id": "t18",
+      "tag": "span",
+      "text": "Typically 1 pre-roll + 1–2 mid-rolls"
+    },
+    {
+      "id": "t19",
+      "tag": "label",
+      "text": "Episodes per Month"
+    },
+    {
+      "id": "t20",
+      "tag": "button",
+      "text": "Calculate Revenue"
+    },
+    {
+      "id": "t21",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Revenue per Episode"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "At your CPM and ad load"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Monthly Ad Revenue"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Across all episodes this month"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Annual Ad Revenue"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Based on your monthly episode output"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "With Patreon (1% convert @$8)"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Ads + estimated Patreon income combined"
+    },
+    {
+      "id": "t30",
+      "tag": "h2",
+      "text": "How Podcast Advertising Revenue Works"
+    },
+    {
+      "id": "t31",
+      "tag": "p",
+      "text": "Podcast advertising uses a"
+    },
+    {
+      "id": "t32",
+      "tag": "strong",
+      "text": "CPM model"
+    },
+    {
+      "id": "t33",
+      "tag": "p",
+      "text": "(Cost Per Mille) — brands pay per 1,000 downloads per episode. Mid-roll 60-second reads typically earn 30–50% more than pre-roll spots."
+    },
+    {
+      "id": "t34",
+      "tag": "strong",
+      "text": "CPM formula: (Downloads ÷ 1,000) × CPM × Ad Slots = Revenue per episode"
+    },
+    {
+      "id": "t35",
+      "tag": "p",
+      "text": "Example: 25,000 downloads × $30 CPM × 2 ads ="
+    },
+    {
+      "id": "t36",
+      "tag": "strong",
+      "text": "$1,500 per episode"
+    },
+    {
+      "id": "t37",
+      "tag": "h2",
+      "text": "Podcast CPM Rates by Niche (2026)"
+    },
+    {
+      "id": "t38",
+      "tag": "th",
+      "text": "Niche"
+    },
+    {
+      "id": "t39",
+      "tag": "th",
+      "text": "Pre-Roll CPM"
+    },
+    {
+      "id": "t40",
+      "tag": "th",
+      "text": "Mid-Roll CPM"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "Business & Finance"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "Technology"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "Health & Fitness"
+    },
+    {
+      "id": "t44",
+      "tag": "td",
+      "text": "True Crime"
+    },
+    {
+      "id": "t45",
+      "tag": "td",
+      "text": "Comedy"
+    },
+    {
+      "id": "t46",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t47",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t48",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t49",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "◉"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "Twitch Calculator"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "Subs, bits & ads"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "Patreon Calculator"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "Membership income"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t58",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t59",
+      "tag": "div",
+      "text": "◆"
+    },
+    {
+      "id": "t60",
+      "tag": "div",
+      "text": "Influencer Rate Calc"
+    },
+    {
+      "id": "t61",
+      "tag": "div",
+      "text": "Cross-platform rates"
+    },
+    {
+      "id": "t62",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t63",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t64",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t65",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t66",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}

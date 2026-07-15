@@ -1,0 +1,360 @@
+{
+  "slug": "youtube-shorts-calculator",
+  "title": "Calculadora de Ganhos do YouTube Shorts 2026 — Estimativa de RPM dos Shorts | Kalkil",
+  "metaDescription": "Calculadora gratuita de ganhos do YouTube Shorts. Compare o RPM dos Shorts com o de conteúdo longo e estime sua receita mensal de Shorts. Resultados instantâneos.",
+  "ogTitle": "Calculadora de Ganhos do YouTube Shorts 2026 — Estimativa de RPM dos Shorts | Kalkil",
+  "ogDescription": "Calculadora gratuita de ganhos do YouTube Shorts. Compare o RPM dos Shorts com o de conteúdo longo e estime sua receita mensal de Shorts. Resultados instantâneos.",
+  "nodeCount": 70,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "⚡ YouTube Shorts · Calculadora de Ganhos"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "YouTube Shorts"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculadora"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Veja quanto o Shorts rende comparado ao conteúdo longo com as mesmas visualizações — e planeje seu mix de conteúdo."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Início"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculadoras"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Calculadora de Ganhos do YouTube Shorts 2026 — Estimativa de RPM dos Shorts"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Grátis · Sem cadastro · Resultados instantâneos"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Visualizações Mensais de Shorts"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "RPM dos Shorts ($ por 1000 visualizações)"
+    },
+    {
+      "id": "t12",
+      "tag": "option",
+      "text": "Baixo — $0.03 por 1K"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "Médio — $0.05 por 1K"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Alto — $0.07 por 1K"
+    },
+    {
+      "id": "t15",
+      "tag": "label",
+      "text": "Visualizações de Conteúdo Longo (mesmo período)"
+    },
+    {
+      "id": "t16",
+      "tag": "span",
+      "text": "Compare a renda dos Shorts com a do conteúdo longo para o mesmo esforço"
+    },
+    {
+      "id": "t17",
+      "tag": "label",
+      "text": "RPM do Conteúdo Longo ($)"
+    },
+    {
+      "id": "t18",
+      "tag": "button",
+      "text": "Calcular"
+    },
+    {
+      "id": "t19",
+      "tag": "button",
+      "text": "Reiniciar"
+    },
+    {
+      "id": "t20",
+      "tag": "div",
+      "text": "Ganhos Mensais dos Shorts"
+    },
+    {
+      "id": "t21",
+      "tag": "div",
+      "text": "Do fundo do Creator Rewards"
+    },
+    {
+      "id": "t22",
+      "tag": "div",
+      "text": "Ganhos Mensais de Conteúdo Longo"
+    },
+    {
+      "id": "t23",
+      "tag": "div",
+      "text": "AdSense de acordo com seu RPM"
+    },
+    {
+      "id": "t24",
+      "tag": "div",
+      "text": "Estimativa Anual dos Shorts"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Com base nas suas visualizações mensais de Shorts"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Total Combinado (Mensal)"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Shorts + conteúdo longo combinados"
+    },
+    {
+      "id": "t28",
+      "tag": "h2",
+      "text": "Como Funciona a Monetização do YouTube Shorts"
+    },
+    {
+      "id": "t29",
+      "tag": "p",
+      "text": "O Shorts usa um"
+    },
+    {
+      "id": "t30",
+      "tag": "strong",
+      "text": "modelo de receita publicitária compartilhada"
+    },
+    {
+      "id": "t31",
+      "tag": "p",
+      "text": "diferente da monetização padrão do YouTube. Os anúncios aparecem entre os Shorts no feed — não em vídeos individuais — e a receita desses anúncios é distribuída aos criadores de acordo com sua fatia do total de visualizações de Shorts na plataforma."
+    },
+    {
+      "id": "t32",
+      "tag": "strong",
+      "text": "Os criadores recebem 45% da receita publicitária dos Shorts."
+    },
+    {
+      "id": "t33",
+      "tag": "p",
+      "text": "RPM efetivo: $0.03–$0.07 por 1000 visualizações — aproximadamente 50–100 vezes menos que o AdSense de conteúdo longo."
+    },
+    {
+      "id": "t34",
+      "tag": "h2",
+      "text": "Shorts vs. Conteúdo Longo: Comparação de Receita"
+    },
+    {
+      "id": "t35",
+      "tag": "th",
+      "text": "Formato"
+    },
+    {
+      "id": "t36",
+      "tag": "th",
+      "text": "Faixa de RPM"
+    },
+    {
+      "id": "t37",
+      "tag": "th",
+      "text": "Por 1M de Visualizações"
+    },
+    {
+      "id": "t38",
+      "tag": "th",
+      "text": "Melhor Uso"
+    },
+    {
+      "id": "t39",
+      "tag": "td",
+      "text": "YouTube Conteúdo Longo"
+    },
+    {
+      "id": "t40",
+      "tag": "td",
+      "text": "Renda principal"
+    },
+    {
+      "id": "t41",
+      "tag": "td",
+      "text": "YouTube Shorts"
+    },
+    {
+      "id": "t42",
+      "tag": "td",
+      "text": "Crescimento de audiência"
+    },
+    {
+      "id": "t43",
+      "tag": "td",
+      "text": "TikTok Creator Rewards"
+    },
+    {
+      "id": "t44",
+      "tag": "td",
+      "text": "Pipeline de parcerias com marcas"
+    },
+    {
+      "id": "t45",
+      "tag": "td",
+      "text": "Instagram Reels Bonus"
+    },
+    {
+      "id": "t46",
+      "tag": "td",
+      "text": "Expansão de alcance"
+    },
+    {
+      "id": "t47",
+      "tag": "strong",
+      "text": "Conclusão estratégica:"
+    },
+    {
+      "id": "t48",
+      "tag": "p",
+      "text": "O Shorts é um motor de crescimento, não um motor de receita. Um Short viral que adiciona 50,000 inscritos pode gerar muito mais receita de AdSense em conteúdo longo do que o próprio Short jamais ganhará."
+    },
+    {
+      "id": "t49",
+      "tag": "h3",
+      "text": "Quer entender os números?"
+    },
+    {
+      "id": "t50",
+      "tag": "p",
+      "text": "Leia nosso guia gratuito e detalhado que explica exatamente como essa plataforma paga os criadores."
+    },
+    {
+      "id": "t51",
+      "tag": "a",
+      "text": "Ler o Guia →"
+    },
+    {
+      "id": "t52",
+      "tag": "h2",
+      "text": "Mais Calculadoras"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "Calculadora do YouTube"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "Ganhos de AdSense e CPM"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "📊"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "Calculadora de CPM do YouTube"
+    },
+    {
+      "id": "t58",
+      "tag": "div",
+      "text": "Detalhamento de CPM para RPM"
+    },
+    {
+      "id": "t59",
+      "tag": "div",
+      "text": "🤝"
+    },
+    {
+      "id": "t60",
+      "tag": "div",
+      "text": "Calculadora de Patrocínios"
+    },
+    {
+      "id": "t61",
+      "tag": "div",
+      "text": "Valor de parcerias com marcas"
+    },
+    {
+      "id": "t62",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t63",
+      "tag": "div",
+      "text": "Calculadora do TikTok"
+    },
+    {
+      "id": "t64",
+      "tag": "div",
+      "text": "Creator Rewards + parcerias"
+    },
+    {
+      "id": "t65",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t66",
+      "tag": "h2",
+      "text": "Veja toda a sua renda em um só lugar"
+    },
+    {
+      "id": "t67",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch e mais — painel unificado com benchmarks e projeções."
+    },
+    {
+      "id": "t68",
+      "tag": "a",
+      "text": "Experimente o Kalkil Pro Grátis →"
+    },
+    {
+      "id": "t69",
+      "tag": "p",
+      "text": "Grátis para começar · Não é necessário cartão de crédito"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "slug": "spotify-royalty-calculator",
+  "title": "Spotify Royalty Calculator 2026 — Streaming Earnings Estimator | Kalkil",
+  "metaDescription": "Free Spotify royalty calculator. Estimate your streaming earnings based on stream count, listener geography, and distribution deal. Instant results.",
+  "ogTitle": "Spotify Royalty Calculator 2026 — Streaming Earnings Estimator | Kalkil",
+  "ogDescription": "Free Spotify royalty calculator. Estimate your streaming earnings based on stream count, listener geography, and distribution deal. Instant results.",
+  "nodeCount": 65,
+  "nodes": [
+    {
+      "id": "t0",
+      "tag": "div",
+      "text": "♫ Spotify · Royalty Calculator"
+    },
+    {
+      "id": "t1",
+      "tag": "h1",
+      "text": "Spotify Royalty"
+    },
+    {
+      "id": "t2",
+      "tag": "em",
+      "text": "Calculator"
+    },
+    {
+      "id": "t3",
+      "tag": "p",
+      "text": "Estimate streaming royalties based on stream count, listener market, and your distribution deal."
+    },
+    {
+      "id": "t4",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "id": "t5",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t6",
+      "tag": "a",
+      "text": "Calculators"
+    },
+    {
+      "id": "t7",
+      "tag": "span",
+      "text": "›"
+    },
+    {
+      "id": "t8",
+      "tag": "div",
+      "text": "Spotify Royalty Calculator 2026 — Streaming Earnings Estimator"
+    },
+    {
+      "id": "t9",
+      "tag": "div",
+      "text": "✓ Free · No sign-up · Instant results"
+    },
+    {
+      "id": "t10",
+      "tag": "label",
+      "text": "Monthly Streams"
+    },
+    {
+      "id": "t11",
+      "tag": "label",
+      "text": "Primary Listener Market"
+    },
+    {
+      "id": "t12",
+      "tag": "option",
+      "text": "US / Canada — Premium heavy"
+    },
+    {
+      "id": "t13",
+      "tag": "option",
+      "text": "Mixed global average"
+    },
+    {
+      "id": "t14",
+      "tag": "option",
+      "text": "Western Europe"
+    },
+    {
+      "id": "t15",
+      "tag": "option",
+      "text": "Latin America"
+    },
+    {
+      "id": "t16",
+      "tag": "option",
+      "text": "India / Free-tier heavy"
+    },
+    {
+      "id": "t17",
+      "tag": "span",
+      "text": "US Premium streams earn ~10× more than India free-tier streams"
+    },
+    {
+      "id": "t18",
+      "tag": "label",
+      "text": "Distributor Deal"
+    },
+    {
+      "id": "t19",
+      "tag": "option",
+      "text": "DistroKid / TuneCore (keep ~100%)"
+    },
+    {
+      "id": "t20",
+      "tag": "option",
+      "text": "CD Baby / Amuse (keep ~85%)"
+    },
+    {
+      "id": "t21",
+      "tag": "option",
+      "text": "Indie Label (keep ~50%)"
+    },
+    {
+      "id": "t22",
+      "tag": "option",
+      "text": "Major Label (keep ~20%)"
+    },
+    {
+      "id": "t23",
+      "tag": "button",
+      "text": "Calculate Royalties"
+    },
+    {
+      "id": "t24",
+      "tag": "button",
+      "text": "Reset"
+    },
+    {
+      "id": "t25",
+      "tag": "div",
+      "text": "Gross Monthly Royalties"
+    },
+    {
+      "id": "t26",
+      "tag": "div",
+      "text": "Before distributor / label cut"
+    },
+    {
+      "id": "t27",
+      "tag": "div",
+      "text": "Your Net Monthly"
+    },
+    {
+      "id": "t28",
+      "tag": "div",
+      "text": "After your distribution deal"
+    },
+    {
+      "id": "t29",
+      "tag": "div",
+      "text": "Rate per 1,000 Streams"
+    },
+    {
+      "id": "t30",
+      "tag": "div",
+      "text": "Your effective per-1K rate"
+    },
+    {
+      "id": "t31",
+      "tag": "div",
+      "text": "Annual Net Estimate"
+    },
+    {
+      "id": "t32",
+      "tag": "div",
+      "text": "At your current stream rate"
+    },
+    {
+      "id": "t33",
+      "tag": "h2",
+      "text": "How Spotify Royalties Work"
+    },
+    {
+      "id": "t34",
+      "tag": "p",
+      "text": "Spotify uses a"
+    },
+    {
+      "id": "t35",
+      "tag": "strong",
+      "text": "pro-rata revenue model"
+    },
+    {
+      "id": "t36",
+      "tag": "p",
+      "text": ": your share of the monthly royalty pool equals your share of total platform streams. There's no fixed per-stream rate — it fluctuates monthly based on Spotify's total revenue and total streams."
+    },
+    {
+      "id": "t37",
+      "tag": "strong",
+      "text": "Average: $0.003–$0.005 per stream"
+    },
+    {
+      "id": "t38",
+      "tag": "p",
+      "text": "— but a US Premium stream is worth $0.006–$0.010 while a free-tier stream from India earns $0.0003–$0.001."
+    },
+    {
+      "id": "t39",
+      "tag": "h2",
+      "text": "Earnings at Key Stream Milestones"
+    },
+    {
+      "id": "t40",
+      "tag": "th",
+      "text": "Streams"
+    },
+    {
+      "id": "t41",
+      "tag": "th",
+      "text": "Low (India/Free)"
+    },
+    {
+      "id": "t42",
+      "tag": "th",
+      "text": "Average (Mixed)"
+    },
+    {
+      "id": "t43",
+      "tag": "th",
+      "text": "High (US Premium)"
+    },
+    {
+      "id": "t44",
+      "tag": "h3",
+      "text": "Want to understand the numbers?"
+    },
+    {
+      "id": "t45",
+      "tag": "p",
+      "text": "Read our free in-depth guide explaining exactly how this platform pays creators."
+    },
+    {
+      "id": "t46",
+      "tag": "a",
+      "text": "Read the Guide →"
+    },
+    {
+      "id": "t47",
+      "tag": "h2",
+      "text": "More Calculators"
+    },
+    {
+      "id": "t48",
+      "tag": "div",
+      "text": "▶"
+    },
+    {
+      "id": "t49",
+      "tag": "div",
+      "text": "YouTube Calculator"
+    },
+    {
+      "id": "t50",
+      "tag": "div",
+      "text": "AdSense & CPM earnings"
+    },
+    {
+      "id": "t51",
+      "tag": "div",
+      "text": "♪"
+    },
+    {
+      "id": "t52",
+      "tag": "div",
+      "text": "TikTok Calculator"
+    },
+    {
+      "id": "t53",
+      "tag": "div",
+      "text": "Creator Rewards + deals"
+    },
+    {
+      "id": "t54",
+      "tag": "div",
+      "text": "◈"
+    },
+    {
+      "id": "t55",
+      "tag": "div",
+      "text": "Instagram Calculator"
+    },
+    {
+      "id": "t56",
+      "tag": "div",
+      "text": "Sponsored post rates"
+    },
+    {
+      "id": "t57",
+      "tag": "div",
+      "text": "🎙"
+    },
+    {
+      "id": "t58",
+      "tag": "div",
+      "text": "Podcast Calculator"
+    },
+    {
+      "id": "t59",
+      "tag": "div",
+      "text": "CPM ad revenue"
+    },
+    {
+      "id": "t60",
+      "tag": "p",
+      "text": "Kalkil Pro"
+    },
+    {
+      "id": "t61",
+      "tag": "h2",
+      "text": "See all your income in one place"
+    },
+    {
+      "id": "t62",
+      "tag": "p",
+      "text": "YouTube, Spotify, TikTok, Twitch and more — unified dashboard with benchmarks and projections."
+    },
+    {
+      "id": "t63",
+      "tag": "a",
+      "text": "Try Kalkil Pro Free →"
+    },
+    {
+      "id": "t64",
+      "tag": "p",
+      "text": "Free to start · No credit card required"
+    }
+  ]
+}
