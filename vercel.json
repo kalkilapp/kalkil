@@ -614,6 +614,76 @@
       "source": "/fr/guides/youtube-pay-per-view.html",
       "destination": "/fr/guides/combien-paye-youtube-par-vue.html",
       "permanent": true
+    },
+    {
+      "source": "/fr/tools/influencer-rate-calculator.html",
+      "destination": "/fr/tools/calculateur-tarif-influenceur.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/instagram-earnings-calculator.html",
+      "destination": "/fr/tools/calculateur-revenus-instagram.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/instagram-engagement-calculator.html",
+      "destination": "/fr/tools/calculateur-taux-engagement-instagram.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/onlyfans-earnings-calculator.html",
+      "destination": "/fr/tools/calculateur-revenus-onlyfans.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/patreon-income-calculator.html",
+      "destination": "/fr/tools/calculateur-revenus-patreon.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/podcast-revenue-calculator.html",
+      "destination": "/fr/tools/calculateur-revenus-podcast.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/spotify-royalty-calculator.html",
+      "destination": "/fr/tools/calculateur-royalties-spotify.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/tiktok-creator-fund-calculator.html",
+      "destination": "/fr/tools/calculateur-fonds-createurs-tiktok.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/tiktok-money-calculator.html",
+      "destination": "/fr/tools/calculateur-argent-tiktok.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/twitch-earnings-calculator.html",
+      "destination": "/fr/tools/calculateur-revenus-twitch.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/youtube-cpm-calculator.html",
+      "destination": "/fr/tools/calculateur-cpm-youtube.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/youtube-money-calculator.html",
+      "destination": "/fr/tools/calculateur-revenus-youtube.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/youtube-shorts-calculator.html",
+      "destination": "/fr/tools/calculateur-youtube-shorts.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tools/youtube-sponsorship-calculator.html",
+      "destination": "/fr/tools/calculateur-sponsoring-youtube.html",
+      "permanent": true
     }
   ]
 }
