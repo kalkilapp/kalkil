@@ -67,6 +67,15 @@
     return ratesPromise;
   }
 
+  // CAD es la única moneda de la lista con dos mercados de idioma real dentro del
+  // propio sitio (Canadá anglófono y francófono) — si la página está en francés,
+  // "1,234,567" (en-CA) se ve tan fuera de lugar como dejar una frase sin traducir,
+  // así que el separador de miles sigue al idioma de la página en ese caso puntual.
+  function localeFor(code, cfg) {
+    if (code === 'CAD' && document.documentElement.lang === 'fr') return 'fr-CA';
+    return cfg.locale;
+  }
+
   function fmtMoney(usdAmount, rates) {
     var code = getCurrency();
     var cfg = CURRENCIES[code] || CURRENCIES.USD;
@@ -77,7 +86,7 @@
     var decimals = ZERO_DECIMAL[code] ? 0 : 2;
     var out;
     if (abs >= 1000000) out = (abs / 1000000).toFixed(2) + 'M';
-    else if (abs >= 1000) out = Math.round(abs).toLocaleString(cfg.locale);
+    else if (abs >= 1000) out = Math.round(abs).toLocaleString(localeFor(code, cfg));
     else out = abs.toFixed(decimals);
     return (neg ? '-' : '') + cfg.symbol + out;
   }
