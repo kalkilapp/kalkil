@@ -11,15 +11,17 @@
  * (no por id) — el reensamblado hace find-replace literal sobre el archivo actual,
  * sin regenerar nada que ya esté bien.
  *
- * Uso: node audit-fixes/20-extract-hub-gaps.mjs
- * Salida: audit-fixes/translations-hub/<page>.gaps.json
+ * Uso: node audit-fixes/20-extract-hub-gaps.mjs [--lang=es|pt|fr]
+ * Salida: audit-fixes/translations-hub/<lang>/<page>.gaps.en.json
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { JSDOM } from 'jsdom';
 
 const ROOT = path.resolve(new URL('.', import.meta.url).pathname, '..');
-const OUT_DIR = path.join(ROOT, 'audit-fixes', 'translations-hub');
+const argLang = process.argv.find((a) => a.startsWith('--lang='));
+const LANG = argLang ? argLang.slice(7) : 'es';
+const OUT_DIR = path.join(ROOT, 'audit-fixes', 'translations-hub', LANG);
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
 const ENGLISH_HINTS = /\b(the|and|your|with|for|from|per|is|are|to|of|on|in|our|you|this|every|based|discover|learn|find|estimate|calculate)\b/i;
@@ -40,7 +42,7 @@ function isSkippable(el) {
 }
 
 for (const page of PAGES) {
-  const abs = path.join(ROOT, 'es', page);
+  const abs = path.join(ROOT, LANG, page);
   const html = fs.readFileSync(abs, 'utf8');
   const dom = new JSDOM(html);
   const doc = dom.window.document;

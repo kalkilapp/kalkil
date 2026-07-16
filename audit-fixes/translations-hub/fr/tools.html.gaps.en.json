@@ -1,0 +1,216 @@
+{
+  "page": "tools.html",
+  "gapCount": 30,
+  "gaps": [
+    {
+      "id": "g0",
+      "text": "Calculate your revenue using real YouTube CPM rates. Enter your CPM and view count to see gross ad revenue and the net creator share after YouTube's 45% cut.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g1",
+      "text": "CPM to RPM conversion",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g2",
+      "text": "Estimate revenue from your YouTube Shorts views. Compares Shorts RPM ($0.03–$0.07) against long-form RPM so you understand the trade-off and can plan your content mix.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g3",
+      "text": "Monthly earnings from Shorts view count",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g4",
+      "text": "Estimate brand sponsorship deal value for your YouTube channel. Based on subscriber count, average views, niche, and integration type — so you never undercharge a brand partner again.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g5",
+      "text": "Niche premium multipliers built in",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g6",
+      "text": "Creator Rewards estimate at your view count",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g7",
+      "text": "Niche impact on brand deal rates",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g8",
+      "text": "Estimate your Creator Rewards Program earnings based on view count, engagement rate, and content quality. Shows how each factor impacts your payout from TikTok's reward pool.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g9",
+      "text": "Monthly earnings from your view count",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g10",
+      "text": "Calculate your Instagram influencer income potential. Based on follower count, engagement rate, content type, and niche — the four factors that determine what brands will pay you in 2026.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g11",
+      "text": "Engagement rate impact on deal value",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g12",
+      "text": "Calculate your Instagram engagement rate and benchmark it against your follower tier. Know instantly whether your account is above or below average — the metric brands check before any deal.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g13",
+      "text": "Extended ER with saves & shares option",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g14",
+      "text": "Estimate how much you earn from Spotify streams based on your listener geography, Premium vs. free-tier audience mix, and your distribution deal. Shows why 1 million streams from the US is worth far more than 1 million streams from developing markets.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g15",
+      "text": "Geography impact on per-stream rate",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g16",
+      "text": "Find out exactly what you should charge brands — across any platform, any content type. Built on real 2026 market rates with engagement rate multipliers, niche premiums, and format adjustments. Never undercharge or lose a deal by overpricing again.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g17",
+      "text": "Engagement rate premium built in",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g18",
+      "text": "Estimate your total Twitch income from subscriptions, Bits, ad revenue, and donations. Input your subscriber count and average concurrent viewers to see a complete monthly income breakdown.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g19",
+      "text": "Calculate your podcast's advertising and total monetization potential. Enter your monthly download count, niche, and ad load to see CPM-based earnings — plus Patreon conversion estimates.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g20",
+      "text": "Patreon conversion estimate side-by-side",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g21",
+      "text": "Estimate your monthly Patreon income based on patron count, average pledge, and your plan fee. Models all three membership tiers and shows the audience-to-patron conversion rate you need to hit income targets.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g22",
+      "text": "Conversion rate needed from your audience size",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g23",
+      "text": "Estimate your OnlyFans monthly income from subscriptions, PPV content, and tips. Models the 80/20 revenue split, pricing strategy impact, and the churn rate that determines your actual net monthly income.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g24",
+      "text": "Subscription + PPV + tips combined estimate",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g25",
+      "text": "Our 30 free guides explain exactly how each platform calculates creator earnings — with real data and examples.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g26",
+      "text": "Kalkil provides free earnings calculators for every major creator economy platform. Whether you're a YouTuber trying to understand your CPM and RPM, an independent musician estimating Spotify royalties, a TikTok creator modeling Creator Rewards income, or a Twitch streamer projecting subscription revenue — each tool gives you instant, data-backed estimates with no sign-up required.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g27",
+      "text": "Every calculator is built on 2026 industry rate data and updated regularly to reflect platform policy changes. The YouTube Money Calculator uses current CPM benchmarks across 10+ content niches. The Spotify Royalty Calculator accounts for listener geography, Premium vs. free-tier splits, and distributor cuts. The TikTok Money Calculator models both Creator Rewards and the sponsorship income that typically represents 90%+ of a serious TikTok creator's total earnings.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g28",
+      "text": "Pair the calculators with our free creator economy guides to understand the context behind the numbers — why certain niches earn more, how platform payment models work, and the strategies top creators use to maximize income across multiple revenue streams.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g29",
+      "text": "Tools available: YouTube Money Calculator, YouTube CPM Calculator, YouTube Shorts Calculator, YouTube Sponsorship Calculator, TikTok Money Calculator, TikTok Creator Fund Calculator, Instagram Earnings Calculator, Instagram Engagement Rate Calculator, Spotify Royalty Calculator, Twitch Earnings Calculator, Podcast Revenue Calculator, Patreon Income Calculator, OnlyFans Earnings Calculator, and Influencer Rate Calculator.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    }
+  ]
+}

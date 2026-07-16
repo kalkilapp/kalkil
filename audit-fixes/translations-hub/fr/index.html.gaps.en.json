@@ -1,0 +1,223 @@
+{
+  "page": "index.html",
+  "gapCount": 31,
+  "gaps": [
+    {
+      "id": "g0",
+      "text": "— Select your niche —",
+      "count": 1,
+      "tag": "option",
+      "className": ""
+    },
+    {
+      "id": "g1",
+      "text": "Estimate AdSense earnings from your views and CPM. Includes RPM breakdown and niche comparison for 10+ content categories.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g2",
+      "text": "Estimate Creator Rewards income and sponsorship potential from your follower count and monthly views.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g3",
+      "text": "Calculate streaming royalties based on stream count, listener geography, and your distribution deal structure.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g4",
+      "text": "Find out what brands will pay for your sponsored content based on followers, engagement rate, and niche.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g5",
+      "text": "Estimate monthly income from subscriptions, Bits, ad revenue, and donations based on your viewer and sub count.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g6",
+      "text": "Calculate monthly membership income from your patron count, tier pricing, and plan fee structure.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g7",
+      "text": "See how Shorts revenue compares to long-form for the same views. Essential for planning your YouTube content mix.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g8",
+      "text": "Find out exactly what to charge brands across any platform with engagement rate premiums and niche multipliers built in.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g9",
+      "text": "Real CPM and RPM data for every niche — from $2 for entertainment to $20+ for finance. Includes earnings at every milestone from 10K to 10M views.",
+      "count": 1,
+      "tag": "p",
+      "className": "guide-desc"
+    },
+    {
+      "id": "g10",
+      "text": "Lire le Guide →",
+      "count": 6,
+      "tag": "div",
+      "className": "guide-read"
+    },
+    {
+      "id": "g11",
+      "text": "TikTok pays $0.02–$0.04 per 1,000 views — but 1M views can unlock $5,000–$10,000 in brand deals. The full income picture explained.",
+      "count": 1,
+      "tag": "p",
+      "className": "guide-desc"
+    },
+    {
+      "id": "g12",
+      "text": "The average is $0.003–$0.005 but a US Premium stream is worth 10–20× a free-tier developing market stream. Here's what your listeners are worth.",
+      "count": 1,
+      "tag": "p",
+      "className": "guide-desc"
+    },
+    {
+      "id": "g13",
+      "text": "From $50 for nano creators to $100K+ for mega influencers. The complete sponsored post rate guide with engagement rate adjustments.",
+      "count": 1,
+      "tag": "p",
+      "className": "guide-desc"
+    },
+    {
+      "id": "g14",
+      "text": "YouTube pays 75–150× more per view. TikTok grows audiences faster. The head-to-head comparison that tells you which to focus on.",
+      "count": 1,
+      "tag": "p",
+      "className": "guide-desc"
+    },
+    {
+      "id": "g15",
+      "text": "Six income streams — ranked by passivity, margin, and ceiling. The exact order to build them for a sustainable creator business.",
+      "count": 1,
+      "tag": "p",
+      "className": "guide-desc"
+    },
+    {
+      "id": "g16",
+      "text": "Free Creator Economy Calculators for Every Platform",
+      "count": 1,
+      "tag": "h2",
+      "className": ""
+    },
+    {
+      "id": "g17",
+      "text": "Kalkil provides free, instant earnings calculators for every major creator platform in 2026. Whether you're a YouTube creator trying to understand your CPM and RPM, an independent musician estimating Spotify royalties, a TikTok creator modeling Creator Rewards income, or an Instagram influencer figuring out your market rate — each tool gives you data-backed estimates with no sign-up required.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g18",
+      "text": "Every calculator is built on 2026 industry rate data and reflects the actual payment models used by each platform. The YouTube Money Calculator uses current CPM benchmarks across 10 content niches. The Spotify Royalty Calculator accounts for listener geography and Premium vs. free-tier audience splits. The TikTok Money Calculator models both Creator Rewards and the sponsorship income that represents 90%+ of serious TikTok earnings.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g19",
+      "text": "Pair any calculator with our free creator economy guides to understand the context behind every estimate — why certain niches earn more, how platform payment models actually work, and the strategies top creators use to maximize income.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g20",
+      "text": "What You Can Calculate",
+      "count": 1,
+      "tag": "h2",
+      "className": ""
+    },
+    {
+      "id": "g21",
+      "text": "YouTube AdSense earnings by CPM, RPM, niche, and view count",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g22",
+      "text": "YouTube CPM rates by country and advertiser category",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g23",
+      "text": "TikTok sponsored post rates by follower tier and niche",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g24",
+      "text": "Instagram influencer rates for feed posts, Reels, and Stories",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g25",
+      "text": "Spotify royalties by stream count, listener geography, and distributor deal",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g26",
+      "text": "Twitch income from subscriptions, Bits, and ad revenue",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g27",
+      "text": "Podcast CPM advertising revenue by niche and download count",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g28",
+      "text": "Patreon monthly income by patron count and tier pricing",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g29",
+      "text": "OnlyFans earnings from subscriptions and PPV content",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    },
+    {
+      "id": "g30",
+      "text": "Influencer market rate across all platforms and content types",
+      "count": 1,
+      "tag": "li",
+      "className": ""
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "page": "about.html",
+  "gapCount": 33,
+  "gaps": [
+    {
+      "id": "g0",
+      "text": "Cost to use — always",
+      "count": 1,
+      "tag": "div",
+      "className": "stat-lbl"
+    },
+    {
+      "id": "g1",
+      "text": "Creator economy data should be free and honest",
+      "count": 1,
+      "tag": "h2",
+      "className": ""
+    },
+    {
+      "id": "g2",
+      "text": "Millions of people around the world create content on YouTube, TikTok, Instagram, Spotify, and Twitch — but most don't have a clear picture of what they actually earn, or why. CPM, RPM, Creator Rewards, pro-rata royalties, engagement rate — the terminology alone is enough to confuse anyone.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g3",
+      "text": "Kalkil was built to fix that. We provide free, no-sign-up calculators and plain-language guides that give creators, marketers, and anyone curious about the creator economy an honest, accurate picture of how digital income works.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g4",
+      "text": "No paywalls. No inflated estimates designed to attract clicks. Just real data, real earnings ranges, and real context — so you can make better decisions about where to build and how to grow.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g5",
+      "text": "Real earnings data, not estimates pulled from thin air",
+      "count": 1,
+      "tag": "div",
+      "className": "mv-title"
+    },
+    {
+      "id": "g6",
+      "text": "Every rate range on Kalkil is sourced from industry benchmarks, creator reports, and platform documentation — updated for 2026.",
+      "count": 1,
+      "tag": "div",
+      "className": "mv-desc"
+    },
+    {
+      "id": "g7",
+      "text": "Every calculator and every guide on Kalkil is permanently free. No email required. No freemium upsell. Just open and use.",
+      "count": 1,
+      "tag": "div",
+      "className": "mv-desc"
+    },
+    {
+      "id": "g8",
+      "text": "Spotify pays per stream through a pro-rata pool. YouTube pays per 1,000 views via CPM. TikTok pays from a reward fund. Each model is different — and we explain all of them.",
+      "count": 1,
+      "tag": "div",
+      "className": "mv-desc"
+    },
+    {
+      "id": "g9",
+      "text": "Three tools to understand creator income",
+      "count": 1,
+      "tag": "h2",
+      "className": ""
+    },
+    {
+      "id": "g10",
+      "text": "Everything on Kalkil is built around one goal: giving you an accurate, honest picture of what content creation pays — and what affects those numbers.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g11",
+      "text": "14 free calculators covering YouTube AdSense, TikTok Creator Rewards, Spotify royalties, Instagram influencer rates, Twitch subscriptions, Patreon memberships, podcast advertising CPM, and more. Input your numbers, get an instant estimate — no sign-up.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g12",
+      "text": "30 in-depth guides explaining how monetization actually works across every major platform. How YouTube's CPM and RPM differ. Why Spotify uses a pro-rata pool. What TikTok's Creator Rewards Program actually pays. Written in plain language, free to read.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g13",
+      "text": "Platform payment models, CPM benchmarks by niche and country, sponsorship rate data by follower tier, and real earnings examples at every audience level — so you can set realistic income goals and understand what levers actually move the needle.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g14",
+      "text": "The creator economy reached an estimated $480–$600 billion in 2026, with over 200 million people worldwide earning some form of income through digital content. It's one of the fastest-growing segments of the global economy — growing at 20–30% annually.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g15",
+      "text": "Yet the economics remain opaque for most creators. YouTube's RPM varies from $1 to $25+ per thousand views depending on niche. Spotify's per-stream rate fluctuates monthly based on total platform streams. TikTok's Creator Rewards pays 20x more per view than the original Creator Fund — but still a fraction of what YouTube pays. Most creators don't know these numbers, which means most creators are leaving income on the table.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g16",
+      "text": "That's the gap Kalkil is designed to fill — giving every creator, at every level, access to the same data that top creators and talent managers have always used to make strategic decisions.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g17",
+      "text": "Growing at 20–30% annually — one of the fastest-growing sectors of the digital economy.",
+      "count": 1,
+      "tag": "div",
+      "className": "fact-detail"
+    },
+    {
+      "id": "g18",
+      "text": "YouTube has paid more than $50 billion to creators through the YouTube Partner Program since 2007.",
+      "count": 1,
+      "tag": "div",
+      "className": "fact-detail"
+    },
+    {
+      "id": "g19",
+      "text": "Spotify distributes more than $9 billion annually to artists, labels, and publishers.",
+      "count": 1,
+      "tag": "div",
+      "className": "fact-detail"
+    },
+    {
+      "id": "g20",
+      "text": "Only 2–4% of active creators earn $50,000+ annually. Strategy and income diversification explain the gap.",
+      "count": 1,
+      "tag": "div",
+      "className": "fact-detail"
+    },
+    {
+      "id": "g21",
+      "text": "The biggest information gap in the creator economy isn't about creative skills — it's about business knowledge. Experienced creators, talent managers, and brand agencies have always had access to accurate CPM benchmarks, sponsorship rate data, and platform earnings models. Independent creators, especially those just starting out, usually don't.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g22",
+      "text": "Kalkil's long-term vision is to close that gap completely. We believe that when creators understand the economics behind their platforms, they make better decisions — about which niches to target, which platforms to invest in, which income streams to build, and how to price their work.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g23",
+      "text": "Every calculator we build, every guide we publish, and every data point we verify is a step toward a creator economy that's more transparent, more equitable, and more navigable for the 200 million people building their livelihoods within it.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g24",
+      "text": "Accessible to every creator, everywhere",
+      "count": 1,
+      "tag": "div",
+      "className": "vp-title"
+    },
+    {
+      "id": "g25",
+      "text": "Free tools and guides in plain language — no financial literacy required, no subscription needed. If you create content, Kalkil is built for you.",
+      "count": 1,
+      "tag": "div",
+      "className": "vp-desc"
+    },
+    {
+      "id": "g26",
+      "text": "Expanding across every major platform",
+      "count": 1,
+      "tag": "div",
+      "className": "vp-title"
+    },
+    {
+      "id": "g27",
+      "text": "YouTube, TikTok, Spotify, Instagram, Twitch, and Patreon are live. We continue expanding to cover every platform where creators earn income.",
+      "count": 1,
+      "tag": "div",
+      "className": "vp-desc"
+    },
+    {
+      "id": "g28",
+      "text": "Always up to date",
+      "count": 1,
+      "tag": "div",
+      "className": "vp-title"
+    },
+    {
+      "id": "g29",
+      "text": "Platform payment models change. CPM benchmarks shift. We update our data regularly so every estimate reflects what creators actually earn right now — not two years ago.",
+      "count": 1,
+      "tag": "div",
+      "className": "vp-desc"
+    },
+    {
+      "id": "g30",
+      "text": "We don't inflate earnings estimates to attract clicks. We don't promise overnight success. We give honest, realistic numbers — because that's what actually helps creators build sustainable incomes.",
+      "count": 1,
+      "tag": "div",
+      "className": "vp-desc"
+    },
+    {
+      "id": "g31",
+      "text": "Start with a free calculator",
+      "count": 1,
+      "tag": "h2",
+      "className": ""
+    },
+    {
+      "id": "g32",
+      "text": "No account. No paywall. Pick your platform and see your estimated earnings in seconds.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    }
+  ]
+}
