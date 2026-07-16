@@ -72,6 +72,30 @@ const HEAD_FIXES_BY_LANG = {
       ogDescription: 'Calculateurs et guides gratuits pour comprendre comment les créateurs gagnent de l’argent sur YouTube, TikTok, Spotify, Instagram, Twitch, Patreon et plus.',
     },
   },
+  pt: {
+    'index.html': {
+      ogTitle: 'Kalkil — Calculadoras Gratuitas de Ganhos para Criadores 2026',
+      ogDescription: 'Estime seus ganhos no YouTube, TikTok, Spotify, Instagram, Twitch e mais. Calculadoras e guias gratuitos para criadores.',
+    },
+    'tools.html': {
+      title: 'Calculadoras Gratuitas de Ganhos para Criadores 2026 — YouTube, TikTok, Spotify, Twitch e Mais | Kalkil',
+      metaDescription: 'Calculadoras gratuitas da economia criativa para 2026. Estime ganhos de CPM do YouTube, Creator Rewards do TikTok, royalties do Spotify, tarifas de influenciadores do Instagram, ganhos da Twitch, Patreon e mais. Sem cadastro.',
+      ogTitle: 'Calculadoras Gratuitas de Ganhos para Criadores 2026 | Kalkil',
+      ogDescription: 'Ferramentas gratuitas para estimar ganhos de criadores no YouTube, TikTok, Spotify, Instagram, Twitch, Patreon e OnlyFans. Resultados instantâneos, sem cadastro.',
+    },
+    'guides.html': {
+      title: 'Guias da Economia Criativa 2026 — YouTube, TikTok, Instagram e Streaming | Kalkil',
+      metaDescription: 'Guias gratuitos sobre a economia criativa para 2026. Descubra quanto YouTube, TikTok, Instagram, Spotify e Twitch pagam aos criadores — com calculadoras de ganhos para cada plataforma.',
+      ogTitle: 'Guias da Economia Criativa 2026 | Kalkil',
+      ogDescription: 'Guias gratuitos sobre a economia criativa. CPM do YouTube, ganhos do TikTok, tarifas do Instagram, royalties do Spotify, ganhos da Twitch e mais.',
+    },
+    'about.html': {
+      title: 'Sobre a Kalkil — Calculadoras e Guias Gratuitos da Economia Criativa 2026',
+      metaDescription: 'A Kalkil oferece calculadoras e guias gratuitos de ganhos para criadores do YouTube, TikTok, Spotify, Instagram, Twitch e mais. Conheça nossa missão de tornar os dados da economia criativa transparentes e acessíveis.',
+      ogTitle: 'Sobre a Kalkil — Ferramentas e Guias da Economia Criativa',
+      ogDescription: 'Calculadoras e guias gratuitos para entender como os criadores ganham dinheiro no YouTube, TikTok, Spotify, Instagram, Twitch, Patreon e mais.',
+    },
+  },
 };
 const HEAD_FIXES = HEAD_FIXES_BY_LANG[LANG];
 

@@ -1,0 +1,258 @@
+{
+  "page": "guides.html",
+  "gapCount": 36,
+  "gaps": [
+    {
+      "id": "g0",
+      "text": "Learn How Creators",
+      "count": 1,
+      "tag": "h1",
+      "className": ""
+    },
+    {
+      "id": "g1",
+      "text": "The most-asked question in YouTube monetization — answered with real CPM and RPM data for every niche. Discover why a finance channel earns $15/1K views while a gaming channel earns $2, and use our calculator to estimate your own channel.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g2",
+      "text": "Read Guide →",
+      "count": 30,
+      "tag": "span",
+      "className": "card-read"
+    },
+    {
+      "id": "g3",
+      "text": "Where your audience lives impacts your revenue more than almost anything else. Discover which countries pay the most per 1,000 views and how to attract higher-CPM audiences.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g4",
+      "text": "Shorts pays 50–100× less per view than long-form — but its viral reach can transform your channel. Learn the strategy behind Shorts monetization in 2026.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g5",
+      "text": "1 million views is worth $1,000 to some creators and $20,000 to others. This guide breaks down the exact math — with real channel examples and niche comparisons.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g6",
+      "text": "A complete guide to every YouTube revenue stream in 2026: AdSense, Shorts, channel memberships, Super Chats, and brand sponsorships — all in one place.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g7",
+      "text": "TikTok's Creator Rewards Program pays $0.02–$0.04 per 1,000 views — but a 1M-view video can unlock $5,000–$10,000 in brand deals. This guide explains the full income picture behind TikTok views.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g8",
+      "text": "From the original Creator Fund to the 2023 Creator Rewards overhaul — how TikTok calculates what you earn, requirements to join, and real earnings examples.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g9",
+      "text": "Creator Rewards, brand deals, TikTok Shop affiliate, live gifts, and digital products — the complete breakdown of every TikTok income stream with realistic earning data.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g10",
+      "text": "YouTube pays 75–150× more per view. TikTok grows audiences faster. This head-to-head comparison tells you exactly which platform fits your content strategy and income goals.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g11",
+      "text": "You can earn with 1,000 followers. Meaningful income starts at 10,000. Real income milestones by follower count — and monetization alternatives for every stage of growth.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g12",
+      "text": "What brands pay nano, micro, mid-tier, macro, and mega influencers for sponsored posts, Reels, and Stories. Includes the engagement rate formula that determines your real market value — regardless of follower count.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g13",
+      "text": "The Reels Bonus Program is invite-only and pays $0.01–$0.06 per 1,000 views. Here's how Reels creators actually earn — and why brand deals matter far more than platform bonuses.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g14",
+      "text": "How to calculate your engagement rate, what's considered good for each follower tier, and the strategies that move it higher — because engagement determines your sponsorship value more than followers do.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g15",
+      "text": "Brand partnerships, affiliate marketing, Instagram Subscriptions, and digital products — every income stream available to Instagram creators in 2026 with realistic earnings data.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g16",
+      "text": "Instagram pays more per sponsored post. TikTok grows audiences faster. This comparison tells you which platform to prioritize — and the strategy that makes both work together.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g17",
+      "text": "Apple Music pays 2–3× more per stream than Spotify — but Spotify has 7× more users. This side-by-side comparison shows which platform you should focus on and why the answer might surprise you.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g18",
+      "text": "At $0.004/stream average, you need 250,000 Spotify streams/month to earn $1,000. Here's what's realistic at every artist level — and how to maximize streaming income in 2026.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g19",
+      "text": "The pro-rata model, the payment chain from Spotify to your account, and the two royalty types most independent artists forget to collect. Everything explained clearly.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g20",
+      "text": "The average is $0.003–$0.005 — but a US Premium stream is worth 10–20× more than a free-tier developing market stream. Here's what your specific listeners are actually worth.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g21",
+      "text": "From royalty pools to your bank account — the complete step-by-step mechanics of streaming income calculation, including the royalties many artists miss entirely.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g22",
+      "text": "Platform ads, brand sponsorships, digital products, affiliate marketing, memberships, and merchandise — every major creator income stream in 2026 with real earnings data for each. The complete reference for building a creator business.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g23",
+      "text": "CPM ad rates, Patreon conversions, and course income — a complete earnings picture for podcasters at every download level, from 1,000 to 500,000+ monthly downloads.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g24",
+      "text": "CPM benchmarks by niche, how to price your podcast sponsorships, and the deal structures brands actually use. A finance show with 10K downloads earns more per episode than a comedy show with 50K.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g25",
+      "text": "Subscriptions, bits, ad revenue, donations, and sponsorships — every Twitch income stream explained with real earnings by average concurrent viewer count in 2026.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g26",
+      "text": "The 50/50 vs legacy 70/30 split explained, sub tier breakdowns, Prime Gaming subs, and proven strategies for growing your subscriber count in 2026.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g27",
+      "text": "No algorithm, no advertiser approval — just fans paying for your work. Earnings by patron count, fee structure, tier pricing strategy, and conversion rates by creator type.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g28",
+      "text": "Subscriptions, PPV content, tips, and custom requests — how the 80% creator share model works, what average vs. top creators earn, and what actually drives the income gap.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g29",
+      "text": "A $480–$600B industry growing at 20–30% annually. Market size data, platform growth by creator count, income distribution, and what the numbers mean for new creators entering in 2026.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g30",
+      "text": "From first post to full-time income — the four-phase roadmap covering platform selection, audience building, monetization stacking, and the systems that scale a solo creator into a real business.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g31",
+      "text": "Six income streams ranked by passivity, margin, and income ceiling — with the exact order to build them. Platform ads → sponsorships → digital products → memberships → affiliate → merchandise.",
+      "count": 1,
+      "tag": "p",
+      "className": "card-desc"
+    },
+    {
+      "id": "g32",
+      "text": "The creator economy reached an estimated $480–$600 billion in 2026, with over 200 million people worldwide earning income through digital content creation. These guides exist to cut through the hype and provide honest, data-backed answers to the questions creators actually ask.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g33",
+      "text": "Each guide covers one specific platform or topic in depth — from how YouTube's CPM and RPM models work, to what TikTok's Creator Rewards Program actually pays per 1,000 views, to the exact royalty chain that determines how much of a Spotify stream reaches an independent artist's bank account.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g34",
+      "text": "Every guide links directly to a free Kalkil calculator so you can apply the information to your own numbers immediately. No paywalls, no sign-ups — just the data you need to make informed decisions about where to build your creator business in 2026.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    },
+    {
+      "id": "g35",
+      "text": "Topics covered include YouTube ad revenue, CPM by country, YouTube Shorts monetization, TikTok Creator Rewards, Instagram influencer pricing, Spotify and Apple Music royalties, podcast advertising CPM, Twitch subscription income, Patreon membership earnings, and comprehensive creator business strategy guides.",
+      "count": 1,
+      "tag": "p",
+      "className": ""
+    }
+  ]
+}
