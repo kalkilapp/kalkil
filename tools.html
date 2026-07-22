@@ -621,7 +621,7 @@
 <nav class="filter-bar" aria-label="Filter calculators by platform">
   <div class="filter-bar-inner">
     <button class="ftab active" data-cat="all" onclick="filterTools('all', this)">
-      All Tools <span style="font-size:11px;opacity:.55;margin-left:2px">14</span>
+      All Tools <span style="font-size:11px;opacity:.55;margin-left:2px">19</span>
     </button>
     <button class="ftab" data-cat="youtube" onclick="filterTools('youtube', this)">
       <span class="fdot" style="background:#ef4444"></span> YouTube <span style="font-size:11px;opacity:.55;margin-left:2px">4</span>
@@ -630,10 +630,10 @@
       <span class="fdot" style="background:#ec4899"></span> TikTok &amp; Instagram <span style="font-size:11px;opacity:.55;margin-left:2px">4</span>
     </button>
     <button class="ftab" data-cat="streaming" onclick="filterTools('streaming', this)">
-      <span class="fdot" style="background:#22c55e"></span> Streaming <span style="font-size:11px;opacity:.55;margin-left:2px">1</span>
+      <span class="fdot" style="background:#22c55e"></span> Streaming <span style="font-size:11px;opacity:.55;margin-left:2px">2</span>
     </button>
     <button class="ftab" data-cat="creator" onclick="filterTools('creator', this)">
-      <span class="fdot" style="background:#8b5cf6"></span> Creator Economy <span style="font-size:11px;opacity:.55;margin-left:2px">5</span>
+      <span class="fdot" style="background:#8b5cf6"></span> Creator Economy <span style="font-size:11px;opacity:.55;margin-left:2px">9</span>
     </button>
   </div>
 </nav>
@@ -822,7 +822,7 @@
         <h2 class="cat-title">Streaming &amp; Music Calculator</h2>
         <p class="cat-desc">Spotify royalty estimates for independent artists and labels.</p>
       </div>
-      <span class="cat-count">1 tool</span>
+      <span class="cat-count">2 tools</span>
     </div>
 
     <div class="tools-grid">
@@ -845,7 +845,22 @@
             <span class="card-free">Free</span>
           </div>
         </div></a>
-      
+
+
+      <a href="tools/apple-music-royalty-calculator.html" class="tool-card" data-cat="streaming">
+        <div class="card-icon icon-sp">🎵</div>
+        <div class="card-badge badge-sp">Apple Music</div>
+        <div class="card-title">Apple Music Royalty Calculator</div>
+        <p class="card-desc">Estimate your Apple Music streaming royalties at its ~$0.007 per-stream rate, apply your distributor cut, and compare the payout side-by-side against Spotify's lower per-stream rate.</p>
+        <ul class="card-features">
+          <li>Apple Music per-stream rate applied automatically</li>
+          <li>Distributor cut deducted (DistroKid, TuneCore, CD Baby)</li>
+          <li>Spotify-equivalent payout shown for comparison</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-sp">Open Calculator →</span>
+          <span class="card-free">Free</span>
+        </div></a>
+
 
     </div>
   </section>
@@ -859,9 +874,9 @@
       <div class="cat-icon" style="background:rgba(139,92,246,0.10); font-size:24px;">◆</div>
       <div class="cat-meta">
         <h2 class="cat-title">Creator Economy Tools</h2>
-        <p class="cat-desc">Twitch subscriptions, Patreon memberships, podcast CPM, influencer rates, and OnlyFans income.</p>
+        <p class="cat-desc">Twitch subscriptions, Patreon memberships, podcast CPM, influencer rates, OnlyFans income, and creator taxes.</p>
       </div>
-      <span class="cat-count">5 tools</span>
+      <span class="cat-count">9 tools</span>
     </div>
 
     <div class="tools-grid">
@@ -945,7 +960,67 @@
         <div class="card-footer"><span class="open-btn btn-ce">Open Calculator →</span>
           <span class="card-free">Free</span>
         </div></a>
-      
+
+
+      <a href="tools/twitch-sub-tier-calculator.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">◉</div>
+        <div class="card-badge badge-ce">Twitch</div>
+        <div class="card-title">Twitch Sub Tier Calculator</div>
+        <p class="card-desc">Compare Tier 1, 2, and 3 Twitch subscription revenue side-by-side at the standard 50/50 split or the legacy 70/30 partner rate. Enter your sub count per tier for an instant monthly breakdown.</p>
+        <ul class="card-features">
+          <li>Tier 1 / 2 / 3 revenue compared instantly</li>
+          <li>Standard 50/50 vs. legacy 70/30 partner split</li>
+          <li>Total monthly subscription revenue</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-ce">Open Calculator →</span>
+          <span class="card-free">Free</span>
+        </div></a>
+
+
+      <a href="tools/onlyfans-agency-split-calculator.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">💎</div>
+        <div class="card-badge badge-ce">OnlyFans</div>
+        <div class="card-title">OnlyFans Agency Split Calculator</div>
+        <p class="card-desc">See exactly how a 50/50, 60/40, or custom management agency split breaks down after OnlyFans' 20% platform fee — model share vs. agency share, side by side.</p>
+        <ul class="card-features">
+          <li>OnlyFans' 20% platform fee applied automatically</li>
+          <li>Standard, model-favored, and agency-favored splits</li>
+          <li>Model share vs. agency share shown clearly</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-ce">Open Calculator →</span>
+          <span class="card-free">Free</span>
+        </div></a>
+
+
+      <a href="tools/content-creator-tax-calculator.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">🧾</div>
+        <div class="card-badge badge-ce">Taxes</div>
+        <div class="card-title">Content Creator Tax Calculator</div>
+        <p class="card-desc">Estimate US self-employment tax on your creator income and get a recommended set-aside percentage. Educational estimate only — not tax advice.</p>
+        <ul class="card-features">
+          <li>Self-employment tax (15.3%) calculated automatically</li>
+          <li>Adjustable income-tax set-aside rate</li>
+          <li>Net income after expenses and total tax estimate</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-ce">Open Calculator →</span>
+          <span class="card-free">Free</span>
+        </div></a>
+
+
+      <a href="tools/follower-to-subscriber-calculator.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">👥</div>
+        <div class="card-badge badge-ce">Growth</div>
+        <div class="card-title">Follower to Subscriber Calculator</div>
+        <p class="card-desc">Estimate how many of your free-platform followers could convert into paying subscribers, and project the monthly and annual revenue at your chosen subscription price.</p>
+        <ul class="card-features">
+          <li>Conversion rate presets from 0.5% to 3%</li>
+          <li>Monthly and annual revenue projection</li>
+          <li>Works for Patreon, OnlyFans, newsletters, and more</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-ce">Open Calculator →</span>
+          <span class="card-free">Free</span>
+        </div></a>
+
 
     </div>
   </section>
@@ -955,7 +1030,7 @@
   <div class="guides-cta">
     <div class="guides-cta-text">
       <h3>Want to understand the numbers behind each tool?</h3>
-      <p>Our 30 free guides explain exactly how each platform calculates creator earnings — with real data and examples.</p>
+      <p>Our 35 free guides explain exactly how each platform calculates creator earnings — with real data and examples.</p>
     </div>
     <a href="guides.html" class="guides-cta-btn">Browse All Guides →</a>
   </div>
@@ -974,7 +1049,7 @@
       Pair the calculators with our free creator economy guides to understand the context behind the numbers — why certain niches earn more, how platform payment models work, and the strategies top creators use to maximize income across multiple revenue streams.
     </p>
     <p>
-      Tools available: YouTube Money Calculator, YouTube CPM Calculator, YouTube Shorts Calculator, YouTube Sponsorship Calculator, TikTok Money Calculator, TikTok Creator Fund Calculator, Instagram Earnings Calculator, Instagram Engagement Rate Calculator, Spotify Royalty Calculator, Twitch Earnings Calculator, Podcast Revenue Calculator, Patreon Income Calculator, OnlyFans Earnings Calculator, and Influencer Rate Calculator.
+      Tools available: YouTube Money Calculator, YouTube CPM Calculator, YouTube Shorts Calculator, YouTube Sponsorship Calculator, TikTok Money Calculator, TikTok Creator Fund Calculator, Instagram Earnings Calculator, Instagram Engagement Rate Calculator, Spotify Royalty Calculator, Apple Music Royalty Calculator, Twitch Earnings Calculator, Twitch Sub Tier Calculator, Podcast Revenue Calculator, Patreon Income Calculator, OnlyFans Earnings Calculator, OnlyFans Agency Split Calculator, Content Creator Tax Calculator, Follower to Subscriber Calculator, and Influencer Rate Calculator.
     </p>
   </div>
 
