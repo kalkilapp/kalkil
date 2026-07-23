@@ -618,7 +618,7 @@
 <!-- ── FILTER TABS ── -->
 <nav class="filter-bar" aria-label="Filter calculators by platform">
   <div class="filter-bar-inner">
-    <button class="ftab active" data-cat="all" onclick="filterTools('all', this)">Todas <span style="font-size:11px;opacity:.55;margin-left:2px">14</span>
+    <button class="ftab active" data-cat="all" onclick="filterTools('all', this)">Todas <span style="font-size:11px;opacity:.55;margin-left:2px">19</span>
     </button>
     <button class="ftab" data-cat="youtube" onclick="filterTools('youtube', this)">
       <span class="fdot" style="background:#ef4444"></span>YouTube <span style="font-size:11px;opacity:.55;margin-left:2px">4</span>
@@ -627,10 +627,10 @@
       <span class="fdot" style="background:#ec4899"></span>TikTok e Instagram <span style="font-size:11px;opacity:.55;margin-left:2px">4</span>
     </button>
     <button class="ftab" data-cat="streaming" onclick="filterTools('streaming', this)">
-      <span class="fdot" style="background:#22c55e"></span>Streaming <span style="font-size:11px;opacity:.55;margin-left:2px">1</span>
+      <span class="fdot" style="background:#22c55e"></span>Streaming <span style="font-size:11px;opacity:.55;margin-left:2px">2</span>
     </button>
     <button class="ftab" data-cat="creator" onclick="filterTools('creator', this)">
-      <span class="fdot" style="background:#8b5cf6"></span>Economía Creativa <span style="font-size:11px;opacity:.55;margin-left:2px">5</span>
+      <span class="fdot" style="background:#8b5cf6"></span>Economía Creativa <span style="font-size:11px;opacity:.55;margin-left:2px">9</span>
     </button>
   </div>
 </nav>
@@ -819,7 +819,7 @@
         <h2 class="cat-title">Calculadora de Streaming y Música</h2>
         <p class="cat-desc">Estimaciones de regalías de Spotify para artistas independientes.</p>
       </div>
-      <span class="cat-count">1 herramienta</span>
+      <span class="cat-count">2 herramientas</span>
     </div>
 
     <div class="tools-grid">
@@ -842,7 +842,22 @@
             <span class="card-free">Gratis</span>
           </div>
         </div></a>
-      
+
+
+      <a href="/es/tools/calculadora-regalias-apple-music.html" class="tool-card" data-cat="streaming">
+        <div class="card-icon icon-sp">🎵</div>
+        <div class="card-badge badge-sp">Apple Music</div>
+        <div class="card-title">Calculadora de Regalías de Apple Music</div>
+        <p class="card-desc">Estima tus regalías por streaming en Apple Music a su tarifa de ~$0,007 por reproducción, aplica la comisión de tu distribuidor y compara el pago con el de Spotify.</p>
+        <ul class="card-features">
+          <li>Tarifa por stream de Apple Music aplicada automáticamente</li>
+          <li>Comisión del distribuidor deducida (DistroKid, TuneCore, CD Baby)</li>
+          <li>Pago equivalente en Spotify mostrado para comparar</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-sp">Abrir Calculadora →</span>
+          <span class="card-free">Gratis</span>
+        </div></a>
+
 
     </div>
   </section>
@@ -856,9 +871,9 @@
       <div class="cat-icon" style="background:rgba(139,92,246,0.10); font-size:24px;">◆</div>
       <div class="cat-meta">
         <h2 class="cat-title">Herramientas de Economía Creativa</h2>
-        <p class="cat-desc">Suscripciones Twitch, membresías Patreon, CPM de podcast, tarifas de influencers e ingresos de OnlyFans.</p>
+        <p class="cat-desc">Suscripciones Twitch, membresías Patreon, CPM de podcast, tarifas de influencers, ingresos de OnlyFans e impuestos de creadores.</p>
       </div>
-      <span class="cat-count">5 herramientas</span>
+      <span class="cat-count">9 herramientas</span>
     </div>
 
     <div class="tools-grid">
@@ -942,7 +957,67 @@
         <div class="card-footer"><span class="open-btn btn-ce">Abrir Calculadora →</span>
           <span class="card-free">Gratis</span>
         </div></a>
-      
+
+
+      <a href="/es/tools/calculadora-niveles-suscripcion-twitch.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">◉</div>
+        <div class="card-badge badge-ce">Twitch</div>
+        <div class="card-title">Calculadora de Niveles de Suscripción de Twitch</div>
+        <p class="card-desc">Compara los ingresos de suscripciones Tier 1, 2 y 3 lado a lado, con el reparto estándar 50/50 o la tarifa heredada de partner 70/30. Ingresa tu cantidad de subs por nivel para un desglose mensual instantáneo.</p>
+        <ul class="card-features">
+          <li>Ingresos de Tier 1 / 2 / 3 comparados al instante</li>
+          <li>Reparto estándar 50/50 vs. heredado de partner 70/30</li>
+          <li>Ingresos totales mensuales por suscripciones</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-ce">Abrir Calculadora →</span>
+          <span class="card-free">Gratis</span>
+        </div></a>
+
+
+      <a href="/es/tools/calculadora-reparto-agencia-onlyfans.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">💎</div>
+        <div class="card-badge badge-ce">OnlyFans</div>
+        <div class="card-title">Calculadora de Reparto de Agencia de OnlyFans</div>
+        <p class="card-desc">Descubre exactamente cómo se reparte un 50/50, 60/40 o un porcentaje personalizado de gestión después de la comisión del 20% de OnlyFans — reparto del modelo vs. de la agencia, lado a lado.</p>
+        <ul class="card-features">
+          <li>Comisión del 20% de OnlyFans aplicada automáticamente</li>
+          <li>Repartos estándar, favorable al modelo y favorable a la agencia</li>
+          <li>Reparto del modelo vs. de la agencia mostrado con claridad</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-ce">Abrir Calculadora →</span>
+          <span class="card-free">Gratis</span>
+        </div></a>
+
+
+      <a href="/es/tools/calculadora-impuestos-creadores.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">🧾</div>
+        <div class="card-badge badge-ce">Impuestos</div>
+        <div class="card-title">Calculadora de Impuestos para Creadores</div>
+        <p class="card-desc">Estima el impuesto de autoempleo en EE. UU. sobre tus ingresos como creador y obtén un porcentaje recomendado para reservar. Estimación educativa, no es asesoría fiscal.</p>
+        <ul class="card-features">
+          <li>Impuesto de autoempleo (15,3%) calculado automáticamente</li>
+          <li>Porcentaje de reserva para impuesto sobre la renta ajustable</li>
+          <li>Ingreso neto tras gastos y estimación total de impuestos</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-ce">Abrir Calculadora →</span>
+          <span class="card-free">Gratis</span>
+        </div></a>
+
+
+      <a href="/es/tools/calculadora-conversion-seguidores-suscriptores.html" class="tool-card" data-cat="creator">
+        <div class="card-icon icon-ce">👥</div>
+        <div class="card-badge badge-ce">Crecimiento</div>
+        <div class="card-title">Calculadora de Conversión de Seguidores a Suscriptores</div>
+        <p class="card-desc">Estima cuántos de tus seguidores en plataformas gratuitas podrían convertirse en suscriptores de pago, y proyecta los ingresos mensuales y anuales según el precio de suscripción que elijas.</p>
+        <ul class="card-features">
+          <li>Tasas de conversión preestablecidas del 0,5% al 3%</li>
+          <li>Proyección de ingresos mensuales y anuales</li>
+          <li>Sirve para Patreon, OnlyFans, newsletters y más</li>
+        </ul>
+        <div class="card-footer"><span class="open-btn btn-ce">Abrir Calculadora →</span>
+          <span class="card-free">Gratis</span>
+        </div></a>
+
 
     </div>
   </section>
@@ -952,7 +1027,7 @@
   <div class="guides-cta">
     <div class="guides-cta-text">
       <h3>¿Quieres entender los números detrás de cada herramienta?</h3>
-      <p>Nuestras 30 guías gratuitas explican exactamente cómo calcula cada plataforma las ganancias de los creadores — con datos reales y ejemplos.</p>
+      <p>Nuestras 35 guías gratuitas explican exactamente cómo calcula cada plataforma las ganancias de los creadores — con datos reales y ejemplos.</p>
     </div>
     <a href="/es/guides.html" class="guides-cta-btn">Ver Todas las Guías →</a>
   </div>
